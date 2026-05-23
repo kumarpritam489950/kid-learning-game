@@ -1,0 +1,23 @@
+{
+  "name": "playlearn-island",
+  "version": "1.0.0",
+  "description": "CBSE Class 1 Learning App - Educational game for children",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx cap sync && npx cap run android",
+    "android": "npx cap open android",
+    "ios": "npx cap open ios",
+    "sync": "npx cap sync",
+    "build:android": "cd android && .\\gradlew assembleRelease",
+    "build:ios": "npx cap build ios"
+  },
+  "keywords": [
+    "education",
+    "learning",
+    "cbse",
+    "kids",
+    "games"
+  ],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PlayLearn Island - Std 1</title>
+  <meta name="description" content="Educational games for Class 1 CBSE students - Math, English, Science, and Fun Games" />
+  <meta name="theme-color" content="#4CAF50" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="phonetic-toggle">
+    <span>Phonetics:</span>
+    <label class="toggle-switch">
+      <input type="checkbox" id="phoneticToggle" checked />
+      <span class="toggle-slider"></span>
+    </label>
+    <button id="testSoundBtn" class="test-sound-btn" title="Test if sound is working">
+      🔊 Test
+    </button>
+  </div>
+  
+  <main class="app-shell">
+    <header class="top-bar">
+      <h1>PlayLearn Island - Std 1</h1>
+      <p>CBSE-style practice through colorful, playful learning missions.</p>
+      <div id="userProfile" class="user-profile" style="display: none;">
+        <span id="userGreeting"></span>
+        <button id="viewHistoryBtn" class="user-btn" title="View History">📊</button>
+        <button id="logoutBtn" class="user-btn" title="Logout">🚪</button>
+      </div>
+    </header>
+
+    <!-- Login View -->
+    <section id="loginView" class="view active" aria-label="Login">
+      <div class="login-container">
+        <div class="login-card">
+          <div class="login-icon">👋</div>
+          <h2>Welcome to PlayLearn Island!</h2>
+          <p>Enter your name to start learning</p>
+          <input 
+            type="text" 
+            id="nameInput" 
+            class="name-input" 
+            placeholder="Your Name" 
+            maxlength="20"
+            autocomplete="off" 
+          />
+          <button id="loginBtn" class="login-btn">Start Learning 🚀</button>
+          <div id="userListContainer" class="user-list-container" style="display: none;">
+            <p class="user-list-title">Or continue as:</p>
+            <div id="userList" class="user-list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- History Modal -->
+    <div id="historyModal" class="modal" style="display: none;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>📊 Your Learning History</h2>
+          <button id="closeHistoryBtn" class="close-btn">✕</button>
+        </div>
+        <div id="historyContent" class="history-content"></div>
+      </div>
+    </div>
+
+    <section id="mainMenu" class="view" aria-label="Main Menu">
+      <div class="island-grid">
+        <button class="island island-english" data-subject="english" aria-label="English Island">
+          <span class="emoji" aria-hidden="true">📘</span>
+          <span class="title">English</span>
+          <span class="subtitle">Phonics and words</span>
+        </button>
+
+        <button class="island island-math" data-subject="math" aria-label="Math Island">
+          <span class="emoji" aria-hidden="true">➕</span>
+          <span class="title">Math</span>
+          <span class="subtitle">Count, add, subtract, shapes</span>
+        </button>
+
+        <button class="island island-kannada" data-subject="kannada" aria-label="Kannada Island">
+          <span class="emoji" aria-hidden="true">ಅ</span>
+          <span class="title">Kannada</span>
+          <span class="subtitle">Letters and words</span>
+        </button>
+
+        <button class="island island-hindi" data-subject="hindi" aria-label="Hindi Island">
+          <span class="emoji" aria-hidden="true">अ</span>
+          <span class="title">हिन्दी</span>
+          <span class="subtitle">अक्षर और शब्द</span>
+        </button>
+
+        <button class="island island-science" data-subject="science" aria-label="Science Island">
+          <span class="emoji" aria-hidden="true">🔬</span>
+          <span class="title">Science</span>
+          <span class="subtitle">EVS &amp; everyday life</span>
+        </button>
+
+        <button class="island island-computer" data-subject="computer" aria-label="Computer Island">
+          <span class="emoji" aria-hidden="true">💻</span>
+          <span class="title">Computer</span>
+          <span class="subtitle">Parts, devices &amp; uses</span>
+        </button>
+
+        <button class="island island-rhymes" data-subject="rhymes" aria-label="Rhymes Island">
+          <span class="emoji" aria-hidden="true">🎵</span>
+          <span class="title">Rhymes</span>
+          <span class="subtitle">Nursery &amp; Marigold poems</span>
+        </button>
+        <button class="island island-gk" data-subject="gk" aria-label="General Knowledge Island">
+          <span class="emoji" aria-hidden="true">🌍</span>
+          <span class="title">GK</span>
+          <span class="subtitle">India, symbols &amp; festivals</span>
+        </button>
+
+        <button class="island island-mental-math" data-subject="mental_math" aria-label="Mental Math Island">
+          <span class="emoji" aria-hidden="true">🧠</span>
+          <span class="title">Mental Math</span>
+          <span class="subtitle">Quick thinking &amp; calculations</span>
+        </button>
+
+        <button class="island island-fun" data-subject="fun" aria-label="Fun Games">
+          <span class="emoji" aria-hidden="true">🎮</span>
+          <span class="title">Fun Games</span>
+          <span class="subtitle">Balloon, Memory &amp; more!</span>
+        </button>
+
+        <button class="island island-stories" data-subject="stories" aria-label="Story Time">
+          <span class="emoji" aria-hidden="true">📖</span>
+          <span class="title">Story Time</span>
+          <span class="subtitle">Lion, Crow, Tortoise &amp; more!</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="subjectHub" class="view" aria-label="Subject Hub">
+      <div class="panel">
+        <div class="panel-header">
+          <h2 id="subjectTitle">Subject</h2>
+          <button id="subjectBackBtn" class="btn ghost">Back to Islands</button>
+        </div>
+
+        <p id="subjectDescription" class="instruction"></p>
+        <div id="moduleCards" class="module-grid"></div>
+      </div>
+    </section>
+
+    <section id="lessonView" class="view" aria-label="Lesson View">
+      <div class="panel">
+        <div class="panel-header">
+          <h2 id="lessonTitle">Lesson</h2>
+          <div class="score-wrap" aria-live="polite">
+            <span id="progressLabel">Q 1 / 10</span>
+            <span id="scoreLabel">Score: 0</span>
+            <span id="starLabel">Stars: ☆☆☆</span>
+          </div>
+        </div>
+
+        <p id="questionPrompt" class="instruction"></p>
+
+        <div class="question-box">
+          <div id="questionVisual" class="visual-equation"></div>
+          <button id="speakBtn" class="speak-btn hidden" title="Hear the word" aria-label="Speak the word">🔊</button>
+        </div>
+
+        <div id="options" class="options"></div>
+
+        <div id="dragZone" class="drag-zone hidden" aria-label="Drag and drop letters game">
+          <div id="dropSlots" class="drop-slots"></div>
+          <div id="letterBank" class="letter-bank"></div>
+        </div>
+
+        <p id="feedback" class="feedback" aria-live="assertive"></p>
+
+        <div class="actions">
+          <button id="checkBtn" class="btn secondary hidden">Check Answer</button>
+          <button id="nextBtn" class="btn secondary" disabled>Next Question</button>
+          <button id="exitLessonBtn" class="btn ghost">Back to Subject</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="resultView" class="view" aria-label="Result View">
+      <div class="panel">
+        <h2 id="resultTitle">Mission Complete!</h2>
+        <p id="resultSummary" class="instruction"></p>
+        <div id="resultStars" class="result-stars">☆☆☆</div>
+        <div class="actions">
+          <button id="replayBtn" class="btn secondary">Play Again</button>
+          <button id="resultBackBtn" class="btn ghost">Back to Subject</button>
+          <button id="homeBtn" class="btn ghost">Main Menu</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="funGame" class="view" aria-label="Balloon Pop Game">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>🎈 Balloon Pop!</h2>
+          <div class="score-wrap" aria-live="polite">
+            <span id="funRound">Round 1 / 10</span>
+            <span id="funScore">Score: 0</span>
+          </div>
+        </div>
+
+        <p id="funPrompt" class="instruction"></p>
+        <div id="balloonArea" class="balloon-area"></div>
+        <p id="funFeedback" class="feedback" aria-live="assertive"></p>
+
+        <div class="actions">
+          <button id="funBackBtn" class="btn ghost">Back to Games</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="funMenu" class="view" aria-label="Fun Games Menu">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>🎮 Fun Games</h2>
+          <button id="funMenuBackBtn" class="btn ghost">Back to Islands</button>
+        </div>
+        <p class="instruction">Pick a game and have fun!</p>
+        <div class="fun-game-grid">
+          <button class="fun-game-btn" data-game="balloon">
+            <span class="emoji" aria-hidden="true">🎈</span>
+            <span class="title">Balloon Pop</span>
+            <span class="subtitle">Pop the right number!</span>
+          </button>
+          <button class="fun-game-btn" data-game="memory">
+            <span class="emoji" aria-hidden="true">🃏</span>
+            <span class="title">Memory Match</span>
+            <span class="subtitle">Find matching pairs!</span>
+          </button>
+          <button class="fun-game-btn" data-game="color">
+            <span class="emoji" aria-hidden="true">🎨</span>
+            <span class="title">Color Tap</span>
+            <span class="subtitle">Tap the right color!</span>
+          </button>
+          <button class="fun-game-btn" data-game="snake">
+            <span class="emoji" aria-hidden="true">🐍</span>
+            <span class="title">Snake Game</span>
+            <span class="subtitle">Eat apples, grow longer!</span>
+          </button>
+          <button class="fun-game-btn" data-game="catch">
+            <span class="emoji" aria-hidden="true">🎯</span>
+            <span class="title">Catch Apples</span>
+            <span class="subtitle">Catch falling apples!</span>
+          </button>
+          <button class="fun-game-btn" data-game="balloonpop">
+            <span class="emoji" aria-hidden="true">🎈</span>
+            <span class="title">Balloon Pop Speed</span>
+            <span class="subtitle">Pop fast!</span>
+          </button>
+          <button class="fun-game-btn" data-game="numberjump">
+            <span class="emoji" aria-hidden="true">🦘</span>
+            <span class="title">Number Jump</span>
+            <span class="subtitle">Jump on numbers!</span>
+          </button>
+          <button class="fun-game-btn" data-game="colorspeed">
+            <span class="emoji" aria-hidden="true">🌈</span>
+            <span class="title">Color Match Speed</span>
+            <span class="subtitle">Match colors fast!</span>
+          </button>
+          <button class="fun-game-btn" data-game="maze">
+            <span class="emoji" aria-hidden="true">🏃</span>
+            <span class="title">Maze Runner</span>
+            <span class="subtitle">Find the star!</span>
+          </button>
+          <button class="fun-game-btn" data-game="bubble">
+            <span class="emoji" aria-hidden="true">💥</span>
+            <span class="title">Bubble Blast</span>
+            <span class="subtitle">Pop bubble groups!</span>
+          </button>
+          <button class="fun-game-btn" data-game="snap">
+            <span class="emoji" aria-hidden="true">⚡</span>
+            <span class="title">Snap!</span>
+            <span class="subtitle">Match cards fast!</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="memoryGame" class="view" aria-label="Memory Match Game">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>🃏 Memory Match</h2>
+          <div class="score-wrap" aria-live="polite">
+            <span id="memoryMoves">Moves: 0</span>
+            <span id="memoryPairs">Pairs: 0 / 6</span>
+          </div>
+        </div>
+        <div id="memoryGrid" class="memory-grid"></div>
+        <p id="memoryFeedback" class="feedback" aria-live="assertive"></p>
+        <div class="actions">
+          <button id="memoryBackBtn" class="btn ghost">Back to Games</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="colorGame" class="view" aria-label="Color Tap Game">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>🎨 Color Tap!</h2>
+          <div class="score-wrap" aria-live="polite">
+            <span id="colorRound">Round 1 / 10</span>
+            <span id="colorScore">Score: 0</span>
+          </div>
+        </div>
+        <p id="colorPrompt" class="instruction"></p>
+        <div id="colorBtnArea" class="color-btn-area"></div>
+        <p id="colorFeedback" class="feedback" aria-live="assertive"></p>
+        <div class="actions">
+          <button id="colorBackBtn" class="btn ghost">Back to Games</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Snake Game -->
+    <section id="snakeGame" class="view" aria-label="Snake Game">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>🐍 Snake Game</h2>
+          <div class="score-wrap" aria-live="polite">
+            <span id="snakeScore">Score: 0</span>
+            <span id="snakeHint">Use Arrow Keys ⬆️⬇️⬅️➡️</span>
+          </div>
+        </div>
+        <canvas id="snakeCanvas" width="400" height="400" style="border:2px solid #333; background:#f0f0f0;"></canvas>
+        <p id="snakeFeedback" class="feedback" aria-live="assertive"></p>
+        <div class="actions">
+          <button id="snakeRestartBtn" class="btn secondary">Restart</button>
+          <button id="snakeBackBtn" class="btn ghost">Back to Games</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catch Game -->
+    <section id="catchGame" class="view" aria-label="Catch Game">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>🎯 Catch the Apples</h2>
+          <div class="score-wrap" aria-live="polite">
+            <span id="catchScore">Score: 0</span>
+            <span id="catchTime">Time: 60s</span>
+          </div>
+        </div>
+        <canvas id="catchCanvas" width="400" height="500" style="border:2px solid #333; background:#87CEEB;"></canvas>
+        <p id="catchFeedback" class="feedback" aria-live="assertive"></p>
+        <div class="actions">
+          <button id="catchRestartBtn" class="btn secondary">Restart</button>
+          <button id="catchBackBtn" class="btn ghost">Back to Games</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Balloon Pop (New) -->
+    <section id="balloonPopGame" class="view" aria-label="Balloon Pop Speed">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>🎈 Balloon Pop Speed</h2>
+          <div class="score-wrap" aria-live="polite">
+            <span id="balloonPopScore">Score: 0</span>
+            <span id="balloonPopTime">Time: 30s</span>
+          </div>
+        </div>
+        <p class="instruction">Pop as many balloons as you can!</p>
+        <div id="balloonPopArea" class="balloon-pop-area"></div>
+        <div class="actions">
+          <button id="balloonPopBackBtn" class="btn ghost">Back to Games</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Number Jump -->
+    <section id="numberJumpGame" class="view" aria-label="Number Jump">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>🦘 Number Jump</h2>
+          <div class="score-wrap" aria-live="polite">
+            <span id="jumpScore">Score: 0</span>
+            <span id="jumpTarget">Jump on: 5</span>
+          </div>
+        </div>
+        <canvas id="jumpCanvas" width="400" height="400" style="border:2px solid #333; background:#FFE4B5;"></canvas>
+        <p id="jumpFeedback" class="feedback" aria-live="assertive"></p>
+        <div class="actions">
+          <button id="jumpRestartBtn" class="btn secondary">Restart</button>
+          <button id="jumpBackBtn" class="btn ghost">Back to Games</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Color Match Speed -->
+    <section id="colorMatchSpeedGame" class="view" aria-label="Color Match Speed">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>🌈 Color Match Speed</h2>
+          <div class="score-wrap" aria-live="polite">
+            <span id="colorSpeedScore">Score: 0</span>
+            <span id="colorSpeedTime">Time: 45s</span>
+          </div>
+        </div>
+        <div id="colorSpeedWord" class="color-speed-word"></div>
+        <div id="colorSpeedButtons" class="color-speed-buttons"></div>
+        <p id="colorSpeedFeedback" class="feedback" aria-live="assertive"></p>
+        <div class="actions">
+          <button id="colorSpeedBackBtn" class="btn ghost">Back to Games</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Maze Runner -->
+    <section id="mazeGame" class="view" aria-label="Maze Runner">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>🏃 Maze Runner</h2>
+          <div class="score-wrap" aria-live="polite">
+            <span id="mazeLevel">Level: 1</span>
+            <span id="mazeTime">Time: 0s</span>
+          </div>
+        </div>
+        <p class="instruction">Use Arrow Keys to reach the star ⭐</p>
+        <canvas id="mazeCanvas" width="400" height="400" style="border:2px solid #333; background:#fff;"></canvas>
+        <p id="mazeFeedback" class="feedback" aria-live="assertive"></p>
+        <div class="actions">
+          <button id="mazeRestartBtn" class="btn secondary">Restart</button>
+          <button id="mazeBackBtn" class="btn ghost">Back to Games</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bubble Blast -->
+    <section id="bubbleGame" class="view" aria-label="Bubble Blast">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>💥 Bubble Blast</h2>
+          <div class="score-wrap" aria-live="polite">
+            <span id="bubbleScore">Score: 0</span>
+            <span id="bubbleTarget">Target: 100</span>
+          </div>
+        </div>
+        <p class="instruction">Click bubbles of the same color in groups!</p>
+        <canvas id="bubbleCanvas" width="400" height="500" style="border:2px solid #333; background:#222;"></canvas>
+        <p id="bubbleFeedback" class="feedback" aria-live="assertive"></p>
+        <div class="actions">
+          <button id="bubbleRestartBtn" class="btn secondary">New Game</button>
+          <button id="bubbleBackBtn" class="btn ghost">Back to Games</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Snap Game -->
+    <section id="snapGame" class="view" aria-label="Snap Card Game">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>⚡ Snap!</h2>
+          <div class="score-wrap" aria-live="polite">
+            <span id="snapScore">Score: 0</span>
+            <span id="snapRound">Round: 1/15</span>
+          </div>
+        </div>
+        <p id="snapInstruction" class="instruction">Watch the cards... Click SNAP when they match!</p>
+        <div id="snapCardsArea" style="display: flex; justify-content: center; gap: 30px; margin: 30px 0;">
+          <div id="snapCard1" class="snap-card">🎴</div>
+          <div id="snapCard2" class="snap-card">🎴</div>
+        </div>
+        <button id="snapButton" class="btn" style="font-size: 1.5rem; padding: 20px 50px; display: none;">⚡ SNAP! ⚡</button>
+        <p id="snapFeedback" class="feedback" aria-live="assertive"></p>
+        <div class="actions">
+          <button id="snapRestartBtn" class="btn secondary">Restart</button>
+          <button id="snapBackBtn" class="btn ghost">Back to Games</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story Menu -->
+    <section id="storyMenu" class="view" aria-label="Story Time Menu">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>📖 Story Time</h2>
+          <button id="storyMenuBackBtn" class="btn ghost">Back to Islands</button>
+        </div>
+        <p class="instruction">Choose a story and start reading!</p>
+        <div class="story-grid" id="storyGrid"></div>
+      </div>
+    </section>
+
+    <!-- Story Reader -->
+    <section id="storyView" class="view" aria-label="Story Reader">
+      <div class="panel">
+        <div class="panel-header">
+          <h2 id="storyTitle">Story</h2>
+          <button id="storyBackBtn" class="btn ghost">📚 All Stories</button>
+        </div>
+        <div class="story-page" id="storyPage">
+          <div class="story-visual" id="storyVisual"></div>
+          <p class="story-text" id="storyText"></p>
+        </div>
+        <div class="story-dots" id="storyDots"></div>
+        <div class="actions story-actions">
+          <button id="storyPrevBtn" class="btn ghost">← Prev</button>
+          <button id="storyReadBtn" class="btn secondary">🔊 Read</button>
+          <button id="storyNextBtn" class="btn secondary">Next →</button>
+        </div>
+        <div class="story-moral" id="storyMoral" style="display:none;"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="data/gameData.js"></script>
+  <script src="js/funGames.js"></script>
+  <script src="js/app.js"></script>
+  
+  <!-- Register Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then(registration => {
+            console.log('ServiceWorker registered:', registration.scope);
+          })
+          .catch(err => {
+            console.log('ServiceWorker registration failed:', err);
+          });
+      });
+    }
+  </script>
+</body>
+</html>
