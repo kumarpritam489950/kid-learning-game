@@ -19,6 +19,7 @@ An offline educational app for Class 1 learners following CBSE syllabus.
 - Session score + star rating system.
 - Positive reinforcement and playful sound feedback.
 - Interactive activities including drag-and-drop, MCQ, counting, and pattern matching.
+- **📋 Assessment Questions**: See [ASSESSMENT.md](ASSESSMENT.md) for comprehensive assessment questions by subject (283 questions)
 
 ## Current curriculum modules
 
@@ -74,7 +75,20 @@ An offline educational app for Class 1 learners following CBSE syllabus.
 2. Open `index.html` in browser.
 3. Optional: use Live Server extension.
 
-## 📱 Convert to Mobile App
+## � Assessment Section
+
+**283 Comprehensive Assessment Questions** for Grade 1 CBSE students (AY 2026-27):
+- Open [assessment.html](assessment.html) to take the assessment
+- **40 Math questions** - Numbers, Addition, Subtraction
+- **30 English questions** - Grammar, Prose, Naming Words
+- **30 Hindi questions** - Swar Letters, Pronunciation
+- **20 Computer Science questions** - Parts, Safety, Usage
+- **20 Kannada questions** - Kannada Vowels
+- **34 EVS questions** - Safety, Health, Hygiene
+
+See [ASSESSMENT.md](ASSESSMENT.md) for all questions and answers.
+
+## �📱 Convert to Mobile App
 
 Want to create Android/iOS apps from this web app?
 
