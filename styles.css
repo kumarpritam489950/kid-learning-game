@@ -126,6 +126,13 @@ body {
 .island-mental-math { background: linear-gradient(140deg, #8e2de2, #4a00e0);            }
 .island-fun      { background: linear-gradient(140deg, #f857a6, #ff5858);               }
 .island-stories  { background: linear-gradient(140deg, #f9a825, #e65100);               }
+.island-assessment { 
+  background: linear-gradient(140deg, #FF6B6B, #FF8E72);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .panel {
   background: var(--panel-bg);
