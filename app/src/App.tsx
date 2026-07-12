@@ -2,6 +2,8 @@ import { useState, type ReactNode } from 'react';
 import { Navigate, Route, Routes, useNavigate } from 'react-router';
 import { legacyImportResult } from './boot.ts';
 import { ComingSoon } from './components/ComingSoon';
+import { FunGamesMenu } from './features/funGames/FunGamesMenu';
+import { GameView } from './features/funGames/GameView';
 import { HomeIslands } from './features/home/HomeIslands';
 import { LessonView } from './features/lesson/LessonView';
 import { ResultView } from './features/lesson/ResultView';
@@ -133,7 +135,15 @@ export default function App() {
             path="/fun"
             element={
               <RequireProfile>
-                <ComingSoon />
+                <FunGamesMenu />
+              </RequireProfile>
+            }
+          />
+          <Route
+            path="/fun/:gameId"
+            element={
+              <RequireProfile>
+                <GameView />
               </RequireProfile>
             }
           />

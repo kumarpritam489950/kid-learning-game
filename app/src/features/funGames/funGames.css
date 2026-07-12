@@ -1,0 +1,397 @@
+/* Plain (non-module) classes: games build their DOM imperatively. */
+
+.game-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.game-header h2 {
+  margin: 0;
+}
+
+.game-stats {
+  display: flex;
+  gap: var(--space-4);
+  font-weight: 700;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  margin: 10px 0;
+}
+
+.game-prompt {
+  font-size: clamp(1.1rem, 2.8vw, 1.4rem);
+  font-weight: 700;
+  text-align: center;
+  margin: 8px 0;
+}
+
+.game-host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.game-feedback {
+  min-height: 34px;
+  font-size: clamp(1.1rem, 2.8vw, 1.4rem);
+  font-weight: 700;
+  text-align: center;
+  margin: 12px 0 6px;
+}
+
+.game-feedback-good {
+  color: var(--good);
+}
+
+.game-feedback-try {
+  color: var(--try);
+}
+
+.game-over-row {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+/* Menu */
+
+.game-menu-description {
+  font-size: clamp(1.05rem, 2.6vw, 1.3rem);
+  margin: 12px 0;
+}
+
+.game-menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: var(--space-3);
+}
+
+.game-menu-card {
+  border: none;
+  border-radius: var(--radius-control);
+  background: linear-gradient(160deg, #ffe3f1, #ffc7e0);
+  box-shadow: 0 8px 0 #0000001f;
+  color: #6d1741;
+  cursor: pointer;
+  padding: var(--space-4);
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  text-align: left;
+}
+
+.game-menu-card:hover,
+.game-menu-card:focus-visible {
+  transform: translateY(-2px);
+}
+
+.game-menu-title {
+  font-weight: 800;
+  font-size: 1.15rem;
+}
+
+.game-menu-desc {
+  font-weight: 600;
+  font-size: 0.92rem;
+  opacity: 0.85;
+}
+
+/* Canvas games */
+
+.game-canvas {
+  border: 2px solid #333;
+  background: #f0f0f0;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  touch-action: none;
+}
+
+.game-canvas-sky {
+  background: #87ceeb;
+}
+
+.game-canvas-dark {
+  background: #222;
+}
+
+.dpad {
+  display: grid;
+  grid-template-areas: '. up .' 'left down right';
+  gap: var(--space-2);
+  justify-content: center;
+}
+
+.dpad-btn {
+  border: none;
+  border-radius: 12px;
+  background: var(--btn-main);
+  box-shadow: 0 4px 0 var(--btn-main-shadow);
+  font-size: 1.4rem;
+  width: 56px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.dpad-up {
+  grid-area: up;
+}
+.dpad-left {
+  grid-area: left;
+}
+.dpad-down {
+  grid-area: down;
+}
+.dpad-right {
+  grid-area: right;
+}
+
+@media (min-width: 700px) {
+  .dpad {
+    display: none;
+  }
+}
+
+/* Balloon quiz + speed */
+
+.balloon-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  justify-content: center;
+  min-height: 180px;
+  align-items: center;
+  width: 100%;
+}
+
+.balloon {
+  border: none;
+  border-radius: 50% 50% 50% 50% / 55% 55% 45% 45%;
+  width: 84px;
+  height: 100px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.7rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: inset -6px -8px 0 #00000018;
+  transition: transform 0.15s;
+}
+
+.balloon:hover:not(:disabled),
+.balloon:focus-visible {
+  transform: translateY(-5px) scale(1.06);
+}
+
+.balloon-pop {
+  animation: balloon-pop-anim 0.5s ease-out forwards;
+}
+
+.balloon-shake {
+  animation: balloon-shake-anim 0.4s ease-in-out;
+}
+
+.balloon-correct {
+  outline: 4px solid var(--good);
+  outline-offset: 3px;
+}
+
+.balloon-trophy {
+  font-size: 4rem;
+  text-align: center;
+  padding: 30px;
+  animation: pop-in 0.5s ease-out;
+}
+
+@keyframes balloon-pop-anim {
+  50% {
+    transform: scale(1.35);
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes balloon-shake-anim {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-8px);
+  }
+  75% {
+    transform: translateX(8px);
+  }
+}
+
+.balloon-pop-area {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: 320px;
+  background: linear-gradient(180deg, #d6f2ff, #f0fbff);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.speed-balloon {
+  position: absolute;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  animation: balloon-float 2s ease-in-out;
+  user-select: none;
+}
+
+.speed-balloon:hover {
+  transform: scale(1.2);
+}
+
+@keyframes balloon-float {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20px) scale(1.2);
+    opacity: 0;
+  }
+}
+
+/* Memory */
+
+.memory-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(60px, 84px));
+  gap: var(--space-2);
+  justify-content: center;
+}
+
+.memory-card {
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(160deg, #6a9eff, #4d78e0);
+  color: #fff;
+  font-size: 1.9rem;
+  aspect-ratio: 3 / 4;
+  cursor: pointer;
+  box-shadow: 0 5px 0 #00000022;
+  font-family: inherit;
+}
+
+.memory-card.flipped {
+  background: #fff;
+  border: 3px solid #6a9eff;
+}
+
+.memory-card.matched {
+  background: #e8ffe9;
+  border: 3px solid var(--good);
+  cursor: default;
+}
+
+/* Color games */
+
+.color-btn-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+.color-word {
+  font-size: 3.2rem;
+  font-weight: 800;
+  text-align: center;
+  min-height: 70px;
+}
+
+.color-btn-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  gap: var(--space-3);
+  width: 100%;
+  max-width: 420px;
+}
+
+.color-btn {
+  border: none;
+  border-radius: 14px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 800;
+  padding: 18px 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 0 #00000026;
+  text-shadow: 0 1px 2px #00000055;
+}
+
+.color-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.85;
+}
+
+/* Snap */
+
+.snap-cards {
+  display: flex;
+  gap: var(--space-5);
+  justify-content: center;
+}
+
+.snap-card {
+  width: 110px;
+  height: 140px;
+  border-radius: 14px;
+  background: #fff;
+  border: 4px solid #6a9eff;
+  display: grid;
+  place-items: center;
+  font-size: 3rem;
+  animation: card-flip 0.5s ease-out;
+}
+
+.snap-card.match {
+  border-color: var(--good);
+}
+
+@keyframes card-flip {
+  from {
+    transform: rotateY(90deg);
+  }
+  to {
+    transform: rotateY(0);
+  }
+}
+
+.snap-btn {
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(160deg, #ff5858, #f857a6);
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 14px 34px;
+  cursor: pointer;
+  box-shadow: 0 6px 0 #00000030;
+}
+
+.snap-btn:active {
+  transform: translateY(2px);
+}
