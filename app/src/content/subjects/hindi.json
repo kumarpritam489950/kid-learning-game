@@ -1,0 +1,2541 @@
+{
+  "id": "hindi",
+  "name": "हिन्दी",
+  "icon": "अ",
+  "description": "स्वर, व्यंजन, चित्र-शब्द मिलान और सरल शब्द।",
+  "modules": [
+    {
+      "id": "hin_letters",
+      "title": "स्वर और व्यंजन",
+      "type": "hindiLetter",
+      "questions": 10,
+      "letters": [
+        {
+          "letter": "अ",
+          "phonetic": "a"
+        },
+        {
+          "letter": "आ",
+          "phonetic": "aa"
+        },
+        {
+          "letter": "इ",
+          "phonetic": "i"
+        },
+        {
+          "letter": "ई",
+          "phonetic": "ee"
+        },
+        {
+          "letter": "उ",
+          "phonetic": "u"
+        },
+        {
+          "letter": "ऊ",
+          "phonetic": "oo"
+        },
+        {
+          "letter": "ऋ",
+          "phonetic": "ri"
+        },
+        {
+          "letter": "ए",
+          "phonetic": "e"
+        },
+        {
+          "letter": "ऐ",
+          "phonetic": "ai"
+        },
+        {
+          "letter": "ओ",
+          "phonetic": "o"
+        },
+        {
+          "letter": "औ",
+          "phonetic": "au"
+        },
+        {
+          "letter": "अं",
+          "phonetic": "an"
+        },
+        {
+          "letter": "अः",
+          "phonetic": "ah"
+        },
+        {
+          "letter": "क",
+          "phonetic": "ka"
+        },
+        {
+          "letter": "ख",
+          "phonetic": "kha"
+        },
+        {
+          "letter": "ग",
+          "phonetic": "ga"
+        },
+        {
+          "letter": "घ",
+          "phonetic": "gha"
+        },
+        {
+          "letter": "ङ",
+          "phonetic": "nga"
+        },
+        {
+          "letter": "च",
+          "phonetic": "cha"
+        },
+        {
+          "letter": "छ",
+          "phonetic": "chha"
+        },
+        {
+          "letter": "ज",
+          "phonetic": "ja"
+        },
+        {
+          "letter": "झ",
+          "phonetic": "jha"
+        },
+        {
+          "letter": "ञ",
+          "phonetic": "nya"
+        },
+        {
+          "letter": "ट",
+          "phonetic": "ta"
+        },
+        {
+          "letter": "ठ",
+          "phonetic": "tha"
+        },
+        {
+          "letter": "ड",
+          "phonetic": "da"
+        },
+        {
+          "letter": "ढ",
+          "phonetic": "dha"
+        },
+        {
+          "letter": "ण",
+          "phonetic": "na"
+        },
+        {
+          "letter": "त",
+          "phonetic": "ta"
+        },
+        {
+          "letter": "थ",
+          "phonetic": "tha"
+        },
+        {
+          "letter": "द",
+          "phonetic": "da"
+        },
+        {
+          "letter": "ध",
+          "phonetic": "dha"
+        },
+        {
+          "letter": "न",
+          "phonetic": "na"
+        },
+        {
+          "letter": "प",
+          "phonetic": "pa"
+        },
+        {
+          "letter": "फ",
+          "phonetic": "pha"
+        },
+        {
+          "letter": "ब",
+          "phonetic": "ba"
+        },
+        {
+          "letter": "भ",
+          "phonetic": "bha"
+        },
+        {
+          "letter": "म",
+          "phonetic": "ma"
+        },
+        {
+          "letter": "य",
+          "phonetic": "ya"
+        },
+        {
+          "letter": "र",
+          "phonetic": "ra"
+        },
+        {
+          "letter": "ल",
+          "phonetic": "la"
+        },
+        {
+          "letter": "व",
+          "phonetic": "va"
+        },
+        {
+          "letter": "श",
+          "phonetic": "sha"
+        },
+        {
+          "letter": "ष",
+          "phonetic": "sha"
+        },
+        {
+          "letter": "स",
+          "phonetic": "sa"
+        },
+        {
+          "letter": "ह",
+          "phonetic": "ha"
+        }
+      ]
+    },
+    {
+      "id": "hin_picture_word",
+      "title": "चित्र-शब्द मिलान",
+      "type": "hindiPictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🏠",
+          "word": "घर",
+          "phonetic": "ghar"
+        },
+        {
+          "picture": "🌳",
+          "word": "पेड़",
+          "phonetic": "ped"
+        },
+        {
+          "picture": "🍎",
+          "word": "सेब",
+          "phonetic": "seb"
+        },
+        {
+          "picture": "🐄",
+          "word": "गाय",
+          "phonetic": "gaay"
+        },
+        {
+          "picture": "🌸",
+          "word": "फूल",
+          "phonetic": "phool"
+        },
+        {
+          "picture": "📚",
+          "word": "किताब",
+          "phonetic": "kitaab"
+        },
+        {
+          "picture": "🐟",
+          "word": "मछली",
+          "phonetic": "machhli"
+        },
+        {
+          "picture": "🐦",
+          "word": "चिड़िया",
+          "phonetic": "chidiya"
+        },
+        {
+          "picture": "☀️",
+          "word": "सूरज",
+          "phonetic": "sooraj"
+        },
+        {
+          "picture": "🌙",
+          "word": "चाँद",
+          "phonetic": "chaand"
+        },
+        {
+          "picture": "💧",
+          "word": "पानी",
+          "phonetic": "paani"
+        },
+        {
+          "picture": "🚗",
+          "word": "गाड़ी",
+          "phonetic": "gaadi"
+        },
+        {
+          "picture": "🐘",
+          "word": "हाथी",
+          "phonetic": "haathi"
+        },
+        {
+          "picture": "🦁",
+          "word": "शेर",
+          "phonetic": null
+        },
+        {
+          "picture": "🥭",
+          "word": "आम",
+          "phonetic": "aam"
+        },
+        {
+          "picture": "🍌",
+          "word": "केला",
+          "phonetic": "kela"
+        },
+        {
+          "picture": "🐶",
+          "word": "कुत्ता",
+          "phonetic": "kutta"
+        },
+        {
+          "picture": "🐱",
+          "word": "बिल्ली",
+          "phonetic": "billi"
+        },
+        {
+          "picture": "👁️",
+          "word": "आँख",
+          "phonetic": "aankh"
+        },
+        {
+          "picture": "🤚",
+          "word": "हाथ",
+          "phonetic": "haath"
+        },
+        {
+          "picture": "👃",
+          "word": "नाक",
+          "phonetic": "naak"
+        },
+        {
+          "picture": "👂",
+          "word": "कान",
+          "phonetic": "kaan"
+        },
+        {
+          "picture": "🦶",
+          "word": "पैर",
+          "phonetic": "pair"
+        },
+        {
+          "picture": "🐓",
+          "word": "मुर्गा",
+          "phonetic": "murga"
+        },
+        {
+          "picture": "🌾",
+          "word": "धान",
+          "phonetic": "dhaan"
+        },
+        {
+          "picture": "🐸",
+          "word": "मेंढक",
+          "phonetic": "mendhak"
+        },
+        {
+          "picture": "🐍",
+          "word": "साँप",
+          "phonetic": "saanp"
+        },
+        {
+          "picture": "🦋",
+          "word": "तितली",
+          "phonetic": "titli"
+        },
+        {
+          "picture": "🐢",
+          "word": "कछुआ",
+          "phonetic": "kachhua"
+        },
+        {
+          "picture": "🚂",
+          "word": "रेलगाड़ी",
+          "phonetic": "relgaadi"
+        }
+      ]
+    },
+    {
+      "id": "hin_missing_matra",
+      "title": "सही मात्रा चुनो",
+      "type": "hindiMissingMatra",
+      "questions": 10,
+      "words": [
+        {
+          "display": "क_ला",
+          "answer": "े",
+          "fullWord": "केला",
+          "hint": "Banana 🍌"
+        },
+        {
+          "display": "प_नी",
+          "answer": "ा",
+          "fullWord": "पानी",
+          "hint": "Water 💧"
+        },
+        {
+          "display": "ग_य",
+          "answer": "ा",
+          "fullWord": "गाय",
+          "hint": "Cow 🐄"
+        },
+        {
+          "display": "फ_ल",
+          "answer": "ू",
+          "fullWord": "फूल",
+          "hint": "Flower 🌸"
+        },
+        {
+          "display": "स_ब",
+          "answer": "े",
+          "fullWord": "सेब",
+          "hint": "Apple 🍎"
+        },
+        {
+          "display": "क_न",
+          "answer": "ा",
+          "fullWord": "कान",
+          "hint": "Ear 👂"
+        },
+        {
+          "display": "न_क",
+          "answer": "ा",
+          "fullWord": "नाक",
+          "hint": "Nose 👃"
+        },
+        {
+          "display": "ह_थ",
+          "answer": "ा",
+          "fullWord": "हाथ",
+          "hint": "Hand 🤚"
+        },
+        {
+          "display": "प_र",
+          "answer": "ै",
+          "fullWord": "पैर",
+          "hint": "Foot 🦶"
+        },
+        {
+          "display": "आ_ख",
+          "answer": "ँ",
+          "fullWord": "आँख",
+          "hint": "Eye 👁️"
+        },
+        {
+          "display": "घ_स",
+          "answer": "ा",
+          "fullWord": "घास",
+          "hint": "Grass 🌿"
+        },
+        {
+          "display": "द_ध",
+          "answer": "ू",
+          "fullWord": "दूध",
+          "hint": "Milk 🥛"
+        },
+        {
+          "display": "र_ट",
+          "answer": "ो",
+          "fullWord": "रोट",
+          "hint": "Bread 🍞"
+        },
+        {
+          "display": "म_र",
+          "answer": "ो",
+          "fullWord": "मोर",
+          "hint": "Peacock 🦚"
+        },
+        {
+          "display": "ब_ल",
+          "answer": "ा",
+          "fullWord": "बाल",
+          "hint": "Hair 💇"
+        },
+        {
+          "display": "प_ड",
+          "answer": "े",
+          "fullWord": "पेड़",
+          "hint": "Tree 🌳"
+        },
+        {
+          "display": "च_द",
+          "answer": "ाँ",
+          "fullWord": "चाँद",
+          "hint": "Moon 🌙"
+        },
+        {
+          "display": "स_रज",
+          "answer": "ू",
+          "fullWord": "सूरज",
+          "hint": "Sun ☀️"
+        },
+        {
+          "display": "क_ता",
+          "answer": "ु",
+          "fullWord": "कुता",
+          "hint": "Dog 🐶"
+        },
+        {
+          "display": "ग_ड़ी",
+          "answer": "ा",
+          "fullWord": "गाड़ी",
+          "hint": "Car 🚗"
+        }
+      ]
+    },
+    {
+      "id": "hin_barakhadi",
+      "title": "बारहखड़ी — Barakhadi",
+      "type": "hindiBarakhadi",
+      "questions": 10,
+      "combos": [
+        {
+          "consonant": "क",
+          "matra": "ा",
+          "result": "का"
+        },
+        {
+          "consonant": "क",
+          "matra": "ि",
+          "result": "कि"
+        },
+        {
+          "consonant": "क",
+          "matra": "ी",
+          "result": "की"
+        },
+        {
+          "consonant": "क",
+          "matra": "ु",
+          "result": "कु"
+        },
+        {
+          "consonant": "क",
+          "matra": "ू",
+          "result": "कू"
+        },
+        {
+          "consonant": "क",
+          "matra": "े",
+          "result": "के"
+        },
+        {
+          "consonant": "क",
+          "matra": "ो",
+          "result": "को"
+        },
+        {
+          "consonant": "ख",
+          "matra": "ा",
+          "result": "खा"
+        },
+        {
+          "consonant": "ख",
+          "matra": "ि",
+          "result": "खि"
+        },
+        {
+          "consonant": "ख",
+          "matra": "ी",
+          "result": "खी"
+        },
+        {
+          "consonant": "ख",
+          "matra": "े",
+          "result": "खे"
+        },
+        {
+          "consonant": "ग",
+          "matra": "ा",
+          "result": "गा"
+        },
+        {
+          "consonant": "ग",
+          "matra": "ि",
+          "result": "गि"
+        },
+        {
+          "consonant": "ग",
+          "matra": "ी",
+          "result": "गी"
+        },
+        {
+          "consonant": "ग",
+          "matra": "ु",
+          "result": "गु"
+        },
+        {
+          "consonant": "ग",
+          "matra": "े",
+          "result": "गे"
+        },
+        {
+          "consonant": "ग",
+          "matra": "ो",
+          "result": "गो"
+        },
+        {
+          "consonant": "च",
+          "matra": "ा",
+          "result": "चा"
+        },
+        {
+          "consonant": "च",
+          "matra": "ि",
+          "result": "चि"
+        },
+        {
+          "consonant": "च",
+          "matra": "ी",
+          "result": "ची"
+        },
+        {
+          "consonant": "च",
+          "matra": "ु",
+          "result": "चु"
+        },
+        {
+          "consonant": "च",
+          "matra": "े",
+          "result": "चे"
+        },
+        {
+          "consonant": "ज",
+          "matra": "ा",
+          "result": "जा"
+        },
+        {
+          "consonant": "ज",
+          "matra": "ि",
+          "result": "जि"
+        },
+        {
+          "consonant": "ज",
+          "matra": "ी",
+          "result": "जी"
+        },
+        {
+          "consonant": "ज",
+          "matra": "े",
+          "result": "जे"
+        },
+        {
+          "consonant": "ज",
+          "matra": "ो",
+          "result": "जो"
+        },
+        {
+          "consonant": "त",
+          "matra": "ा",
+          "result": "ता"
+        },
+        {
+          "consonant": "त",
+          "matra": "ि",
+          "result": "ति"
+        },
+        {
+          "consonant": "त",
+          "matra": "ी",
+          "result": "ती"
+        },
+        {
+          "consonant": "त",
+          "matra": "े",
+          "result": "ते"
+        },
+        {
+          "consonant": "द",
+          "matra": "ा",
+          "result": "दा"
+        },
+        {
+          "consonant": "द",
+          "matra": "ि",
+          "result": "दि"
+        },
+        {
+          "consonant": "द",
+          "matra": "ी",
+          "result": "दी"
+        },
+        {
+          "consonant": "द",
+          "matra": "े",
+          "result": "दे"
+        },
+        {
+          "consonant": "न",
+          "matra": "ा",
+          "result": "ना"
+        },
+        {
+          "consonant": "न",
+          "matra": "ि",
+          "result": "नि"
+        },
+        {
+          "consonant": "न",
+          "matra": "ी",
+          "result": "नी"
+        },
+        {
+          "consonant": "न",
+          "matra": "े",
+          "result": "ने"
+        },
+        {
+          "consonant": "न",
+          "matra": "ो",
+          "result": "नो"
+        },
+        {
+          "consonant": "प",
+          "matra": "ा",
+          "result": "पा"
+        },
+        {
+          "consonant": "प",
+          "matra": "ि",
+          "result": "पि"
+        },
+        {
+          "consonant": "प",
+          "matra": "ी",
+          "result": "पी"
+        },
+        {
+          "consonant": "प",
+          "matra": "ु",
+          "result": "पु"
+        },
+        {
+          "consonant": "प",
+          "matra": "ू",
+          "result": "पू"
+        },
+        {
+          "consonant": "ब",
+          "matra": "ा",
+          "result": "बा"
+        },
+        {
+          "consonant": "ब",
+          "matra": "ि",
+          "result": "बि"
+        },
+        {
+          "consonant": "ब",
+          "matra": "ी",
+          "result": "बी"
+        },
+        {
+          "consonant": "ब",
+          "matra": "ु",
+          "result": "बु"
+        },
+        {
+          "consonant": "ब",
+          "matra": "ो",
+          "result": "बो"
+        },
+        {
+          "consonant": "म",
+          "matra": "ा",
+          "result": "मा"
+        },
+        {
+          "consonant": "म",
+          "matra": "ि",
+          "result": "मि"
+        },
+        {
+          "consonant": "म",
+          "matra": "ी",
+          "result": "मी"
+        },
+        {
+          "consonant": "म",
+          "matra": "ु",
+          "result": "मु"
+        },
+        {
+          "consonant": "म",
+          "matra": "ू",
+          "result": "मू"
+        },
+        {
+          "consonant": "म",
+          "matra": "े",
+          "result": "मे"
+        },
+        {
+          "consonant": "म",
+          "matra": "ो",
+          "result": "मो"
+        },
+        {
+          "consonant": "र",
+          "matra": "ा",
+          "result": "रा"
+        },
+        {
+          "consonant": "र",
+          "matra": "ि",
+          "result": "रि"
+        },
+        {
+          "consonant": "र",
+          "matra": "े",
+          "result": "रे"
+        },
+        {
+          "consonant": "ल",
+          "matra": "ा",
+          "result": "ला"
+        },
+        {
+          "consonant": "ल",
+          "matra": "ि",
+          "result": "लि"
+        },
+        {
+          "consonant": "ल",
+          "matra": "ी",
+          "result": "ली"
+        },
+        {
+          "consonant": "ल",
+          "matra": "े",
+          "result": "ले"
+        },
+        {
+          "consonant": "ल",
+          "matra": "ो",
+          "result": "लो"
+        },
+        {
+          "consonant": "ह",
+          "matra": "ा",
+          "result": "हा"
+        },
+        {
+          "consonant": "ह",
+          "matra": "ि",
+          "result": "हि"
+        },
+        {
+          "consonant": "ह",
+          "matra": "ी",
+          "result": "ही"
+        },
+        {
+          "consonant": "ह",
+          "matra": "े",
+          "result": "हे"
+        },
+        {
+          "consonant": "ह",
+          "matra": "ो",
+          "result": "हो"
+        },
+        {
+          "consonant": "स",
+          "matra": "ा",
+          "result": "सा"
+        },
+        {
+          "consonant": "स",
+          "matra": "ि",
+          "result": "सि"
+        },
+        {
+          "consonant": "स",
+          "matra": "ी",
+          "result": "सी"
+        },
+        {
+          "consonant": "स",
+          "matra": "े",
+          "result": "से"
+        },
+        {
+          "consonant": "स",
+          "matra": "ो",
+          "result": "सो"
+        },
+        {
+          "consonant": "श",
+          "matra": "ा",
+          "result": "शा"
+        },
+        {
+          "consonant": "श",
+          "matra": "ि",
+          "result": "शि"
+        },
+        {
+          "consonant": "श",
+          "matra": "ी",
+          "result": "शी"
+        },
+        {
+          "consonant": "श",
+          "matra": "े",
+          "result": "शे"
+        },
+        {
+          "consonant": "ध",
+          "matra": "ा",
+          "result": "धा"
+        },
+        {
+          "consonant": "ध",
+          "matra": "ी",
+          "result": "धी"
+        },
+        {
+          "consonant": "ध",
+          "matra": "े",
+          "result": "धे"
+        }
+      ]
+    },
+    {
+      "id": "hin_poems",
+      "title": "हिन्दी कविता",
+      "type": "hindiPoem",
+      "completePrompt": "🎵 कविता पूरी करो!",
+      "questions": 10,
+      "items": [
+        {
+          "lines": "मछली जल की ___ है,\nजीवन उसका पानी है।",
+          "answer": "रानी",
+          "options": ["रानी", "माँ", "दासी", "बेटी"],
+          "emoji": "🐟",
+          "speakText": "मछली जल की रानी है जीवन उसका पानी है"
+        },
+        {
+          "lines": "लकड़ी की काठी,\nकाठी पे ___।",
+          "answer": "घोड़ा",
+          "options": ["घोड़ा", "गाय", "हाथी", "बन्दर"],
+          "emoji": "🐎",
+          "speakText": "लकड़ी की काठी काठी पे घोड़ा"
+        },
+        {
+          "lines": "चंदा मामा ___ के,\nपुए पकाएं बूर के।",
+          "answer": "दूर",
+          "options": ["दूर", "पास", "ऊपर", "नीचे"],
+          "emoji": "🌙",
+          "speakText": "चंदा मामा दूर के पुए पकाएं बूर के"
+        },
+        {
+          "lines": "नानी तेरी ___ को,\nमोर ले गए बन को।",
+          "answer": "मोरनी",
+          "options": ["मोरनी", "बकरी", "गाय", "बिल्ली"],
+          "emoji": "🦚",
+          "speakText": "नानी तेरी मोरनी को मोर ले गए बन को"
+        },
+        {
+          "lines": "छुक-छुक ___ गाड़ी,\nचलती जाए पटरी पर।",
+          "answer": "रेल",
+          "options": ["रेल", "बस", "कार", "नाव"],
+          "emoji": "🚂",
+          "speakText": "छुक छुक रेल गाड़ी चलती जाए पटरी पर"
+        },
+        {
+          "lines": "तितली उड़ी, ___ पर बैठी,\nरंग-बिरंगे पंख लिए।",
+          "answer": "फूल",
+          "options": ["फूल", "पत्थर", "नदी", "घर"],
+          "emoji": "🦋",
+          "speakText": "तितली उड़ी फूल पर बैठी रंग बिरंगे पंख लिए"
+        },
+        {
+          "lines": "आम की ___ भारी है,\nछोटी-सी मेरी प्यारी है।",
+          "answer": "टोकरी",
+          "options": ["टोकरी", "गाड़ी", "थाली", "बाल्टी"],
+          "emoji": "🥭",
+          "speakText": "आम की टोकरी भारी है छोटी सी मेरी प्यारी है"
+        },
+        {
+          "lines": "बंदर मामा ___ पहनो,\nनाचो-कूदो खूब मनाओ।",
+          "answer": "टोपी",
+          "options": ["टोपी", "साड़ी", "चादर", "कुर्ता"],
+          "emoji": "🐒",
+          "speakText": "बंदर मामा टोपी पहनो नाचो कूदो खूब मनाओ"
+        },
+        {
+          "lines": "पत्ते-पत्ते ___ पत्ते,\nखूब हरे-भरे पत्ते।",
+          "answer": "हरे",
+          "options": ["हरे", "लाल", "पीले", "नीले"],
+          "emoji": "🍃",
+          "speakText": "पत्ते पत्ते हरे पत्ते खूब हरे भरे पत्ते"
+        },
+        {
+          "lines": "हाथी ___ चलता है,\nधम-धम पैर धरता है।",
+          "answer": "मस्त",
+          "options": ["मस्त", "तेज़", "धीरे", "दौड़"],
+          "emoji": "🐘",
+          "speakText": "हाथी मस्त चलता है धम धम पैर धरता है"
+        },
+        {
+          "lines": "ऊपर ___ नीचे पानी,\nबीच में धरती है रानी।",
+          "answer": "आकाश",
+          "options": ["आकाश", "सूरज", "पहाड़", "बादल"],
+          "emoji": "🌍",
+          "speakText": "ऊपर आकाश नीचे पानी बीच में धरती है रानी"
+        },
+        {
+          "lines": "बरसो रे मेघ, बरसो ___,\nजल से भर दो सागर।",
+          "answer": "जोर",
+          "options": ["जोर", "साथ", "धीरे", "कम"],
+          "emoji": "🌧️",
+          "speakText": "बरसो रे मेघ बरसो जोर जल से भर दो सागर"
+        }
+      ]
+    },
+    {
+      "id": "hin_more_picture_words",
+      "title": "और चित्र-शब्द",
+      "type": "hindiPictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🦁",
+          "word": "शेर",
+          "phonetic": null
+        },
+        {
+          "picture": "🐯",
+          "word": "बाघ",
+          "phonetic": null
+        },
+        {
+          "picture": "🐻",
+          "word": "भालू",
+          "phonetic": null
+        },
+        {
+          "picture": "🐵",
+          "word": "बंदर",
+          "phonetic": null
+        },
+        {
+          "picture": "🦊",
+          "word": "लोमड़ी",
+          "phonetic": null
+        },
+        {
+          "picture": "🐺",
+          "word": "भेड़िया",
+          "phonetic": null
+        },
+        {
+          "picture": "🐸",
+          "word": "मेंढक",
+          "phonetic": null
+        },
+        {
+          "picture": "🐢",
+          "word": "कछुआ",
+          "phonetic": null
+        },
+        {
+          "picture": "🦎",
+          "word": "छिपकली",
+          "phonetic": null
+        },
+        {
+          "picture": "🐍",
+          "word": "साँप",
+          "phonetic": null
+        },
+        {
+          "picture": "🦋",
+          "word": "तितली",
+          "phonetic": null
+        },
+        {
+          "picture": "🐝",
+          "word": "मधुमक्खी",
+          "phonetic": null
+        },
+        {
+          "picture": "🍊",
+          "word": "संतरा",
+          "phonetic": null
+        },
+        {
+          "picture": "🍇",
+          "word": "अंगूर",
+          "phonetic": null
+        },
+        {
+          "picture": "🍉",
+          "word": "तरबूज़",
+          "phonetic": null
+        },
+        {
+          "picture": "🥕",
+          "word": "गाजर",
+          "phonetic": null
+        },
+        {
+          "picture": "🥔",
+          "word": "आलू",
+          "phonetic": null
+        },
+        {
+          "picture": "🌽",
+          "word": "मक्का",
+          "phonetic": null
+        },
+        {
+          "picture": "🚂",
+          "word": "रेलगाड़ी",
+          "phonetic": null
+        },
+        {
+          "picture": "✈️",
+          "word": "हवाईजहाज़",
+          "phonetic": null
+        },
+        {
+          "picture": "🚢",
+          "word": "जहाज़",
+          "phonetic": null
+        },
+        {
+          "picture": "⭐",
+          "word": "तारा",
+          "phonetic": null
+        },
+        {
+          "picture": "☁️",
+          "word": "बादल",
+          "phonetic": null
+        },
+        {
+          "picture": "🌈",
+          "word": "इंद्रधनुष",
+          "phonetic": null
+        },
+        {
+          "picture": "🏠",
+          "word": "घर",
+          "phonetic": null
+        },
+        {
+          "picture": "🏫",
+          "word": "स्कूल",
+          "phonetic": null
+        },
+        {
+          "picture": "🏥",
+          "word": "अस्पताल",
+          "phonetic": null
+        },
+        {
+          "picture": "🌳",
+          "word": "पेड़",
+          "phonetic": null
+        },
+        {
+          "picture": "🌺",
+          "word": "फूल",
+          "phonetic": null
+        },
+        {
+          "picture": "🌾",
+          "word": "फसल",
+          "phonetic": null
+        }
+      ]
+    },
+    {
+      "id": "hin_numbers",
+      "title": "हिन्दी में गिनती (0-20)",
+      "type": "hindiPictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "0️⃣",
+          "word": "शून्य",
+          "phonetic": "shunya"
+        },
+        {
+          "picture": "1️⃣",
+          "word": "एक",
+          "phonetic": "ek"
+        },
+        {
+          "picture": "2️⃣",
+          "word": "दो",
+          "phonetic": "do"
+        },
+        {
+          "picture": "3️⃣",
+          "word": "तीन",
+          "phonetic": "teen"
+        },
+        {
+          "picture": "4️⃣",
+          "word": "चार",
+          "phonetic": "chaar"
+        },
+        {
+          "picture": "5️⃣",
+          "word": "पाँच",
+          "phonetic": "paanch"
+        },
+        {
+          "picture": "6️⃣",
+          "word": "छह",
+          "phonetic": "chhah"
+        },
+        {
+          "picture": "7️⃣",
+          "word": "सात",
+          "phonetic": "saat"
+        },
+        {
+          "picture": "8️⃣",
+          "word": "आठ",
+          "phonetic": "aath"
+        },
+        {
+          "picture": "9️⃣",
+          "word": "नौ",
+          "phonetic": "nau"
+        },
+        {
+          "picture": "🔟",
+          "word": "दस",
+          "phonetic": "das"
+        },
+        {
+          "picture": "1️⃣1️⃣",
+          "word": "ग्यारह",
+          "phonetic": "gyaarah"
+        },
+        {
+          "picture": "1️⃣2️⃣",
+          "word": "बारह",
+          "phonetic": "baarah"
+        },
+        {
+          "picture": "1️⃣3️⃣",
+          "word": "तेरह",
+          "phonetic": "terah"
+        },
+        {
+          "picture": "1️⃣4️⃣",
+          "word": "चौदह",
+          "phonetic": "chaudah"
+        },
+        {
+          "picture": "1️⃣5️⃣",
+          "word": "पंद्रह",
+          "phonetic": "pandrah"
+        },
+        {
+          "picture": "1️⃣6️⃣",
+          "word": "सोलह",
+          "phonetic": "solah"
+        },
+        {
+          "picture": "1️⃣7️⃣",
+          "word": "सत्रह",
+          "phonetic": "satrah"
+        },
+        {
+          "picture": "1️⃣8️⃣",
+          "word": "अठारह",
+          "phonetic": "athaarah"
+        },
+        {
+          "picture": "1️⃣9️⃣",
+          "word": "उन्नीस",
+          "phonetic": "unnees"
+        },
+        {
+          "picture": "2️⃣0️⃣",
+          "word": "बीस",
+          "phonetic": "bees"
+        }
+      ]
+    },
+    {
+      "id": "hin_colors",
+      "title": "रंगों के नाम",
+      "type": "hindiPictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🔴 Red",
+          "word": "लाल",
+          "phonetic": null
+        },
+        {
+          "picture": "🔵 Blue",
+          "word": "नीला",
+          "phonetic": null
+        },
+        {
+          "picture": "🟢 Green",
+          "word": "हरा",
+          "phonetic": null
+        },
+        {
+          "picture": "🟡 Yellow",
+          "word": "पीला",
+          "phonetic": null
+        },
+        {
+          "picture": "🟠 Orange",
+          "word": "नारंगी",
+          "phonetic": null
+        },
+        {
+          "picture": "⚫ Black",
+          "word": "काला",
+          "phonetic": null
+        },
+        {
+          "picture": "⚪ White",
+          "word": "सफ़ेद",
+          "phonetic": null
+        },
+        {
+          "picture": "🟤 Brown",
+          "word": "भूरा",
+          "phonetic": null
+        },
+        {
+          "picture": "🟣 Purple",
+          "word": "बैंगनी",
+          "phonetic": null
+        },
+        {
+          "picture": "🩷 Pink",
+          "word": "गुलाबी",
+          "phonetic": null
+        }
+      ]
+    },
+    {
+      "id": "hin_body_parts",
+      "title": "शरीर के अंग",
+      "type": "hindiPictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "👁️",
+          "word": "आँख",
+          "phonetic": null
+        },
+        {
+          "picture": "👃",
+          "word": "नाक",
+          "phonetic": null
+        },
+        {
+          "picture": "👂",
+          "word": "कान",
+          "phonetic": null
+        },
+        {
+          "picture": "👄",
+          "word": "मुँह",
+          "phonetic": null
+        },
+        {
+          "picture": "👅",
+          "word": "जीभ",
+          "phonetic": null
+        },
+        {
+          "picture": "🦷",
+          "word": "दाँत",
+          "phonetic": null
+        },
+        {
+          "picture": "🤚",
+          "word": "हाथ",
+          "phonetic": null
+        },
+        {
+          "picture": "🦶",
+          "word": "पैर",
+          "phonetic": null
+        },
+        {
+          "picture": "💪",
+          "word": "बाँह",
+          "phonetic": null
+        },
+        {
+          "picture": "🦵",
+          "word": "टाँग",
+          "phonetic": null
+        },
+        {
+          "picture": "🧠",
+          "word": "दिमाग़",
+          "phonetic": null
+        },
+        {
+          "picture": "❤️",
+          "word": "दिल",
+          "phonetic": null
+        },
+        {
+          "picture": "👁️👁️",
+          "word": "आँखें",
+          "phonetic": null
+        },
+        {
+          "picture": "👂👂",
+          "word": "कान",
+          "phonetic": null
+        },
+        {
+          "picture": "🤲",
+          "word": "हाथ",
+          "phonetic": null
+        }
+      ]
+    },
+    {
+      "id": "hin_family",
+      "title": "परिवार के सदस्य",
+      "type": "hindiPictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "👨",
+          "word": "पिता",
+          "phonetic": null
+        },
+        {
+          "picture": "👩",
+          "word": "माता",
+          "phonetic": null
+        },
+        {
+          "picture": "👴",
+          "word": "दादा",
+          "phonetic": null
+        },
+        {
+          "picture": "👵",
+          "word": "दादी",
+          "phonetic": null
+        },
+        {
+          "picture": "👦",
+          "word": "भाई",
+          "phonetic": null
+        },
+        {
+          "picture": "👧",
+          "word": "बहन",
+          "phonetic": null
+        },
+        {
+          "picture": "👨‍👦",
+          "word": "पुत्र",
+          "phonetic": null
+        },
+        {
+          "picture": "👩‍👧",
+          "word": "पुत्री",
+          "phonetic": null
+        },
+        {
+          "picture": "👨‍🦳",
+          "word": "चाचा",
+          "phonetic": null
+        },
+        {
+          "picture": "👩‍🦰",
+          "word": "चाची",
+          "phonetic": null
+        }
+      ]
+    },
+    {
+      "id": "hin_days_months",
+      "title": "दिन और महीने",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "सप्ताह का पहला दिन कौन सा है?",
+          "visual": "📅",
+          "answer": "सोमवार",
+          "options": ["सोमवार", "रविवार", "शनिवार", "मंगलवार"],
+          "speakLang": "hi-IN",
+          "speakText": "सप्ताह का पहला दिन कौन सा है"
+        },
+        {
+          "question": "रविवार के बाद कौन सा दिन आता है?",
+          "visual": "📅",
+          "answer": "सोमवार",
+          "options": ["सोमवार", "मंगलवार", "शनिवार", "बुधवार"],
+          "speakLang": "hi-IN",
+          "speakText": "रविवार के बाद कौन सा दिन आता है"
+        },
+        {
+          "question": "शुक्रवार के बाद कौन सा दिन आता है?",
+          "visual": "📅",
+          "answer": "शनिवार",
+          "options": ["शनिवार", "रविवार", "सोमवार", "बुधवार"],
+          "speakLang": "hi-IN",
+          "speakText": "शुक्रवार के बाद कौन सा दिन आता है"
+        },
+        {
+          "question": "एक सप्ताह में कितने दिन होते हैं?",
+          "visual": "📅",
+          "answer": "सात",
+          "options": ["सात", "पाँच", "छह", "दस"],
+          "speakLang": "hi-IN",
+          "speakText": "एक सप्ताह में कितने दिन होते हैं"
+        },
+        {
+          "question": "एक साल में कितने महीने होते हैं?",
+          "visual": "🗓️",
+          "answer": "बारह",
+          "options": ["बारह", "दस", "सात", "पंद्रह"],
+          "speakLang": "hi-IN",
+          "speakText": "एक साल में कितने महीने होते हैं"
+        },
+        {
+          "question": "साल का पहला महीना कौन सा है?",
+          "visual": "🗓️",
+          "answer": "जनवरी",
+          "options": ["जनवरी", "फरवरी", "मार्च", "अप्रैल"],
+          "speakLang": "hi-IN",
+          "speakText": "साल का पहला महीना कौन सा है"
+        },
+        {
+          "question": "होली किस महीने में आती है?",
+          "visual": "🎨",
+          "answer": "मार्च",
+          "options": ["मार्च", "जनवरी", "जून", "दिसंबर"],
+          "speakLang": "hi-IN",
+          "speakText": "होली किस महीने में आती है"
+        },
+        {
+          "question": "दिवाली किस महीने में आती है?",
+          "visual": "🪔",
+          "answer": "अक्टूबर-नवंबर",
+          "options": ["अक्टूबर-नवंबर", "जनवरी", "मई", "अगस्त"],
+          "speakLang": "hi-IN",
+          "speakText": "दिवाली किस महीने में आती है"
+        },
+        {
+          "question": "स्वतंत्रता दिवस किस महीने में है?",
+          "visual": "🇮🇳",
+          "answer": "अगस्त",
+          "options": ["अगस्त", "जनवरी", "मार्च", "जून"],
+          "speakLang": "hi-IN",
+          "speakText": "स्वतंत्रता दिवस किस महीने में है"
+        },
+        {
+          "question": "गणतंत्र दिवस किस महीने में है?",
+          "visual": "🪖",
+          "answer": "जनवरी",
+          "options": ["जनवरी", "अगस्त", "मार्च", "अक्टूबर"],
+          "speakLang": "hi-IN",
+          "speakText": "गणतंत्र दिवस किस महीने में है"
+        },
+        {
+          "question": "सप्ताह का अंतिम दिन कौन सा है?",
+          "visual": "📅",
+          "answer": "रविवार",
+          "options": ["रविवार", "सोमवार", "शनिवार", "शुक्रवार"],
+          "speakLang": "hi-IN",
+          "speakText": "सप्ताह का अंतिम दिन कौन सा है"
+        },
+        {
+          "question": "मंगलवार के बाद कौन सा दिन आता है?",
+          "visual": "📅",
+          "answer": "बुधवार",
+          "options": ["बुधवार", "सोमवार", "गुरुवार", "शुक्रवार"],
+          "speakLang": "hi-IN",
+          "speakText": "मंगलवार के बाद कौन सा दिन आता है"
+        },
+        {
+          "question": "फरवरी के बाद कौन सा महीना आता है?",
+          "visual": "🗓️",
+          "answer": "मार्च",
+          "options": ["मार्च", "अप्रैल", "जनवरी", "मई"],
+          "speakLang": "hi-IN",
+          "speakText": "फरवरी के बाद कौन सा महीना आता है"
+        },
+        {
+          "question": "दिसंबर के बाद कौन सा महीना आता है?",
+          "visual": "🗓️",
+          "answer": "जनवरी",
+          "options": ["जनवरी", "नवंबर", "फरवरी", "मार्च"],
+          "speakLang": "hi-IN",
+          "speakText": "दिसंबर के बाद कौन सा महीना आता है"
+        },
+        {
+          "question": "छुट्टी का दिन कौन सा है?",
+          "visual": "🎉",
+          "answer": "रविवार",
+          "options": ["रविवार", "सोमवार", "मंगलवार", "बुधवार"],
+          "speakLang": "hi-IN",
+          "speakText": "छुट्टी का दिन कौन सा है"
+        }
+      ]
+    },
+    {
+      "id": "hin_action_words",
+      "title": "क्रिया शब्द (काम के शब्द)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "हम पैरों से ___ हैं।",
+          "visual": "🚶",
+          "answer": "चलते",
+          "options": ["चलते", "बोलते", "देखते", "सुनते"],
+          "speakLang": "hi-IN",
+          "speakText": "हम पैरों से चलते हैं"
+        },
+        {
+          "question": "हम मुँह से ___ हैं।",
+          "visual": "🗣️",
+          "answer": "बोलते",
+          "options": ["बोलते", "चलते", "उड़ते", "तैरते"],
+          "speakLang": "hi-IN",
+          "speakText": "हम मुँह से बोलते हैं"
+        },
+        {
+          "question": "पक्षी ___ हैं।",
+          "visual": "🐦",
+          "answer": "उड़ते",
+          "options": ["उड़ते", "दौड़ते", "तैरते", "बोलते"],
+          "speakLang": "hi-IN",
+          "speakText": "पक्षी उड़ते हैं"
+        },
+        {
+          "question": "मछली पानी में ___ है।",
+          "visual": "🐟",
+          "answer": "तैरती",
+          "options": ["तैरती", "उड़ती", "दौड़ती", "चलती"],
+          "speakLang": "hi-IN",
+          "speakText": "मछली पानी में तैरती है"
+        },
+        {
+          "question": "हम खाना ___ हैं।",
+          "visual": "🍽️",
+          "answer": "खाते",
+          "options": ["खाते", "पीते", "सोते", "खेलते"],
+          "speakLang": "hi-IN",
+          "speakText": "हम खाना खाते हैं"
+        },
+        {
+          "question": "हम कलम से ___ हैं।",
+          "visual": "✍️",
+          "answer": "लिखते",
+          "options": ["लिखते", "पढ़ते", "गाते", "नाचते"],
+          "speakLang": "hi-IN",
+          "speakText": "हम कलम से लिखते हैं"
+        },
+        {
+          "question": "हम किताब ___ हैं।",
+          "visual": "📖",
+          "answer": "पढ़ते",
+          "options": ["पढ़ते", "लिखते", "गाते", "खेलते"],
+          "speakLang": "hi-IN",
+          "speakText": "हम किताब पढ़ते हैं"
+        },
+        {
+          "question": "हम रात को ___ हैं।",
+          "visual": "😴",
+          "answer": "सोते",
+          "options": ["सोते", "खाते", "खेलते", "पढ़ते"],
+          "speakLang": "hi-IN",
+          "speakText": "हम रात को सोते हैं"
+        },
+        {
+          "question": "हम गाना ___ हैं।",
+          "visual": "🎤",
+          "answer": "गाते",
+          "options": ["गाते", "नाचते", "खाते", "सोते"],
+          "speakLang": "hi-IN",
+          "speakText": "हम गाना गाते हैं"
+        },
+        {
+          "question": "हम खेल ___ हैं।",
+          "visual": "⚽",
+          "answer": "खेलते",
+          "options": ["खेलते", "सोते", "खाते", "पीते"],
+          "speakLang": "hi-IN",
+          "speakText": "हम खेल खेलते हैं"
+        },
+        {
+          "question": "हम पानी ___ हैं।",
+          "visual": "🥤",
+          "answer": "पीते",
+          "options": ["पीते", "खाते", "सोते", "लिखते"],
+          "speakLang": "hi-IN",
+          "speakText": "हम पानी पीते हैं"
+        },
+        {
+          "question": "घोड़ा ___ है।",
+          "visual": "🐎",
+          "answer": "दौड़ता",
+          "options": ["दौड़ता", "उड़ता", "तैरता", "सोता"],
+          "speakLang": "hi-IN",
+          "speakText": "घोड़ा दौड़ता है"
+        },
+        {
+          "question": "सूरज ___ है।",
+          "visual": "☀️",
+          "answer": "चमकता",
+          "options": ["चमकता", "सोता", "खेलता", "दौड़ता"],
+          "speakLang": "hi-IN",
+          "speakText": "सूरज चमकता है"
+        },
+        {
+          "question": "फूल ___ है।",
+          "visual": "🌺",
+          "answer": "खिलता",
+          "options": ["खिलता", "उड़ता", "दौड़ता", "तैरता"],
+          "speakLang": "hi-IN",
+          "speakText": "फूल खिलता है"
+        },
+        {
+          "question": "बच्चे ___ हैं।",
+          "visual": "😊",
+          "answer": "हँसते",
+          "options": ["हँसते", "उड़ते", "तैरते", "चमकते"],
+          "speakLang": "hi-IN",
+          "speakText": "बच्चे हंसते हैं"
+        }
+      ]
+    },
+    {
+      "id": "hin_opposites",
+      "title": "विलोम शब्द (उल्टे शब्द)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "बड़ा का विलोम शब्द है:",
+          "visual": "⬆️↔️⬇️",
+          "answer": "छोटा",
+          "options": ["छोटा", "लंबा", "मोटा", "पतला"],
+          "speakLang": "hi-IN",
+          "speakText": "बड़ा का विलोम शब्द है छोटा"
+        },
+        {
+          "question": "गरम का विलोम शब्द है:",
+          "visual": "🔥↔️❄️",
+          "answer": "ठंडा",
+          "options": ["ठंडा", "गीला", "सूखा", "नरम"],
+          "speakLang": "hi-IN",
+          "speakText": "गरम का विलोम शब्द है ठंडा"
+        },
+        {
+          "question": "ऊपर का विलोम शब्द है:",
+          "visual": "⬆️↔️⬇️",
+          "answer": "नीचे",
+          "options": ["नीचे", "बाएँ", "दाएँ", "आगे"],
+          "speakLang": "hi-IN",
+          "speakText": "ऊपर का विलोम शब्द है नीचे"
+        },
+        {
+          "question": "दिन का विलोम शब्द है:",
+          "visual": "☀️↔️🌙",
+          "answer": "रात",
+          "options": ["रात", "सुबह", "दोपहर", "शाम"],
+          "speakLang": "hi-IN",
+          "speakText": "दिन का विलोम शब्द है रात"
+        },
+        {
+          "question": "अंदर का विलोम शब्द है:",
+          "visual": "⬅️↔️➡️",
+          "answer": "बाहर",
+          "options": ["बाहर", "ऊपर", "नीचे", "पास"],
+          "speakLang": "hi-IN",
+          "speakText": "अंदर का विलोम शब्द है बाहर"
+        },
+        {
+          "question": "खुश का विलोम शब्द है:",
+          "visual": "😊↔️😢",
+          "answer": "दुखी",
+          "options": ["दुखी", "गुस्सा", "थका", "भूखा"],
+          "speakLang": "hi-IN",
+          "speakText": "खुश का विलोम शब्द है दुखी"
+        },
+        {
+          "question": "नया का विलोम शब्द है:",
+          "visual": "✨↔️🕰️",
+          "answer": "पुराना",
+          "options": ["पुराना", "ताज़ा", "साफ़", "गंदा"],
+          "speakLang": "hi-IN",
+          "speakText": "नया का विलोम शब्द है पुराना"
+        },
+        {
+          "question": "तेज़ का विलोम शब्द है:",
+          "visual": "🐇↔️🐢",
+          "answer": "धीमा",
+          "options": ["धीमा", "रुको", "जाओ", "आओ"],
+          "speakLang": "hi-IN",
+          "speakText": "तेज़ का विलोम शब्द है धीमा"
+        },
+        {
+          "question": "लंबा का विलोम शब्द है:",
+          "visual": "🦒↔️🐁",
+          "answer": "छोटा",
+          "options": ["छोटा", "बड़ा", "मोटा", "पतला"],
+          "speakLang": "hi-IN",
+          "speakText": "लंबा का विलोम शब्द है छोटा"
+        },
+        {
+          "question": "अच्छा का विलोम शब्द है:",
+          "visual": "👍↔️👎",
+          "answer": "बुरा",
+          "options": ["बुरा", "सुंदर", "प्यारा", "खुश"],
+          "speakLang": "hi-IN",
+          "speakText": "अच्छा का विलोम शब्द है बुरा"
+        },
+        {
+          "question": "सूखा का विलोम शब्द है:",
+          "visual": "🏜️↔️💧",
+          "answer": "गीला",
+          "options": ["गीला", "ठंडा", "गरम", "नरम"],
+          "speakLang": "hi-IN",
+          "speakText": "सूखा का विलोम शब्द है गीला"
+        },
+        {
+          "question": "मोटा का विलोम शब्द है:",
+          "visual": "🐘↔️🦒",
+          "answer": "पतला",
+          "options": ["पतला", "लंबा", "छोटा", "बड़ा"],
+          "speakLang": "hi-IN",
+          "speakText": "मोटा का विलोम शब्द है पतला"
+        },
+        {
+          "question": "आगे का विलोम शब्द है:",
+          "visual": "➡️↔️⬅️",
+          "answer": "पीछे",
+          "options": ["पीछे", "ऊपर", "नीचे", "बाहर"],
+          "speakLang": "hi-IN",
+          "speakText": "आगे का विलोम शब्द है पीछे"
+        },
+        {
+          "question": "कड़ा का विलोम शब्द है:",
+          "visual": "🪨↔️🧈",
+          "answer": "नरम",
+          "options": ["नरम", "गरम", "ठंडा", "गीला"],
+          "speakLang": "hi-IN",
+          "speakText": "कड़ा का विलोम शब्द है नरम"
+        },
+        {
+          "question": "साफ़ का विलोम शब्द है:",
+          "visual": "✨↔️💩",
+          "answer": "गंदा",
+          "options": ["गंदा", "नया", "पुराना", "बुरा"],
+          "speakLang": "hi-IN",
+          "speakText": "साफ़ का विलोम शब्द है गंदा"
+        }
+      ]
+    },
+    {
+      "id": "hin_more_matras",
+      "title": "और मात्राएँ",
+      "type": "hindiMissingMatra",
+      "questions": 10,
+      "words": [
+        {
+          "base": "क",
+          "display": "क_र",
+          "matra": "ा",
+          "answer": "ा",
+          "fullWord": "कार"
+        },
+        {
+          "base": "ग",
+          "display": "ग_ड़_",
+          "matra": "ा",
+          "answer": "ा",
+          "fullWord": "गाड़ी"
+        },
+        {
+          "base": "ब",
+          "display": "ब_ल",
+          "matra": "ा",
+          "answer": "ा",
+          "fullWord": "बाल"
+        },
+        {
+          "base": "म",
+          "display": "म_त_",
+          "matra": "ा",
+          "answer": "ा",
+          "fullWord": "माता"
+        },
+        {
+          "base": "प",
+          "display": "प_न_",
+          "matra": "ा",
+          "answer": "ा",
+          "fullWord": "पानी"
+        },
+        {
+          "base": "क",
+          "display": "क_व_",
+          "matra": "ि",
+          "answer": "ि",
+          "fullWord": "किवी"
+        },
+        {
+          "base": "त",
+          "display": "त_तल_",
+          "matra": "ि",
+          "answer": "ि",
+          "fullWord": "तितली"
+        },
+        {
+          "base": "म",
+          "display": "म_र्च",
+          "matra": "ि",
+          "answer": "ि",
+          "fullWord": "मिर्च"
+        },
+        {
+          "base": "ग",
+          "display": "ग_लहर_",
+          "matra": "ि",
+          "answer": "ि",
+          "fullWord": "गिलहरी"
+        },
+        {
+          "base": "च",
+          "display": "च_ड़_य_",
+          "matra": "ि",
+          "answer": "ि",
+          "fullWord": "चिड़िया"
+        },
+        {
+          "base": "म",
+          "display": "म_ठ_ई",
+          "matra": "ी",
+          "answer": "ी",
+          "fullWord": "मीठाई"
+        },
+        {
+          "base": "न",
+          "display": "न_ल_",
+          "matra": "ी",
+          "answer": "ी",
+          "fullWord": "नीली"
+        },
+        {
+          "base": "र",
+          "display": "र_त_",
+          "matra": "ी",
+          "answer": "ी",
+          "fullWord": "रीति"
+        },
+        {
+          "base": "त",
+          "display": "त_न",
+          "matra": "ी",
+          "answer": "ी",
+          "fullWord": "तीन"
+        },
+        {
+          "base": "च",
+          "display": "च_ड़_",
+          "matra": "ी",
+          "answer": "ी",
+          "fullWord": "चीड़ी"
+        },
+        {
+          "base": "म",
+          "display": "म_ह_",
+          "matra": "ु",
+          "answer": "ु",
+          "fullWord": "मुहँ"
+        },
+        {
+          "base": "स",
+          "display": "स_बह",
+          "matra": "ु",
+          "answer": "ु",
+          "fullWord": "सुबह"
+        },
+        {
+          "base": "ख",
+          "display": "ख_श_",
+          "matra": "ु",
+          "answer": "ु",
+          "fullWord": "खुशी"
+        },
+        {
+          "base": "ग",
+          "display": "ग_ल_ब",
+          "matra": "ु",
+          "answer": "ु",
+          "fullWord": "गुलाब"
+        },
+        {
+          "base": "म",
+          "display": "म_र्ग_",
+          "matra": "ु",
+          "answer": "ु",
+          "fullWord": "मुर्गी"
+        },
+        {
+          "base": "फ",
+          "display": "फ_ल",
+          "matra": "ू",
+          "answer": "ू",
+          "fullWord": "फूल"
+        },
+        {
+          "base": "द",
+          "display": "द_ध",
+          "matra": "ू",
+          "answer": "ू",
+          "fullWord": "दूध"
+        },
+        {
+          "base": "स",
+          "display": "स_रज",
+          "matra": "ू",
+          "answer": "ू",
+          "fullWord": "सूरज"
+        },
+        {
+          "base": "ज",
+          "display": "ज_त_",
+          "matra": "ू",
+          "answer": "ू",
+          "fullWord": "जूता"
+        },
+        {
+          "base": "भ",
+          "display": "भ_ख",
+          "matra": "ू",
+          "answer": "ू",
+          "fullWord": "भूख"
+        }
+      ]
+    },
+    {
+      "id": "hin_simple_sentences",
+      "title": "सरल वाक्य",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "मैं ___ पढ़ता हूँ।",
+          "visual": "📖",
+          "answer": "किताब",
+          "options": ["किताब", "खाना", "पानी", "खेल"],
+          "speakLang": "hi-IN",
+          "speakText": "मैं किताब पढ़ता हूँ"
+        },
+        {
+          "question": "गाय ___ देती है।",
+          "visual": "🐄",
+          "answer": "दूध",
+          "options": ["दूध", "अंडा", "शहद", "ऊन"],
+          "speakLang": "hi-IN",
+          "speakText": "गाय दूध देती है"
+        },
+        {
+          "question": "मुर्गी ___ देती है।",
+          "visual": "🐔",
+          "answer": "अंडा",
+          "options": ["अंडा", "दूध", "शहद", "ऊन"],
+          "speakLang": "hi-IN",
+          "speakText": "मुर्गी अंडा देती है"
+        },
+        {
+          "question": "मछली ___ में रहती है।",
+          "visual": "🐟",
+          "answer": "पानी",
+          "options": ["पानी", "पेड़", "घर", "आकाश"],
+          "speakLang": "hi-IN",
+          "speakText": "मछली पानी में रहती है"
+        },
+        {
+          "question": "पक्षी ___ में रहते हैं।",
+          "visual": "🐦",
+          "answer": "घोंसला",
+          "options": ["घोंसला", "पानी", "बिल", "घर"],
+          "speakLang": "hi-IN",
+          "speakText": "पक्षी घोंसले में रहते हैं"
+        },
+        {
+          "question": "रात को ___ दिखाई देते हैं।",
+          "visual": "🌙",
+          "answer": "तारे",
+          "options": ["तारे", "सूरज", "बादल", "पक्षी"],
+          "speakLang": "hi-IN",
+          "speakText": "रात को तारे दिखाई देते हैं"
+        },
+        {
+          "question": "हम ___ से देखते हैं।",
+          "visual": "👁️",
+          "answer": "आँखों",
+          "options": ["आँखों", "कानों", "नाक", "मुँह"],
+          "speakLang": "hi-IN",
+          "speakText": "हम आँखों से देखते हैं"
+        },
+        {
+          "question": "हम ___ से सुनते हैं।",
+          "visual": "👂",
+          "answer": "कानों",
+          "options": ["कानों", "आँखों", "नाक", "हाथों"],
+          "speakLang": "hi-IN",
+          "speakText": "हम कानों से सुनते हैं"
+        },
+        {
+          "question": "फूल बहुत ___ होते हैं।",
+          "visual": "🌺",
+          "answer": "सुंदर",
+          "options": ["सुंदर", "बुरे", "गंदे", "कड़े"],
+          "speakLang": "hi-IN",
+          "speakText": "फूल बहुत सुंदर होते हैं"
+        },
+        {
+          "question": "शेर ___ में रहता है।",
+          "visual": "🦁",
+          "answer": "जंगल",
+          "options": ["जंगल", "घर", "पानी", "आकाश"],
+          "speakLang": "hi-IN",
+          "speakText": "शेर जंगल में रहता है"
+        },
+        {
+          "question": "सूरज ___ में चमकता है।",
+          "visual": "☀️",
+          "answer": "आकाश",
+          "options": ["आकाश", "पानी", "जमीन", "घर"],
+          "speakLang": "hi-IN",
+          "speakText": "सूरज आकाश में चमकता है"
+        },
+        {
+          "question": "हम स्कूल में ___ पढ़ते हैं।",
+          "visual": "🏫",
+          "answer": "पुस्तकें",
+          "options": ["पुस्तकें", "खाना", "खेल", "टीवी"],
+          "speakLang": "hi-IN",
+          "speakText": "हम स्कूल में पुस्तकें पढ़ते हैं"
+        },
+        {
+          "question": "हाथी का ___ बहुत लंबा है।",
+          "visual": "🐘",
+          "answer": "सूँड़",
+          "options": ["सूँड़", "पूँछ", "कान", "पैर"],
+          "speakLang": "hi-IN",
+          "speakText": "हाथी का सूँड़ बहुत लंबा है"
+        },
+        {
+          "question": "बादल ___ लाते हैं।",
+          "visual": "☁️",
+          "answer": "बारिश",
+          "options": ["बारिश", "धूप", "ठंड", "हवा"],
+          "speakLang": "hi-IN",
+          "speakText": "बादल बारिश लाते हैं"
+        },
+        {
+          "question": "पेड़ से ___ मिलते हैं।",
+          "visual": "🌳",
+          "answer": "फल",
+          "options": ["फल", "दूध", "अंडे", "मछली"],
+          "speakLang": "hi-IN",
+          "speakText": "पेड़ से फल मिलते हैं"
+        },
+        {
+          "question": "हम पैरों में ___ पहनते हैं।",
+          "visual": "👟",
+          "answer": "जूते",
+          "options": ["जूते", "टोपी", "चश्मा", "घड़ी"],
+          "speakLang": "hi-IN",
+          "speakText": "हम पैरों में जूते पहनते हैं"
+        },
+        {
+          "question": "बच्चे ___ में खेलते हैं।",
+          "visual": "🏃",
+          "answer": "मैदान",
+          "options": ["मैदान", "रसोई", "बाथरूम", "बिस्तर"],
+          "speakLang": "hi-IN",
+          "speakText": "बच्चे मैदान में खेलते हैं"
+        },
+        {
+          "question": "रात को हम ___ करते हैं।",
+          "visual": "😴",
+          "answer": "सोते",
+          "options": ["सोते", "खाते", "दौड़ते", "पढ़ते"],
+          "speakLang": "hi-IN",
+          "speakText": "रात को हम सोते हैं"
+        },
+        {
+          "question": "डॉक्टर ___ लोगों का इलाज करता है।",
+          "visual": "🩺",
+          "answer": "बीमार",
+          "options": ["बीमार", "खुश", "दौड़ते", "सोते"],
+          "speakLang": "hi-IN",
+          "speakText": "डॉक्टर बीमार लोगों का इलाज करता है"
+        },
+        {
+          "question": "हम ___ में खाना बनाते हैं।",
+          "visual": "👨‍🍳",
+          "answer": "रसोई",
+          "options": ["रसोई", "बाथरूम", "बेडरूम", "मैदान"],
+          "speakLang": "hi-IN",
+          "speakText": "हम रसोई में खाना बनाते हैं"
+        }
+      ]
+    },
+    {
+      "id": "hin_gender",
+      "title": "लिंग (स्त्रीलिंग और पुल्लिंग)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "लड़का ___ है।",
+          "visual": "👦",
+          "answer": "पुल्लिंग",
+          "options": ["पुल्लिंग", "स्त्रीलिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "लड़का पुल्लिंग है"
+        },
+        {
+          "question": "लड़की ___ है।",
+          "visual": "👧",
+          "answer": "स्त्रीलिंग",
+          "options": ["स्त्रीलिंग", "पुल्लिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "लड़की स्त्रीलिंग है"
+        },
+        {
+          "question": "बेटा ___ है।",
+          "visual": "👦",
+          "answer": "पुल्लिंग",
+          "options": ["पुल्लिंग", "स्त्रीलिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "बेटा पुल्लिंग है"
+        },
+        {
+          "question": "बेटी ___ है।",
+          "visual": "👧",
+          "answer": "स्त्रीलिंग",
+          "options": ["स्त्रीलिंग", "पुल्लिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "बेटी स्त्रीलिंग है"
+        },
+        {
+          "question": "पिता ___ है।",
+          "visual": "👨",
+          "answer": "पुल्लिंग",
+          "options": ["पुल्लिंग", "स्त्रीलिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "पिता पुल्लिंग है"
+        },
+        {
+          "question": "माता ___ है।",
+          "visual": "👩",
+          "answer": "स्त्रीलिंग",
+          "options": ["स्त्रीलिंग", "पुल्लिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "माता स्त्रीलिंग है"
+        },
+        {
+          "question": "भाई ___ है।",
+          "visual": "👦",
+          "answer": "पुल्लिंग",
+          "options": ["पुल्लिंग", "स्त्रीलिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "भाई पुल्लिंग है"
+        },
+        {
+          "question": "बहन ___ है।",
+          "visual": "👧",
+          "answer": "स्त्रीलिंग",
+          "options": ["स्त्रीलिंग", "पुल्लिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "बहन स्त्रीलिंग है"
+        },
+        {
+          "question": "गाय ___ है।",
+          "visual": "🐄",
+          "answer": "स्त्रीलिंग",
+          "options": ["स्त्रीलिंग", "पुल्लिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "गाय स्त्रीलिंग है"
+        },
+        {
+          "question": "बैल ___ है।",
+          "visual": "🐂",
+          "answer": "पुल्लिंग",
+          "options": ["पुल्लिंग", "स्त्रीलिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "बैल पुल्लिंग है"
+        },
+        {
+          "question": "शेर ___ है।",
+          "visual": "🦁",
+          "answer": "पुल्लिंग",
+          "options": ["पुल्लिंग", "स्त्रीलिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "शेर पुल्लिंग है"
+        },
+        {
+          "question": "शेरनी ___ है।",
+          "visual": "🦁",
+          "answer": "स्त्रीलिंग",
+          "options": ["स्त्रीलिंग", "पुल्लिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "शेरनी स्त्रीलिंग है"
+        },
+        {
+          "question": "मोर ___ है।",
+          "visual": "🦚",
+          "answer": "पुल्लिंग",
+          "options": ["पुल्लिंग", "स्त्रीलिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "मोर पुल्लिंग है"
+        },
+        {
+          "question": "मोरनी ___ है।",
+          "visual": "🦚",
+          "answer": "स्त्रीलिंग",
+          "options": ["स्त्रीलिंग", "पुल्लिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "मोरनी स्त्रीलिंग है"
+        },
+        {
+          "question": "किताब ___ है।",
+          "visual": "📖",
+          "answer": "स्त्रीलिंग",
+          "options": ["स्त्रीलिंग", "पुल्लिंग", "दोनों", "कोई नहीं"],
+          "speakLang": "hi-IN",
+          "speakText": "किताब स्त्रीलिंग है"
+        }
+      ]
+    },
+    {
+      "id": "hin_singular_plural",
+      "title": "वचन (एकवचन और बहुवचन)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "लड़का का बहुवचन है:",
+          "visual": "👦→👦👦",
+          "answer": "लड़के",
+          "options": ["लड़के", "लड़की", "लड़का", "लड़कियाँ"],
+          "speakLang": "hi-IN",
+          "speakText": "लड़का का बहुवचन है लड़के"
+        },
+        {
+          "question": "लड़की का बहुवचन है:",
+          "visual": "👧→👧👧",
+          "answer": "लड़कियाँ",
+          "options": ["लड़कियाँ", "लड़के", "लड़की", "लड़का"],
+          "speakLang": "hi-IN",
+          "speakText": "लड़की का बहुवचन है लड़कियाँ"
+        },
+        {
+          "question": "किताब का बहुवचन है:",
+          "visual": "📖→📖📖",
+          "answer": "किताबें",
+          "options": ["किताबें", "किताब", "किताबों", "किताबियाँ"],
+          "speakLang": "hi-IN",
+          "speakText": "किताब का बहुवचन है किताबें"
+        },
+        {
+          "question": "गाय का बहुवचन है:",
+          "visual": "🐄→🐄🐄",
+          "answer": "गायें",
+          "options": ["गायें", "गाय", "गायों", "गायियाँ"],
+          "speakLang": "hi-IN",
+          "speakText": "गाय का बहुवचन है गायें"
+        },
+        {
+          "question": "फूल का बहुवचन है:",
+          "visual": "🌺→🌺🌺",
+          "answer": "फूल",
+          "options": ["फूल", "फूलों", "फूली", "फूलें"],
+          "speakLang": "hi-IN",
+          "speakText": "फूल का बहुवचन है फूल"
+        },
+        {
+          "question": "बच्चा का बहुवचन है:",
+          "visual": "👶→👶👶",
+          "answer": "बच्चे",
+          "options": ["बच्चे", "बच्चा", "बच्चों", "बच्ची"],
+          "speakLang": "hi-IN",
+          "speakText": "बच्चा का बहुवचन है बच्चे"
+        },
+        {
+          "question": "पक्षी का बहुवचन है:",
+          "visual": "🐦→🐦🐦",
+          "answer": "पक्षी",
+          "options": ["पक्षी", "पक्षियों", "पक्षीयाँ", "पक्षा"],
+          "speakLang": "hi-IN",
+          "speakText": "पक्षी का बहुवचन है पक्षी"
+        },
+        {
+          "question": "कुत्ता का बहुवचन है:",
+          "visual": "🐶→🐶🐶",
+          "answer": "कुत्ते",
+          "options": ["कुत्ते", "कुत्ता", "कुत्तियाँ", "कुत्तों"],
+          "speakLang": "hi-IN",
+          "speakText": "कुत्ता का बहुवचन है कुत्ते"
+        },
+        {
+          "question": "बिल्ली का बहुवचन है:",
+          "visual": "🐱→🐱🐱",
+          "answer": "बिल्लियाँ",
+          "options": ["बिल्लियाँ", "बिल्ली", "बिल्ले", "बिल्लों"],
+          "speakLang": "hi-IN",
+          "speakText": "बिल्ली का बहुवचन है बिल्लियाँ"
+        },
+        {
+          "question": "घोड़ा का बहुवचन है:",
+          "visual": "🐎→🐎🐎",
+          "answer": "घोड़े",
+          "options": ["घोड़े", "घोड़ा", "घोड़ियाँ", "घोड़ों"],
+          "speakLang": "hi-IN",
+          "speakText": "घोड़ा का बहुवचन है घोड़े"
+        },
+        {
+          "question": "माता का बहुवचन है:",
+          "visual": "👩→👩👩",
+          "answer": "माताएँ",
+          "options": ["माताएँ", "माता", "मातों", "मातियाँ"],
+          "speakLang": "hi-IN",
+          "speakText": "माता का बहुवचन है माताएँ"
+        },
+        {
+          "question": "पिता का बहुवचन है:",
+          "visual": "👨→👨👨",
+          "answer": "पिता",
+          "options": ["पिता", "पिताओं", "पिताजी", "पितरों"],
+          "speakLang": "hi-IN",
+          "speakText": "पिता का बहुवचन है पिता"
+        },
+        {
+          "question": "सेब का बहुवचन है:",
+          "visual": "🍎→🍎🍎",
+          "answer": "सेब",
+          "options": ["सेब", "सेबों", "सेबें", "सेबियाँ"],
+          "speakLang": "hi-IN",
+          "speakText": "सेब का बहुवचन है सेब"
+        },
+        {
+          "question": "पेड़ का बहुवचन है:",
+          "visual": "🌳→🌳🌳",
+          "answer": "पेड़",
+          "options": ["पेड़", "पेड़ों", "पेड़े", "पेड़ियाँ"],
+          "speakLang": "hi-IN",
+          "speakText": "पेड़ का बहुवचन है पेड़"
+        },
+        {
+          "question": "तारा का बहुवचन है:",
+          "visual": "⭐→⭐⭐",
+          "answer": "तारे",
+          "options": ["तारे", "तारा", "तारों", "तारियाँ"],
+          "speakLang": "hi-IN",
+          "speakText": "तारा का बहुवचन है तारे"
+        }
+      ]
+    },
+    {
+      "id": "hin_transport",
+      "title": "वाहनों के नाम",
+      "type": "hindiPictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🚗",
+          "word": "कार",
+          "phonetic": null
+        },
+        {
+          "picture": "🚌",
+          "word": "बस",
+          "phonetic": null
+        },
+        {
+          "picture": "🚂",
+          "word": "रेलगाड़ी",
+          "phonetic": null
+        },
+        {
+          "picture": "✈️",
+          "word": "हवाईजहाज़",
+          "phonetic": null
+        },
+        {
+          "picture": "🚁",
+          "word": "हेलीकॉप्टर",
+          "phonetic": null
+        },
+        {
+          "picture": "🚢",
+          "word": "जहाज़",
+          "phonetic": null
+        },
+        {
+          "picture": "⛵",
+          "word": "नाव",
+          "phonetic": null
+        },
+        {
+          "picture": "🚲",
+          "word": "साइकिल",
+          "phonetic": null
+        },
+        {
+          "picture": "🏍️",
+          "word": "मोटरसाइकिल",
+          "phonetic": null
+        },
+        {
+          "picture": "🚜",
+          "word": "ट्रैक्टर",
+          "phonetic": null
+        },
+        {
+          "picture": "🚑",
+          "word": "एंबुलेंस",
+          "phonetic": null
+        },
+        {
+          "picture": "🚒",
+          "word": "दमकल",
+          "phonetic": null
+        },
+        {
+          "picture": "🚓",
+          "word": "पुलिस कार",
+          "phonetic": null
+        },
+        {
+          "picture": "🚕",
+          "word": "टैक्सी",
+          "phonetic": null
+        },
+        {
+          "picture": "🚙",
+          "word": "जीप",
+          "phonetic": null
+        }
+      ]
+    }
+  ]
+}

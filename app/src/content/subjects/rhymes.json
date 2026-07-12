@@ -1,0 +1,282 @@
+{
+  "id": "rhymes",
+  "name": "Rhymes",
+  "icon": "🎵",
+  "description": "Fun nursery rhymes and CBSE Marigold Class 1 poems!",
+  "modules": [
+    {
+      "id": "rhyme_nursery",
+      "title": "Nursery Rhymes",
+      "type": "rhymeComplete",
+      "completePrompt": "🎵 Complete the rhyme!",
+      "questions": 10,
+      "items": [
+        {
+          "lines": "Twinkle, twinkle, little ___,\nHow I wonder what you are!",
+          "emoji": "⭐",
+          "answer": "STAR",
+          "options": ["STAR", "MOON", "SUN", "CLOUD"],
+          "speakText": "Twinkle twinkle little star how I wonder what you are",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Baa, baa, black ___,\nHave you any wool?",
+          "emoji": "🐑",
+          "answer": "SHEEP",
+          "options": ["SHEEP", "COW", "HORSE", "DUCK"],
+          "speakText": "Baa baa black sheep have you any wool",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Jack and Jill went up the ___,\nTo fetch a pail of water.",
+          "emoji": "⛰️",
+          "answer": "HILL",
+          "options": ["HILL", "TREE", "ROAD", "WALL"],
+          "speakText": "Jack and Jill went up the hill to fetch a pail of water",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Humpty Dumpty sat on a ___,\nHumpty Dumpty had a great fall.",
+          "emoji": "🥚",
+          "answer": "WALL",
+          "options": ["WALL", "CHAIR", "HORSE", "FENCE"],
+          "speakText": "Humpty Dumpty sat on a wall Humpty Dumpty had a great fall",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Old MacDonald had a ___,\nE-I-E-I-O!",
+          "emoji": "🚜",
+          "answer": "FARM",
+          "options": ["FARM", "SHOP", "SCHOOL", "HOUSE"],
+          "speakText": "Old MacDonald had a farm E I E I O",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Mary had a little ___,\nIts fleece was white as snow.",
+          "emoji": "🐑",
+          "answer": "LAMB",
+          "options": ["LAMB", "CAT", "DOG", "BIRD"],
+          "speakText": "Mary had a little lamb its fleece was white as snow",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Hickory dickory dock,\nThe ___ ran up the clock.",
+          "emoji": "🕐",
+          "answer": "MOUSE",
+          "options": ["MOUSE", "CAT", "RAT", "FROG"],
+          "speakText": "Hickory dickory dock the mouse ran up the clock",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Row, row, row your ___,\nGently down the stream.",
+          "emoji": "🚣",
+          "answer": "BOAT",
+          "options": ["BOAT", "CAR", "TRAIN", "BIKE"],
+          "speakText": "Row row row your boat gently down the stream",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "The wheels on the ___\nGo round and round.",
+          "emoji": "🚌",
+          "answer": "BUS",
+          "options": ["BUS", "CAR", "TRAIN", "TRUCK"],
+          "speakText": "The wheels on the bus go round and round",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Incy Wincy Spider\nClimbed up the water ___.",
+          "emoji": "🕷️",
+          "answer": "SPOUT",
+          "options": ["SPOUT", "PIPE", "WALL", "TREE"],
+          "speakText": "Incy Wincy Spider climbed up the water spout",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Rain, rain, go ___,\nCome again another day!",
+          "emoji": "🌧️",
+          "answer": "AWAY",
+          "options": ["AWAY", "SLOW", "DOWN", "NOW"],
+          "speakText": "Rain rain go away come again another day",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "One, two, three, four, ___,\nOnce I caught a fish alive!",
+          "emoji": "🐟",
+          "answer": "FIVE",
+          "options": ["FIVE", "SIX", "FOUR", "TEN"],
+          "speakText": "One two three four five once I caught a fish alive",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "If you're happy and you know it,\nClap your ___!",
+          "emoji": "👏",
+          "answer": "HANDS",
+          "options": ["HANDS", "FEET", "LEGS", "HEAD"],
+          "speakText": "If you're happy and you know it clap your hands",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "London Bridge is falling ___,\nFalling down, falling down.",
+          "emoji": "🌉",
+          "answer": "DOWN",
+          "options": ["DOWN", "UP", "APART", "AWAY"],
+          "speakText": "London Bridge is falling down falling down falling down",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Up above the world so ___,\nLike a diamond in the sky.",
+          "emoji": "💎",
+          "answer": "HIGH",
+          "options": ["HIGH", "BRIGHT", "FAR", "WIDE"],
+          "speakText": "Up above the world so high like a diamond in the sky",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Jack be nimble, Jack be ___,\nJack jump over the candlestick!",
+          "emoji": "🕯️",
+          "answer": "QUICK",
+          "options": ["QUICK", "SLOW", "TALL", "SMALL"],
+          "speakText": "Jack be nimble Jack be quick Jack jump over the candlestick",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Hot cross buns, hot cross ___,\nOne a penny, two a penny.",
+          "emoji": "🍞",
+          "answer": "BUNS",
+          "options": ["BUNS", "CAKE", "ROLLS", "BREAD"],
+          "speakText": "Hot cross buns hot cross buns one a penny two a penny",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Little Bo Peep has lost her ___,\nAnd doesn't know where to find them.",
+          "emoji": "🐑",
+          "answer": "SHEEP",
+          "options": ["SHEEP", "COWS", "GOATS", "PIGS"],
+          "speakText": "Little Bo Peep has lost her sheep and doesn't know where to find them",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Roses are ___,\nViolets are blue.",
+          "emoji": "🌹",
+          "answer": "RED",
+          "options": ["RED", "PINK", "ORANGE", "WHITE"],
+          "speakText": "Roses are red violets are blue",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Ding dong bell,\nPussy's in the ___!",
+          "emoji": "🐱",
+          "answer": "WELL",
+          "options": ["WELL", "TREE", "BOWL", "HOUSE"],
+          "speakText": "Ding dong bell pussy's in the well",
+          "speakLang": "en-US"
+        }
+      ]
+    },
+    {
+      "id": "rhyme_marigold",
+      "title": "CBSE Marigold Poems",
+      "type": "rhymeComplete",
+      "completePrompt": "📚 Complete the poem!",
+      "questions": 10,
+      "items": [
+        {
+          "lines": "There was a little ___,\nHe lived in a box.",
+          "emoji": "🐢",
+          "answer": "TURTLE",
+          "options": ["TURTLE", "RABBIT", "FROG", "LIZARD"],
+          "speakText": "There was a little turtle he lived in a box",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "I often sit and wish that I\nCould be a ___ up in the sky.",
+          "emoji": "🪁",
+          "answer": "KITE",
+          "options": ["KITE", "BIRD", "PLANE", "CLOUD"],
+          "speakText": "I often sit and wish that I could be a kite up in the sky",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Once I saw a little ___,\nCome hop, hop, hop.",
+          "emoji": "🐦",
+          "answer": "BIRD",
+          "options": ["BIRD", "FROG", "RABBIT", "CAT"],
+          "speakText": "Once I saw a little bird come hop hop hop",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "After a bath I try, try, try,\nTo wipe myself ___, dry, dry.",
+          "emoji": "🛁",
+          "answer": "DRY",
+          "options": ["DRY", "WET", "CLEAN", "FAST"],
+          "speakText": "After a bath I try try try to wipe myself dry dry dry",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Round and round the merry-go-___,\nUp and down goes every horse.",
+          "emoji": "🎠",
+          "answer": "ROUND",
+          "options": ["ROUND", "FAST", "HIGH", "SLOW"],
+          "speakText": "Round and round the merry go round up and down goes every horse",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "If I were an ___ and grew on a tree,\nI think I'd drop down on a nice child like me.",
+          "emoji": "🍎",
+          "answer": "APPLE",
+          "options": ["APPLE", "ORANGE", "MANGO", "BANANA"],
+          "speakText": "If I were an apple and grew on a tree",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "White and fluffy in the ___,\nClouds go drifting, one by one.",
+          "emoji": "☁️",
+          "answer": "SKY",
+          "options": ["SKY", "SEA", "GROUND", "TREE"],
+          "speakText": "White and fluffy in the sky clouds go drifting one by one",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "A happy child am I,\nI laugh and ___ the whole day long.",
+          "emoji": "😊",
+          "answer": "PLAY",
+          "options": ["PLAY", "SLEEP", "CRY", "HIDE"],
+          "speakText": "A happy child am I I laugh and play the whole day long",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "One little kitten, playing in the ___,\nTwo little kittens — look how they run!",
+          "emoji": "🐱",
+          "answer": "SUN",
+          "options": ["SUN", "RAIN", "DARK", "SNOW"],
+          "speakText": "One little kitten playing in the sun two little kittens look how they run",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Little turtle ___ in a puddle,\nClimbed on the rocks in the sun.",
+          "emoji": "🐢",
+          "answer": "SWAM",
+          "options": ["SWAM", "SLEPT", "DANCED", "HID"],
+          "speakText": "Little turtle swam in a puddle climbed on the rocks in the sun",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "Sundari went to the ___ to play,\nShe had so much fun that bright summer day.",
+          "emoji": "🌳",
+          "answer": "PARK",
+          "options": ["PARK", "SCHOOL", "RIVER", "MARKET"],
+          "speakText": "Sundari went to the park to play she had so much fun",
+          "speakLang": "en-US"
+        },
+        {
+          "lines": "A man in the flying ___\nWaved his hands to me below.",
+          "emoji": "✈️",
+          "answer": "MACHINE",
+          "options": ["MACHINE", "ROCKET", "PLANE", "BALLOON"],
+          "speakText": "A man in the flying machine waved his hands to me below",
+          "speakLang": "en-US"
+        }
+      ]
+    }
+  ]
+}

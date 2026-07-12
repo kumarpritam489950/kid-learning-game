@@ -1,0 +1,400 @@
+{
+  "id": "gk",
+  "name": "General Knowledge",
+  "icon": "🌍",
+  "description": "Learn about India, national symbols, helpers, and festivals!",
+  "modules": [
+    {
+      "id": "gk_india",
+      "title": "Our Country — India",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Our country's name is ___.",
+          "visual": "🇮🇳",
+          "answer": "India",
+          "options": ["India", "America", "China", "Japan"]
+        },
+        {
+          "question": "India is also called ___.",
+          "visual": "🇮🇳",
+          "answer": "Bharat",
+          "options": ["Bharat", "Pakistan", "Nepal", "Russia"]
+        },
+        {
+          "question": "Capital of India is ___.",
+          "visual": "🏛️",
+          "answer": "New Delhi",
+          "options": ["New Delhi", "Mumbai", "Kolkata", "Chennai"]
+        },
+        {
+          "question": "National anthem is ___.",
+          "visual": "🎵",
+          "answer": "Jana Gana Mana",
+          "options": ["Jana Gana Mana", "Vande Mataram", "Saare Jahan", "National Song"]
+        },
+        {
+          "question": "We sing the national anthem in ___ seconds.",
+          "visual": "⏱️",
+          "answer": "52",
+          "options": ["52", "30", "60", "100"]
+        },
+        {
+          "question": "India's independence day is ___.",
+          "visual": "🇮🇳",
+          "answer": "15 August",
+          "options": ["15 August", "26 January", "2 October", "25 December"]
+        },
+        {
+          "question": "India's republic day is ___.",
+          "visual": "🪖",
+          "answer": "26 January",
+          "options": ["26 January", "15 August", "2 October", "14 November"]
+        },
+        {
+          "question": "Father of the Nation is ___.",
+          "visual": "👓",
+          "answer": "Mahatma Gandhi",
+          "options": ["Mahatma Gandhi", "Nehru", "Patel", "Tagore"]
+        },
+        {
+          "question": "Mahatma Gandhi's birthday is ___.",
+          "visual": "🎂",
+          "answer": "2 October",
+          "options": ["2 October", "15 August", "26 January", "14 Nov"]
+        },
+        {
+          "question": "First Prime Minister of India was ___.",
+          "visual": "🏛️",
+          "answer": "Jawaharlal Nehru",
+          "options": ["Jawaharlal Nehru", "Gandhi", "Patel", "Ambedkar"]
+        },
+        {
+          "question": "How many states does India have?",
+          "visual": "🗺️",
+          "answer": "28",
+          "options": ["28", "25", "30", "50"]
+        },
+        {
+          "question": "Our national language is ___.",
+          "visual": "🗣️",
+          "answer": "Hindi",
+          "options": ["Hindi", "English", "Tamil", "Bengali"]
+        },
+        {
+          "question": "India is in the continent of ___.",
+          "visual": "🌏",
+          "answer": "Asia",
+          "options": ["Asia", "Europe", "Africa", "America"]
+        },
+        {
+          "question": "India Gate is in ___.",
+          "visual": "🏛️",
+          "answer": "Delhi",
+          "options": ["Delhi", "Mumbai", "Kolkata", "Chennai"]
+        },
+        {
+          "question": "Taj Mahal is in ___.",
+          "visual": "🕌",
+          "answer": "Agra",
+          "options": ["Agra", "Delhi", "Mumbai", "Jaipur"]
+        }
+      ]
+    },
+    {
+      "id": "gk_symbols",
+      "title": "National Symbols of India",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "National bird of India is ___.",
+          "visual": "🦚",
+          "answer": "Peacock",
+          "options": ["Peacock", "Parrot", "Eagle", "Sparrow"]
+        },
+        {
+          "question": "National animal of India is ___.",
+          "visual": "🐅",
+          "answer": "Tiger",
+          "options": ["Tiger", "Lion", "Elephant", "Leopard"]
+        },
+        {
+          "question": "National flower of India is ___.",
+          "visual": "🌸",
+          "answer": "Lotus",
+          "options": ["Lotus", "Rose", "Sunflower", "Jasmine"]
+        },
+        {
+          "question": "National fruit of India is ___.",
+          "visual": "🥭",
+          "answer": "Mango",
+          "options": ["Mango", "Apple", "Banana", "Orange"]
+        },
+        {
+          "question": "National tree of India is ___.",
+          "visual": "🌳",
+          "answer": "Banyan",
+          "options": ["Banyan", "Neem", "Peepal", "Mango"]
+        },
+        {
+          "question": "National river of India is ___.",
+          "visual": "🌊",
+          "answer": "Ganga",
+          "options": ["Ganga", "Yamuna", "Narmada", "Godavari"]
+        },
+        {
+          "question": "National flag has ___ colors.",
+          "visual": "🇮🇳",
+          "answer": "3",
+          "options": ["3", "2", "4", "5"]
+        },
+        {
+          "question": "Top color of Indian flag is ___.",
+          "visual": "🇮🇳",
+          "answer": "Saffron",
+          "options": ["Saffron", "White", "Green", "Blue"]
+        },
+        {
+          "question": "Middle color of Indian flag is ___.",
+          "visual": "🇮🇳",
+          "answer": "White",
+          "options": ["White", "Saffron", "Green", "Red"]
+        },
+        {
+          "question": "Bottom color of Indian flag is ___.",
+          "visual": "🇮🇳",
+          "answer": "Green",
+          "options": ["Green", "White", "Saffron", "Yellow"]
+        },
+        {
+          "question": "Indian flag has a ___ in the center.",
+          "visual": "🇮🇳",
+          "answer": "Chakra",
+          "options": ["Chakra", "Star", "Moon", "Sun"]
+        },
+        {
+          "question": "Chakra in flag has ___ spokes.",
+          "visual": "⚙️",
+          "answer": "24",
+          "options": ["24", "20", "30", "12"]
+        },
+        {
+          "question": "National emblem has ___ lions.",
+          "visual": "🦁",
+          "answer": "4",
+          "options": ["4", "3", "2", "5"]
+        },
+        {
+          "question": "National emblem motto is ___.",
+          "visual": "📜",
+          "answer": "Satyameva Jayate",
+          "options": ["Satyameva Jayate", "Jai Hind", "Vande Mataram", "Unity in Diversity"]
+        },
+        {
+          "question": "National currency of India is ___.",
+          "visual": "💰",
+          "answer": "Rupee",
+          "options": ["Rupee", "Dollar", "Pound", "Yen"]
+        }
+      ]
+    },
+    {
+      "id": "gk_helpers",
+      "title": "Community Helpers",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "A ___ treats sick people.",
+          "visual": "🩺",
+          "answer": "Doctor",
+          "options": ["Doctor", "Teacher", "Farmer", "Engineer"]
+        },
+        {
+          "question": "A ___ teaches students.",
+          "visual": "👩‍🏫",
+          "answer": "Teacher",
+          "options": ["Teacher", "Doctor", "Pilot", "Chef"]
+        },
+        {
+          "question": "A ___ grows crops and food.",
+          "visual": "🌾",
+          "answer": "Farmer",
+          "options": ["Farmer", "Doctor", "Teacher", "Postman"]
+        },
+        {
+          "question": "A ___ catches thieves.",
+          "visual": "👮",
+          "answer": "Police",
+          "options": ["Police", "Doctor", "Teacher", "Pilot"]
+        },
+        {
+          "question": "A ___ puts out fires.",
+          "visual": "🚒",
+          "answer": "Firefighter",
+          "options": ["Firefighter", "Police", "Doctor", "Postman"]
+        },
+        {
+          "question": "A ___ delivers letters.",
+          "visual": "📬",
+          "answer": "Postman",
+          "options": ["Postman", "Doctor", "Teacher", "Pilot"]
+        },
+        {
+          "question": "A ___ flies an airplane.",
+          "visual": "✈️",
+          "answer": "Pilot",
+          "options": ["Pilot", "Driver", "Doctor", "Teacher"]
+        },
+        {
+          "question": "A ___ drives a bus.",
+          "visual": "🚌",
+          "answer": "Driver",
+          "options": ["Driver", "Pilot", "Doctor", "Chef"]
+        },
+        {
+          "question": "A ___ cooks food.",
+          "visual": "👨‍🍳",
+          "answer": "Chef/Cook",
+          "options": ["Chef/Cook", "Doctor", "Teacher", "Driver"]
+        },
+        {
+          "question": "A ___ builds houses.",
+          "visual": "🏗️",
+          "answer": "Engineer",
+          "options": ["Engineer", "Doctor", "Teacher", "Farmer"]
+        },
+        {
+          "question": "A ___ cuts hair.",
+          "visual": "💇",
+          "answer": "Barber",
+          "options": ["Barber", "Doctor", "Teacher", "Pilot"]
+        },
+        {
+          "question": "A ___ repairs shoes.",
+          "visual": "👞",
+          "answer": "Cobbler",
+          "options": ["Cobbler", "Doctor", "Teacher", "Chef"]
+        },
+        {
+          "question": "A ___ cleans streets.",
+          "visual": "🧹",
+          "answer": "Sweeper",
+          "options": ["Sweeper", "Doctor", "Teacher", "Postman"]
+        },
+        {
+          "question": "A ___ sells vegetables.",
+          "visual": "🥬",
+          "answer": "Vendor",
+          "options": ["Vendor", "Doctor", "Teacher", "Pilot"]
+        },
+        {
+          "question": "A ___ helps sick animals.",
+          "visual": "🐕",
+          "answer": "Veterinarian",
+          "options": ["Veterinarian", "Doctor", "Teacher", "Farmer"]
+        }
+      ]
+    },
+    {
+      "id": "gk_festivals",
+      "title": "Festivals of India",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Diwali is the festival of ___.",
+          "visual": "🪔",
+          "answer": "Lights",
+          "options": ["Lights", "Colors", "Flowers", "Books"]
+        },
+        {
+          "question": "Holi is the festival of ___.",
+          "visual": "🎨",
+          "answer": "Colors",
+          "options": ["Colors", "Lights", "Kites", "Sweets"]
+        },
+        {
+          "question": "We celebrate ___ in January.",
+          "visual": "🪁",
+          "answer": "Makar Sankranti",
+          "options": ["Makar Sankranti", "Diwali", "Holi", "Eid"]
+        },
+        {
+          "question": "We fast on ___ and worship Lord Ganesha.",
+          "visual": "🙏",
+          "answer": "Ganesh Chaturthi",
+          "options": ["Ganesh Chaturthi", "Diwali", "Holi", "Christmas"]
+        },
+        {
+          "question": "Christmas is celebrated on ___.",
+          "visual": "🎄",
+          "answer": "25 December",
+          "options": ["25 December", "1 January", "15 August", "2 Oct"]
+        },
+        {
+          "question": "Eid is celebrated by ___.",
+          "visual": "🌙",
+          "answer": "Muslims",
+          "options": ["Muslims", "Hindus", "Christians", "Sikhs"]
+        },
+        {
+          "question": "Dussehra celebrates victory of ___.",
+          "visual": "🏹",
+          "answer": "Good over Evil",
+          "options": ["Good over Evil", "War", "Peace", "Unity"]
+        },
+        {
+          "question": "Raksha Bandhan celebrates ___ bond.",
+          "visual": "🎀",
+          "answer": "Brother-Sister",
+          "options": ["Brother-Sister", "Father-Son", "Friends", "Mother-Daughter"]
+        },
+        {
+          "question": "We burn crackers on ___.",
+          "visual": "🎆",
+          "answer": "Diwali",
+          "options": ["Diwali", "Holi", "Eid", "Christmas"]
+        },
+        {
+          "question": "We fly kites on ___.",
+          "visual": "🪁",
+          "answer": "Makar Sankranti",
+          "options": ["Makar Sankranti", "Diwali", "Holi", "Eid"]
+        },
+        {
+          "question": "Easter is celebrated by ___.",
+          "visual": "🐣",
+          "answer": "Christians",
+          "options": ["Christians", "Hindus", "Muslims", "Buddhists"]
+        },
+        {
+          "question": "Guru Nanak Jayanti is celebrated by ___.",
+          "visual": "🙏",
+          "answer": "Sikhs",
+          "options": ["Sikhs", "Hindus", "Muslims", "Christians"]
+        },
+        {
+          "question": "We play with colors on ___.",
+          "visual": "🎨",
+          "answer": "Holi",
+          "options": ["Holi", "Diwali", "Eid", "Christmas"]
+        },
+        {
+          "question": "Independence Day celebrates India's ___.",
+          "visual": "🇮🇳",
+          "answer": "Freedom",
+          "options": ["Freedom", "Unity", "War", "Culture"]
+        },
+        {
+          "question": "We worship Goddess Durga on ___.",
+          "visual": "🔱",
+          "answer": "Navratri",
+          "options": ["Navratri", "Diwali", "Holi", "Eid"]
+        }
+      ]
+    }
+  ]
+}

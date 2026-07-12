@@ -1,0 +1,1304 @@
+{
+  "id": "science",
+  "name": "Science",
+  "icon": "🔬",
+  "description": "My body, animals, plants, food, and the world around us (EVS).",
+  "modules": [
+    {
+      "id": "sci_body",
+      "title": "My Body",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "How many eyes do we have?",
+          "visual": "👁️👁️",
+          "answer": "2",
+          "options": ["1", "2", "3", "4"]
+        },
+        {
+          "question": "We hear with our…",
+          "visual": "👂",
+          "answer": "Ears",
+          "options": ["Ears", "Eyes", "Nose", "Mouth"]
+        },
+        {
+          "question": "We smell with our…",
+          "visual": "👃",
+          "answer": "Nose",
+          "options": ["Nose", "Ears", "Hands", "Feet"]
+        },
+        {
+          "question": "How many fingers on one hand?",
+          "visual": "🖐️",
+          "answer": "5",
+          "options": ["4", "5", "6", "10"]
+        },
+        {
+          "question": "We breathe through our…",
+          "visual": "🫁",
+          "answer": "Nose",
+          "options": ["Nose", "Ears", "Eyes", "Hair"]
+        },
+        {
+          "question": "How many legs do we have?",
+          "visual": "🦵🦵",
+          "answer": "2",
+          "options": ["2", "4", "6", "1"]
+        },
+        {
+          "question": "We taste food with our…",
+          "visual": "👅",
+          "answer": "Tongue",
+          "options": ["Tongue", "Nose", "Hand", "Eye"]
+        },
+        {
+          "question": "What protects our body from outside?",
+          "visual": "🧍",
+          "answer": "Skin",
+          "options": ["Skin", "Bones", "Hair", "Nails"]
+        },
+        {
+          "question": "We use teeth to…",
+          "visual": "🦷",
+          "answer": "Chew food",
+          "options": ["Chew food", "See", "Hear", "Run"]
+        },
+        {
+          "question": "How many hands do we have?",
+          "visual": "🤲",
+          "answer": "2",
+          "options": ["1", "2", "3", "4"]
+        },
+        {
+          "question": "Which body part helps us walk?",
+          "visual": "🚶",
+          "answer": "Legs",
+          "options": ["Legs", "Arms", "Head", "Ears"]
+        },
+        {
+          "question": "We see with our…",
+          "visual": "👀",
+          "answer": "Eyes",
+          "options": ["Eyes", "Nose", "Mouth", "Ears"]
+        },
+        {
+          "question": "Our brain is inside our…",
+          "visual": "🧠",
+          "answer": "Head",
+          "options": ["Head", "Stomach", "Hand", "Knee"]
+        },
+        {
+          "question": "How many toes on one foot?",
+          "visual": "🦶",
+          "answer": "5",
+          "options": ["4", "5", "6", "3"]
+        },
+        {
+          "question": "Which part pumps blood?",
+          "visual": "❤️",
+          "answer": "Heart",
+          "options": ["Heart", "Lung", "Stomach", "Brain"]
+        },
+        {
+          "question": "Hair grows on our…",
+          "visual": "💇",
+          "answer": "Head",
+          "options": ["Head", "Palm", "Tongue", "Teeth"]
+        },
+        {
+          "question": "What do we use to hold things?",
+          "visual": "🤲",
+          "answer": "Hands",
+          "options": ["Hands", "Feet", "Ears", "Knees"]
+        },
+        {
+          "question": "We drink water through our…",
+          "visual": "💧",
+          "answer": "Mouth",
+          "options": ["Mouth", "Ears", "Nose", "Skin"]
+        },
+        {
+          "question": "Our bones make up the…",
+          "visual": "🦴",
+          "answer": "Skeleton",
+          "options": ["Skeleton", "Muscles", "Skin", "Hair"]
+        },
+        {
+          "question": "Nails grow on our…",
+          "visual": "💅",
+          "answer": "Fingers",
+          "options": ["Fingers", "Ears", "Nose", "Teeth"]
+        }
+      ]
+    },
+    {
+      "id": "sci_animals",
+      "title": "Animals Around Us",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Which animal gives us milk?",
+          "visual": "🐄",
+          "answer": "Cow",
+          "options": ["Cow", "Dog", "Cat", "Lion"]
+        },
+        {
+          "question": "Which animal says 'Meow'?",
+          "visual": "🐱",
+          "answer": "Cat",
+          "options": ["Cat", "Dog", "Cow", "Duck"]
+        },
+        {
+          "question": "How many legs does a dog have?",
+          "visual": "🐶",
+          "answer": "4",
+          "options": ["2", "4", "6", "8"]
+        },
+        {
+          "question": "Which animal has a trunk?",
+          "visual": "🐘",
+          "answer": "Elephant",
+          "options": ["Elephant", "Tiger", "Horse", "Cow"]
+        },
+        {
+          "question": "Which animal is the king of jungle?",
+          "visual": "🦁",
+          "answer": "Lion",
+          "options": ["Lion", "Monkey", "Deer", "Fox"]
+        },
+        {
+          "question": "Hen gives us…",
+          "visual": "🐔",
+          "answer": "Eggs",
+          "options": ["Eggs", "Milk", "Wool", "Honey"]
+        },
+        {
+          "question": "Which animal has feathers?",
+          "visual": "🐦",
+          "answer": "Bird",
+          "options": ["Bird", "Fish", "Dog", "Cat"]
+        },
+        {
+          "question": "Fish live in…",
+          "visual": "🐟",
+          "answer": "Water",
+          "options": ["Water", "Tree", "Sky", "Mud"]
+        },
+        {
+          "question": "Which insect makes honey?",
+          "visual": "🐝",
+          "answer": "Bee",
+          "options": ["Bee", "Ant", "Spider", "Fly"]
+        },
+        {
+          "question": "A butterfly was once a…",
+          "visual": "🦋",
+          "answer": "Caterpillar",
+          "options": ["Caterpillar", "Bee", "Ant", "Spider"]
+        },
+        {
+          "question": "Which animal hops?",
+          "visual": "🐸",
+          "answer": "Frog",
+          "options": ["Frog", "Fish", "Snake", "Cow"]
+        },
+        {
+          "question": "Which animal has a shell?",
+          "visual": "🐢",
+          "answer": "Tortoise",
+          "options": ["Tortoise", "Cat", "Bird", "Ant"]
+        },
+        {
+          "question": "A baby dog is called…",
+          "visual": "🐕",
+          "answer": "Puppy",
+          "options": ["Puppy", "Kitten", "Calf", "Cub"]
+        },
+        {
+          "question": "How many legs has a spider?",
+          "visual": "🕷️",
+          "answer": "8",
+          "options": ["6", "8", "4", "10"]
+        },
+        {
+          "question": "Which animal gives us wool?",
+          "visual": "🐑",
+          "answer": "Sheep",
+          "options": ["Sheep", "Cow", "Horse", "Dog"]
+        },
+        {
+          "question": "Which animal slithers?",
+          "visual": "🐍",
+          "answer": "Snake",
+          "options": ["Snake", "Frog", "Bird", "Cat"]
+        },
+        {
+          "question": "A baby cat is called…",
+          "visual": "🐱",
+          "answer": "Kitten",
+          "options": ["Kitten", "Puppy", "Calf", "Foal"]
+        },
+        {
+          "question": "Which animal lives in water and land?",
+          "visual": "🐸",
+          "answer": "Frog",
+          "options": ["Frog", "Fish", "Eagle", "Lion"]
+        },
+        {
+          "question": "Cows eat…",
+          "visual": "🐄",
+          "answer": "Grass",
+          "options": ["Grass", "Meat", "Fish", "Eggs"]
+        },
+        {
+          "question": "Which animal carries its home?",
+          "visual": "🐌",
+          "answer": "Snail",
+          "options": ["Snail", "Ant", "Bee", "Dog"]
+        }
+      ]
+    },
+    {
+      "id": "sci_plants",
+      "title": "Plants & Flowers",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Plants need ___ to grow.",
+          "visual": "🌱",
+          "answer": "Water",
+          "options": ["Water", "Toys", "Milk", "Sand"]
+        },
+        {
+          "question": "What part of a plant is underground?",
+          "visual": "🌿",
+          "answer": "Root",
+          "options": ["Root", "Leaf", "Flower", "Stem"]
+        },
+        {
+          "question": "Leaves are usually what color?",
+          "visual": "🍃",
+          "answer": "Green",
+          "options": ["Green", "Red", "Blue", "White"]
+        },
+        {
+          "question": "Flowers make…",
+          "visual": "🌸",
+          "answer": "Seeds",
+          "options": ["Seeds", "Stones", "Paper", "Milk"]
+        },
+        {
+          "question": "Trees give us…",
+          "visual": "🌳",
+          "answer": "Oxygen",
+          "options": ["Oxygen", "Salt", "Sugar", "Ink"]
+        },
+        {
+          "question": "A big plant with a wooden trunk is…",
+          "visual": "🌲",
+          "answer": "Tree",
+          "options": ["Tree", "Grass", "Bush", "Vine"]
+        },
+        {
+          "question": "Which part carries water up a plant?",
+          "visual": "🌿",
+          "answer": "Stem",
+          "options": ["Stem", "Leaf", "Fruit", "Root"]
+        },
+        {
+          "question": "Sunflower faces the…",
+          "visual": "🌻",
+          "answer": "Sun",
+          "options": ["Sun", "Moon", "Stars", "Rain"]
+        },
+        {
+          "question": "We get fruits from…",
+          "visual": "🍎",
+          "answer": "Plants",
+          "options": ["Plants", "Animals", "Rocks", "Water"]
+        },
+        {
+          "question": "Rose is a type of…",
+          "visual": "🌹",
+          "answer": "Flower",
+          "options": ["Flower", "Fruit", "Leaf", "Root"]
+        },
+        {
+          "question": "Which season do many flowers bloom?",
+          "visual": "🌼",
+          "answer": "Spring",
+          "options": ["Spring", "Winter", "Night", "Rain"]
+        },
+        {
+          "question": "Seeds need ___ and water to sprout.",
+          "visual": "🌞",
+          "answer": "Sunlight",
+          "options": ["Sunlight", "Darkness", "Ice", "Noise"]
+        },
+        {
+          "question": "Mango grows on a…",
+          "visual": "🥭",
+          "answer": "Tree",
+          "options": ["Tree", "Bush", "Creeper", "Grass"]
+        },
+        {
+          "question": "Cactus grows in…",
+          "visual": "🌵",
+          "answer": "Desert",
+          "options": ["Desert", "Ocean", "Snow", "River"]
+        },
+        {
+          "question": "Leaves make food for the plant using…",
+          "visual": "☀️",
+          "answer": "Sunlight",
+          "options": ["Sunlight", "Soil", "Wind", "Rain"]
+        },
+        {
+          "question": "Carrot is a ___ we eat.",
+          "visual": "🥕",
+          "answer": "Root",
+          "options": ["Root", "Leaf", "Flower", "Bark"]
+        },
+        {
+          "question": "Peas grow inside a…",
+          "visual": "🫛",
+          "answer": "Pod",
+          "options": ["Pod", "Box", "Shell", "Bag"]
+        },
+        {
+          "question": "Lotus grows in…",
+          "visual": "🪷",
+          "answer": "Water",
+          "options": ["Water", "Sand", "Mountain", "Sky"]
+        },
+        {
+          "question": "Banana grows on a…",
+          "visual": "🍌",
+          "answer": "Plant",
+          "options": ["Plant", "Rock", "River", "Cloud"]
+        },
+        {
+          "question": "Which part of the plant makes food?",
+          "visual": "🍃",
+          "answer": "Leaf",
+          "options": ["Leaf", "Root", "Trunk", "Seed"]
+        }
+      ]
+    },
+    {
+      "id": "sci_food",
+      "title": "Food & Nutrition",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Milk comes from…",
+          "visual": "🥛",
+          "answer": "Cow",
+          "options": ["Cow", "Hen", "Fish", "Cat"]
+        },
+        {
+          "question": "Which food gives us energy?",
+          "visual": "🍚",
+          "answer": "Rice",
+          "options": ["Rice", "Stone", "Sand", "Mud"]
+        },
+        {
+          "question": "Fruits and vegetables keep us…",
+          "visual": "🥗",
+          "answer": "Healthy",
+          "options": ["Healthy", "Sick", "Sleepy", "Sad"]
+        },
+        {
+          "question": "We should drink ___ glasses of water.",
+          "visual": "💧",
+          "answer": "6 to 8",
+          "options": ["6 to 8", "1", "20", "100"]
+        },
+        {
+          "question": "Bread is made from…",
+          "visual": "🍞",
+          "answer": "Wheat",
+          "options": ["Wheat", "Sand", "Clay", "Stone"]
+        },
+        {
+          "question": "Eggs come from…",
+          "visual": "🥚",
+          "answer": "Hen",
+          "options": ["Hen", "Cow", "Dog", "Tree"]
+        },
+        {
+          "question": "Honey is made by…",
+          "visual": "🍯",
+          "answer": "Bees",
+          "options": ["Bees", "Ants", "Cats", "Cows"]
+        },
+        {
+          "question": "Which meal do we eat in the morning?",
+          "visual": "🌅",
+          "answer": "Breakfast",
+          "options": ["Breakfast", "Lunch", "Dinner", "Snack"]
+        },
+        {
+          "question": "Carrot is good for our…",
+          "visual": "🥕",
+          "answer": "Eyes",
+          "options": ["Eyes", "Ears", "Feet", "Hair"]
+        },
+        {
+          "question": "We should wash hands before…",
+          "visual": "🧼",
+          "answer": "Eating",
+          "options": ["Eating", "Sleeping", "Playing", "Reading"]
+        },
+        {
+          "question": "Which is a fruit?",
+          "visual": "🍎",
+          "answer": "Apple",
+          "options": ["Apple", "Bread", "Rice", "Egg"]
+        },
+        {
+          "question": "Which is a vegetable?",
+          "visual": "🥕",
+          "answer": "Carrot",
+          "options": ["Carrot", "Mango", "Banana", "Apple"]
+        },
+        {
+          "question": "Too much sugar is…",
+          "visual": "🍬",
+          "answer": "Unhealthy",
+          "options": ["Unhealthy", "Good", "Needed", "Best"]
+        },
+        {
+          "question": "We get butter from…",
+          "visual": "🧈",
+          "answer": "Milk",
+          "options": ["Milk", "Eggs", "Fish", "Fruit"]
+        },
+        {
+          "question": "Green vegetables give us…",
+          "visual": "🥬",
+          "answer": "Vitamins",
+          "options": ["Vitamins", "Plastic", "Metal", "Gas"]
+        },
+        {
+          "question": "Dal is a source of…",
+          "visual": "🫘",
+          "answer": "Protein",
+          "options": ["Protein", "Fat", "Sugar", "Salt"]
+        },
+        {
+          "question": "Drinking milk makes bones…",
+          "visual": "🦴",
+          "answer": "Strong",
+          "options": ["Strong", "Weak", "Soft", "Flat"]
+        },
+        {
+          "question": "Which is NOT a healthy food?",
+          "visual": "🍕",
+          "answer": "Junk food",
+          "options": ["Junk food", "Fruit", "Vegetable", "Dal"]
+        },
+        {
+          "question": "Fish is good for our…",
+          "visual": "🐟",
+          "answer": "Brain",
+          "options": ["Brain", "Nails", "Hair", "Ears"]
+        },
+        {
+          "question": "Banana gives us…",
+          "visual": "🍌",
+          "answer": "Energy",
+          "options": ["Energy", "Sleep", "Fever", "Cold"]
+        }
+      ]
+    },
+    {
+      "id": "sci_sense_organs",
+      "title": "Our Sense Organs",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Eyes help us to ___.",
+          "visual": "👁️",
+          "answer": "See",
+          "options": ["See", "Hear", "Taste", "Smell"]
+        },
+        {
+          "question": "Ears help us to ___.",
+          "visual": "👂",
+          "answer": "Hear",
+          "options": ["Hear", "See", "Taste", "Touch"]
+        },
+        {
+          "question": "Nose helps us to ___.",
+          "visual": "👃",
+          "answer": "Smell",
+          "options": ["Smell", "See", "Hear", "Walk"]
+        },
+        {
+          "question": "Tongue helps us to ___.",
+          "visual": "👅",
+          "answer": "Taste",
+          "options": ["Taste", "See", "Hear", "Smell"]
+        },
+        {
+          "question": "Skin helps us to ___.",
+          "visual": "✋",
+          "answer": "Touch/Feel",
+          "options": ["Touch/Feel", "See", "Hear", "Run"]
+        },
+        {
+          "question": "How many sense organs do we have?",
+          "visual": "🧍",
+          "answer": "5",
+          "options": ["5", "4", "3", "10"]
+        },
+        {
+          "question": "We see colors with our ___.",
+          "visual": "👁️",
+          "answer": "Eyes",
+          "options": ["Eyes", "Ears", "Nose", "Tongue"]
+        },
+        {
+          "question": "Sweet taste is sensed by ___.",
+          "visual": "🍭",
+          "answer": "Tongue",
+          "options": ["Tongue", "Nose", "Ears", "Eyes"]
+        },
+        {
+          "question": "We can feel hot and cold with our ___.",
+          "visual": "🤚",
+          "answer": "Skin",
+          "options": ["Skin", "Eyes", "Ears", "Nose"]
+        },
+        {
+          "question": "Ears can hear ___.",
+          "visual": "🔔",
+          "answer": "Sounds",
+          "options": ["Sounds", "Colors", "Smells", "Tastes"]
+        },
+        {
+          "question": "Nose can smell ___.",
+          "visual": "🌸",
+          "answer": "Fragrances",
+          "options": ["Fragrances", "Colors", "Sounds", "Shapes"]
+        },
+        {
+          "question": "Blind people cannot ___.",
+          "visual": "👁️",
+          "answer": "See",
+          "options": ["See", "Hear", "Taste", "Touch"]
+        },
+        {
+          "question": "Deaf people cannot ___.",
+          "visual": "👂",
+          "answer": "Hear",
+          "options": ["Hear", "See", "Smell", "Walk"]
+        },
+        {
+          "question": "We close our ___ when we sleep.",
+          "visual": "😴",
+          "answer": "Eyes",
+          "options": ["Eyes", "Ears", "Nose", "Mouth"]
+        },
+        {
+          "question": "We smell flowers with our ___.",
+          "visual": "🌹",
+          "answer": "Nose",
+          "options": ["Nose", "Eyes", "Mouth", "Ears"]
+        }
+      ]
+    },
+    {
+      "id": "sci_family",
+      "title": "My Family & Relationships",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "A family lives together in a ___.",
+          "visual": "🏠",
+          "answer": "House",
+          "options": ["House", "School", "Hospital", "Shop"]
+        },
+        {
+          "question": "We love and care for our ___.",
+          "visual": "❤️",
+          "answer": "Family",
+          "options": ["Family", "Toys", "Books", "Food"]
+        },
+        {
+          "question": "Parents take care of their ___.",
+          "visual": "👨‍👩‍👧",
+          "answer": "Children",
+          "options": ["Children", "Toys", "Cars", "Books"]
+        },
+        {
+          "question": "How many parents does a child have?",
+          "visual": "👪",
+          "answer": "2",
+          "options": ["2", "1", "3", "4"]
+        },
+        {
+          "question": "Father's wife is our ___.",
+          "visual": "👩",
+          "answer": "Mother",
+          "options": ["Mother", "Sister", "Aunt", "Grandmother"]
+        },
+        {
+          "question": "Mother's husband is our ___.",
+          "visual": "👨",
+          "answer": "Father",
+          "options": ["Father", "Brother", "Uncle", "Grandfather"]
+        },
+        {
+          "question": "Grandparents are our parents' ___.",
+          "visual": "👵👴",
+          "answer": "Parents",
+          "options": ["Parents", "Children", "Friends", "Cousins"]
+        },
+        {
+          "question": "Brothers and sisters are called ___.",
+          "visual": "👦👧",
+          "answer": "Siblings",
+          "options": ["Siblings", "Cousins", "Friends", "Pets"]
+        },
+        {
+          "question": "A baby needs ___ to grow.",
+          "visual": "👶",
+          "answer": "Love & care",
+          "options": ["Love & care", "Toys only", "TV", "Games"]
+        },
+        {
+          "question": "We should respect our ___.",
+          "visual": "🙏",
+          "answer": "Elders",
+          "options": ["Elders", "Toys", "Books", "Games"]
+        },
+        {
+          "question": "Family members help each ___.",
+          "visual": "🤝",
+          "answer": "Other",
+          "options": ["Other", "Never", "Alone", "Sometimes"]
+        },
+        {
+          "question": "We celebrate birthdays with our ___.",
+          "visual": "🎂",
+          "answer": "Family",
+          "options": ["Family", "Books", "Toys", "School"]
+        },
+        {
+          "question": "Sharing toys with siblings is ___.",
+          "visual": "🤲",
+          "answer": "Good",
+          "options": ["Good", "Bad", "Wrong", "Selfish"]
+        },
+        {
+          "question": "We should say ___ and Thank you.",
+          "visual": "🗣️",
+          "answer": "Please",
+          "options": ["Please", "Give me", "I want", "Mine"]
+        },
+        {
+          "question": "A happy family shows ___ to each other.",
+          "visual": "😊",
+          "answer": "Love",
+          "options": ["Love", "Anger", "Fight", "Hate"]
+        }
+      ]
+    },
+    {
+      "id": "sci_school",
+      "title": "My School",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "We go to school to ___.",
+          "visual": "🏫",
+          "answer": "Learn",
+          "options": ["Learn", "Sleep", "Play only", "Eat only"]
+        },
+        {
+          "question": "Our ___ teaches us.",
+          "visual": "👩‍🏫",
+          "answer": "Teacher",
+          "options": ["Teacher", "Student", "Parent", "Doctor"]
+        },
+        {
+          "question": "We study in a ___.",
+          "visual": "🚪",
+          "answer": "Classroom",
+          "options": ["Classroom", "Bedroom", "Kitchen", "Garden"]
+        },
+        {
+          "question": "We write on a ___.",
+          "visual": "📓",
+          "answer": "Notebook",
+          "options": ["Notebook", "Wall", "Table", "Floor"]
+        },
+        {
+          "question": "We play in the school ___.",
+          "visual": "🏃",
+          "answer": "Playground",
+          "options": ["Playground", "Library", "Office", "Kitchen"]
+        },
+        {
+          "question": "The school head is called ___.",
+          "visual": "👨‍💼",
+          "answer": "Principal",
+          "options": ["Principal", "Student", "Peon", "Guard"]
+        },
+        {
+          "question": "We keep books in a ___.",
+          "visual": "🎒",
+          "answer": "Bag",
+          "options": ["Bag", "Pocket", "Plate", "Bottle"]
+        },
+        {
+          "question": "We read books in the ___.",
+          "visual": "📚",
+          "answer": "Library",
+          "options": ["Library", "Playground", "Toilet", "Kitchen"]
+        },
+        {
+          "question": "School friends are our ___.",
+          "visual": "👦👧",
+          "answer": "Classmates",
+          "options": ["Classmates", "Enemies", "Strangers", "Toys"]
+        },
+        {
+          "question": "We should reach school on ___.",
+          "visual": "⏰",
+          "answer": "Time",
+          "options": ["Time", "Night", "Late", "Never"]
+        },
+        {
+          "question": "School uniform should be ___.",
+          "visual": "👕",
+          "answer": "Clean",
+          "options": ["Clean", "Dirty", "Torn", "Wet"]
+        },
+        {
+          "question": "We should ___ our teachers.",
+          "visual": "🙏",
+          "answer": "Respect",
+          "options": ["Respect", "Disobey", "Ignore", "Fight"]
+        },
+        {
+          "question": "School helps us become ___.",
+          "visual": "🎓",
+          "answer": "Smart",
+          "options": ["Smart", "Lazy", "Dull", "Weak"]
+        },
+        {
+          "question": "We sit on a ___ in class.",
+          "visual": "🪑",
+          "answer": "Chair",
+          "options": ["Chair", "Floor", "Table", "Bed"]
+        },
+        {
+          "question": "School bell rings for ___.",
+          "visual": "🔔",
+          "answer": "Classes",
+          "options": ["Classes", "Eating only", "Sleep", "Fight"]
+        }
+      ]
+    },
+    {
+      "id": "sci_weather_seasons",
+      "title": "Weather & Seasons",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "How many seasons are there?",
+          "visual": "🌦️",
+          "answer": "4",
+          "options": ["4", "2", "3", "7"]
+        },
+        {
+          "question": "It is very hot in ___.",
+          "visual": "☀️",
+          "answer": "Summer",
+          "options": ["Summer", "Winter", "Rainy", "Spring"]
+        },
+        {
+          "question": "It is very cold in ___.",
+          "visual": "❄️",
+          "answer": "Winter",
+          "options": ["Winter", "Summer", "Rainy", "Autumn"]
+        },
+        {
+          "question": "It rains a lot in ___ season.",
+          "visual": "🌧️",
+          "answer": "Monsoon",
+          "options": ["Monsoon", "Summer", "Winter", "Spring"]
+        },
+        {
+          "question": "Flowers bloom in ___ season.",
+          "visual": "🌸",
+          "answer": "Spring",
+          "options": ["Spring", "Winter", "Rainy", "None"]
+        },
+        {
+          "question": "We wear warm clothes in ___.",
+          "visual": "🧥",
+          "answer": "Winter",
+          "options": ["Winter", "Summer", "Rainy", "Spring"]
+        },
+        {
+          "question": "We use an umbrella when it ___.",
+          "visual": "☂️",
+          "answer": "Rains",
+          "options": ["Rains", "Shines", "Snows", "Blows"]
+        },
+        {
+          "question": "Sun gives us ___ and light.",
+          "visual": "☀️",
+          "answer": "Heat",
+          "options": ["Heat", "Water", "Air", "Food"]
+        },
+        {
+          "question": "Rain clouds are ___.",
+          "visual": "☁️",
+          "answer": "Dark",
+          "options": ["Dark", "White", "Red", "Green"]
+        },
+        {
+          "question": "Lightning is seen in ___ weather.",
+          "visual": "⚡",
+          "answer": "Stormy",
+          "options": ["Stormy", "Sunny", "Clear", "Calm"]
+        },
+        {
+          "question": "Rainbow appears after ___.",
+          "visual": "🌈",
+          "answer": "Rain",
+          "options": ["Rain", "Snow", "Wind", "Storm"]
+        },
+        {
+          "question": "Wind makes trees ___.",
+          "visual": "🌳",
+          "answer": "Sway",
+          "options": ["Sway", "Grow", "Fall", "Dry"]
+        },
+        {
+          "question": "Morning dew is ___.",
+          "visual": "💧",
+          "answer": "Water drops",
+          "options": ["Water drops", "Ice", "Snow", "Steam"]
+        },
+        {
+          "question": "We feel cool in ___ season.",
+          "visual": "❄️",
+          "answer": "Winter",
+          "options": ["Winter", "Summer", "Hot days", "Noon"]
+        },
+        {
+          "question": "We drink more water in ___.",
+          "visual": "🥤",
+          "answer": "Summer",
+          "options": ["Summer", "Winter", "Spring", "Night"]
+        }
+      ]
+    },
+    {
+      "id": "sci_water",
+      "title": "Water — Our Need",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "We drink ___ every day.",
+          "visual": "💧",
+          "answer": "Water",
+          "options": ["Water", "Oil", "Milk only", "Juice only"]
+        },
+        {
+          "question": "Plants need water to ___.",
+          "visual": "🌱",
+          "answer": "Grow",
+          "options": ["Grow", "Die", "Sleep", "Fly"]
+        },
+        {
+          "question": "We get water from ___.",
+          "visual": "🚰",
+          "answer": "Tap/Well/River",
+          "options": ["Tap/Well/River", "Tree", "Stone", "Fire"]
+        },
+        {
+          "question": "Rain fills ___.",
+          "visual": "🌧️",
+          "answer": "Rivers/Lakes",
+          "options": ["Rivers/Lakes", "Mountains", "Sky", "Fire"]
+        },
+        {
+          "question": "We should not ___ water.",
+          "visual": "💧",
+          "answer": "Waste",
+          "options": ["Waste", "Drink", "Use", "Save"]
+        },
+        {
+          "question": "Dirty water causes ___.",
+          "visual": "🦠",
+          "answer": "Diseases",
+          "options": ["Diseases", "Health", "Growth", "Strength"]
+        },
+        {
+          "question": "We use water to ___.",
+          "visual": "🛁",
+          "answer": "Bathe",
+          "options": ["Bathe", "Sleep", "Read", "Write"]
+        },
+        {
+          "question": "Water has no ___.",
+          "visual": "💧",
+          "answer": "Color/Taste",
+          "options": ["Color/Taste", "Use", "Need", "Life"]
+        },
+        {
+          "question": "Boiling makes water ___.",
+          "visual": "♨️",
+          "answer": "Safe to drink",
+          "options": ["Safe to drink", "Dirty", "Salty", "Cold"]
+        },
+        {
+          "question": "Fish live in ___.",
+          "visual": "🐟",
+          "answer": "Water",
+          "options": ["Water", "Land", "Air", "Trees"]
+        },
+        {
+          "question": "Ice is ___ water.",
+          "visual": "🧊",
+          "answer": "Frozen",
+          "options": ["Frozen", "Hot", "Dirty", "Salty"]
+        },
+        {
+          "question": "Steam is ___ water.",
+          "visual": "♨️",
+          "answer": "Boiling",
+          "options": ["Boiling", "Cold", "Solid", "Frozen"]
+        },
+        {
+          "question": "We should save water by ___.",
+          "visual": "🚰",
+          "answer": "Closing taps",
+          "options": ["Closing taps", "Wasting", "Spilling", "Throwing"]
+        },
+        {
+          "question": "Water cycle includes rain, evaporation and ___.",
+          "visual": "🌧️",
+          "answer": "Clouds",
+          "options": ["Clouds", "Fire", "Ice only", "Nothing"]
+        },
+        {
+          "question": "Drinking water should be ___.",
+          "visual": "🥛",
+          "answer": "Clean",
+          "options": ["Clean", "Dirty", "Salty", "Hot"]
+        }
+      ]
+    },
+    {
+      "id": "sci_air",
+      "title": "Air Around Us",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "We breathe ___.",
+          "visual": "🫁",
+          "answer": "Air",
+          "options": ["Air", "Water", "Food", "Soil"]
+        },
+        {
+          "question": "Air is needed to ___.",
+          "visual": "🧍",
+          "answer": "Live",
+          "options": ["Live", "Die", "Sleep", "Eat"]
+        },
+        {
+          "question": "Moving air is called ___.",
+          "visual": "💨",
+          "answer": "Wind",
+          "options": ["Wind", "Water", "Fire", "Rain"]
+        },
+        {
+          "question": "Can we see air?",
+          "visual": "👀",
+          "answer": "No",
+          "options": ["No", "Yes", "Sometimes", "At night"]
+        },
+        {
+          "question": "Can we feel air?",
+          "visual": "🤚",
+          "answer": "Yes",
+          "options": ["Yes", "No", "Never", "In winter only"]
+        },
+        {
+          "question": "Plants give us ___ air.",
+          "visual": "🌳",
+          "answer": "Fresh",
+          "options": ["Fresh", "Dirty", "Bad", "No"]
+        },
+        {
+          "question": "Smoke makes air ___.",
+          "visual": "🏭",
+          "answer": "Dirty",
+          "options": ["Dirty", "Clean", "Fresh", "Good"]
+        },
+        {
+          "question": "Balloons are filled with ___.",
+          "visual": "🎈",
+          "answer": "Air",
+          "options": ["Air", "Water", "Sand", "Stone"]
+        },
+        {
+          "question": "A fan makes air ___.",
+          "visual": "🌀",
+          "answer": "Move",
+          "options": ["Move", "Stop", "Freeze", "Disappear"]
+        },
+        {
+          "question": "Kites fly because of ___.",
+          "visual": "🪁",
+          "answer": "Wind",
+          "options": ["Wind", "Water", "Fire", "Soil"]
+        },
+        {
+          "question": "Air has ___ weight.",
+          "visual": "⚖️",
+          "answer": "Some",
+          "options": ["Some", "No", "Very heavy", "Infinite"]
+        },
+        {
+          "question": "We should keep air ___.",
+          "visual": "🌱",
+          "answer": "Clean",
+          "options": ["Clean", "Dirty", "Polluted", "Smoky"]
+        },
+        {
+          "question": "Trees help make air ___.",
+          "visual": "🌲",
+          "answer": "Fresh",
+          "options": ["Fresh", "Dirty", "Bad", "Smoky"]
+        },
+        {
+          "question": "Air covers the whole ___.",
+          "visual": "🌍",
+          "answer": "Earth",
+          "options": ["Earth", "Moon", "Sun", "Mars"]
+        },
+        {
+          "question": "Birds fly in the ___.",
+          "visual": "🐦",
+          "answer": "Air",
+          "options": ["Air", "Water", "Soil", "Fire"]
+        }
+      ]
+    },
+    {
+      "id": "sci_living_nonliving",
+      "title": "Living & Non-Living Things",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Plants are ___.",
+          "visual": "🌳",
+          "answer": "Living",
+          "options": ["Living", "Non-living", "Dead", "Stone"]
+        },
+        {
+          "question": "Animals are ___.",
+          "visual": "🐶",
+          "answer": "Living",
+          "options": ["Living", "Non-living", "Rock", "Metal"]
+        },
+        {
+          "question": "A stone is ___.",
+          "visual": "🪨",
+          "answer": "Non-living",
+          "options": ["Non-living", "Living", "Growing", "Breathing"]
+        },
+        {
+          "question": "Living things need ___.",
+          "visual": "🍎",
+          "answer": "Food",
+          "options": ["Food", "Nothing", "Stone", "Metal"]
+        },
+        {
+          "question": "Living things can ___.",
+          "visual": "👶",
+          "answer": "Grow",
+          "options": ["Grow", "Stay same", "Never change", "Break"]
+        },
+        {
+          "question": "A chair is ___.",
+          "visual": "🪑",
+          "answer": "Non-living",
+          "options": ["Non-living", "Living", "Growing", "Alive"]
+        },
+        {
+          "question": "A tree can ___.",
+          "visual": "🌲",
+          "answer": "Grow",
+          "options": ["Grow", "Fly", "Swim", "Drive"]
+        },
+        {
+          "question": "A car is ___.",
+          "visual": "🚗",
+          "answer": "Non-living",
+          "options": ["Non-living", "Living", "Breathing", "Growing"]
+        },
+        {
+          "question": "Living things need ___ to breathe.",
+          "visual": "🫁",
+          "answer": "Air",
+          "options": ["Air", "Stone", "Metal", "Plastic"]
+        },
+        {
+          "question": "A book is ___.",
+          "visual": "📖",
+          "answer": "Non-living",
+          "options": ["Non-living", "Living", "Growing", "Eating"]
+        },
+        {
+          "question": "Living things can ___.",
+          "visual": "🐾",
+          "answer": "Move",
+          "options": ["Move", "Never move", "Float", "Melt"]
+        },
+        {
+          "question": "A dog can ___ baby dogs.",
+          "visual": "🐕",
+          "answer": "Give birth to",
+          "options": ["Give birth to", "Make metal", "Create stone", "Build house"]
+        },
+        {
+          "question": "Non-living things ___ grow.",
+          "visual": "🪨",
+          "answer": "Do not",
+          "options": ["Do not", "Always", "Can", "Will"]
+        },
+        {
+          "question": "Which is living?",
+          "visual": "🌻",
+          "answer": "Flower",
+          "options": ["Flower", "Rock", "Table", "Pencil"]
+        },
+        {
+          "question": "Which is non-living?",
+          "visual": "📱",
+          "answer": "Phone",
+          "options": ["Phone", "Cat", "Tree", "Bird"]
+        }
+      ]
+    },
+    {
+      "id": "sci_safety",
+      "title": "Safety Rules & Good Habits",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Before crossing the road, look ___.",
+          "visual": "🚦",
+          "answer": "Both sides",
+          "options": ["Both sides", "Down", "Up only", "Nowhere"]
+        },
+        {
+          "question": "We should wash hands before ___.",
+          "visual": "🧼",
+          "answer": "Eating",
+          "options": ["Eating", "Sleeping", "Playing", "Reading"]
+        },
+        {
+          "question": "We should brush our teeth ___.",
+          "visual": "🪥",
+          "answer": "Twice a day",
+          "options": ["Twice a day", "Never", "Once a week", "Yearly"]
+        },
+        {
+          "question": "We should not play with ___.",
+          "visual": "🔥",
+          "answer": "Fire",
+          "options": ["Fire", "Toys", "Books", "Friends"]
+        },
+        {
+          "question": "We should sleep for ___ hours.",
+          "visual": "😴",
+          "answer": "8 to 10",
+          "options": ["8 to 10", "2", "24", "1"]
+        },
+        {
+          "question": "We should say ___ when we sneeze.",
+          "visual": "🤧",
+          "answer": "Excuse me",
+          "options": ["Excuse me", "Nothing", "Laugh", "Shout"]
+        },
+        {
+          "question": "We should not talk to ___.",
+          "visual": "🚫",
+          "answer": "Strangers",
+          "options": ["Strangers", "Parents", "Teachers", "Friends"]
+        },
+        {
+          "question": "We should cover mouth when we ___.",
+          "visual": "🤧",
+          "answer": "Cough/Sneeze",
+          "options": ["Cough/Sneeze", "Eat", "Walk", "Sleep"]
+        },
+        {
+          "question": "Green signal means ___.",
+          "visual": "🟢",
+          "answer": "Go",
+          "options": ["Go", "Stop", "Wait", "Run fast"]
+        },
+        {
+          "question": "Red signal means ___.",
+          "visual": "🔴",
+          "answer": "Stop",
+          "options": ["Stop", "Go", "Speed up", "Jump"]
+        },
+        {
+          "question": "We should not lean out of ___.",
+          "visual": "🚂",
+          "answer": "Train/Bus",
+          "options": ["Train/Bus", "Bed", "Chair", "Floor"]
+        },
+        {
+          "question": "We wear a helmet while riding a ___.",
+          "visual": "🏍️",
+          "answer": "Bike",
+          "options": ["Bike", "Car", "Bus", "Bed"]
+        },
+        {
+          "question": "Sharp objects like knives are ___.",
+          "visual": "🔪",
+          "answer": "Dangerous",
+          "options": ["Dangerous", "Safe", "Toys", "Books"]
+        },
+        {
+          "question": "We should drink ___ water.",
+          "visual": "🥤",
+          "answer": "Clean",
+          "options": ["Clean", "Dirty", "Muddy", "Salty"]
+        },
+        {
+          "question": "Medicines should be taken only with ___.",
+          "visual": "💊",
+          "answer": "Doctor advice",
+          "options": ["Doctor advice", "Friends", "Alone", "Never"]
+        }
+      ]
+    }
+  ]
+}

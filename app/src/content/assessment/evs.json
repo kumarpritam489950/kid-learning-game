@@ -1,0 +1,948 @@
+{
+  "id": "evs",
+  "questions": [
+    {
+      "id": 1,
+      "question": "We need air to?",
+      "options": [
+        {
+          "text": "Eat",
+          "correct": false
+        },
+        {
+          "text": "Breathe",
+          "correct": true
+        },
+        {
+          "text": "Sleep",
+          "correct": false
+        },
+        {
+          "text": "Play",
+          "correct": false
+        }
+      ],
+      "topic": "Our Basic Needs"
+    },
+    {
+      "id": 2,
+      "question": "We need water to?",
+      "options": [
+        {
+          "text": "Breathe",
+          "correct": false
+        },
+        {
+          "text": "Drink and wash",
+          "correct": true
+        },
+        {
+          "text": "Run",
+          "correct": false
+        },
+        {
+          "text": "Fly",
+          "correct": false
+        }
+      ],
+      "topic": "Our Basic Needs"
+    },
+    {
+      "id": 3,
+      "question": "We need food to?",
+      "options": [
+        {
+          "text": "Fly",
+          "correct": false
+        },
+        {
+          "text": "Grow and be strong",
+          "correct": true
+        },
+        {
+          "text": "Run",
+          "correct": false
+        },
+        {
+          "text": "Sing",
+          "correct": false
+        }
+      ],
+      "topic": "Our Basic Needs"
+    },
+    {
+      "id": 4,
+      "question": "We need shelter to?",
+      "options": [
+        {
+          "text": "Eat",
+          "correct": false
+        },
+        {
+          "text": "Play",
+          "correct": false
+        },
+        {
+          "text": "Live safely",
+          "correct": true
+        },
+        {
+          "text": "Fly",
+          "correct": false
+        }
+      ],
+      "topic": "Our Basic Needs"
+    },
+    {
+      "id": 5,
+      "question": "Where do we sleep?",
+      "options": [
+        {
+          "text": "School",
+          "correct": false
+        },
+        {
+          "text": "Park",
+          "correct": false
+        },
+        {
+          "text": "Home/House",
+          "correct": true
+        },
+        {
+          "text": "Hospital",
+          "correct": false
+        }
+      ],
+      "topic": "Our Basic Needs"
+    },
+    {
+      "id": 6,
+      "question": "Sun gives us?",
+      "options": [
+        {
+          "text": "Water",
+          "correct": false
+        },
+        {
+          "text": "Light and heat",
+          "correct": true
+        },
+        {
+          "text": "Food",
+          "correct": false
+        },
+        {
+          "text": "Shade",
+          "correct": false
+        }
+      ],
+      "topic": "Natural Resources"
+    },
+    {
+      "id": 7,
+      "question": "Rain water is used for?",
+      "options": [
+        {
+          "text": "Playing",
+          "correct": false
+        },
+        {
+          "text": "Drinking and plants",
+          "correct": true
+        },
+        {
+          "text": "Flying",
+          "correct": false
+        },
+        {
+          "text": "Running",
+          "correct": false
+        }
+      ],
+      "topic": "Natural Resources"
+    },
+    {
+      "id": 8,
+      "question": "Trees give us?",
+      "options": [
+        {
+          "text": "Water",
+          "correct": false
+        },
+        {
+          "text": "Oxygen and fruit",
+          "correct": true
+        },
+        {
+          "text": "Fire",
+          "correct": false
+        },
+        {
+          "text": "Sand",
+          "correct": false
+        }
+      ],
+      "topic": "Natural Resources"
+    },
+    {
+      "id": 9,
+      "question": "Soil helps plants to?",
+      "options": [
+        {
+          "text": "Fly",
+          "correct": false
+        },
+        {
+          "text": "Grow",
+          "correct": true
+        },
+        {
+          "text": "Sleep",
+          "correct": false
+        },
+        {
+          "text": "Eat",
+          "correct": false
+        }
+      ],
+      "topic": "Natural Resources"
+    },
+    {
+      "id": 10,
+      "question": "We should drink?",
+      "options": [
+        {
+          "text": "Tea",
+          "correct": false
+        },
+        {
+          "text": "Milk",
+          "correct": false
+        },
+        {
+          "text": "Water",
+          "correct": true
+        },
+        {
+          "text": "Juice only",
+          "correct": false
+        }
+      ],
+      "topic": "Health and Hygiene"
+    },
+    {
+      "id": 11,
+      "question": "Before eating we should?",
+      "options": [
+        {
+          "text": "Sleep",
+          "correct": false
+        },
+        {
+          "text": "Wash hands",
+          "correct": true
+        },
+        {
+          "text": "Play",
+          "correct": false
+        },
+        {
+          "text": "Sing",
+          "correct": false
+        }
+      ],
+      "topic": "Health and Hygiene"
+    },
+    {
+      "id": 12,
+      "question": "After using toilet we should?",
+      "options": [
+        {
+          "text": "Play",
+          "correct": false
+        },
+        {
+          "text": "Sleep",
+          "correct": false
+        },
+        {
+          "text": "Wash hands",
+          "correct": true
+        },
+        {
+          "text": "Eat",
+          "correct": false
+        }
+      ],
+      "topic": "Health and Hygiene"
+    },
+    {
+      "id": 13,
+      "question": "We should brush teeth?",
+      "options": [
+        {
+          "text": "Once a year",
+          "correct": false
+        },
+        {
+          "text": "Twice a day",
+          "correct": true
+        },
+        {
+          "text": "Once a week",
+          "correct": false
+        },
+        {
+          "text": "Never",
+          "correct": false
+        }
+      ],
+      "topic": "Health and Hygiene"
+    },
+    {
+      "id": 14,
+      "question": "Animals live in?",
+      "options": [
+        {
+          "text": "School",
+          "correct": false
+        },
+        {
+          "text": "Hospital",
+          "correct": false
+        },
+        {
+          "text": "Forest and farms",
+          "correct": true
+        },
+        {
+          "text": "Road",
+          "correct": false
+        }
+      ],
+      "topic": "Animals"
+    },
+    {
+      "id": 15,
+      "question": "Which is a domestic animal?",
+      "options": [
+        {
+          "text": "Lion",
+          "correct": false
+        },
+        {
+          "text": "Dog",
+          "correct": true
+        },
+        {
+          "text": "Tiger",
+          "correct": false
+        },
+        {
+          "text": "Bear",
+          "correct": false
+        }
+      ],
+      "topic": "Animals"
+    },
+    {
+      "id": 16,
+      "question": "Which is a wild animal?",
+      "options": [
+        {
+          "text": "Cow",
+          "correct": false
+        },
+        {
+          "text": "Hen",
+          "correct": false
+        },
+        {
+          "text": "Tiger",
+          "correct": true
+        },
+        {
+          "text": "Sheep",
+          "correct": false
+        }
+      ],
+      "topic": "Animals"
+    },
+    {
+      "id": 17,
+      "question": "Birds have?",
+      "options": [
+        {
+          "text": "Fins",
+          "correct": false
+        },
+        {
+          "text": "Feathers",
+          "correct": true
+        },
+        {
+          "text": "Scales",
+          "correct": false
+        },
+        {
+          "text": "Fur",
+          "correct": false
+        }
+      ],
+      "topic": "Animals"
+    },
+    {
+      "id": 18,
+      "question": "In summer we should wear?",
+      "options": [
+        {
+          "text": "Heavy clothes",
+          "correct": false
+        },
+        {
+          "text": "Light clothes",
+          "correct": true
+        },
+        {
+          "text": "Thick coat",
+          "correct": false
+        },
+        {
+          "text": "Blanket",
+          "correct": false
+        }
+      ],
+      "topic": "Weather and Seasons"
+    },
+    {
+      "id": 19,
+      "question": "In winter we need?",
+      "options": [
+        {
+          "text": "Fan",
+          "correct": false
+        },
+        {
+          "text": "Blanket",
+          "correct": true
+        },
+        {
+          "text": "AC",
+          "correct": false
+        },
+        {
+          "text": "Ice",
+          "correct": false
+        }
+      ],
+      "topic": "Weather and Seasons"
+    },
+    {
+      "id": 20,
+      "question": "Rainy season makes ground?",
+      "options": [
+        {
+          "text": "Dry",
+          "correct": false
+        },
+        {
+          "text": "Wet",
+          "correct": true
+        },
+        {
+          "text": "Hot",
+          "correct": false
+        },
+        {
+          "text": "Cold",
+          "correct": false
+        }
+      ],
+      "topic": "Weather and Seasons"
+    },
+    {
+      "id": 21,
+      "question": "We fly a kite in?",
+      "options": [
+        {
+          "text": "Summer",
+          "correct": false
+        },
+        {
+          "text": "Winter",
+          "correct": true
+        },
+        {
+          "text": "Rainy season",
+          "correct": false
+        },
+        {
+          "text": "Spring",
+          "correct": false
+        }
+      ],
+      "topic": "Weather and Seasons"
+    },
+    {
+      "id": 22,
+      "question": "Umbrella is used in?",
+      "options": [
+        {
+          "text": "Summer",
+          "correct": false
+        },
+        {
+          "text": "Rainy season",
+          "correct": true
+        },
+        {
+          "text": "Winter",
+          "correct": false
+        },
+        {
+          "text": "Spring",
+          "correct": false
+        }
+      ],
+      "topic": "Weather and Seasons"
+    },
+    {
+      "id": 23,
+      "question": "Sun is hottest in?",
+      "options": [
+        {
+          "text": "Winter",
+          "correct": false
+        },
+        {
+          "text": "Summer",
+          "correct": true
+        },
+        {
+          "text": "Rainy season",
+          "correct": false
+        },
+        {
+          "text": "Spring",
+          "correct": false
+        }
+      ],
+      "topic": "Weather and Seasons"
+    },
+    {
+      "id": 24,
+      "question": "Sun and Weather Safety",
+      "options": [
+        {
+          "text": "Play in rain",
+          "correct": false
+        },
+        {
+          "text": "Wear sunscreen in sun",
+          "correct": true
+        },
+        {
+          "text": "Sit in sun all day",
+          "correct": false
+        },
+        {
+          "text": "Ignore weather",
+          "correct": false
+        }
+      ],
+      "topic": "Sun and Weather Safety"
+    },
+    {
+      "id": 25,
+      "question": "Too much sun can cause?",
+      "options": [
+        {
+          "text": "Catching cold",
+          "correct": false
+        },
+        {
+          "text": "Skin burn",
+          "correct": true
+        },
+        {
+          "text": "Better health",
+          "correct": false
+        },
+        {
+          "text": "Faster running",
+          "correct": false
+        }
+      ],
+      "topic": "Sun and Weather Safety"
+    },
+    {
+      "id": 26,
+      "question": "Good posture means?",
+      "options": [
+        {
+          "text": "Slouching",
+          "correct": false
+        },
+        {
+          "text": "Sitting straight",
+          "correct": true
+        },
+        {
+          "text": "Bending forward",
+          "correct": false
+        },
+        {
+          "text": "Lying down",
+          "correct": false
+        }
+      ],
+      "topic": "Body Awareness"
+    },
+    {
+      "id": 27,
+      "question": "We should stretch?",
+      "options": [
+        {
+          "text": "Never",
+          "correct": false
+        },
+        {
+          "text": "Regularly",
+          "correct": true
+        },
+        {
+          "text": "Once a year",
+          "correct": false
+        },
+        {
+          "text": "Only at school",
+          "correct": false
+        }
+      ],
+      "topic": "Body Awareness"
+    },
+    {
+      "id": 28,
+      "question": "Playing sports is good?",
+      "options": [
+        {
+          "text": "It wastes time",
+          "correct": false
+        },
+        {
+          "text": "It keeps us fit",
+          "correct": true
+        },
+        {
+          "text": "It makes weak",
+          "correct": false
+        },
+        {
+          "text": "It's boring",
+          "correct": false
+        }
+      ],
+      "topic": "Body Awareness"
+    },
+    {
+      "id": 29,
+      "question": "Proper sleep helps?",
+      "options": [
+        {
+          "text": "Make sick",
+          "correct": false
+        },
+        {
+          "text": "Have energy",
+          "correct": true
+        },
+        {
+          "text": "Be grumpy",
+          "correct": false
+        },
+        {
+          "text": "Waste time",
+          "correct": false
+        }
+      ],
+      "topic": "Body Awareness"
+    },
+    {
+      "id": 30,
+      "question": "We should sleep?",
+      "options": [
+        {
+          "text": "3 hours",
+          "correct": false
+        },
+        {
+          "text": "8 hours",
+          "correct": true
+        },
+        {
+          "text": "1 hour",
+          "correct": false
+        },
+        {
+          "text": "Never",
+          "correct": false
+        }
+      ],
+      "topic": "Body Awareness"
+    },
+    {
+      "id": 31,
+      "question": "Fish have?",
+      "options": [
+        {
+          "text": "Feathers",
+          "correct": false
+        },
+        {
+          "text": "Fins",
+          "correct": true
+        },
+        {
+          "text": "Wings",
+          "correct": false
+        },
+        {
+          "text": "Legs",
+          "correct": false
+        }
+      ],
+      "topic": "Animals"
+    },
+    {
+      "id": 32,
+      "question": "Lion is?",
+      "options": [
+        {
+          "text": "Vegetarian",
+          "correct": false
+        },
+        {
+          "text": "Carnivore",
+          "correct": true
+        },
+        {
+          "text": "Herbivore",
+          "correct": false
+        },
+        {
+          "text": "Omnivore",
+          "correct": false
+        }
+      ],
+      "topic": "Animals"
+    },
+    {
+      "id": 33,
+      "question": "Cow eats?",
+      "options": [
+        {
+          "text": "Meat",
+          "correct": false
+        },
+        {
+          "text": "Grass and leaves",
+          "correct": true
+        },
+        {
+          "text": "Fish",
+          "correct": false
+        },
+        {
+          "text": "Everything",
+          "correct": false
+        }
+      ],
+      "topic": "Animals"
+    },
+    {
+      "id": 34,
+      "question": "Animals need:",
+      "options": [
+        {
+          "text": "Only food",
+          "correct": false
+        },
+        {
+          "text": "Food, water, shelter",
+          "correct": true
+        },
+        {
+          "text": "Only water",
+          "correct": false
+        },
+        {
+          "text": "Only air",
+          "correct": false
+        }
+      ],
+      "topic": "Animals"
+    },
+    {
+      "id": 35,
+      "question": "Exercise helps us?",
+      "options": [
+        {
+          "text": "Get sick",
+          "correct": false
+        },
+        {
+          "text": "Stay strong",
+          "correct": true
+        },
+        {
+          "text": "Sleep always",
+          "correct": false
+        },
+        {
+          "text": "Get weak",
+          "correct": false
+        }
+      ],
+      "topic": "Health and Hygiene"
+    },
+    {
+      "id": 36,
+      "question": "We should take bath?",
+      "options": [
+        {
+          "text": "Never",
+          "correct": false
+        },
+        {
+          "text": "Daily",
+          "correct": true
+        },
+        {
+          "text": "Once a month",
+          "correct": false
+        },
+        {
+          "text": "Once a year",
+          "correct": false
+        }
+      ],
+      "topic": "Health and Hygiene"
+    },
+    {
+      "id": 37,
+      "question": "Getting vaccinated protects?",
+      "options": [
+        {
+          "text": "Never",
+          "correct": false
+        },
+        {
+          "text": "Sometimes",
+          "correct": false
+        },
+        {
+          "text": "From diseases",
+          "correct": true
+        },
+        {
+          "text": "For playing",
+          "correct": false
+        }
+      ],
+      "topic": "Health and Hygiene"
+    },
+    {
+      "id": 38,
+      "question": "We wear clothes to?",
+      "options": [
+        {
+          "text": "Play",
+          "correct": false
+        },
+        {
+          "text": "Cover and protect body",
+          "correct": true
+        },
+        {
+          "text": "Eat",
+          "correct": false
+        },
+        {
+          "text": "Sleep",
+          "correct": false
+        }
+      ],
+      "topic": "Our Basic Needs"
+    },
+    {
+      "id": 39,
+      "question": "Which is a basic need?",
+      "options": [
+        {
+          "text": "Toys",
+          "correct": false
+        },
+        {
+          "text": "Food",
+          "correct": true
+        },
+        {
+          "text": "Games",
+          "correct": false
+        },
+        {
+          "text": "Books",
+          "correct": false
+        }
+      ],
+      "topic": "Our Basic Needs"
+    },
+    {
+      "id": 40,
+      "question": "We should use water?",
+      "options": [
+        {
+          "text": "Wastefully",
+          "correct": false
+        },
+        {
+          "text": "Carefully",
+          "correct": true
+        },
+        {
+          "text": "Carelessly",
+          "correct": false
+        },
+        {
+          "text": "Unlimitedly",
+          "correct": false
+        }
+      ],
+      "topic": "Natural Resources"
+    },
+    {
+      "id": 41,
+      "question": "Plants need:",
+      "options": [
+        {
+          "text": "Only water",
+          "correct": false
+        },
+        {
+          "text": "Water, soil, sunlight",
+          "correct": true
+        },
+        {
+          "text": "Only sunlight",
+          "correct": false
+        },
+        {
+          "text": "Only air",
+          "correct": false
+        }
+      ],
+      "topic": "Natural Resources"
+    }
+  ]
+}

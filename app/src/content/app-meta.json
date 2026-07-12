@@ -1,0 +1,17 @@
+{
+  "classLevel": "Class 1",
+  "board": "CBSE-style",
+  "praiseMessages": [
+    "Great Job! 🌟",
+    "Awesome! 🎉",
+    "Super Star! ⭐",
+    "You are amazing! 🏆",
+    "Fantastic! 🎊",
+    "Brilliant! 💡",
+    "WOW! Well done! 👏",
+    "Keep it up! 🚀",
+    "You got it! 🎯",
+    "Perfect! 💯"
+  ],
+  "tryMessages": ["Try Again! 💪", "Almost there! 😊", "Good try! One more!", "You can do it! 🌈"]
+}

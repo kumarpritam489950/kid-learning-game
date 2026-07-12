@@ -1,0 +1,1818 @@
+{
+  "id": "english",
+  "name": "English",
+  "icon": "📘",
+  "description": "CVC words, picture-word matching, and sight words.",
+  "modules": [
+    {
+      "id": "eng_missing_letters",
+      "title": "Missing Letters (CVC)",
+      "type": "missingLetter",
+      "questions": 10,
+      "words": [
+        {
+          "display": "C _ T",
+          "answer": "A",
+          "fullWord": "CAT"
+        },
+        {
+          "display": "D _ G",
+          "answer": "O",
+          "fullWord": "DOG"
+        },
+        {
+          "display": "S _ N",
+          "answer": "U",
+          "fullWord": "SUN"
+        },
+        {
+          "display": "H _ T",
+          "answer": "A",
+          "fullWord": "HAT"
+        },
+        {
+          "display": "P _ N",
+          "answer": "E",
+          "fullWord": "PEN"
+        },
+        {
+          "display": "B _ G",
+          "answer": "A",
+          "fullWord": "BAG"
+        },
+        {
+          "display": "C _ P",
+          "answer": "U",
+          "fullWord": "CUP"
+        },
+        {
+          "display": "F _ N",
+          "answer": "A",
+          "fullWord": "FAN"
+        },
+        {
+          "display": "B _ D",
+          "answer": "E",
+          "fullWord": "BED"
+        },
+        {
+          "display": "H _ N",
+          "answer": "E",
+          "fullWord": "HEN"
+        },
+        {
+          "display": "P _ G",
+          "answer": "I",
+          "fullWord": "PIG"
+        },
+        {
+          "display": "P _ T",
+          "answer": "O",
+          "fullWord": "POT"
+        },
+        {
+          "display": "B _ S",
+          "answer": "U",
+          "fullWord": "BUS"
+        },
+        {
+          "display": "J _ T",
+          "answer": "E",
+          "fullWord": "JET"
+        },
+        {
+          "display": "H _ P",
+          "answer": "O",
+          "fullWord": "HOP"
+        },
+        {
+          "display": "M _ P",
+          "answer": "O",
+          "fullWord": "MOP"
+        },
+        {
+          "display": "W _ T",
+          "answer": "E",
+          "fullWord": "WET"
+        },
+        {
+          "display": "S _ T",
+          "answer": "I",
+          "fullWord": "SIT"
+        },
+        {
+          "display": "J _ M",
+          "answer": "A",
+          "fullWord": "JAM"
+        },
+        {
+          "display": "M _ N",
+          "answer": "A",
+          "fullWord": "MAN"
+        },
+        {
+          "display": "T _ N",
+          "answer": "I",
+          "fullWord": "TIN"
+        },
+        {
+          "display": "P _ N",
+          "answer": "I",
+          "fullWord": "PIN"
+        },
+        {
+          "display": "G _ M",
+          "answer": "U",
+          "fullWord": "GUM"
+        },
+        {
+          "display": "N _ T",
+          "answer": "U",
+          "fullWord": "NUT"
+        },
+        {
+          "display": "B _ G",
+          "answer": "U",
+          "fullWord": "BUG"
+        },
+        {
+          "display": "J _ G",
+          "answer": "U",
+          "fullWord": "JUG"
+        },
+        {
+          "display": "R _ G",
+          "answer": "U",
+          "fullWord": "RUG"
+        },
+        {
+          "display": "T _ B",
+          "answer": "U",
+          "fullWord": "TUB"
+        },
+        {
+          "display": "M _ G",
+          "answer": "U",
+          "fullWord": "MUG"
+        },
+        {
+          "display": "L _ G",
+          "answer": "O",
+          "fullWord": "LOG"
+        },
+        {
+          "display": "D _ T",
+          "answer": "O",
+          "fullWord": "DOT"
+        },
+        {
+          "display": "H _ T",
+          "answer": "O",
+          "fullWord": "HOT"
+        },
+        {
+          "display": "T _ P",
+          "answer": "O",
+          "fullWord": "TOP"
+        },
+        {
+          "display": "D _ D",
+          "answer": "A",
+          "fullWord": "DAD"
+        },
+        {
+          "display": "D _ P",
+          "answer": "I",
+          "fullWord": "DIP"
+        },
+        {
+          "display": "R _ P",
+          "answer": "I",
+          "fullWord": "RIP"
+        },
+        {
+          "display": "S _ P",
+          "answer": "I",
+          "fullWord": "SIP"
+        },
+        {
+          "display": "C _ P",
+          "answer": "A",
+          "fullWord": "CAP"
+        },
+        {
+          "display": "T _ P",
+          "answer": "A",
+          "fullWord": "TAP"
+        },
+        {
+          "display": "N _ P",
+          "answer": "A",
+          "fullWord": "NAP"
+        }
+      ]
+    },
+    {
+      "id": "eng_picture_word",
+      "title": "Picture to Word Match",
+      "type": "pictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🐶",
+          "word": "DOG"
+        },
+        {
+          "picture": "🐱",
+          "word": "CAT"
+        },
+        {
+          "picture": "☀️",
+          "word": "SUN"
+        },
+        {
+          "picture": "🍎",
+          "word": "APPLE"
+        },
+        {
+          "picture": "🚌",
+          "word": "BUS"
+        },
+        {
+          "picture": "🌳",
+          "word": "TREE"
+        },
+        {
+          "picture": "🐟",
+          "word": "FISH"
+        },
+        {
+          "picture": "🏠",
+          "word": "HOUSE"
+        },
+        {
+          "picture": "🦁",
+          "word": "LION"
+        },
+        {
+          "picture": "🐘",
+          "word": "ELEPHANT"
+        },
+        {
+          "picture": "🍌",
+          "word": "BANANA"
+        },
+        {
+          "picture": "🚗",
+          "word": "CAR"
+        },
+        {
+          "picture": "🌸",
+          "word": "FLOWER"
+        },
+        {
+          "picture": "🐦",
+          "word": "BIRD"
+        },
+        {
+          "picture": "🐸",
+          "word": "FROG"
+        },
+        {
+          "picture": "🦋",
+          "word": "BUTTERFLY"
+        },
+        {
+          "picture": "🌙",
+          "word": "MOON"
+        },
+        {
+          "picture": "⭐",
+          "word": "STAR"
+        },
+        {
+          "picture": "🍊",
+          "word": "ORANGE"
+        },
+        {
+          "picture": "🍁",
+          "word": "LEAF"
+        },
+        {
+          "picture": "🚂",
+          "word": "TRAIN"
+        },
+        {
+          "picture": "✈️",
+          "word": "PLANE"
+        },
+        {
+          "picture": "📖",
+          "word": "BOOK"
+        },
+        {
+          "picture": "🖊️",
+          "word": "PEN"
+        },
+        {
+          "picture": "🎒",
+          "word": "BAG"
+        },
+        {
+          "picture": "🥛",
+          "word": "MILK"
+        },
+        {
+          "picture": "🐮",
+          "word": "COW"
+        },
+        {
+          "picture": "🐔",
+          "word": "HEN"
+        },
+        {
+          "picture": "🐷",
+          "word": "PIG"
+        },
+        {
+          "picture": "🦆",
+          "word": "DUCK"
+        },
+        {
+          "picture": "🐰",
+          "word": "RABBIT"
+        },
+        {
+          "picture": "🍇",
+          "word": "GRAPES"
+        },
+        {
+          "picture": "🌊",
+          "word": "WAVE"
+        },
+        {
+          "picture": "🐍",
+          "word": "SNAKE"
+        },
+        {
+          "picture": "🦊",
+          "word": "FOX"
+        }
+      ]
+    },
+    {
+      "id": "eng_sight_words",
+      "title": "Sight Words",
+      "type": "sightWord",
+      "questions": 10,
+      "words": [
+        "THE",
+        "AND",
+        "IS",
+        "IN",
+        "IT",
+        "TO",
+        "GO",
+        "WE",
+        "YOU",
+        "COME",
+        "SEE",
+        "HERE",
+        "MY",
+        "THIS",
+        "HE",
+        "SHE",
+        "WAS",
+        "ARE",
+        "BUT",
+        "HAVE",
+        "FROM",
+        "BY",
+        "AT",
+        "AS",
+        "ALL",
+        "AN",
+        "BE",
+        "CAN",
+        "DO",
+        "FOR",
+        "GET",
+        "HIM",
+        "HIS",
+        "HOW",
+        "LET",
+        "ME",
+        "NEW",
+        "NO",
+        "NOT",
+        "OF",
+        "ON",
+        "ONE",
+        "SO",
+        "THEY",
+        "UP",
+        "US",
+        "WHO",
+        "WILL",
+        "PLAY",
+        "RUN"
+      ]
+    },
+    {
+      "id": "eng_alphabets",
+      "title": "Alphabet Recognition",
+      "type": "pictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🍎 A",
+          "word": "A"
+        },
+        {
+          "picture": "🏀 B",
+          "word": "B"
+        },
+        {
+          "picture": "🐱 C",
+          "word": "C"
+        },
+        {
+          "picture": "🐶 D",
+          "word": "D"
+        },
+        {
+          "picture": "🐘 E",
+          "word": "E"
+        },
+        {
+          "picture": "🐟 F",
+          "word": "F"
+        },
+        {
+          "picture": "🍇 G",
+          "word": "G"
+        },
+        {
+          "picture": "🏠 H",
+          "word": "H"
+        },
+        {
+          "picture": "🍦 I",
+          "word": "I"
+        },
+        {
+          "picture": "🕹️ J",
+          "word": "J"
+        },
+        {
+          "picture": "🪁 K",
+          "word": "K"
+        },
+        {
+          "picture": "🦁 L",
+          "word": "L"
+        },
+        {
+          "picture": "🌙 M",
+          "word": "M"
+        },
+        {
+          "picture": "🔔 N",
+          "word": "N"
+        },
+        {
+          "picture": "🍊 O",
+          "word": "O"
+        },
+        {
+          "picture": "🍕 P",
+          "word": "P"
+        },
+        {
+          "picture": "👑 Q",
+          "word": "Q"
+        },
+        {
+          "picture": "🚀 R",
+          "word": "R"
+        },
+        {
+          "picture": "⭐ S",
+          "word": "S"
+        },
+        {
+          "picture": "🎾 T",
+          "word": "T"
+        },
+        {
+          "picture": "☂️ U",
+          "word": "U"
+        },
+        {
+          "picture": "🎻 V",
+          "word": "V"
+        },
+        {
+          "picture": "🌊 W",
+          "word": "W"
+        },
+        {
+          "picture": "📦 X",
+          "word": "X"
+        },
+        {
+          "picture": "🧶 Y",
+          "word": "Y"
+        },
+        {
+          "picture": "🦓 Z",
+          "word": "Z"
+        }
+      ]
+    },
+    {
+      "id": "eng_vowels_consonants",
+      "title": "Vowels & Consonants",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Which is a vowel?",
+          "visual": "AEIOU",
+          "answer": "A",
+          "options": ["A", "B", "C", "D"]
+        },
+        {
+          "question": "Which is a vowel?",
+          "visual": "AEIOU",
+          "answer": "E",
+          "options": ["E", "F", "G", "H"]
+        },
+        {
+          "question": "Which is a vowel?",
+          "visual": "AEIOU",
+          "answer": "I",
+          "options": ["I", "J", "K", "L"]
+        },
+        {
+          "question": "Which is a vowel?",
+          "visual": "AEIOU",
+          "answer": "O",
+          "options": ["O", "P", "Q", "R"]
+        },
+        {
+          "question": "Which is a vowel?",
+          "visual": "AEIOU",
+          "answer": "U",
+          "options": ["U", "V", "W", "X"]
+        },
+        {
+          "question": "Which is a consonant?",
+          "visual": "BCDFG",
+          "answer": "B",
+          "options": ["A", "B", "E", "I"]
+        },
+        {
+          "question": "Which is a consonant?",
+          "visual": "JKLMN",
+          "answer": "M",
+          "options": ["M", "A", "O", "U"]
+        },
+        {
+          "question": "How many vowels in English?",
+          "visual": "A E I O U",
+          "answer": "5",
+          "options": ["3", "5", "7", "10"]
+        },
+        {
+          "question": "CAT starts with a…",
+          "visual": "🐱 CAT",
+          "answer": "Consonant",
+          "options": ["Vowel", "Consonant", "Number", "Symbol"]
+        },
+        {
+          "question": "APPLE starts with a…",
+          "visual": "🍎 APPLE",
+          "answer": "Vowel",
+          "options": ["Vowel", "Consonant", "Number", "Symbol"]
+        }
+      ]
+    },
+    {
+      "id": "eng_rhyming",
+      "title": "Rhyming Words",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "CAT rhymes with…",
+          "visual": "🐱 CAT",
+          "answer": "HAT",
+          "options": ["HAT", "DOG", "SUN", "PIG"]
+        },
+        {
+          "question": "SUN rhymes with…",
+          "visual": "☀️ SUN",
+          "answer": "RUN",
+          "options": ["RUN", "CAT", "BIG", "HOT"]
+        },
+        {
+          "question": "DOG rhymes with…",
+          "visual": "🐶 DOG",
+          "answer": "LOG",
+          "options": ["LOG", "CAT", "BED", "FAN"]
+        },
+        {
+          "question": "BED rhymes with…",
+          "visual": "🛏️ BED",
+          "answer": "RED",
+          "options": ["RED", "BIG", "TOP", "HAT"]
+        },
+        {
+          "question": "FAN rhymes with…",
+          "visual": "🪭 FAN",
+          "answer": "MAN",
+          "options": ["MAN", "DOG", "CUP", "PEN"]
+        },
+        {
+          "question": "PEN rhymes with…",
+          "visual": "🖊️ PEN",
+          "answer": "HEN",
+          "options": ["HEN", "BAT", "SUN", "BIG"]
+        },
+        {
+          "question": "BIG rhymes with…",
+          "visual": "📏 BIG",
+          "answer": "PIG",
+          "options": ["PIG", "CAT", "SUN", "BED"]
+        },
+        {
+          "question": "TOP rhymes with…",
+          "visual": "🔝 TOP",
+          "answer": "MOP",
+          "options": ["MOP", "BAT", "PEN", "CUP"]
+        },
+        {
+          "question": "BAT rhymes with…",
+          "visual": "🦇 BAT",
+          "answer": "RAT",
+          "options": ["RAT", "BIG", "PEN", "SUN"]
+        },
+        {
+          "question": "FISH rhymes with…",
+          "visual": "🐟 FISH",
+          "answer": "DISH",
+          "options": ["DISH", "BOAT", "TREE", "BALL"]
+        }
+      ]
+    },
+    {
+      "id": "eng_opposites",
+      "title": "Opposite Words",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Opposite of BIG is…",
+          "visual": "⬆️↔️⬇️",
+          "answer": "SMALL",
+          "options": ["SMALL", "TALL", "LONG", "HIGH"]
+        },
+        {
+          "question": "Opposite of HOT is…",
+          "visual": "🔥↔️❄️",
+          "answer": "COLD",
+          "options": ["COLD", "WET", "DRY", "WARM"]
+        },
+        {
+          "question": "Opposite of UP is…",
+          "visual": "⬆️↔️⬇️",
+          "answer": "DOWN",
+          "options": ["DOWN", "LEFT", "RIGHT", "TOP"]
+        },
+        {
+          "question": "Opposite of DAY is…",
+          "visual": "☀️↔️🌙",
+          "answer": "NIGHT",
+          "options": ["NIGHT", "MORNING", "NOON", "EVENING"]
+        },
+        {
+          "question": "Opposite of IN is…",
+          "visual": "⬅️↔️➡️",
+          "answer": "OUT",
+          "options": ["OUT", "UP", "DOWN", "OVER"]
+        },
+        {
+          "question": "Opposite of HAPPY is…",
+          "visual": "😊↔️😢",
+          "answer": "SAD",
+          "options": ["SAD", "ANGRY", "TIRED", "HUNGRY"]
+        },
+        {
+          "question": "Opposite of OLD is…",
+          "visual": "👴↔️👶",
+          "answer": "YOUNG",
+          "options": ["YOUNG", "NEW", "FRESH", "SMALL"]
+        },
+        {
+          "question": "Opposite of FAST is…",
+          "visual": "🐇↔️🐢",
+          "answer": "SLOW",
+          "options": ["SLOW", "QUICK", "STOP", "GO"]
+        },
+        {
+          "question": "Opposite of TALL is…",
+          "visual": "🦒↔️🐁",
+          "answer": "SHORT",
+          "options": ["SHORT", "LONG", "THIN", "FAT"]
+        },
+        {
+          "question": "Opposite of GOOD is…",
+          "visual": "👍↔️👎",
+          "answer": "BAD",
+          "options": ["BAD", "NICE", "KIND", "HAPPY"]
+        }
+      ]
+    },
+    {
+      "id": "eng_action_words",
+      "title": "Action Words (Verbs)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "We ___ with our legs.",
+          "visual": "🚶 walking",
+          "answer": "WALK",
+          "options": ["WALK", "TALK", "SEE", "HEAR"]
+        },
+        {
+          "question": "We ___ with our mouth.",
+          "visual": "🗣️ speaking",
+          "answer": "TALK",
+          "options": ["TALK", "WALK", "JUMP", "WRITE"]
+        },
+        {
+          "question": "Birds can ___.",
+          "visual": "🐦 flying",
+          "answer": "FLY",
+          "options": ["FLY", "SWIM", "DRIVE", "COOK"]
+        },
+        {
+          "question": "Fish can ___.",
+          "visual": "🐟 swimming",
+          "answer": "SWIM",
+          "options": ["SWIM", "FLY", "RUN", "JUMP"]
+        },
+        {
+          "question": "We ___ food.",
+          "visual": "🍽️ eating",
+          "answer": "EAT",
+          "options": ["EAT", "DRINK", "SLEEP", "PLAY"]
+        },
+        {
+          "question": "We ___ with a pen.",
+          "visual": "✍️ writing",
+          "answer": "WRITE",
+          "options": ["WRITE", "READ", "DRAW", "PAINT"]
+        },
+        {
+          "question": "We ___ books.",
+          "visual": "📖 reading",
+          "answer": "READ",
+          "options": ["READ", "WRITE", "SING", "DANCE"]
+        },
+        {
+          "question": "We ___ at night.",
+          "visual": "😴 sleeping",
+          "answer": "SLEEP",
+          "options": ["SLEEP", "EAT", "PLAY", "STUDY"]
+        },
+        {
+          "question": "We ___ songs.",
+          "visual": "🎤 singing",
+          "answer": "SING",
+          "options": ["SING", "DANCE", "EAT", "SLEEP"]
+        },
+        {
+          "question": "We ___ games.",
+          "visual": "⚽ playing",
+          "answer": "PLAY",
+          "options": ["PLAY", "WORK", "SLEEP", "EAT"]
+        }
+      ]
+    },
+    {
+      "id": "eng_articles",
+      "title": "Articles (a, an, the)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Use ___ before APPLE.",
+          "visual": "🍎 APPLE",
+          "answer": "AN",
+          "options": ["A", "AN", "THE", "NO ARTICLE"]
+        },
+        {
+          "question": "Use ___ before CAT.",
+          "visual": "🐱 CAT",
+          "answer": "A",
+          "options": ["A", "AN", "THE", "NO ARTICLE"]
+        },
+        {
+          "question": "Use ___ before ELEPHANT.",
+          "visual": "🐘 ELEPHANT",
+          "answer": "AN",
+          "options": ["A", "AN", "THE", "NO ARTICLE"]
+        },
+        {
+          "question": "Use ___ before DOG.",
+          "visual": "🐶 DOG",
+          "answer": "A",
+          "options": ["A", "AN", "THE", "NO ARTICLE"]
+        },
+        {
+          "question": "Use ___ before ORANGE.",
+          "visual": "🍊 ORANGE",
+          "answer": "AN",
+          "options": ["A", "AN", "THE", "NO ARTICLE"]
+        },
+        {
+          "question": "Use ___ before UMBRELLA.",
+          "visual": "☂️ UMBRELLA",
+          "answer": "AN",
+          "options": ["A", "AN", "THE", "NO ARTICLE"]
+        },
+        {
+          "question": "Use ___ before BOOK.",
+          "visual": "📖 BOOK",
+          "answer": "A",
+          "options": ["A", "AN", "THE", "NO ARTICLE"]
+        },
+        {
+          "question": "Use ___ before ICE CREAM.",
+          "visual": "🍦 ICE CREAM",
+          "answer": "AN",
+          "options": ["A", "AN", "THE", "NO ARTICLE"]
+        },
+        {
+          "question": "___ sun rises in the east.",
+          "visual": "☀️ SUN",
+          "answer": "THE",
+          "options": ["A", "AN", "THE", "NO ARTICLE"]
+        },
+        {
+          "question": "___ moon shines at night.",
+          "visual": "🌙 MOON",
+          "answer": "THE",
+          "options": ["A", "AN", "THE", "NO ARTICLE"]
+        }
+      ]
+    },
+    {
+      "id": "eng_plurals",
+      "title": "Singular & Plural",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Plural of CAT is…",
+          "visual": "🐱→🐱🐱",
+          "answer": "CATS",
+          "options": ["CATS", "CAT", "CATSES", "CATIES"]
+        },
+        {
+          "question": "Plural of DOG is…",
+          "visual": "🐶→🐶🐶",
+          "answer": "DOGS",
+          "options": ["DOGS", "DOG", "DOGSES", "DOGIES"]
+        },
+        {
+          "question": "Plural of BOX is…",
+          "visual": "📦→📦📦",
+          "answer": "BOXES",
+          "options": ["BOXES", "BOXS", "BOX", "BOXIES"]
+        },
+        {
+          "question": "Plural of BOOK is…",
+          "visual": "📖→📖📖",
+          "answer": "BOOKS",
+          "options": ["BOOKS", "BOOK", "BOOKES", "BOOKIES"]
+        },
+        {
+          "question": "Plural of PEN is…",
+          "visual": "🖊️→🖊️🖊️",
+          "answer": "PENS",
+          "options": ["PENS", "PEN", "PENES", "PENIES"]
+        },
+        {
+          "question": "Plural of APPLE is…",
+          "visual": "🍎→🍎🍎",
+          "answer": "APPLES",
+          "options": ["APPLES", "APPLE", "APPLESES", "APPLIES"]
+        },
+        {
+          "question": "Plural of BIRD is…",
+          "visual": "🐦→🐦🐦",
+          "answer": "BIRDS",
+          "options": ["BIRDS", "BIRD", "BIRDES", "BIRDIES"]
+        },
+        {
+          "question": "Plural of TREE is…",
+          "visual": "🌳→🌳🌳",
+          "answer": "TREES",
+          "options": ["TREES", "TREE", "TREESES", "TREIES"]
+        },
+        {
+          "question": "Plural of STAR is…",
+          "visual": "⭐→⭐⭐",
+          "answer": "STARS",
+          "options": ["STARS", "STAR", "STARSES", "STARIES"]
+        },
+        {
+          "question": "Plural of FISH is…",
+          "visual": "🐟→🐟🐟",
+          "answer": "FISH",
+          "options": ["FISH", "FISHES", "FISHS", "FISHIES"]
+        }
+      ]
+    },
+    {
+      "id": "eng_animals",
+      "title": "Animal Names",
+      "type": "pictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🐅",
+          "word": "TIGER"
+        },
+        {
+          "picture": "🐻",
+          "word": "BEAR"
+        },
+        {
+          "picture": "🐒",
+          "word": "MONKEY"
+        },
+        {
+          "picture": "🦒",
+          "word": "GIRAFFE"
+        },
+        {
+          "picture": "🦓",
+          "word": "ZEBRA"
+        },
+        {
+          "picture": "🦏",
+          "word": "RHINO"
+        },
+        {
+          "picture": "🦛",
+          "word": "HIPPO"
+        },
+        {
+          "picture": "🦘",
+          "word": "KANGAROO"
+        },
+        {
+          "picture": "🐼",
+          "word": "PANDA"
+        },
+        {
+          "picture": "🐨",
+          "word": "KOALA"
+        },
+        {
+          "picture": "🦁",
+          "word": "LION"
+        },
+        {
+          "picture": "🐯",
+          "word": "TIGER CUB"
+        },
+        {
+          "picture": "🐮",
+          "word": "COW"
+        },
+        {
+          "picture": "🐄",
+          "word": "COW"
+        },
+        {
+          "picture": "🐷",
+          "word": "PIG"
+        },
+        {
+          "picture": "🐖",
+          "word": "PIGLET"
+        },
+        {
+          "picture": "🐗",
+          "word": "BOAR"
+        },
+        {
+          "picture": "🐪",
+          "word": "CAMEL"
+        },
+        {
+          "picture": "🐫",
+          "word": "CAMEL"
+        },
+        {
+          "picture": "🦙",
+          "word": "LLAMA"
+        }
+      ]
+    },
+    {
+      "id": "eng_birds",
+      "title": "Bird Names",
+      "type": "pictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🦅",
+          "word": "EAGLE"
+        },
+        {
+          "picture": "🦉",
+          "word": "OWL"
+        },
+        {
+          "picture": "🦜",
+          "word": "PARROT"
+        },
+        {
+          "picture": "🦚",
+          "word": "PEACOCK"
+        },
+        {
+          "picture": "🦢",
+          "word": "SWAN"
+        },
+        {
+          "picture": "🦩",
+          "word": "FLAMINGO"
+        },
+        {
+          "picture": "🐧",
+          "word": "PENGUIN"
+        },
+        {
+          "picture": "🦃",
+          "word": "TURKEY"
+        },
+        {
+          "picture": "🐓",
+          "word": "ROOSTER"
+        },
+        {
+          "picture": "🐔",
+          "word": "HEN"
+        },
+        {
+          "picture": "🐤",
+          "word": "CHICK"
+        },
+        {
+          "picture": "🐥",
+          "word": "BABY CHICK"
+        },
+        {
+          "picture": "🦆",
+          "word": "DUCK"
+        },
+        {
+          "picture": "🕊️",
+          "word": "DOVE"
+        },
+        {
+          "picture": "🦤",
+          "word": "DODO"
+        }
+      ]
+    },
+    {
+      "id": "eng_fruits",
+      "title": "Fruit Names",
+      "type": "pictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🍏",
+          "word": "GREEN APPLE"
+        },
+        {
+          "picture": "🍎",
+          "word": "RED APPLE"
+        },
+        {
+          "picture": "🍐",
+          "word": "PEAR"
+        },
+        {
+          "picture": "🍊",
+          "word": "ORANGE"
+        },
+        {
+          "picture": "🍋",
+          "word": "LEMON"
+        },
+        {
+          "picture": "🍌",
+          "word": "BANANA"
+        },
+        {
+          "picture": "🍉",
+          "word": "WATERMELON"
+        },
+        {
+          "picture": "🍇",
+          "word": "GRAPES"
+        },
+        {
+          "picture": "🍓",
+          "word": "STRAWBERRY"
+        },
+        {
+          "picture": "🫐",
+          "word": "BLUEBERRY"
+        },
+        {
+          "picture": "🍈",
+          "word": "MELON"
+        },
+        {
+          "picture": "🍒",
+          "word": "CHERRY"
+        },
+        {
+          "picture": "🍑",
+          "word": "PEACH"
+        },
+        {
+          "picture": "🥭",
+          "word": "MANGO"
+        },
+        {
+          "picture": "🍍",
+          "word": "PINEAPPLE"
+        },
+        {
+          "picture": "🥥",
+          "word": "COCONUT"
+        },
+        {
+          "picture": "🥝",
+          "word": "KIWI"
+        },
+        {
+          "picture": "🍅",
+          "word": "TOMATO"
+        }
+      ]
+    },
+    {
+      "id": "eng_vegetables",
+      "title": "Vegetable Names",
+      "type": "pictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🥕",
+          "word": "CARROT"
+        },
+        {
+          "picture": "🥔",
+          "word": "POTATO"
+        },
+        {
+          "picture": "🧅",
+          "word": "ONION"
+        },
+        {
+          "picture": "🌽",
+          "word": "CORN"
+        },
+        {
+          "picture": "🥒",
+          "word": "CUCUMBER"
+        },
+        {
+          "picture": "🥬",
+          "word": "CABBAGE"
+        },
+        {
+          "picture": "🥦",
+          "word": "BROCCOLI"
+        },
+        {
+          "picture": "🫑",
+          "word": "PEPPER"
+        },
+        {
+          "picture": "🌶️",
+          "word": "CHILI"
+        },
+        {
+          "picture": "🍆",
+          "word": "EGGPLANT"
+        },
+        {
+          "picture": "🍄",
+          "word": "MUSHROOM"
+        },
+        {
+          "picture": "🥜",
+          "word": "PEANUT"
+        },
+        {
+          "picture": "🫘",
+          "word": "BEANS"
+        },
+        {
+          "picture": "🫛",
+          "word": "PEA POD"
+        },
+        {
+          "picture": "🌾",
+          "word": "RICE"
+        }
+      ]
+    },
+    {
+      "id": "eng_colors",
+      "title": "Color Names",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "The sky is ___.",
+          "visual": "☁️ Sky",
+          "answer": "BLUE",
+          "options": ["BLUE", "GREEN", "RED", "YELLOW"]
+        },
+        {
+          "question": "Grass is ___.",
+          "visual": "🌿 Grass",
+          "answer": "GREEN",
+          "options": ["GREEN", "BLUE", "RED", "BROWN"]
+        },
+        {
+          "question": "The sun is ___.",
+          "visual": "☀️ Sun",
+          "answer": "YELLOW",
+          "options": ["YELLOW", "GREEN", "BLUE", "BLACK"]
+        },
+        {
+          "question": "An apple is ___.",
+          "visual": "🍎 Apple",
+          "answer": "RED",
+          "options": ["RED", "BLUE", "GREEN", "BROWN"]
+        },
+        {
+          "question": "Clouds are ___.",
+          "visual": "☁️ Cloud",
+          "answer": "WHITE",
+          "options": ["WHITE", "BLACK", "BLUE", "GREEN"]
+        },
+        {
+          "question": "Night sky is ___.",
+          "visual": "🌃 Night",
+          "answer": "BLACK",
+          "options": ["BLACK", "WHITE", "BLUE", "GREEN"]
+        },
+        {
+          "question": "An orange is ___.",
+          "visual": "🍊 Orange",
+          "answer": "ORANGE",
+          "options": ["ORANGE", "RED", "YELLOW", "GREEN"]
+        },
+        {
+          "question": "Grapes can be ___.",
+          "visual": "🍇 Grapes",
+          "answer": "PURPLE",
+          "options": ["PURPLE", "BLUE", "RED", "GREEN"]
+        },
+        {
+          "question": "Chocolate is ___.",
+          "visual": "🍫 Chocolate",
+          "answer": "BROWN",
+          "options": ["BROWN", "BLACK", "RED", "BLUE"]
+        },
+        {
+          "question": "Roses can be ___.",
+          "visual": "🌹 Rose",
+          "answer": "PINK",
+          "options": ["PINK", "BLUE", "GREEN", "BROWN"]
+        }
+      ]
+    },
+    {
+      "id": "eng_body_parts",
+      "title": "Body Parts Names",
+      "type": "pictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "👁️",
+          "word": "EYE"
+        },
+        {
+          "picture": "👃",
+          "word": "NOSE"
+        },
+        {
+          "picture": "👂",
+          "word": "EAR"
+        },
+        {
+          "picture": "👄",
+          "word": "MOUTH"
+        },
+        {
+          "picture": "👅",
+          "word": "TONGUE"
+        },
+        {
+          "picture": "🦷",
+          "word": "TOOTH"
+        },
+        {
+          "picture": "🤚",
+          "word": "HAND"
+        },
+        {
+          "picture": "🦶",
+          "word": "FOOT"
+        },
+        {
+          "picture": "💪",
+          "word": "ARM"
+        },
+        {
+          "picture": "🦵",
+          "word": "LEG"
+        },
+        {
+          "picture": "🧠",
+          "word": "BRAIN"
+        },
+        {
+          "picture": "❤️",
+          "word": "HEART"
+        },
+        {
+          "picture": "🫁",
+          "word": "LUNGS"
+        },
+        {
+          "picture": "🦴",
+          "word": "BONE"
+        },
+        {
+          "picture": "💅",
+          "word": "NAIL"
+        },
+        {
+          "picture": "👁️👁️",
+          "word": "EYES"
+        },
+        {
+          "picture": "👂👂",
+          "word": "EARS"
+        },
+        {
+          "picture": "🤲",
+          "word": "HANDS"
+        }
+      ]
+    },
+    {
+      "id": "eng_family",
+      "title": "Family Members",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "My father's wife is my ___.",
+          "visual": "👨‍👩‍👧 Family",
+          "answer": "MOTHER",
+          "options": ["MOTHER", "SISTER", "AUNT", "GRANDMOTHER"]
+        },
+        {
+          "question": "My mother's husband is my ___.",
+          "visual": "👨‍👩‍👦 Family",
+          "answer": "FATHER",
+          "options": ["FATHER", "BROTHER", "UNCLE", "GRANDFATHER"]
+        },
+        {
+          "question": "My father's father is my ___.",
+          "visual": "👴 Old man",
+          "answer": "GRANDFATHER",
+          "options": ["GRANDFATHER", "UNCLE", "FATHER", "COUSIN"]
+        },
+        {
+          "question": "My mother's mother is my ___.",
+          "visual": "👵 Old woman",
+          "answer": "GRANDMOTHER",
+          "options": ["GRANDMOTHER", "AUNT", "MOTHER", "COUSIN"]
+        },
+        {
+          "question": "My parents' son is my ___.",
+          "visual": "👦 Boy",
+          "answer": "BROTHER",
+          "options": ["BROTHER", "COUSIN", "UNCLE", "NEPHEW"]
+        },
+        {
+          "question": "My parents' daughter is my ___.",
+          "visual": "👧 Girl",
+          "answer": "SISTER",
+          "options": ["SISTER", "COUSIN", "AUNT", "NIECE"]
+        },
+        {
+          "question": "My father's brother is my ___.",
+          "visual": "👨 Man",
+          "answer": "UNCLE",
+          "options": ["UNCLE", "COUSIN", "NEPHEW", "GRANDFATHER"]
+        },
+        {
+          "question": "My mother's sister is my ___.",
+          "visual": "👩 Woman",
+          "answer": "AUNT",
+          "options": ["AUNT", "COUSIN", "NIECE", "GRANDMOTHER"]
+        },
+        {
+          "question": "My uncle's son is my ___.",
+          "visual": "👦 Boy",
+          "answer": "COUSIN",
+          "options": ["COUSIN", "BROTHER", "NEPHEW", "UNCLE"]
+        },
+        {
+          "question": "My aunt's daughter is my ___.",
+          "visual": "👧 Girl",
+          "answer": "COUSIN",
+          "options": ["COUSIN", "SISTER", "NIECE", "AUNT"]
+        }
+      ]
+    },
+    {
+      "id": "eng_transport",
+      "title": "Transport Vehicles",
+      "type": "pictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🚗",
+          "word": "CAR"
+        },
+        {
+          "picture": "🚌",
+          "word": "BUS"
+        },
+        {
+          "picture": "🚂",
+          "word": "TRAIN"
+        },
+        {
+          "picture": "✈️",
+          "word": "PLANE"
+        },
+        {
+          "picture": "🚁",
+          "word": "HELICOPTER"
+        },
+        {
+          "picture": "🚢",
+          "word": "SHIP"
+        },
+        {
+          "picture": "⛵",
+          "word": "BOAT"
+        },
+        {
+          "picture": "🚲",
+          "word": "BICYCLE"
+        },
+        {
+          "picture": "🏍️",
+          "word": "MOTORCYCLE"
+        },
+        {
+          "picture": "🚜",
+          "word": "TRACTOR"
+        },
+        {
+          "picture": "🚑",
+          "word": "AMBULANCE"
+        },
+        {
+          "picture": "🚒",
+          "word": "FIRE TRUCK"
+        },
+        {
+          "picture": "🚓",
+          "word": "POLICE CAR"
+        },
+        {
+          "picture": "🚕",
+          "word": "TAXI"
+        },
+        {
+          "picture": "🚙",
+          "word": "VAN"
+        },
+        {
+          "picture": "🛵",
+          "word": "SCOOTER"
+        },
+        {
+          "picture": "🚠",
+          "word": "CABLE CAR"
+        },
+        {
+          "picture": "🚟",
+          "word": "METRO"
+        }
+      ]
+    },
+    {
+      "id": "eng_position_words",
+      "title": "Position Words",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "The cat is ___ the box.",
+          "visual": "📦🐱",
+          "answer": "IN",
+          "options": ["IN", "ON", "UNDER", "BEHIND"]
+        },
+        {
+          "question": "The book is ___ the table.",
+          "visual": "📖📊",
+          "answer": "ON",
+          "options": ["ON", "IN", "UNDER", "OVER"]
+        },
+        {
+          "question": "The ball is ___ the chair.",
+          "visual": "⚽🪑",
+          "answer": "UNDER",
+          "options": ["UNDER", "ON", "IN", "BESIDE"]
+        },
+        {
+          "question": "The bird is ___ the tree.",
+          "visual": "🐦🌳",
+          "answer": "ON",
+          "options": ["ON", "IN", "UNDER", "BELOW"]
+        },
+        {
+          "question": "The toy is ___ the bed.",
+          "visual": "🧸🛏️",
+          "answer": "UNDER",
+          "options": ["UNDER", "ON", "IN", "OVER"]
+        },
+        {
+          "question": "The sun is ___ the clouds.",
+          "visual": "☀️☁️",
+          "answer": "ABOVE",
+          "options": ["ABOVE", "UNDER", "IN", "BELOW"]
+        },
+        {
+          "question": "The fish is ___ the water.",
+          "visual": "🐟💧",
+          "answer": "IN",
+          "options": ["IN", "ON", "ABOVE", "BESIDE"]
+        },
+        {
+          "question": "The pen is ___ the bag.",
+          "visual": "🖊️🎒",
+          "answer": "IN",
+          "options": ["IN", "ON", "UNDER", "OVER"]
+        },
+        {
+          "question": "The dog is ___ the tree.",
+          "visual": "🐶🌳",
+          "answer": "BEHIND",
+          "options": ["BEHIND", "IN", "ON", "ABOVE"]
+        },
+        {
+          "question": "The lamp is ___ the table.",
+          "visual": "🛋️💡",
+          "answer": "BESIDE",
+          "options": ["BESIDE", "IN", "UNDER", "BELOW"]
+        },
+        {
+          "question": "The apple is ___ the bowl.",
+          "visual": "🍎🥣",
+          "answer": "IN",
+          "options": ["IN", "ON", "UNDER", "BESIDE"]
+        },
+        {
+          "question": "The cup is ___ the saucer.",
+          "visual": "☕🍽️",
+          "answer": "ON",
+          "options": ["ON", "IN", "UNDER", "ABOVE"]
+        },
+        {
+          "question": "The mouse is ___ the hole.",
+          "visual": "🐭🕳️",
+          "answer": "IN",
+          "options": ["IN", "ON", "ABOVE", "BESIDE"]
+        },
+        {
+          "question": "The kite is ___ the sky.",
+          "visual": "🪁☁️",
+          "answer": "IN",
+          "options": ["IN", "ON", "UNDER", "BELOW"]
+        },
+        {
+          "question": "The shoes are ___ the bed.",
+          "visual": "👟🛏️",
+          "answer": "UNDER",
+          "options": ["UNDER", "IN", "ON", "ABOVE"]
+        }
+      ]
+    },
+    {
+      "id": "eng_sentence_building",
+      "title": "Complete the Sentence",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "I ___ to school.",
+          "visual": "🏫",
+          "answer": "GO",
+          "options": ["GO", "GOES", "GOING", "WENT"]
+        },
+        {
+          "question": "The cat ___ milk.",
+          "visual": "🐱🥛",
+          "answer": "DRINKS",
+          "options": ["DRINKS", "DRINK", "ATE", "EAT"]
+        },
+        {
+          "question": "Birds ___ in the sky.",
+          "visual": "🐦☁️",
+          "answer": "FLY",
+          "options": ["FLY", "SWIM", "RUN", "WALK"]
+        },
+        {
+          "question": "I ___ my hands before eating.",
+          "visual": "🧼",
+          "answer": "WASH",
+          "options": ["WASH", "DIRTY", "CUT", "HIDE"]
+        },
+        {
+          "question": "The sun ___ in the east.",
+          "visual": "🌅",
+          "answer": "RISES",
+          "options": ["RISES", "SETS", "SLEEPS", "RUNS"]
+        },
+        {
+          "question": "We ___ water every day.",
+          "visual": "💧",
+          "answer": "DRINK",
+          "options": ["DRINK", "EAT", "THROW", "BURN"]
+        },
+        {
+          "question": "She ___ a book.",
+          "visual": "📖",
+          "answer": "READS",
+          "options": ["READS", "EATS", "RUNS", "JUMPS"]
+        },
+        {
+          "question": "Dogs ___ loudly.",
+          "visual": "🐶",
+          "answer": "BARK",
+          "options": ["BARK", "MEOW", "CHIRP", "MOO"]
+        },
+        {
+          "question": "I ___ my homework.",
+          "visual": "✏️",
+          "answer": "DO",
+          "options": ["DO", "PLAY", "EAT", "SLEEP"]
+        },
+        {
+          "question": "Fish ___ in water.",
+          "visual": "🐟💧",
+          "answer": "SWIM",
+          "options": ["SWIM", "FLY", "WALK", "JUMP"]
+        },
+        {
+          "question": "The baby ___ at night.",
+          "visual": "👶🌙",
+          "answer": "SLEEPS",
+          "options": ["SLEEPS", "PLAYS", "RUNS", "READS"]
+        },
+        {
+          "question": "We ___ food with our teeth.",
+          "visual": "🦷🍎",
+          "answer": "CHEW",
+          "options": ["CHEW", "THROW", "HIT", "BURN"]
+        },
+        {
+          "question": "My mother ___ food.",
+          "visual": "👩‍🍳",
+          "answer": "COOKS",
+          "options": ["COOKS", "READS", "SLEEPS", "RUNS"]
+        },
+        {
+          "question": "The moon ___ at night.",
+          "visual": "🌙",
+          "answer": "SHINES",
+          "options": ["SHINES", "HIDES", "EATS", "RUNS"]
+        },
+        {
+          "question": "Flowers ___ beautifully.",
+          "visual": "🌺",
+          "answer": "BLOOM",
+          "options": ["BLOOM", "RUN", "JUMP", "FLY"]
+        }
+      ]
+    },
+    {
+      "id": "eng_common_objects",
+      "title": "Common Objects at Home",
+      "type": "pictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🪑",
+          "word": "CHAIR"
+        },
+        {
+          "picture": "🛏️",
+          "word": "BED"
+        },
+        {
+          "picture": "🚪",
+          "word": "DOOR"
+        },
+        {
+          "picture": "🪟",
+          "word": "WINDOW"
+        },
+        {
+          "picture": "📺",
+          "word": "TV"
+        },
+        {
+          "picture": "💡",
+          "word": "BULB"
+        },
+        {
+          "picture": "🪞",
+          "word": "MIRROR"
+        },
+        {
+          "picture": "🛋️",
+          "word": "SOFA"
+        },
+        {
+          "picture": "🪴",
+          "word": "PLANT"
+        },
+        {
+          "picture": "⏰",
+          "word": "CLOCK"
+        },
+        {
+          "picture": "📷",
+          "word": "CAMERA"
+        },
+        {
+          "picture": "📞",
+          "word": "PHONE"
+        },
+        {
+          "picture": "🧹",
+          "word": "BROOM"
+        },
+        {
+          "picture": "🪥",
+          "word": "BRUSH"
+        },
+        {
+          "picture": "🧴",
+          "word": "SOAP"
+        },
+        {
+          "picture": "🛁",
+          "word": "BATHTUB"
+        },
+        {
+          "picture": "🚰",
+          "word": "TAP"
+        },
+        {
+          "picture": "🧺",
+          "word": "BASKET"
+        }
+      ]
+    }
+  ]
+}

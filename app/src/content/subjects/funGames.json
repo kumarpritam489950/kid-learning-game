@@ -1,0 +1,73 @@
+{
+  "id": "funGames",
+  "name": "🎮 Fun Games",
+  "icon": "🎮",
+  "description": "Exciting action games - Snake, Memory Match, Catch & more!",
+  "modules": [
+    {
+      "id": "snake_game",
+      "title": "🐍 Snake Game",
+      "type": "snakeGame",
+      "description": "Classic snake game! Eat apples 🍎 to grow longer. Don't hit walls or yourself!",
+      "controls": "Use Arrow Keys ⬆️⬇️⬅️➡️ to move"
+    },
+    {
+      "id": "memory_match",
+      "title": "🧠 Memory Match",
+      "type": "memoryMatch",
+      "description": "Find matching pairs! Click cards to flip them.",
+      "gridSize": 4,
+      "emojis": ["🐶", "🐱", "🐸", "🦁", "🐘", "🦋", "🐝", "🍎"]
+    },
+    {
+      "id": "catch_game",
+      "title": "🎯 Catch the Apples",
+      "type": "catchGame",
+      "description": "Move the basket ⬅️➡️ to catch falling apples 🍎. Avoid bombs 💣!",
+      "duration": 60
+    },
+    {
+      "id": "balloon_pop",
+      "title": "🎈 Balloon Pop",
+      "type": "balloonPop",
+      "description": "Pop as many balloons as you can! Click fast!",
+      "duration": 30
+    },
+    {
+      "id": "number_jump",
+      "title": "🦘 Number Jump",
+      "type": "numberJump",
+      "description": "Jump on the correct numbers! Use Space to jump.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "color_match_fast",
+      "title": "🌈 Color Match Speed",
+      "type": "colorMatchSpeed",
+      "description": "Click the color that matches the word. Be fast!",
+      "duration": 45
+    },
+    {
+      "id": "maze_runner",
+      "title": "🏃 Maze Runner",
+      "type": "mazeRunner",
+      "description": "Navigate through the maze to reach the star ⭐",
+      "mazeSize": 10
+    },
+    {
+      "id": "bubble_blast",
+      "title": "💥 Bubble Blast",
+      "type": "bubbleBlast",
+      "description": "Pop bubbles of the same color in groups!",
+      "gridSize": 8
+    },
+    {
+      "id": "snap_game",
+      "title": "⚡ Snap!",
+      "type": "snapGame",
+      "description": "Click SNAP when two cards match! Quick reflexes game.",
+      "cardTypes": ["🍎", "🍊", "🍋", "🍌", "🍉", "🍓", "🍇", "🍑"],
+      "rounds": 15
+    }
+  ]
+}

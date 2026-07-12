@@ -1,0 +1,1693 @@
+{
+  "id": "kannada",
+  "name": "Kannada",
+  "icon": "ಅ",
+  "description": "Swaragalu, Vyanjanagalu, and simple word building.",
+  "modules": [
+    {
+      "id": "kan_letters",
+      "title": "Swaragalu and Vyanjanagalu",
+      "type": "kannadaLetter",
+      "questions": 10,
+      "letters": [
+        {
+          "letter": "ಅ",
+          "phonetic": "a"
+        },
+        {
+          "letter": "ಆ",
+          "phonetic": "aa"
+        },
+        {
+          "letter": "ಇ",
+          "phonetic": "i"
+        },
+        {
+          "letter": "ಈ",
+          "phonetic": "ee"
+        },
+        {
+          "letter": "ಉ",
+          "phonetic": "u"
+        },
+        {
+          "letter": "ಊ",
+          "phonetic": "oo"
+        },
+        {
+          "letter": "ಋ",
+          "phonetic": "ru"
+        },
+        {
+          "letter": "ಎ",
+          "phonetic": "e"
+        },
+        {
+          "letter": "ಏ",
+          "phonetic": "ae"
+        },
+        {
+          "letter": "ಐ",
+          "phonetic": "ai"
+        },
+        {
+          "letter": "ಒ",
+          "phonetic": "o"
+        },
+        {
+          "letter": "ಓ",
+          "phonetic": "oo"
+        },
+        {
+          "letter": "ಔ",
+          "phonetic": "au"
+        },
+        {
+          "letter": "ಕ",
+          "phonetic": "ka"
+        },
+        {
+          "letter": "ಖ",
+          "phonetic": "kha"
+        },
+        {
+          "letter": "ಗ",
+          "phonetic": "ga"
+        },
+        {
+          "letter": "ಘ",
+          "phonetic": "gha"
+        },
+        {
+          "letter": "ಚ",
+          "phonetic": "cha"
+        },
+        {
+          "letter": "ಛ",
+          "phonetic": "chha"
+        },
+        {
+          "letter": "ಜ",
+          "phonetic": "ja"
+        },
+        {
+          "letter": "ಝ",
+          "phonetic": "jha"
+        },
+        {
+          "letter": "ಟ",
+          "phonetic": "ta"
+        },
+        {
+          "letter": "ಠ",
+          "phonetic": "tha"
+        },
+        {
+          "letter": "ಡ",
+          "phonetic": "da"
+        },
+        {
+          "letter": "ಢ",
+          "phonetic": "dha"
+        },
+        {
+          "letter": "ಣ",
+          "phonetic": "na"
+        },
+        {
+          "letter": "ತ",
+          "phonetic": "ta"
+        },
+        {
+          "letter": "ಥ",
+          "phonetic": "tha"
+        },
+        {
+          "letter": "ದ",
+          "phonetic": "da"
+        },
+        {
+          "letter": "ಧ",
+          "phonetic": "dha"
+        },
+        {
+          "letter": "ನ",
+          "phonetic": "na"
+        },
+        {
+          "letter": "ಪ",
+          "phonetic": "pa"
+        },
+        {
+          "letter": "ಫ",
+          "phonetic": "pha"
+        },
+        {
+          "letter": "ಬ",
+          "phonetic": "ba"
+        },
+        {
+          "letter": "ಭ",
+          "phonetic": "bha"
+        },
+        {
+          "letter": "ಮ",
+          "phonetic": "ma"
+        },
+        {
+          "letter": "ಯ",
+          "phonetic": "ya"
+        },
+        {
+          "letter": "ರ",
+          "phonetic": "ra"
+        },
+        {
+          "letter": "ಲ",
+          "phonetic": "la"
+        },
+        {
+          "letter": "ವ",
+          "phonetic": "va"
+        },
+        {
+          "letter": "ಶ",
+          "phonetic": "sha"
+        },
+        {
+          "letter": "ಷ",
+          "phonetic": "sha"
+        },
+        {
+          "letter": "ಸ",
+          "phonetic": "sa"
+        },
+        {
+          "letter": "ಹ",
+          "phonetic": "ha"
+        },
+        {
+          "letter": "ಳ",
+          "phonetic": "la"
+        }
+      ]
+    },
+    {
+      "id": "kan_picture_word",
+      "title": "Kannada Picture Match",
+      "type": "kannadaPictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🏠",
+          "word": "ಮನೆ",
+          "phonetic": "mane"
+        },
+        {
+          "picture": "🌳",
+          "word": "ಮರ",
+          "phonetic": "mara"
+        },
+        {
+          "picture": "🍎",
+          "word": "ಸೇಬು",
+          "phonetic": "sebu"
+        },
+        {
+          "picture": "🐄",
+          "word": "ಹಸು",
+          "phonetic": "hasu"
+        },
+        {
+          "picture": "🌸",
+          "word": "ಹೂವು",
+          "phonetic": "hoovu"
+        },
+        {
+          "picture": "📚",
+          "word": "ಪುಸ್ತಕ",
+          "phonetic": "pustaka"
+        },
+        {
+          "picture": "🐟",
+          "word": "ಮೀನು",
+          "phonetic": "meenu"
+        },
+        {
+          "picture": "🐦",
+          "word": "ಹಕ್ಕಿ",
+          "phonetic": "hakki"
+        },
+        {
+          "picture": "☀️",
+          "word": "ಸೂರ್ಯ",
+          "phonetic": "soorya"
+        },
+        {
+          "picture": "🌙",
+          "word": "ಚಂದ್ರ",
+          "phonetic": "chandra"
+        },
+        {
+          "picture": "💧",
+          "word": "ನೀರು",
+          "phonetic": "neeru"
+        },
+        {
+          "picture": "🚗",
+          "word": "ಕಾರು",
+          "phonetic": "kaaru"
+        },
+        {
+          "picture": "🐘",
+          "word": "ಆನೆ",
+          "phonetic": "aane"
+        },
+        {
+          "picture": "🦁",
+          "word": "ಸಿಂಹ",
+          "phonetic": "simha"
+        },
+        {
+          "picture": "🥭",
+          "word": "ಮಾವು",
+          "phonetic": "maavu"
+        },
+        {
+          "picture": "🍌",
+          "word": "ಬಾಳೆ",
+          "phonetic": "baale"
+        },
+        {
+          "picture": "🐶",
+          "word": "ನಾಯಿ",
+          "phonetic": "naayi"
+        },
+        {
+          "picture": "🐱",
+          "word": "ಬೆಕ್ಕು",
+          "phonetic": "bekku"
+        },
+        {
+          "picture": "👁️",
+          "word": "ಕಣ್ಣು",
+          "phonetic": "kannu"
+        },
+        {
+          "picture": "🤚",
+          "word": "ಕೈ",
+          "phonetic": "kai"
+        },
+        {
+          "picture": "👃",
+          "word": "ಮೂಗು",
+          "phonetic": "moogu"
+        },
+        {
+          "picture": "👂",
+          "word": "ಕಿವಿ",
+          "phonetic": "kivi"
+        },
+        {
+          "picture": "🦶",
+          "word": "ಕಾಲು",
+          "phonetic": "kaalu"
+        },
+        {
+          "picture": "🐓",
+          "word": "ಕೋಳಿ",
+          "phonetic": "kooli"
+        },
+        {
+          "picture": "🌾",
+          "word": "ಭತ್ತ",
+          "phonetic": "bhatta"
+        }
+      ]
+    },
+    {
+      "id": "kan_drag_word",
+      "title": "Build Kannada Word",
+      "type": "kannadaDragWord",
+      "questions": 10,
+      "words": [
+        {
+          "clue": "House",
+          "picture": "🏠",
+          "letters": ["ಮ", "ನೆ"],
+          "answerText": "ಮನೆ"
+        },
+        {
+          "clue": "Tree",
+          "picture": "🌳",
+          "letters": ["ಮ", "ರ"],
+          "answerText": "ಮರ"
+        },
+        {
+          "clue": "Cow",
+          "picture": "🐄",
+          "letters": ["ಹ", "ಸು"],
+          "answerText": "ಹಸು"
+        },
+        {
+          "clue": "Flower",
+          "picture": "🌸",
+          "letters": ["ಹೂ", "ವು"],
+          "answerText": "ಹೂವು"
+        },
+        {
+          "clue": "Book",
+          "picture": "📚",
+          "letters": ["ಪು", "ಸ್ತ", "ಕ"],
+          "answerText": "ಪುಸ್ತಕ"
+        },
+        {
+          "clue": "Fish",
+          "picture": "🐟",
+          "letters": ["ಮೀ", "ನು"],
+          "answerText": "ಮೀನು"
+        },
+        {
+          "clue": "Bird",
+          "picture": "🐦",
+          "letters": ["ಹ", "ಕ್ಕಿ"],
+          "answerText": "ಹಕ್ಕಿ"
+        },
+        {
+          "clue": "Sun",
+          "picture": "☀️",
+          "letters": ["ಸೂ", "ರ್ಯ"],
+          "answerText": "ಸೂರ್ಯ"
+        },
+        {
+          "clue": "Moon",
+          "picture": "🌙",
+          "letters": ["ಚಂ", "ದ್ರ"],
+          "answerText": "ಚಂದ್ರ"
+        },
+        {
+          "clue": "Water",
+          "picture": "💧",
+          "letters": ["ನೀ", "ರು"],
+          "answerText": "ನೀರು"
+        },
+        {
+          "clue": "Dog",
+          "picture": "🐶",
+          "letters": ["ನಾ", "ಯಿ"],
+          "answerText": "ನಾಯಿ"
+        },
+        {
+          "clue": "Cat",
+          "picture": "🐱",
+          "letters": ["ಬೆ", "ಕ್ಕು"],
+          "answerText": "ಬೆಕ್ಕು"
+        },
+        {
+          "clue": "Mango",
+          "picture": "🥭",
+          "letters": ["ಮಾ", "ವು"],
+          "answerText": "ಮಾವು"
+        },
+        {
+          "clue": "Banana",
+          "picture": "🍌",
+          "letters": ["ಬಾ", "ಳೆ"],
+          "answerText": "ಬಾಳೆ"
+        },
+        {
+          "clue": "Car",
+          "picture": "🚗",
+          "letters": ["ಕಾ", "ರು"],
+          "answerText": "ಕಾರು"
+        }
+      ]
+    },
+    {
+      "id": "kan_swara_practice",
+      "title": "Swaragalu Practice",
+      "type": "kannadaLetter",
+      "questions": 10,
+      "letters": [
+        {
+          "letter": "ಅ",
+          "phonetic": "a"
+        },
+        {
+          "letter": "ಆ",
+          "phonetic": "aa"
+        },
+        {
+          "letter": "ಇ",
+          "phonetic": "i"
+        },
+        {
+          "letter": "ಈ",
+          "phonetic": "ee"
+        },
+        {
+          "letter": "ಉ",
+          "phonetic": "u"
+        },
+        {
+          "letter": "ಊ",
+          "phonetic": "oo"
+        },
+        {
+          "letter": "ಋ",
+          "phonetic": "ru"
+        },
+        {
+          "letter": "ಎ",
+          "phonetic": "e"
+        },
+        {
+          "letter": "ಏ",
+          "phonetic": "ae"
+        },
+        {
+          "letter": "ಐ",
+          "phonetic": "ai"
+        },
+        {
+          "letter": "ಒ",
+          "phonetic": "o"
+        },
+        {
+          "letter": "ಓ",
+          "phonetic": "oo"
+        },
+        {
+          "letter": "ಔ",
+          "phonetic": "au"
+        },
+        {
+          "letter": "ಅಂ",
+          "phonetic": "am"
+        },
+        {
+          "letter": "ಅಃ",
+          "phonetic": "aha"
+        }
+      ]
+    },
+    {
+      "id": "kan_vyanjana_practice",
+      "title": "Vyanjanagalu Practice",
+      "type": "kannadaLetter",
+      "questions": 10,
+      "letters": [
+        {
+          "letter": "ಕ",
+          "phonetic": "ka"
+        },
+        {
+          "letter": "ಖ",
+          "phonetic": "kha"
+        },
+        {
+          "letter": "ಗ",
+          "phonetic": "ga"
+        },
+        {
+          "letter": "ಘ",
+          "phonetic": "gha"
+        },
+        {
+          "letter": "ಙ",
+          "phonetic": "nga"
+        },
+        {
+          "letter": "ಚ",
+          "phonetic": "cha"
+        },
+        {
+          "letter": "ಛ",
+          "phonetic": "chha"
+        },
+        {
+          "letter": "ಜ",
+          "phonetic": "ja"
+        },
+        {
+          "letter": "ಝ",
+          "phonetic": "jha"
+        },
+        {
+          "letter": "ಞ",
+          "phonetic": "nya"
+        },
+        {
+          "letter": "ಟ",
+          "phonetic": "ta"
+        },
+        {
+          "letter": "ಠ",
+          "phonetic": "tha"
+        },
+        {
+          "letter": "ಡ",
+          "phonetic": "da"
+        },
+        {
+          "letter": "ಢ",
+          "phonetic": "dha"
+        },
+        {
+          "letter": "ಣ",
+          "phonetic": "na"
+        },
+        {
+          "letter": "ತ",
+          "phonetic": "ta"
+        },
+        {
+          "letter": "ಥ",
+          "phonetic": "tha"
+        },
+        {
+          "letter": "ದ",
+          "phonetic": "da"
+        },
+        {
+          "letter": "ಧ",
+          "phonetic": "dha"
+        },
+        {
+          "letter": "ನ",
+          "phonetic": "na"
+        },
+        {
+          "letter": "ಪ",
+          "phonetic": "pa"
+        },
+        {
+          "letter": "ಫ",
+          "phonetic": "pha"
+        },
+        {
+          "letter": "ಬ",
+          "phonetic": "ba"
+        },
+        {
+          "letter": "ಭ",
+          "phonetic": "bha"
+        },
+        {
+          "letter": "ಮ",
+          "phonetic": "ma"
+        },
+        {
+          "letter": "ಯ",
+          "phonetic": "ya"
+        },
+        {
+          "letter": "ರ",
+          "phonetic": "ra"
+        },
+        {
+          "letter": "ಲ",
+          "phonetic": "la"
+        },
+        {
+          "letter": "ವ",
+          "phonetic": "va"
+        },
+        {
+          "letter": "ಶ",
+          "phonetic": "sha"
+        },
+        {
+          "letter": "ಷ",
+          "phonetic": "sha"
+        },
+        {
+          "letter": "ಸ",
+          "phonetic": "sa"
+        },
+        {
+          "letter": "ಹ",
+          "phonetic": "ha"
+        },
+        {
+          "letter": "ಳ",
+          "phonetic": "la"
+        },
+        {
+          "letter": "ೞ",
+          "phonetic": "zha"
+        },
+        {
+          "letter": "ಱ",
+          "phonetic": "rra"
+        }
+      ]
+    },
+    {
+      "id": "kan_guninthakshara",
+      "title": "Guninthaksharagalu",
+      "type": "kannadaLetter",
+      "questions": 10,
+      "letters": [
+        {
+          "letter": "ಕಾ",
+          "phonetic": "kaa"
+        },
+        {
+          "letter": "ಕಿ",
+          "phonetic": "ki"
+        },
+        {
+          "letter": "ಕೀ",
+          "phonetic": "kee"
+        },
+        {
+          "letter": "ಕು",
+          "phonetic": "ku"
+        },
+        {
+          "letter": "ಕೂ",
+          "phonetic": "koo"
+        },
+        {
+          "letter": "ಕೆ",
+          "phonetic": "ke"
+        },
+        {
+          "letter": "ಕೇ",
+          "phonetic": "kae"
+        },
+        {
+          "letter": "ಕೈ",
+          "phonetic": "kai"
+        },
+        {
+          "letter": "ಕೊ",
+          "phonetic": "ko"
+        },
+        {
+          "letter": "ಕೋ",
+          "phonetic": "koo"
+        },
+        {
+          "letter": "ಕೌ",
+          "phonetic": "kau"
+        },
+        {
+          "letter": "ಗಾ",
+          "phonetic": "gaa"
+        },
+        {
+          "letter": "ಗಿ",
+          "phonetic": "gi"
+        },
+        {
+          "letter": "ಗೀ",
+          "phonetic": "gee"
+        },
+        {
+          "letter": "ಗು",
+          "phonetic": "gu"
+        },
+        {
+          "letter": "ಗೂ",
+          "phonetic": "goo"
+        },
+        {
+          "letter": "ಗೆ",
+          "phonetic": "ge"
+        },
+        {
+          "letter": "ಗೇ",
+          "phonetic": "gae"
+        },
+        {
+          "letter": "ಚಾ",
+          "phonetic": "chaa"
+        },
+        {
+          "letter": "ಚಿ",
+          "phonetic": "chi"
+        },
+        {
+          "letter": "ಚು",
+          "phonetic": "chu"
+        },
+        {
+          "letter": "ಚೆ",
+          "phonetic": "che"
+        },
+        {
+          "letter": "ಚೇ",
+          "phonetic": "chae"
+        },
+        {
+          "letter": "ಜಾ",
+          "phonetic": "jaa"
+        },
+        {
+          "letter": "ಜಿ",
+          "phonetic": "ji"
+        },
+        {
+          "letter": "ಜು",
+          "phonetic": "ju"
+        },
+        {
+          "letter": "ಜೆ",
+          "phonetic": "je"
+        },
+        {
+          "letter": "ಜೇ",
+          "phonetic": "jae"
+        },
+        {
+          "letter": "ಟಾ",
+          "phonetic": "taa"
+        },
+        {
+          "letter": "ಟಿ",
+          "phonetic": "ti"
+        },
+        {
+          "letter": "ಟು",
+          "phonetic": "tu"
+        },
+        {
+          "letter": "ಟೆ",
+          "phonetic": "te"
+        },
+        {
+          "letter": "ಟೇ",
+          "phonetic": "tae"
+        },
+        {
+          "letter": "ಡಾ",
+          "phonetic": "daa"
+        },
+        {
+          "letter": "ಡಿ",
+          "phonetic": "di"
+        },
+        {
+          "letter": "ಡು",
+          "phonetic": "du"
+        },
+        {
+          "letter": "ಡೆ",
+          "phonetic": "de"
+        },
+        {
+          "letter": "ಡೇ",
+          "phonetic": "dae"
+        },
+        {
+          "letter": "ತಾ",
+          "phonetic": "taa"
+        },
+        {
+          "letter": "ತಿ",
+          "phonetic": "ti"
+        },
+        {
+          "letter": "ತೀ",
+          "phonetic": "tee"
+        },
+        {
+          "letter": "ತು",
+          "phonetic": "tu"
+        },
+        {
+          "letter": "ತೂ",
+          "phonetic": "too"
+        },
+        {
+          "letter": "ತೆ",
+          "phonetic": "te"
+        },
+        {
+          "letter": "ತೇ",
+          "phonetic": "tae"
+        },
+        {
+          "letter": "ದಾ",
+          "phonetic": "daa"
+        },
+        {
+          "letter": "ದಿ",
+          "phonetic": "di"
+        },
+        {
+          "letter": "ದು",
+          "phonetic": "du"
+        },
+        {
+          "letter": "ದೆ",
+          "phonetic": "de"
+        },
+        {
+          "letter": "ದೇ",
+          "phonetic": "dae"
+        },
+        {
+          "letter": "ನಾ",
+          "phonetic": "naa"
+        },
+        {
+          "letter": "ನಿ",
+          "phonetic": "ni"
+        },
+        {
+          "letter": "ನೀ",
+          "phonetic": "nee"
+        },
+        {
+          "letter": "ನು",
+          "phonetic": "nu"
+        },
+        {
+          "letter": "ನೂ",
+          "phonetic": "noo"
+        },
+        {
+          "letter": "ನೆ",
+          "phonetic": "ne"
+        },
+        {
+          "letter": "ನೇ",
+          "phonetic": "nae"
+        },
+        {
+          "letter": "ಪಾ",
+          "phonetic": "paa"
+        },
+        {
+          "letter": "ಪಿ",
+          "phonetic": "pi"
+        },
+        {
+          "letter": "ಪು",
+          "phonetic": "pu"
+        },
+        {
+          "letter": "ಪೆ",
+          "phonetic": "pe"
+        },
+        {
+          "letter": "ಪೇ",
+          "phonetic": "pae"
+        },
+        {
+          "letter": "ಬಾ",
+          "phonetic": "baa"
+        },
+        {
+          "letter": "ಬಿ",
+          "phonetic": "bi"
+        },
+        {
+          "letter": "ಬೀ",
+          "phonetic": "bee"
+        },
+        {
+          "letter": "ಬು",
+          "phonetic": "bu"
+        },
+        {
+          "letter": "ಬೆ",
+          "phonetic": "be"
+        },
+        {
+          "letter": "ಬೇ",
+          "phonetic": "bae"
+        },
+        {
+          "letter": "ಮಾ",
+          "phonetic": "maa"
+        },
+        {
+          "letter": "ಮಿ",
+          "phonetic": "mi"
+        },
+        {
+          "letter": "ಮೀ",
+          "phonetic": "mee"
+        },
+        {
+          "letter": "ಮು",
+          "phonetic": "mu"
+        },
+        {
+          "letter": "ಮೂ",
+          "phonetic": "moo"
+        },
+        {
+          "letter": "ಮೆ",
+          "phonetic": "me"
+        },
+        {
+          "letter": "ಮೇ",
+          "phonetic": "mae"
+        },
+        {
+          "letter": "ಯಾ",
+          "phonetic": "yaa"
+        },
+        {
+          "letter": "ಯಿ",
+          "phonetic": "yi"
+        },
+        {
+          "letter": "ಯು",
+          "phonetic": "yu"
+        },
+        {
+          "letter": "ಯೆ",
+          "phonetic": "ye"
+        },
+        {
+          "letter": "ಯೇ",
+          "phonetic": "yae"
+        },
+        {
+          "letter": "ರಾ",
+          "phonetic": "raa"
+        },
+        {
+          "letter": "ರಿ",
+          "phonetic": "ri"
+        },
+        {
+          "letter": "ರೀ",
+          "phonetic": "ree"
+        },
+        {
+          "letter": "ರು",
+          "phonetic": "ru"
+        },
+        {
+          "letter": "ರೂ",
+          "phonetic": "roo"
+        },
+        {
+          "letter": "ರೆ",
+          "phonetic": "re"
+        },
+        {
+          "letter": "ರೇ",
+          "phonetic": "rae"
+        },
+        {
+          "letter": "ಲಾ",
+          "phonetic": "laa"
+        },
+        {
+          "letter": "ಲಿ",
+          "phonetic": "li"
+        },
+        {
+          "letter": "ಲೀ",
+          "phonetic": "lee"
+        },
+        {
+          "letter": "ಲು",
+          "phonetic": "lu"
+        },
+        {
+          "letter": "ಲೂ",
+          "phonetic": "loo"
+        },
+        {
+          "letter": "ಲೆ",
+          "phonetic": "le"
+        },
+        {
+          "letter": "ಲೇ",
+          "phonetic": "lae"
+        },
+        {
+          "letter": "ವಾ",
+          "phonetic": "vaa"
+        },
+        {
+          "letter": "ವಿ",
+          "phonetic": "vi"
+        },
+        {
+          "letter": "ವೀ",
+          "phonetic": "vee"
+        },
+        {
+          "letter": "ವು",
+          "phonetic": "vu"
+        },
+        {
+          "letter": "ವೂ",
+          "phonetic": "voo"
+        },
+        {
+          "letter": "ವೆ",
+          "phonetic": "ve"
+        },
+        {
+          "letter": "ವೇ",
+          "phonetic": "vae"
+        },
+        {
+          "letter": "ಸಾ",
+          "phonetic": "saa"
+        },
+        {
+          "letter": "ಸಿ",
+          "phonetic": "si"
+        },
+        {
+          "letter": "ಸೀ",
+          "phonetic": "see"
+        },
+        {
+          "letter": "ಸು",
+          "phonetic": "su"
+        },
+        {
+          "letter": "ಸೂ",
+          "phonetic": "soo"
+        },
+        {
+          "letter": "ಸೆ",
+          "phonetic": "se"
+        },
+        {
+          "letter": "ಸೇ",
+          "phonetic": "sae"
+        },
+        {
+          "letter": "ಹಾ",
+          "phonetic": "haa"
+        },
+        {
+          "letter": "ಹಿ",
+          "phonetic": "hi"
+        },
+        {
+          "letter": "ಹೀ",
+          "phonetic": "hee"
+        },
+        {
+          "letter": "ಹು",
+          "phonetic": "hu"
+        },
+        {
+          "letter": "ಹೂ",
+          "phonetic": "hoo"
+        },
+        {
+          "letter": "ಹೆ",
+          "phonetic": "he"
+        },
+        {
+          "letter": "ಹೇ",
+          "phonetic": "hae"
+        }
+      ]
+    },
+    {
+      "id": "kan_more_picture_words",
+      "title": "More Picture Words",
+      "type": "kannadaPictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🦁",
+          "word": "ಸಿಂಹ",
+          "phonetic": "simha"
+        },
+        {
+          "picture": "🐯",
+          "word": "ಹುಲಿ",
+          "phonetic": "huli"
+        },
+        {
+          "picture": "🐻",
+          "word": "ಕರಡಿ",
+          "phonetic": "karadi"
+        },
+        {
+          "picture": "🐵",
+          "word": "ಕೋತಿ",
+          "phonetic": "koti"
+        },
+        {
+          "picture": "🦊",
+          "word": "ನರಿ",
+          "phonetic": "nari"
+        },
+        {
+          "picture": "🐺",
+          "word": "ತೋಳ",
+          "phonetic": "tola"
+        },
+        {
+          "picture": "🐸",
+          "word": "ಕಪ್ಪೆ",
+          "phonetic": "kappe"
+        },
+        {
+          "picture": "🐢",
+          "word": "ಆಮೆ",
+          "phonetic": "aame"
+        },
+        {
+          "picture": "🦎",
+          "word": "ಹಲ್ಲಿ",
+          "phonetic": "halli"
+        },
+        {
+          "picture": "🐍",
+          "word": "ಹಾವು",
+          "phonetic": "haavu"
+        },
+        {
+          "picture": "🦋",
+          "word": "ಚಿಟ್ಟೆ",
+          "phonetic": "chitte"
+        },
+        {
+          "picture": "🐝",
+          "word": "ದುಂಬಿ",
+          "phonetic": "dumbi"
+        },
+        {
+          "picture": "🍊",
+          "word": "ಕಿತ್ತಳೆ",
+          "phonetic": "kittale"
+        },
+        {
+          "picture": "🍇",
+          "word": "ದ್ರಾಕ್ಷಿ",
+          "phonetic": "draakshi"
+        },
+        {
+          "picture": "🍈",
+          "word": "ಕರ್ಬೂಜ",
+          "phonetic": "karbooja"
+        },
+        {
+          "picture": "🥕",
+          "word": "ಕ್ಯಾರೆಟ್",
+          "phonetic": "kyaaret"
+        },
+        {
+          "picture": "🥔",
+          "word": "ಆಲೂಗಡ್ಡೆ",
+          "phonetic": "aaloogadde"
+        },
+        {
+          "picture": "🌽",
+          "word": "ಜೋಳ",
+          "phonetic": "jola"
+        },
+        {
+          "picture": "🚂",
+          "word": "ರೈಲು",
+          "phonetic": "railu"
+        },
+        {
+          "picture": "✈️",
+          "word": "ವಿಮಾನ",
+          "phonetic": "vimaana"
+        },
+        {
+          "picture": "🚢",
+          "word": "ಹಡಗು",
+          "phonetic": "hadagu"
+        },
+        {
+          "picture": "👁️",
+          "word": "ಕಣ್ಣು",
+          "phonetic": "kannu"
+        },
+        {
+          "picture": "🤚",
+          "word": "ಕೈ",
+          "phonetic": "kai"
+        },
+        {
+          "picture": "🦵",
+          "word": "ಕಾಲು",
+          "phonetic": "kaalu"
+        },
+        {
+          "picture": "⭐",
+          "word": "ನಕ್ಷತ್ರ",
+          "phonetic": "nakshattra"
+        },
+        {
+          "picture": "☁️",
+          "word": "ಮೋಡ",
+          "phonetic": "moda"
+        },
+        {
+          "picture": "🌈",
+          "word": "ಕಾಮನಬಿಲ್ಲು",
+          "phonetic": "kaamanabillu"
+        }
+      ]
+    },
+    {
+      "id": "kan_numbers",
+      "title": "Kannada Numbers (0-20)",
+      "type": "kannadaPictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "0️⃣",
+          "word": "ಸೊನ್ನೆ",
+          "phonetic": "sonne"
+        },
+        {
+          "picture": "1️⃣",
+          "word": "ಒಂದು",
+          "phonetic": "ondu"
+        },
+        {
+          "picture": "2️⃣",
+          "word": "ಎರಡು",
+          "phonetic": "eradu"
+        },
+        {
+          "picture": "3️⃣",
+          "word": "ಮೂರು",
+          "phonetic": "mooru"
+        },
+        {
+          "picture": "4️⃣",
+          "word": "ನಾಲ್ಕು",
+          "phonetic": "naalku"
+        },
+        {
+          "picture": "5️⃣",
+          "word": "ಐದು",
+          "phonetic": "aidu"
+        },
+        {
+          "picture": "6️⃣",
+          "word": "ಆರು",
+          "phonetic": "aaru"
+        },
+        {
+          "picture": "7️⃣",
+          "word": "ಏಳು",
+          "phonetic": "elu"
+        },
+        {
+          "picture": "8️⃣",
+          "word": "ಎಂಟು",
+          "phonetic": "entu"
+        },
+        {
+          "picture": "9️⃣",
+          "word": "ಒಂಬತ್ತು",
+          "phonetic": "ombattu"
+        },
+        {
+          "picture": "🔟",
+          "word": "ಹತ್ತು",
+          "phonetic": "hattu"
+        },
+        {
+          "picture": "1️⃣1️⃣",
+          "word": "ಹನ್ನೊಂದು",
+          "phonetic": "hannnondu"
+        },
+        {
+          "picture": "1️⃣2️⃣",
+          "word": "ಹನ್ನೆರಡು",
+          "phonetic": "hanneradu"
+        },
+        {
+          "picture": "1️⃣3️⃣",
+          "word": "ಹದಿಮೂರು",
+          "phonetic": "hadimooru"
+        },
+        {
+          "picture": "1️⃣4️⃣",
+          "word": "ಹದಿನಾಲ್ಕು",
+          "phonetic": "hadinaalku"
+        },
+        {
+          "picture": "1️⃣5️⃣",
+          "word": "ಹದಿನೈದು",
+          "phonetic": "hadinaidu"
+        },
+        {
+          "picture": "1️⃣6️⃣",
+          "word": "ಹದಿನಾರು",
+          "phonetic": "hadinaaru"
+        },
+        {
+          "picture": "1️⃣7️⃣",
+          "word": "ಹದಿನೇಳು",
+          "phonetic": "hadinelu"
+        },
+        {
+          "picture": "1️⃣8️⃣",
+          "word": "ಹದಿನೆಂಟು",
+          "phonetic": "hadinentu"
+        },
+        {
+          "picture": "1️⃣9️⃣",
+          "word": "ಹತ್ತೊಂಬತ್ತು",
+          "phonetic": "hattombattu"
+        },
+        {
+          "picture": "2️⃣0️⃣",
+          "word": "ಇಪ್ಪತ್ತು",
+          "phonetic": "ippattu"
+        }
+      ]
+    },
+    {
+      "id": "kan_colors",
+      "title": "Colors in Kannada",
+      "type": "kannadaPictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🔴 Red",
+          "word": "ಕೆಂಪು",
+          "phonetic": "kempu"
+        },
+        {
+          "picture": "🔵 Blue",
+          "word": "ನೀಲಿ",
+          "phonetic": "neeli"
+        },
+        {
+          "picture": "🟢 Green",
+          "word": "ಹಸಿರು",
+          "phonetic": "hasiru"
+        },
+        {
+          "picture": "🟡 Yellow",
+          "word": "ಹಳದಿ",
+          "phonetic": "haladi"
+        },
+        {
+          "picture": "🟠 Orange",
+          "word": "ಕಿತ್ತಳೆ",
+          "phonetic": "kittale"
+        },
+        {
+          "picture": "⚫ Black",
+          "word": "ಕಪ್ಪು",
+          "phonetic": "kappu"
+        },
+        {
+          "picture": "⚪ White",
+          "word": "ಬಿಳಿ",
+          "phonetic": "bili"
+        },
+        {
+          "picture": "🟤 Brown",
+          "word": "ಕಂದು",
+          "phonetic": "kandu"
+        },
+        {
+          "picture": "🟣 Purple",
+          "word": "ನೇರಳೆ",
+          "phonetic": "nerale"
+        },
+        {
+          "picture": "🩷 Pink",
+          "word": "ಗುಲಾಬಿ",
+          "phonetic": "gulaabi"
+        }
+      ]
+    },
+    {
+      "id": "kan_body_parts",
+      "title": "Body Parts in Kannada",
+      "type": "kannadaPictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "👁️",
+          "word": "ಕಣ್ಣು",
+          "phonetic": "kannu"
+        },
+        {
+          "picture": "👃",
+          "word": "ಮೂಗು",
+          "phonetic": "moogu"
+        },
+        {
+          "picture": "👂",
+          "word": "ಕಿವಿ",
+          "phonetic": "kivi"
+        },
+        {
+          "picture": "👄",
+          "word": "ಬಾಯಿ",
+          "phonetic": "baayi"
+        },
+        {
+          "picture": "👅",
+          "word": "ನಾಲಗೆ",
+          "phonetic": "naalage"
+        },
+        {
+          "picture": "🦷",
+          "word": "ಹಲ್ಲು",
+          "phonetic": "hallu"
+        },
+        {
+          "picture": "🤚",
+          "word": "ಕೈ",
+          "phonetic": "kai"
+        },
+        {
+          "picture": "🦶",
+          "word": "ಪಾದ",
+          "phonetic": "paada"
+        },
+        {
+          "picture": "💪",
+          "word": "ತೋಳು",
+          "phonetic": "toolu"
+        },
+        {
+          "picture": "🦵",
+          "word": "ಕಾಲು",
+          "phonetic": "kaalu"
+        },
+        {
+          "picture": "🧠",
+          "word": "ಮೆದುಳು",
+          "phonetic": "medulu"
+        },
+        {
+          "picture": "❤️",
+          "word": "ಹೃದಯ",
+          "phonetic": "hrudaya"
+        },
+        {
+          "picture": "👂👂",
+          "word": "ಕಿವಿಗಳು",
+          "phonetic": "kivigalu"
+        },
+        {
+          "picture": "👁️👁️",
+          "word": "ಕಣ್ಣುಗಳು",
+          "phonetic": "kannugalu"
+        },
+        {
+          "picture": "🤲",
+          "word": "ಕೈಗಳು",
+          "phonetic": "kaigalu"
+        }
+      ]
+    },
+    {
+      "id": "kan_animals_more",
+      "title": "More Animals in Kannada",
+      "type": "kannadaPictureWord",
+      "questions": 10,
+      "items": [
+        {
+          "picture": "🦒",
+          "word": "ಜಿರಾಫೆ",
+          "phonetic": "jiraafe"
+        },
+        {
+          "picture": "🦓",
+          "word": "ಜೀಬ್ರಾ",
+          "phonetic": "jeebra"
+        },
+        {
+          "picture": "🐪",
+          "word": "ಒಂಟೆ",
+          "phonetic": "onte"
+        },
+        {
+          "picture": "🐼",
+          "word": "ಪಾಂಡಾ",
+          "phonetic": "paanda"
+        },
+        {
+          "picture": "🐨",
+          "word": "ಕೋಲಾ",
+          "phonetic": "kola"
+        },
+        {
+          "picture": "🦘",
+          "word": "ಕ್ಯಾಂಗರೂ",
+          "phonetic": "kyaangaroo"
+        },
+        {
+          "picture": "🦏",
+          "word": "ಖಡ್ಗಮೃಗ",
+          "phonetic": "khadgamruga"
+        },
+        {
+          "picture": "🦛",
+          "word": "ಹಿಪ್ಪೋ",
+          "phonetic": "hippo"
+        },
+        {
+          "picture": "🐅",
+          "word": "ಹುಲಿ",
+          "phonetic": "huli"
+        },
+        {
+          "picture": "🐆",
+          "word": "ಚಿರತೆ",
+          "phonetic": "chirate"
+        },
+        {
+          "picture": "🦅",
+          "word": "ಹದ್ದು",
+          "phonetic": "haddu"
+        },
+        {
+          "picture": "🦉",
+          "word": "ಗೂಬೆ",
+          "phonetic": "goobe"
+        },
+        {
+          "picture": "🦜",
+          "word": "ಗಿಣಿ",
+          "phonetic": "gini"
+        },
+        {
+          "picture": "🦚",
+          "word": "ನವಿಲು",
+          "phonetic": "navilu"
+        },
+        {
+          "picture": "🦢",
+          "word": "ಹಂಸ",
+          "phonetic": "hamsa"
+        }
+      ]
+    },
+    {
+      "id": "kan_more_drag_words",
+      "title": "Build More Kannada Words",
+      "type": "kannadaDragWord",
+      "questions": 10,
+      "words": [
+        {
+          "clue": "Lion",
+          "picture": "🦁",
+          "letters": ["ಸಿಂ", "ಹ"],
+          "answerText": "ಸಿಂಹ"
+        },
+        {
+          "clue": "Tiger",
+          "picture": "🐯",
+          "letters": ["ಹು", "ಲಿ"],
+          "answerText": "ಹುಲಿ"
+        },
+        {
+          "clue": "Monkey",
+          "picture": "🐵",
+          "letters": ["ಕೋ", "ತಿ"],
+          "answerText": "ಕೋತಿ"
+        },
+        {
+          "clue": "Frog",
+          "picture": "🐸",
+          "letters": ["ಕ", "ಪ್ಪೆ"],
+          "answerText": "ಕಪ್ಪೆ"
+        },
+        {
+          "clue": "Turtle",
+          "picture": "🐢",
+          "letters": ["ಆ", "ಮೆ"],
+          "answerText": "ಆಮೆ"
+        },
+        {
+          "clue": "Snake",
+          "picture": "🐍",
+          "letters": ["ಹಾ", "ವು"],
+          "answerText": "ಹಾವು"
+        },
+        {
+          "clue": "Butterfly",
+          "picture": "🦋",
+          "letters": ["ಚಿ", "ಟ್ಟೆ"],
+          "answerText": "ಚಿಟ್ಟೆ"
+        },
+        {
+          "clue": "Train",
+          "picture": "🚂",
+          "letters": ["ರೈ", "ಲು"],
+          "answerText": "ರೈಲು"
+        },
+        {
+          "clue": "Airplane",
+          "picture": "✈️",
+          "letters": ["ವಿ", "ಮಾ", "ನ"],
+          "answerText": "ವಿಮಾನ"
+        },
+        {
+          "clue": "Ship",
+          "picture": "🚢",
+          "letters": ["ಹ", "ಡ", "ಗು"],
+          "answerText": "ಹಡಗು"
+        },
+        {
+          "clue": "Star",
+          "picture": "⭐",
+          "letters": ["ನ", "ಕ್ಷ", "ತ್ರ"],
+          "answerText": "ನಕ್ಷತ್ರ"
+        },
+        {
+          "clue": "Cloud",
+          "picture": "☁️",
+          "letters": ["ಮೋ", "ಡ"],
+          "answerText": "ಮೋಡ"
+        },
+        {
+          "clue": "Grapes",
+          "picture": "🍇",
+          "letters": ["ದ್ರಾ", "ಕ್ಷಿ"],
+          "answerText": "ದ್ರಾಕ್ಷಿ"
+        },
+        {
+          "clue": "Orange",
+          "picture": "🍊",
+          "letters": ["ಕಿ", "ತ್ತ", "ಳೆ"],
+          "answerText": "ಕಿತ್ತಳೆ"
+        },
+        {
+          "clue": "Potato",
+          "picture": "🥔",
+          "letters": ["ಆ", "ಲೂ", "ಗ", "ಡ್ಡೆ"],
+          "answerText": "ಆಲೂಗಡ್ಡೆ"
+        }
+      ]
+    }
+  ]
+}

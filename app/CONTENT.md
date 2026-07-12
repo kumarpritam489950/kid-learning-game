@@ -1,0 +1,69 @@
+# Content Pipeline
+
+All game content lives as JSON under `src/content/`, validated by Zod schemas
+in [src/content/schema.ts](src/content/schema.ts).
+
+## Layout
+
+| Path                       | What                                                                                                             |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `subjects/<id>.json`       | 9 lesson subjects (english, math, kannada, hindi, science, computer, rhymes, gk, mental_math), 103 modules total |
+| `funGames.json`            | 9 arcade game configs                                                                                            |
+| `stories.json`             | 4 Story Time stories with per-page text + TTS lines                                                              |
+| `assessment/<id>.json`     | 283-question assessment bank (mathematics 75, english 62, hindi 32, computer 42, kannada 31, evs 41)             |
+| `app-meta.json`            | praise/try messages, class level                                                                                 |
+| `conversion-manifest.json` | frozen counts captured at conversion time — the parity baseline                                                  |
+
+`src/content/index.ts` exposes typed accessors (`LESSON_SUBJECTS`, `FUN_GAMES`,
+`STORIES`, `ASSESSMENT_SUBJECTS`, `APP_META`). Content is Zod-validated in
+tests and once at startup in dev builds; production pays no validation cost.
+
+## Editing content
+
+Edit the JSON directly, then run `npm test`. The tests in
+`src/content/content.test.ts` enforce:
+
+- every file parses against its schema (strict — unknown keys are errors)
+- module/question counts match the frozen expectations (update those numbers
+  deliberately when adding content)
+- globally unique module ids
+- every assessment question has exactly one correct option
+
+## Module types
+
+16 lesson types (discriminated on `type`): `counting`, `arithmetic`, `shape`,
+`missingLetter`, `pictureWord`, `sightWord`, `kannadaLetter`,
+`kannadaPictureWord`, `kannadaDragWord`, `hindiLetter`, `hindiPictureWord`,
+`hindiMissingMatra`, `scienceMcq`, `hindiBarakhadi`, `rhymeComplete`,
+`hindiPoem` — plus 9 arcade types. Field shapes are documented by the schemas
+themselves.
+
+## Provenance
+
+Generated from the v1 sources (git tag `v1-legacy`) by
+`scripts/convert-legacy.mjs`:
+
+- `data/gameData.js` → subjects, fun games, stories, app meta
+- `assessment_expanded.js` → assessment bank
+
+Normalizations applied during conversion:
+
+- letter lists (`string | {letter, phonetic}`) → always `{letter, phonetic: string|null}`
+- arithmetic `visualItem` (singular) → `visualItems` array
+- `phonetic` on hindi/kannada picture-word items → explicit `null` when absent
+
+Known v1 data quirks handled:
+
+- **assessment_expanded.js is syntactically broken** after the object's closing
+  `};` (line ~3134): a generator bug appended orphaned question blocks plus
+  duplicate `kannada`/`evs` sections. Only the valid prefix (which contains all
+  six subjects) is used; the tail was never loadable by any JS engine.
+- **hin_more_matras words have no `hint`** — v1 rendered the string
+  "undefined" in those prompts; the v2 generator omits the hint suffix.
+- Some `scienceMcq` items carry `speakText`/`speakLang` that v1 ignored; v2
+  may honor them for TTS.
+
+The converter is one-time: after the v2 cutover removes the legacy files, the
+JSON here is the source of truth. (`tools/legacy/generate_questions.py` still
+refers to the old assessment format and would need updating to emit JSON if
+ever revived.)

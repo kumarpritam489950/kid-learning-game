@@ -1,0 +1,1086 @@
+{
+  "id": "mental_math",
+  "name": "Mental Math",
+  "icon": "🧠",
+  "description": "Quick thinking, mental calculations, and number sense.",
+  "modules": [
+    {
+      "id": "mental_quick_add",
+      "title": "Quick Addition (Single Digit)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "3 + 4 = ?",
+          "visual": "⚡",
+          "answer": "7",
+          "options": ["7", "6", "8", "5"]
+        },
+        {
+          "question": "5 + 2 = ?",
+          "visual": "⚡",
+          "answer": "7",
+          "options": ["7", "8", "6", "9"]
+        },
+        {
+          "question": "6 + 3 = ?",
+          "visual": "⚡",
+          "answer": "9",
+          "options": ["9", "8", "10", "7"]
+        },
+        {
+          "question": "4 + 5 = ?",
+          "visual": "⚡",
+          "answer": "9",
+          "options": ["9", "8", "10", "7"]
+        },
+        {
+          "question": "7 + 2 = ?",
+          "visual": "⚡",
+          "answer": "9",
+          "options": ["9", "8", "10", "6"]
+        },
+        {
+          "question": "8 + 1 = ?",
+          "visual": "⚡",
+          "answer": "9",
+          "options": ["9", "7", "10", "8"]
+        },
+        {
+          "question": "2 + 6 = ?",
+          "visual": "⚡",
+          "answer": "8",
+          "options": ["8", "7", "9", "6"]
+        },
+        {
+          "question": "3 + 3 = ?",
+          "visual": "⚡",
+          "answer": "6",
+          "options": ["6", "5", "7", "9"]
+        },
+        {
+          "question": "4 + 4 = ?",
+          "visual": "⚡",
+          "answer": "8",
+          "options": ["8", "7", "9", "6"]
+        },
+        {
+          "question": "5 + 5 = ?",
+          "visual": "⚡",
+          "answer": "10",
+          "options": ["10", "9", "11", "8"]
+        },
+        {
+          "question": "1 + 9 = ?",
+          "visual": "⚡",
+          "answer": "10",
+          "options": ["10", "9", "11", "8"]
+        },
+        {
+          "question": "6 + 4 = ?",
+          "visual": "⚡",
+          "answer": "10",
+          "options": ["10", "9", "11", "8"]
+        },
+        {
+          "question": "7 + 3 = ?",
+          "visual": "⚡",
+          "answer": "10",
+          "options": ["10", "9", "11", "8"]
+        },
+        {
+          "question": "8 + 2 = ?",
+          "visual": "⚡",
+          "answer": "10",
+          "options": ["10", "9", "11", "12"]
+        },
+        {
+          "question": "2 + 2 = ?",
+          "visual": "⚡",
+          "answer": "4",
+          "options": ["4", "3", "5", "6"]
+        }
+      ]
+    },
+    {
+      "id": "mental_quick_subtract",
+      "title": "Quick Subtraction (Single Digit)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "9 - 3 = ?",
+          "visual": "⚡",
+          "answer": "6",
+          "options": ["6", "7", "5", "8"]
+        },
+        {
+          "question": "8 - 2 = ?",
+          "visual": "⚡",
+          "answer": "6",
+          "options": ["6", "5", "7", "4"]
+        },
+        {
+          "question": "7 - 4 = ?",
+          "visual": "⚡",
+          "answer": "3",
+          "options": ["3", "4", "2", "5"]
+        },
+        {
+          "question": "10 - 5 = ?",
+          "visual": "⚡",
+          "answer": "5",
+          "options": ["5", "4", "6", "3"]
+        },
+        {
+          "question": "6 - 2 = ?",
+          "visual": "⚡",
+          "answer": "4",
+          "options": ["4", "3", "5", "2"]
+        },
+        {
+          "question": "9 - 5 = ?",
+          "visual": "⚡",
+          "answer": "4",
+          "options": ["4", "5", "3", "6"]
+        },
+        {
+          "question": "8 - 3 = ?",
+          "visual": "⚡",
+          "answer": "5",
+          "options": ["5", "4", "6", "3"]
+        },
+        {
+          "question": "10 - 3 = ?",
+          "visual": "⚡",
+          "answer": "7",
+          "options": ["7", "6", "8", "5"]
+        },
+        {
+          "question": "7 - 2 = ?",
+          "visual": "⚡",
+          "answer": "5",
+          "options": ["5", "4", "6", "3"]
+        },
+        {
+          "question": "10 - 7 = ?",
+          "visual": "⚡",
+          "answer": "3",
+          "options": ["3", "4", "2", "5"]
+        },
+        {
+          "question": "9 - 4 = ?",
+          "visual": "⚡",
+          "answer": "5",
+          "options": ["5", "4", "6", "3"]
+        },
+        {
+          "question": "6 - 3 = ?",
+          "visual": "⚡",
+          "answer": "3",
+          "options": ["3", "4", "2", "5"]
+        },
+        {
+          "question": "8 - 5 = ?",
+          "visual": "⚡",
+          "answer": "3",
+          "options": ["3", "4", "2", "5"]
+        },
+        {
+          "question": "10 - 4 = ?",
+          "visual": "⚡",
+          "answer": "6",
+          "options": ["6", "5", "7", "4"]
+        },
+        {
+          "question": "5 - 2 = ?",
+          "visual": "⚡",
+          "answer": "3",
+          "options": ["3", "2", "4", "5"]
+        }
+      ]
+    },
+    {
+      "id": "mental_number_bonds_10",
+      "title": "Number Bonds to 10",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "7 + ___ = 10",
+          "visual": "🔗",
+          "answer": "3",
+          "options": ["3", "2", "4", "5"]
+        },
+        {
+          "question": "4 + ___ = 10",
+          "visual": "🔗",
+          "answer": "6",
+          "options": ["6", "5", "7", "4"]
+        },
+        {
+          "question": "8 + ___ = 10",
+          "visual": "🔗",
+          "answer": "2",
+          "options": ["2", "3", "1", "4"]
+        },
+        {
+          "question": "5 + ___ = 10",
+          "visual": "🔗",
+          "answer": "5",
+          "options": ["5", "4", "6", "3"]
+        },
+        {
+          "question": "9 + ___ = 10",
+          "visual": "🔗",
+          "answer": "1",
+          "options": ["1", "2", "0", "3"]
+        },
+        {
+          "question": "6 + ___ = 10",
+          "visual": "🔗",
+          "answer": "4",
+          "options": ["4", "3", "5", "6"]
+        },
+        {
+          "question": "3 + ___ = 10",
+          "visual": "🔗",
+          "answer": "7",
+          "options": ["7", "6", "8", "5"]
+        },
+        {
+          "question": "2 + ___ = 10",
+          "visual": "🔗",
+          "answer": "8",
+          "options": ["8", "7", "9", "6"]
+        },
+        {
+          "question": "1 + ___ = 10",
+          "visual": "🔗",
+          "answer": "9",
+          "options": ["9", "8", "10", "7"]
+        },
+        {
+          "question": "10 + ___ = 10",
+          "visual": "🔗",
+          "answer": "0",
+          "options": ["0", "1", "10", "5"]
+        },
+        {
+          "question": "What makes 10? 6 and ___",
+          "visual": "🔗",
+          "answer": "4",
+          "options": ["4", "3", "5", "2"]
+        },
+        {
+          "question": "What makes 10? 7 and ___",
+          "visual": "🔗",
+          "answer": "3",
+          "options": ["3", "4", "2", "5"]
+        },
+        {
+          "question": "What makes 10? 8 and ___",
+          "visual": "🔗",
+          "answer": "2",
+          "options": ["2", "3", "1", "4"]
+        },
+        {
+          "question": "What makes 10? 5 and ___",
+          "visual": "🔗",
+          "answer": "5",
+          "options": ["5", "4", "6", "3"]
+        },
+        {
+          "question": "What makes 10? 9 and ___",
+          "visual": "🔗",
+          "answer": "1",
+          "options": ["1", "2", "0", "3"]
+        }
+      ]
+    },
+    {
+      "id": "mental_doubling",
+      "title": "Doubling Numbers",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Double of 1 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "2",
+          "options": ["2", "1", "3", "4"]
+        },
+        {
+          "question": "Double of 2 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "4",
+          "options": ["4", "3", "5", "2"]
+        },
+        {
+          "question": "Double of 3 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "6",
+          "options": ["6", "5", "7", "4"]
+        },
+        {
+          "question": "Double of 4 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "8",
+          "options": ["8", "7", "9", "6"]
+        },
+        {
+          "question": "Double of 5 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "10",
+          "options": ["10", "9", "11", "8"]
+        },
+        {
+          "question": "Double of 6 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "12",
+          "options": ["12", "11", "13", "10"]
+        },
+        {
+          "question": "Double of 7 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "14",
+          "options": ["14", "13", "15", "12"]
+        },
+        {
+          "question": "Double of 8 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "16",
+          "options": ["16", "15", "17", "14"]
+        },
+        {
+          "question": "Double of 9 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "18",
+          "options": ["18", "17", "19", "16"]
+        },
+        {
+          "question": "Double of 10 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "20",
+          "options": ["20", "19", "21", "18"]
+        },
+        {
+          "question": "2 + 2 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "4",
+          "options": ["4", "3", "5", "2"]
+        },
+        {
+          "question": "3 + 3 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "6",
+          "options": ["6", "5", "7", "4"]
+        },
+        {
+          "question": "4 + 4 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "8",
+          "options": ["8", "7", "9", "6"]
+        },
+        {
+          "question": "5 + 5 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "10",
+          "options": ["10", "9", "11", "8"]
+        },
+        {
+          "question": "6 + 6 = ?",
+          "visual": "✖️2️⃣",
+          "answer": "12",
+          "options": ["12", "11", "13", "10"]
+        }
+      ]
+    },
+    {
+      "id": "mental_one_more_less",
+      "title": "One More / One Less",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "One more than 5 = ?",
+          "visual": "➕1️⃣",
+          "answer": "6",
+          "options": ["6", "5", "7", "4"]
+        },
+        {
+          "question": "One more than 9 = ?",
+          "visual": "➕1️⃣",
+          "answer": "10",
+          "options": ["10", "9", "11", "8"]
+        },
+        {
+          "question": "One more than 12 = ?",
+          "visual": "➕1️⃣",
+          "answer": "13",
+          "options": ["13", "12", "14", "11"]
+        },
+        {
+          "question": "One more than 19 = ?",
+          "visual": "➕1️⃣",
+          "answer": "20",
+          "options": ["20", "19", "21", "18"]
+        },
+        {
+          "question": "One more than 7 = ?",
+          "visual": "➕1️⃣",
+          "answer": "8",
+          "options": ["8", "7", "9", "6"]
+        },
+        {
+          "question": "One less than 10 = ?",
+          "visual": "➖1️⃣",
+          "answer": "9",
+          "options": ["9", "10", "8", "11"]
+        },
+        {
+          "question": "One less than 6 = ?",
+          "visual": "➖1️⃣",
+          "answer": "5",
+          "options": ["5", "6", "4", "7"]
+        },
+        {
+          "question": "One less than 15 = ?",
+          "visual": "➖1️⃣",
+          "answer": "14",
+          "options": ["14", "15", "13", "16"]
+        },
+        {
+          "question": "One less than 20 = ?",
+          "visual": "➖1️⃣",
+          "answer": "19",
+          "options": ["19", "20", "18", "21"]
+        },
+        {
+          "question": "One less than 8 = ?",
+          "visual": "➖1️⃣",
+          "answer": "7",
+          "options": ["7", "8", "6", "9"]
+        },
+        {
+          "question": "What comes after 11?",
+          "visual": "➕1️⃣",
+          "answer": "12",
+          "options": ["12", "10", "13", "11"]
+        },
+        {
+          "question": "What comes before 16?",
+          "visual": "➖1️⃣",
+          "answer": "15",
+          "options": ["15", "17", "14", "16"]
+        },
+        {
+          "question": "What comes after 14?",
+          "visual": "➕1️⃣",
+          "answer": "15",
+          "options": ["15", "13", "16", "14"]
+        },
+        {
+          "question": "What comes before 9?",
+          "visual": "➖1️⃣",
+          "answer": "8",
+          "options": ["8", "10", "7", "9"]
+        },
+        {
+          "question": "What comes after 18?",
+          "visual": "➕1️⃣",
+          "answer": "19",
+          "options": ["19", "17", "20", "18"]
+        }
+      ]
+    },
+    {
+      "id": "sci_seasons_weather",
+      "title": "Seasons & Weather",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "How many seasons are there in a year?",
+          "visual": "🌍",
+          "answer": "4",
+          "options": ["4", "3", "5", "12"]
+        },
+        {
+          "question": "In which season is it very hot?",
+          "visual": "☀️",
+          "answer": "Summer",
+          "options": ["Summer", "Winter", "Rainy", "Spring"]
+        },
+        {
+          "question": "In which season do we wear warm clothes?",
+          "visual": "🧥",
+          "answer": "Winter",
+          "options": ["Winter", "Summer", "Rainy", "Autumn"]
+        },
+        {
+          "question": "In which season does it rain a lot?",
+          "visual": "🌧️",
+          "answer": "Rainy",
+          "options": ["Rainy", "Summer", "Winter", "Spring"]
+        },
+        {
+          "question": "Which season comes after winter?",
+          "visual": "🌸",
+          "answer": "Spring",
+          "options": ["Spring", "Summer", "Rainy", "Autumn"]
+        },
+        {
+          "question": "Clouds bring…",
+          "visual": "☁️",
+          "answer": "Rain",
+          "options": ["Rain", "Sun", "Stars", "Moon"]
+        },
+        {
+          "question": "We see lightning in the sky during…",
+          "visual": "⚡",
+          "answer": "Storm",
+          "options": ["Storm", "Sunny day", "Night", "Winter"]
+        },
+        {
+          "question": "Rainbow appears after…",
+          "visual": "🌈",
+          "answer": "Rain",
+          "options": ["Rain", "Night", "Winter", "Moon"]
+        },
+        {
+          "question": "When it is very cold, we see…",
+          "visual": "❄️",
+          "answer": "Snow",
+          "options": ["Snow", "Rain", "Rainbow", "Sun"]
+        },
+        {
+          "question": "The sun is hottest during…",
+          "visual": "☀️",
+          "answer": "Summer",
+          "options": ["Summer", "Winter", "Night", "Rainy"]
+        },
+        {
+          "question": "What do we use to protect from rain?",
+          "visual": "☂️",
+          "answer": "Umbrella",
+          "options": ["Umbrella", "Blanket", "Hat", "Shoes"]
+        },
+        {
+          "question": "Which season do flowers bloom most?",
+          "visual": "🌺",
+          "answer": "Spring",
+          "options": ["Spring", "Winter", "Night", "Rainy"]
+        },
+        {
+          "question": "When do we see stars and moon?",
+          "visual": "🌙",
+          "answer": "Night",
+          "options": ["Night", "Day", "Noon", "Morning"]
+        },
+        {
+          "question": "Wind is moving…",
+          "visual": "💨",
+          "answer": "Air",
+          "options": ["Air", "Water", "Fire", "Earth"]
+        },
+        {
+          "question": "Which is coldest?",
+          "visual": "🌡️",
+          "answer": "Winter",
+          "options": ["Winter", "Summer", "Spring", "Rainy"]
+        }
+      ]
+    },
+    {
+      "id": "sci_five_senses",
+      "title": "Our Five Senses",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "How many senses do we have?",
+          "visual": "👁️👂👃👅🤚",
+          "answer": "5",
+          "options": ["5", "3", "4", "6"]
+        },
+        {
+          "question": "We see with our…",
+          "visual": "👁️",
+          "answer": "Eyes",
+          "options": ["Eyes", "Ears", "Nose", "Tongue"]
+        },
+        {
+          "question": "We hear with our…",
+          "visual": "👂",
+          "answer": "Ears",
+          "options": ["Ears", "Eyes", "Nose", "Mouth"]
+        },
+        {
+          "question": "We smell with our…",
+          "visual": "👃",
+          "answer": "Nose",
+          "options": ["Nose", "Eyes", "Ears", "Hands"]
+        },
+        {
+          "question": "We taste with our…",
+          "visual": "👅",
+          "answer": "Tongue",
+          "options": ["Tongue", "Nose", "Ears", "Eyes"]
+        },
+        {
+          "question": "We touch with our…",
+          "visual": "🤚",
+          "answer": "Skin",
+          "options": ["Skin", "Eyes", "Nose", "Ears"]
+        },
+        {
+          "question": "Which sense helps us enjoy music?",
+          "visual": "🎵",
+          "answer": "Hearing",
+          "options": ["Hearing", "Seeing", "Tasting", "Smelling"]
+        },
+        {
+          "question": "Which sense tells us food is hot?",
+          "visual": "🔥",
+          "answer": "Touch",
+          "options": ["Touch", "Taste", "Smell", "Sight"]
+        },
+        {
+          "question": "Which sense helps us read books?",
+          "visual": "📖",
+          "answer": "Sight",
+          "options": ["Sight", "Touch", "Smell", "Taste"]
+        },
+        {
+          "question": "Which sense helps us know flowers smell nice?",
+          "visual": "🌸",
+          "answer": "Smell",
+          "options": ["Smell", "Sight", "Touch", "Hearing"]
+        },
+        {
+          "question": "Which sense tells if ice cream is sweet?",
+          "visual": "🍦",
+          "answer": "Taste",
+          "options": ["Taste", "Touch", "Sight", "Smell"]
+        },
+        {
+          "question": "Which sense helps blind people read?",
+          "visual": "📚",
+          "answer": "Touch",
+          "options": ["Touch", "Smell", "Taste", "Hearing"]
+        },
+        {
+          "question": "Which sense helps us see colors?",
+          "visual": "🎨",
+          "answer": "Sight",
+          "options": ["Sight", "Touch", "Smell", "Hearing"]
+        },
+        {
+          "question": "Which sense helps us hear our name called?",
+          "visual": "🗣️",
+          "answer": "Hearing",
+          "options": ["Hearing", "Sight", "Touch", "Smell"]
+        },
+        {
+          "question": "Which sense tells us if something is soft or hard?",
+          "visual": "🧸",
+          "answer": "Touch",
+          "options": ["Touch", "Sight", "Taste", "Smell"]
+        }
+      ]
+    },
+    {
+      "id": "sci_good_habits",
+      "title": "Good Habits & Safety",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "We should brush our teeth…",
+          "visual": "🪥",
+          "answer": "Twice a day",
+          "options": ["Twice a day", "Once a week", "Never", "Once a month"]
+        },
+        {
+          "question": "Before eating, we should…",
+          "visual": "🧼",
+          "answer": "Wash hands",
+          "options": ["Wash hands", "Play", "Sleep", "Run"]
+        },
+        {
+          "question": "We should drink ___ glasses of water daily.",
+          "visual": "💧",
+          "answer": "6-8",
+          "options": ["6-8", "1", "0", "20"]
+        },
+        {
+          "question": "We should sleep for ___ hours.",
+          "visual": "😴",
+          "answer": "8-10",
+          "options": ["8-10", "2", "1", "20"]
+        },
+        {
+          "question": "While crossing the road, we should…",
+          "visual": "🚦",
+          "answer": "Look both ways",
+          "options": ["Look both ways", "Run", "Close eyes", "Jump"]
+        },
+        {
+          "question": "We should not play with…",
+          "visual": "🔥",
+          "answer": "Fire",
+          "options": ["Fire", "Toys", "Books", "Friends"]
+        },
+        {
+          "question": "After using the toilet, we should…",
+          "visual": "🚽",
+          "answer": "Wash hands",
+          "options": ["Wash hands", "Run", "Sleep", "Eat"]
+        },
+        {
+          "question": "We should eat ___ meals a day.",
+          "visual": "🍽️",
+          "answer": "3",
+          "options": ["3", "1", "10", "0"]
+        },
+        {
+          "question": "We should always wear ___ on a bicycle.",
+          "visual": "🚲",
+          "answer": "Helmet",
+          "options": ["Helmet", "Hat", "Crown", "Cap"]
+        },
+        {
+          "question": "We should keep our room…",
+          "visual": "🧹",
+          "answer": "Clean",
+          "options": ["Clean", "Dirty", "Messy", "Wet"]
+        },
+        {
+          "question": "We should exercise to stay…",
+          "visual": "🤸",
+          "answer": "Fit",
+          "options": ["Fit", "Sick", "Lazy", "Sleepy"]
+        },
+        {
+          "question": "We should not talk to…",
+          "visual": "👤",
+          "answer": "Strangers",
+          "options": ["Strangers", "Parents", "Teachers", "Friends"]
+        },
+        {
+          "question": "We should cut nails when they are…",
+          "visual": "💅",
+          "answer": "Long",
+          "options": ["Long", "Short", "Clean", "Never"]
+        },
+        {
+          "question": "We should cover our mouth when we…",
+          "visual": "🤧",
+          "answer": "Sneeze",
+          "options": ["Sneeze", "Eat", "Sleep", "Read"]
+        },
+        {
+          "question": "We should say ___ when someone helps us.",
+          "visual": "🙏",
+          "answer": "Thank you",
+          "options": ["Thank you", "Go away", "Nothing", "Bad words"]
+        }
+      ]
+    },
+    {
+      "id": "mental_skip_counting",
+      "title": "Skip Counting (2s, 5s, 10s)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Count by 2: 2, 4, 6, ___",
+          "visual": "2️⃣➡️",
+          "answer": "8",
+          "options": ["8", "7", "9", "6"]
+        },
+        {
+          "question": "Count by 2: 10, 12, 14, ___",
+          "visual": "2️⃣➡️",
+          "answer": "16",
+          "options": ["16", "15", "17", "13"]
+        },
+        {
+          "question": "Count by 5: 5, 10, 15, ___",
+          "visual": "5️⃣➡️",
+          "answer": "20",
+          "options": ["20", "18", "25", "16"]
+        },
+        {
+          "question": "Count by 5: 20, 25, 30, ___",
+          "visual": "5️⃣➡️",
+          "answer": "35",
+          "options": ["35", "32", "40", "33"]
+        },
+        {
+          "question": "Count by 10: 10, 20, 30, ___",
+          "visual": "🔟➡️",
+          "answer": "40",
+          "options": ["40", "35", "50", "31"]
+        },
+        {
+          "question": "Count by 10: 40, 50, 60, ___",
+          "visual": "🔟➡️",
+          "answer": "70",
+          "options": ["70", "65", "80", "61"]
+        },
+        {
+          "question": "Count by 2: 8, 10, 12, ___",
+          "visual": "2️⃣➡️",
+          "answer": "14",
+          "options": ["14", "13", "15", "11"]
+        },
+        {
+          "question": "Count by 5: 10, 15, 20, ___",
+          "visual": "5️⃣➡️",
+          "answer": "25",
+          "options": ["25", "22", "30", "21"]
+        },
+        {
+          "question": "Count by 10: 20, 30, 40, ___",
+          "visual": "🔟➡️",
+          "answer": "50",
+          "options": ["50", "45", "60", "41"]
+        },
+        {
+          "question": "Count by 2: 14, 16, 18, ___",
+          "visual": "2️⃣➡️",
+          "answer": "20",
+          "options": ["20", "19", "21", "17"]
+        },
+        {
+          "question": "Count by 5: 35, 40, 45, ___",
+          "visual": "5️⃣➡️",
+          "answer": "50",
+          "options": ["50", "48", "55", "46"]
+        },
+        {
+          "question": "Count by 2: 4, 6, 8, ___",
+          "visual": "2️⃣➡️",
+          "answer": "10",
+          "options": ["10", "9", "11", "7"]
+        },
+        {
+          "question": "Count by 10: 50, 60, 70, ___",
+          "visual": "🔟➡️",
+          "answer": "80",
+          "options": ["80", "75", "90", "71"]
+        },
+        {
+          "question": "Count by 5: 15, 20, 25, ___",
+          "visual": "5️⃣➡️",
+          "answer": "30",
+          "options": ["30", "28", "35", "26"]
+        },
+        {
+          "question": "Count by 2: 6, 8, 10, ___",
+          "visual": "2️⃣➡️",
+          "answer": "12",
+          "options": ["12", "11", "13", "9"]
+        }
+      ]
+    },
+    {
+      "id": "mental_comparison",
+      "title": "Quick Comparison",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Which is bigger: 5 or 8?",
+          "visual": "⚖️",
+          "answer": "8",
+          "options": ["8", "5", "Same", "Both"]
+        },
+        {
+          "question": "Which is smaller: 3 or 7?",
+          "visual": "⚖️",
+          "answer": "3",
+          "options": ["3", "7", "Same", "Both"]
+        },
+        {
+          "question": "Which is bigger: 12 or 9?",
+          "visual": "⚖️",
+          "answer": "12",
+          "options": ["12", "9", "Same", "Both"]
+        },
+        {
+          "question": "Which is smaller: 15 or 10?",
+          "visual": "⚖️",
+          "answer": "10",
+          "options": ["10", "15", "Same", "Both"]
+        },
+        {
+          "question": "Which is bigger: 20 or 18?",
+          "visual": "⚖️",
+          "answer": "20",
+          "options": ["20", "18", "Same", "Both"]
+        },
+        {
+          "question": "Which is smaller: 6 or 4?",
+          "visual": "⚖️",
+          "answer": "4",
+          "options": ["4", "6", "Same", "Both"]
+        },
+        {
+          "question": "Which is bigger: 11 or 14?",
+          "visual": "⚖️",
+          "answer": "14",
+          "options": ["14", "11", "Same", "Both"]
+        },
+        {
+          "question": "Which is smaller: 19 or 16?",
+          "visual": "⚖️",
+          "answer": "16",
+          "options": ["16", "19", "Same", "Both"]
+        },
+        {
+          "question": "Which is bigger: 7 or 13?",
+          "visual": "⚖️",
+          "answer": "13",
+          "options": ["13", "7", "Same", "Both"]
+        },
+        {
+          "question": "Which is smaller: 17 or 12?",
+          "visual": "⚖️",
+          "answer": "12",
+          "options": ["12", "17", "Same", "Both"]
+        },
+        {
+          "question": "5 is ___ than 9",
+          "visual": "⚖️",
+          "answer": "Smaller",
+          "options": ["Smaller", "Bigger", "Equal", "Same"]
+        },
+        {
+          "question": "15 is ___ than 10",
+          "visual": "⚖️",
+          "answer": "Bigger",
+          "options": ["Bigger", "Smaller", "Equal", "Same"]
+        },
+        {
+          "question": "8 is ___ than 12",
+          "visual": "⚖️",
+          "answer": "Smaller",
+          "options": ["Smaller", "Bigger", "Equal", "Same"]
+        },
+        {
+          "question": "20 is ___ than 16",
+          "visual": "⚖️",
+          "answer": "Bigger",
+          "options": ["Bigger", "Smaller", "Equal", "Same"]
+        },
+        {
+          "question": "10 is ___ to 10",
+          "visual": "⚖️",
+          "answer": "Equal",
+          "options": ["Equal", "Bigger", "Smaller", "Different"]
+        }
+      ]
+    },
+    {
+      "id": "mental_missing_numbers",
+      "title": "Missing Numbers in Pattern",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "1, 2, 3, ___, 5",
+          "visual": "🔢",
+          "answer": "4",
+          "options": ["4", "3", "5", "6"]
+        },
+        {
+          "question": "5, 6, ___, 8, 9",
+          "visual": "🔢",
+          "answer": "7",
+          "options": ["7", "6", "8", "5"]
+        },
+        {
+          "question": "10, 11, 12, ___, 14",
+          "visual": "🔢",
+          "answer": "13",
+          "options": ["13", "12", "14", "11"]
+        },
+        {
+          "question": "15, 16, ___, 18, 19",
+          "visual": "🔢",
+          "answer": "17",
+          "options": ["17", "16", "18", "15"]
+        },
+        {
+          "question": "3, 4, 5, ___, 7",
+          "visual": "🔢",
+          "answer": "6",
+          "options": ["6", "5", "7", "4"]
+        },
+        {
+          "question": "7, 8, ___, 10, 11",
+          "visual": "🔢",
+          "answer": "9",
+          "options": ["9", "8", "10", "7"]
+        },
+        {
+          "question": "12, 13, 14, ___, 16",
+          "visual": "🔢",
+          "answer": "15",
+          "options": ["15", "14", "16", "13"]
+        },
+        {
+          "question": "17, 18, ___, 20",
+          "visual": "🔢",
+          "answer": "19",
+          "options": ["19", "18", "20", "17"]
+        },
+        {
+          "question": "8, 9, 10, ___",
+          "visual": "🔢",
+          "answer": "11",
+          "options": ["11", "10", "12", "9"]
+        },
+        {
+          "question": "___, 5, 6, 7",
+          "visual": "🔢",
+          "answer": "4",
+          "options": ["4", "5", "3", "6"]
+        },
+        {
+          "question": "___, 10, 11, 12",
+          "visual": "🔢",
+          "answer": "9",
+          "options": ["9", "10", "8", "11"]
+        },
+        {
+          "question": "14, ___, 16, 17",
+          "visual": "🔢",
+          "answer": "15",
+          "options": ["15", "14", "16", "13"]
+        },
+        {
+          "question": "2, 3, ___, 5, 6",
+          "visual": "🔢",
+          "answer": "4",
+          "options": ["4", "3", "5", "2"]
+        },
+        {
+          "question": "11, 12, ___, 14, 15",
+          "visual": "🔢",
+          "answer": "13",
+          "options": ["13", "12", "14", "11"]
+        },
+        {
+          "question": "18, 19, ___, 21",
+          "visual": "🔢",
+          "answer": "20",
+          "options": ["20", "19", "21", "18"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "stories",
+  "name": "Stories",
+  "icon": "📖",
+  "description": "Fun stories for Class 1 kids — read, listen and enjoy!",
+  "stories": [
+    {
+      "id": "lion_mouse",
+      "title": "The Lion and the Mouse",
+      "emoji": "🦁🐭",
+      "moral": "A small friend can be a great helper!",
+      "pages": [
+        {
+          "visual": "🦁💤",
+          "text": "Once upon a time, a big strong lion was sleeping under a tree in the forest.",
+          "speakText": "Once upon a time, a big strong lion was sleeping under a tree in the forest."
+        },
+        {
+          "visual": "🐭🦁",
+          "text": "A tiny mouse was playing nearby. She ran over the lion's nose by mistake!",
+          "speakText": "A tiny mouse was playing nearby. She ran over the lion's nose by mistake!"
+        },
+        {
+          "visual": "🦁😠🐾",
+          "text": "The lion woke up very angry! He caught the little mouse in his big paw.",
+          "speakText": "The lion woke up very angry! He caught the little mouse in his big paw."
+        },
+        {
+          "visual": "🙏🐭✨",
+          "text": "Please let me go! said the mouse. One day I will help you! The lion laughed and set her free.",
+          "speakText": "Please let me go! said the mouse. One day I will help you! The lion laughed and set her free."
+        },
+        {
+          "visual": "🦁🕸️😢",
+          "text": "A few days later, the lion was caught in a hunter's net. He roared and roared for help!",
+          "speakText": "A few days later, the lion was caught in a hunter's net. He roared and roared for help!"
+        },
+        {
+          "visual": "🐭✂️🦁🎉",
+          "text": "The little mouse heard the lion and quickly chewed through the ropes. The lion was free! They became best friends. Moral: Even a small friend can be a great helper!",
+          "speakText": "The little mouse heard the lion and quickly chewed through the ropes. The lion was free! They became best friends. Even a small friend can be a great helper!"
+        }
+      ]
+    },
+    {
+      "id": "tortoise_hare",
+      "title": "The Tortoise and the Hare",
+      "emoji": "🐢🐇",
+      "moral": "Slow and steady wins the race!",
+      "pages": [
+        {
+          "visual": "🐇😤🐢",
+          "text": "The hare always made fun of the slow tortoise. I am the fastest animal! the hare would brag.",
+          "speakText": "The hare always made fun of the slow tortoise. I am the fastest animal! the hare would brag."
+        },
+        {
+          "visual": "🐢🤝🐇",
+          "text": "One day the tortoise said: Let us have a race! The hare laughed, but agreed.",
+          "speakText": "One day the tortoise said: Let us have a race! The hare laughed, but agreed."
+        },
+        {
+          "visual": "🏁🐇💨🐢🚶",
+          "text": "The race started! The hare zoomed ahead very fast. The tortoise walked slowly but steadily.",
+          "speakText": "The race started! The hare zoomed ahead very fast. The tortoise walked slowly but steadily."
+        },
+        {
+          "visual": "🐇😴🌳",
+          "text": "The hare was so far ahead that he decided to take a nap under a shady tree.",
+          "speakText": "The hare was so far ahead that he decided to take a nap under a shady tree."
+        },
+        {
+          "visual": "🐢🚶🏁",
+          "text": "The tortoise kept walking and walking, slowly passing the sleeping hare.",
+          "speakText": "The tortoise kept walking and walking, slowly passing the sleeping hare."
+        },
+        {
+          "visual": "🏆🐢🎉🐇😱",
+          "text": "The tortoise crossed the finish line first! The hare woke up and ran, but it was too late. Moral: Slow and steady wins the race!",
+          "speakText": "The tortoise crossed the finish line first! The hare woke up and ran, but it was too late. Slow and steady wins the race!"
+        }
+      ]
+    },
+    {
+      "id": "thirsty_crow",
+      "title": "The Thirsty Crow",
+      "emoji": "🐦💧",
+      "moral": "Use your brain to solve problems!",
+      "pages": [
+        {
+          "visual": "🐦☀️😮",
+          "text": "On a hot summer day, a crow was very thirsty. It flew here and there looking for water.",
+          "speakText": "On a hot summer day, a crow was very thirsty. It flew here and there looking for water."
+        },
+        {
+          "visual": "🐦🏺👀",
+          "text": "At last, the crow found a pot with a little water at the bottom. But the pot was tall and the water was too low to reach!",
+          "speakText": "At last, the crow found a pot with a little water at the bottom. But the pot was tall and the water was too low to reach!"
+        },
+        {
+          "visual": "🐦🤔💡",
+          "text": "The crow thought and thought. Then it had a clever idea!",
+          "speakText": "The crow thought and thought. Then it had a clever idea!"
+        },
+        {
+          "visual": "🐦🪨🪨🪨🏺",
+          "text": "The crow picked up small stones one by one and dropped them into the pot.",
+          "speakText": "The crow picked up small stones one by one and dropped them into the pot."
+        },
+        {
+          "visual": "💧⬆️🐦😊",
+          "text": "The water rose higher and higher. Soon the crow could reach the water and drink! Moral: Use your brain to solve problems!",
+          "speakText": "The water rose higher and higher. Soon the crow could reach the water and drink! Use your brain to solve problems!"
+        }
+      ]
+    },
+    {
+      "id": "hungry_caterpillar",
+      "title": "The Very Hungry Caterpillar",
+      "emoji": "🐛🍎",
+      "moral": "Eating healthy helps you grow strong!",
+      "pages": [
+        {
+          "visual": "🥚🍃🌙",
+          "text": "One moonlit night, a tiny egg lay on a leaf. On Sunday morning, a tiny caterpillar hatched out!",
+          "speakText": "One moonlit night, a tiny egg lay on a leaf. On Sunday morning, a tiny caterpillar hatched out!"
+        },
+        {
+          "visual": "🐛🍎🍐🍊",
+          "text": "The caterpillar was very hungry! On Monday he ate one apple. On Tuesday he ate two pears. On Wednesday he ate three oranges.",
+          "speakText": "The caterpillar was very hungry! On Monday he ate one apple. On Tuesday he ate two pears. On Wednesday he ate three oranges."
+        },
+        {
+          "visual": "🐛🍓🍫🍰🌭",
+          "text": "On Thursday, four strawberries. On Friday, five oranges. On Saturday, he ate all kinds of yummy food and had a tummy ache!",
+          "speakText": "On Thursday, four strawberries. On Friday, five oranges. On Saturday, he ate all kinds of yummy food and had a tummy ache!"
+        },
+        {
+          "visual": "🐛🍃😊",
+          "text": "On Sunday, the caterpillar ate one green leaf and felt much better!",
+          "speakText": "On Sunday, the caterpillar ate one green leaf and felt much better!"
+        },
+        {
+          "visual": "🐛🏠🌳",
+          "text": "The caterpillar was big and fat. He built a cozy cocoon around himself and stayed inside for two weeks.",
+          "speakText": "The caterpillar was big and fat. He built a cozy cocoon around himself and stayed inside for two weeks."
+        },
+        {
+          "visual": "🦋✨🎉",
+          "text": "Then he pushed out of the cocoon and he was a beautiful butterfly! Moral: Eating healthy food helps you grow big and beautiful!",
+          "speakText": "Then he pushed out of the cocoon and he was a beautiful butterfly! Eating healthy food helps you grow big and beautiful!"
+        }
+      ]
+    }
+  ]
+}

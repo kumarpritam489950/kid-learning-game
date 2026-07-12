@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-07-12T09:11:52.728Z",
+  "sources": {
+    "gameData": "data/gameData.js",
+    "assessment": "assessment_expanded.js"
+  },
+  "subjects": {
+    "math": {
+      "modules": 20,
+      "units": {
+        "math_counting": 8,
+        "math_addition": 0,
+        "math_subtraction": 0,
+        "math_shapes": 8,
+        "math_numbers_big": 20,
+        "math_compare": 15,
+        "math_patterns": 15,
+        "math_time": 20,
+        "math_measurement": 15,
+        "math_ascending_descending": 15,
+        "math_word_problems": 15,
+        "math_even_odd": 15,
+        "math_before_after_between": 15,
+        "math_place_value": 15,
+        "math_number_names_50": 20,
+        "math_counting_tens": 15,
+        "math_number_combinations": 20,
+        "math_add_three_numbers": 15,
+        "math_one_more_less": 15,
+        "math_count_forward_subtract": 15
+      }
+    },
+    "english": {
+      "modules": 21,
+      "units": {
+        "eng_missing_letters": 40,
+        "eng_picture_word": 35,
+        "eng_sight_words": 50,
+        "eng_alphabets": 26,
+        "eng_vowels_consonants": 10,
+        "eng_rhyming": 10,
+        "eng_opposites": 10,
+        "eng_action_words": 10,
+        "eng_articles": 10,
+        "eng_plurals": 10,
+        "eng_animals": 20,
+        "eng_birds": 15,
+        "eng_fruits": 18,
+        "eng_vegetables": 15,
+        "eng_colors": 10,
+        "eng_body_parts": 18,
+        "eng_family": 10,
+        "eng_transport": 18,
+        "eng_position_words": 15,
+        "eng_sentence_building": 15,
+        "eng_common_objects": 18
+      }
+    },
+    "kannada": {
+      "modules": 12,
+      "units": {
+        "kan_letters": 45,
+        "kan_picture_word": 25,
+        "kan_drag_word": 15,
+        "kan_swara_practice": 15,
+        "kan_vyanjana_practice": 36,
+        "kan_guninthakshara": 115,
+        "kan_more_picture_words": 27,
+        "kan_numbers": 21,
+        "kan_colors": 10,
+        "kan_body_parts": 15,
+        "kan_animals_more": 15,
+        "kan_more_drag_words": 15
+      }
+    },
+    "hindi": {
+      "modules": 18,
+      "units": {
+        "hin_letters": 46,
+        "hin_picture_word": 30,
+        "hin_missing_matra": 20,
+        "hin_barakhadi": 82,
+        "hin_poems": 12,
+        "hin_more_picture_words": 30,
+        "hin_numbers": 21,
+        "hin_colors": 10,
+        "hin_body_parts": 15,
+        "hin_family": 10,
+        "hin_days_months": 15,
+        "hin_action_words": 15,
+        "hin_opposites": 15,
+        "hin_more_matras": 25,
+        "hin_simple_sentences": 20,
+        "hin_gender": 15,
+        "hin_singular_plural": 15,
+        "hin_transport": 15
+      }
+    },
+    "science": {
+      "modules": 12,
+      "units": {
+        "sci_body": 20,
+        "sci_animals": 20,
+        "sci_plants": 20,
+        "sci_food": 20,
+        "sci_sense_organs": 15,
+        "sci_family": 15,
+        "sci_school": 15,
+        "sci_weather_seasons": 15,
+        "sci_water": 15,
+        "sci_air": 15,
+        "sci_living_nonliving": 15,
+        "sci_safety": 15
+      }
+    },
+    "gk": {
+      "modules": 4,
+      "units": {
+        "gk_india": 15,
+        "gk_symbols": 15,
+        "gk_helpers": 15,
+        "gk_festivals": 15
+      }
+    },
+    "computer": {
+      "modules": 3,
+      "units": {
+        "comp_parts": 15,
+        "comp_devices": 15,
+        "comp_uses": 15
+      }
+    },
+    "rhymes": {
+      "modules": 2,
+      "units": {
+        "rhyme_nursery": 20,
+        "rhyme_marigold": 12
+      }
+    },
+    "mental_math": {
+      "modules": 11,
+      "units": {
+        "mental_quick_add": 15,
+        "mental_quick_subtract": 15,
+        "mental_number_bonds_10": 15,
+        "mental_doubling": 15,
+        "mental_one_more_less": 15,
+        "sci_seasons_weather": 15,
+        "sci_five_senses": 15,
+        "sci_good_habits": 15,
+        "mental_skip_counting": 15,
+        "mental_comparison": 15,
+        "mental_missing_numbers": 15
+      }
+    },
+    "funGames": {
+      "modules": 9,
+      "units": {
+        "snake_game": 0,
+        "memory_match": 8,
+        "catch_game": 0,
+        "balloon_pop": 0,
+        "number_jump": 0,
+        "color_match_fast": 0,
+        "maze_runner": 0,
+        "bubble_blast": 0,
+        "snap_game": 8
+      }
+    }
+  },
+  "stories": {
+    "count": 4,
+    "pages": {
+      "lion_mouse": 6,
+      "tortoise_hare": 6,
+      "thirsty_crow": 5,
+      "hungry_caterpillar": 6
+    }
+  },
+  "assessment": {
+    "mathematics": 75,
+    "english": 62,
+    "hindi": 32,
+    "computer": 42,
+    "kannada": 31,
+    "evs": 41
+  },
+  "app": {
+    "praiseMessages": 10,
+    "tryMessages": 4
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "id": "computer",
+  "name": "Computer",
+  "icon": "💻",
+  "description": "Parts of a computer, input/output devices and how we use computers every day.",
+  "modules": [
+    {
+      "id": "comp_parts",
+      "title": "Parts of a Computer",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "We see pictures and videos on a computer's…",
+          "visual": "🖥️",
+          "answer": "Monitor",
+          "options": ["Monitor", "Keyboard", "Mouse", "Speaker"]
+        },
+        {
+          "question": "We type letters using a…",
+          "visual": "⌨️",
+          "answer": "Keyboard",
+          "options": ["Keyboard", "Mouse", "Monitor", "Printer"]
+        },
+        {
+          "question": "We move the cursor on screen using a…",
+          "visual": "🖱️",
+          "answer": "Mouse",
+          "options": ["Mouse", "Keyboard", "Speaker", "Camera"]
+        },
+        {
+          "question": "The brain of the computer is called the…",
+          "visual": "🧠",
+          "answer": "CPU",
+          "options": ["CPU", "Monitor", "Mouse", "Battery"]
+        },
+        {
+          "question": "We hear sound from a computer through…",
+          "visual": "🔊",
+          "answer": "Speakers",
+          "options": ["Speakers", "Mouse", "Keyboard", "Camera"]
+        },
+        {
+          "question": "A computer needs ___ to work.",
+          "visual": "🔌",
+          "answer": "Electricity",
+          "options": ["Electricity", "Water", "Air", "Fire"]
+        },
+        {
+          "question": "We print documents using a…",
+          "visual": "🖨️",
+          "answer": "Printer",
+          "options": ["Printer", "Scanner", "Monitor", "Camera"]
+        },
+        {
+          "question": "Data is stored in the computer's…",
+          "visual": "💾",
+          "answer": "Memory",
+          "options": ["Memory", "Monitor", "Screen", "Speaker"]
+        },
+        {
+          "question": "To switch on a computer, we press the…",
+          "visual": "🔘",
+          "answer": "Power button",
+          "options": ["Power button", "Space bar", "Enter key", "Delete key"]
+        },
+        {
+          "question": "The keyboard has ___ and numbers.",
+          "visual": "⌨️",
+          "answer": "Letters",
+          "options": ["Letters", "Pictures", "Colors", "Shapes"]
+        },
+        {
+          "question": "A laptop is a ___ computer.",
+          "visual": "💻",
+          "answer": "Portable",
+          "options": ["Portable", "Heavy", "Broken", "Fixed"]
+        },
+        {
+          "question": "We connect to the internet using…",
+          "visual": "🌐",
+          "answer": "Wi-Fi or cable",
+          "options": ["Wi-Fi or cable", "Water pipe", "Gas pipe", "Phone cable"]
+        },
+        {
+          "question": "Monitor, Printer and Speaker are all…",
+          "visual": "🖥️",
+          "answer": "Output devices",
+          "options": ["Output devices", "Input devices", "Storage", "Power"]
+        },
+        {
+          "question": "Keyboard and Mouse are both…",
+          "visual": "⌨️",
+          "answer": "Input devices",
+          "options": ["Input devices", "Output devices", "Display", "Storage"]
+        },
+        {
+          "question": "Computer takes instructions through…",
+          "visual": "💻",
+          "answer": "Input devices",
+          "options": ["Input devices", "Output devices", "Screen only", "Power"]
+        }
+      ]
+    },
+    {
+      "id": "comp_devices",
+      "title": "Input & Output Devices",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Keyboard is an ___ device.",
+          "visual": "⌨️",
+          "answer": "Input",
+          "options": ["Input", "Output", "Storage", "Power"]
+        },
+        {
+          "question": "Mouse is an ___ device.",
+          "visual": "🖱️",
+          "answer": "Input",
+          "options": ["Input", "Output", "Display", "Print"]
+        },
+        {
+          "question": "Monitor is an ___ device.",
+          "visual": "🖥️",
+          "answer": "Output",
+          "options": ["Output", "Input", "Storage", "Scan"]
+        },
+        {
+          "question": "Printer is an ___ device.",
+          "visual": "🖨️",
+          "answer": "Output",
+          "options": ["Output", "Input", "Wireless", "Touch"]
+        },
+        {
+          "question": "Speaker is an ___ device.",
+          "visual": "🔊",
+          "answer": "Output",
+          "options": ["Output", "Input", "Power", "Save"]
+        },
+        {
+          "question": "Microphone is an ___ device.",
+          "visual": "🎤",
+          "answer": "Input",
+          "options": ["Input", "Output", "Print", "Display"]
+        },
+        {
+          "question": "Joystick is used to play…",
+          "visual": "🕹️",
+          "answer": "Games",
+          "options": ["Games", "Music", "Drawing", "Writing"]
+        },
+        {
+          "question": "Scanner copies a ___ into the computer.",
+          "visual": "📄",
+          "answer": "Picture or paper",
+          "options": ["Picture or paper", "Sound", "Video", "Button"]
+        },
+        {
+          "question": "Headphones are used to…",
+          "visual": "🎧",
+          "answer": "Listen to sound",
+          "options": ["Listen to sound", "Type words", "Print pages", "Store files"]
+        },
+        {
+          "question": "A pen drive is used to…",
+          "visual": "🔌",
+          "answer": "Store files",
+          "options": ["Store files", "Print", "Display", "Make sound"]
+        },
+        {
+          "question": "Touch screen is both…",
+          "visual": "📱",
+          "answer": "Input and output",
+          "options": ["Input and output", "Only input", "Only output", "Neither"]
+        },
+        {
+          "question": "Which is NOT an input device?",
+          "visual": "🖥️",
+          "answer": "Monitor",
+          "options": ["Monitor", "Keyboard", "Mouse", "Joystick"]
+        },
+        {
+          "question": "Which is NOT an output device?",
+          "visual": "⌨️",
+          "answer": "Keyboard",
+          "options": ["Keyboard", "Monitor", "Printer", "Speaker"]
+        },
+        {
+          "question": "Camera used with a computer is called…",
+          "visual": "📷",
+          "answer": "Webcam",
+          "options": ["Webcam", "Scanner", "Printer", "Joystick"]
+        },
+        {
+          "question": "We talk online using a microphone and…",
+          "visual": "🎤",
+          "answer": "Webcam",
+          "options": ["Webcam", "Printer", "Scanner", "Joystick"]
+        }
+      ]
+    },
+    {
+      "id": "comp_uses",
+      "title": "Uses of Computer",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "We can play ___ on a computer.",
+          "visual": "🎮",
+          "answer": "Games",
+          "options": ["Games", "Cricket", "Football", "Swimming"]
+        },
+        {
+          "question": "We can watch ___ on a computer.",
+          "visual": "🎬",
+          "answer": "Movies and videos",
+          "options": ["Movies and videos", "Clouds only", "Rain", "Nothing"]
+        },
+        {
+          "question": "We use computers in school to…",
+          "visual": "🏫",
+          "answer": "Learn and study",
+          "options": ["Learn and study", "Sleep", "Cook", "Play outside"]
+        },
+        {
+          "question": "We can listen to ___ on a computer.",
+          "visual": "🎵",
+          "answer": "Music",
+          "options": ["Music", "Rain", "Silence", "Wind"]
+        },
+        {
+          "question": "Doctors use computers to…",
+          "visual": "🏥",
+          "answer": "Check patient reports",
+          "options": ["Check patient reports", "Cook food", "Grow plants", "Drive cars"]
+        },
+        {
+          "question": "We can video call family using a…",
+          "visual": "📱",
+          "answer": "Computer or phone",
+          "options": ["Computer or phone", "Bicycle", "Bus", "Book"]
+        },
+        {
+          "question": "We can read ___ on a computer.",
+          "visual": "📖",
+          "answer": "Books and stories",
+          "options": ["Books and stories", "Mud", "Wood", "Sand"]
+        },
+        {
+          "question": "Artists use computers to…",
+          "visual": "🎨",
+          "answer": "Draw and design",
+          "options": ["Draw and design", "Cook", "Swim", "Sleep"]
+        },
+        {
+          "question": "We can send messages to friends using…",
+          "visual": "📧",
+          "answer": "Email",
+          "options": ["Email", "Drum", "Fire", "Smoke signals"]
+        },
+        {
+          "question": "Internet connects computers all over the…",
+          "visual": "🌍",
+          "answer": "World",
+          "options": ["World", "Room", "City only", "School only"]
+        },
+        {
+          "question": "We save our work by pressing the…",
+          "visual": "💾",
+          "answer": "Save button",
+          "options": ["Save button", "Delete button", "Print button", "Power button"]
+        },
+        {
+          "question": "Weather scientists use computers to…",
+          "visual": "🌤️",
+          "answer": "Predict weather",
+          "options": ["Predict weather", "Make rain", "Stop storms", "Grow clouds"]
+        },
+        {
+          "question": "Banks use computers to…",
+          "visual": "🏦",
+          "answer": "Manage money",
+          "options": ["Manage money", "Grow crops", "Fly planes", "Bake bread"]
+        },
+        {
+          "question": "Computers help pilots to…",
+          "visual": "✈️",
+          "answer": "Fly planes safely",
+          "options": ["Fly planes safely", "Cook meals", "Drive buses", "Plant trees"]
+        },
+        {
+          "question": "We can learn new words online using…",
+          "visual": "🌐",
+          "answer": "Educational websites",
+          "options": ["Educational websites", "Games only", "TV only", "Sleep"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1765 @@
+{
+  "id": "math",
+  "name": "Math",
+  "icon": "➕",
+  "description": "Numbers 1–20, operations, and basic geometry.",
+  "modules": [
+    {
+      "id": "math_counting",
+      "title": "Counting 1 to 20",
+      "type": "counting",
+      "questions": 10,
+      "items": ["🍎", "🧸", "⭐", "🟢", "🦋", "🍌", "🐝", "🌸"]
+    },
+    {
+      "id": "math_addition",
+      "title": "Simple Addition",
+      "type": "arithmetic",
+      "questions": 10,
+      "operation": "add",
+      "minValue": 0,
+      "maxValue": 10,
+      "maxAnswer": 20,
+      "visualItems": ["🍎", "🍊", "🍋", "🍇", "🍓"]
+    },
+    {
+      "id": "math_subtraction",
+      "title": "Simple Subtraction",
+      "type": "arithmetic",
+      "questions": 10,
+      "operation": "subtract",
+      "minValue": 0,
+      "maxValue": 10,
+      "maxAnswer": 10,
+      "visualItems": ["🧱", "⭐", "🏀", "🐝", "🌻"]
+    },
+    {
+      "id": "math_shapes",
+      "title": "Basic Shapes",
+      "type": "shape",
+      "questions": 10,
+      "shapes": [
+        {
+          "name": "Circle",
+          "symbol": "●"
+        },
+        {
+          "name": "Square",
+          "symbol": "■"
+        },
+        {
+          "name": "Triangle",
+          "symbol": "▲"
+        },
+        {
+          "name": "Rectangle",
+          "symbol": "▬"
+        },
+        {
+          "name": "Star",
+          "symbol": "★"
+        },
+        {
+          "name": "Diamond",
+          "symbol": "◆"
+        },
+        {
+          "name": "Heart",
+          "symbol": "♥"
+        },
+        {
+          "name": "Oval",
+          "symbol": "⬭"
+        }
+      ]
+    },
+    {
+      "id": "math_numbers_big",
+      "title": "Numbers 21 to 99",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "How many tens are in 30?",
+          "visual": "3️⃣0️⃣",
+          "answer": "3",
+          "options": ["3", "1", "2", "4"]
+        },
+        {
+          "question": "What comes after 29?",
+          "visual": "2️⃣9️⃣",
+          "answer": "30",
+          "options": ["30", "28", "31", "20"]
+        },
+        {
+          "question": "What comes before 50?",
+          "visual": "5️⃣0️⃣",
+          "answer": "49",
+          "options": ["49", "51", "40", "45"]
+        },
+        {
+          "question": "How many tens and ones in 35?",
+          "visual": "🔢",
+          "answer": "3 tens 5 ones",
+          "options": ["3 tens 5 ones", "5 tens 3 ones", "30 ones", "35 tens"]
+        },
+        {
+          "question": "45 means ___ tens and 5 ones.",
+          "visual": "4️⃣5️⃣",
+          "answer": "4",
+          "options": ["4", "5", "3", "6"]
+        },
+        {
+          "question": "What is the tens digit in 67?",
+          "visual": "6️⃣7️⃣",
+          "answer": "6",
+          "options": ["6", "7", "60", "70"]
+        },
+        {
+          "question": "What is the ones digit in 83?",
+          "visual": "8️⃣3️⃣",
+          "answer": "3",
+          "options": ["3", "8", "0", "1"]
+        },
+        {
+          "question": "Which number is between 40 and 42?",
+          "visual": "🔢",
+          "answer": "41",
+          "options": ["41", "39", "43", "44"]
+        },
+        {
+          "question": "Count by 10s: 10, 20, 30, ___.",
+          "visual": "🔟",
+          "answer": "40",
+          "options": ["40", "35", "50", "33"]
+        },
+        {
+          "question": "Count by 5s: 25, 30, ___.",
+          "visual": "5️⃣",
+          "answer": "35",
+          "options": ["35", "33", "40", "37"]
+        },
+        {
+          "question": "Which is the greatest number?",
+          "visual": "🔢",
+          "answer": "99",
+          "options": ["99", "89", "79", "69"]
+        },
+        {
+          "question": "Which is the smallest 2-digit number?",
+          "visual": "🔢",
+          "answer": "10",
+          "options": ["10", "11", "20", "99"]
+        },
+        {
+          "question": "70 written in words is…",
+          "visual": "7️⃣0️⃣",
+          "answer": "Seventy",
+          "options": ["Seventy", "Sixty", "Eighty", "Fifty"]
+        },
+        {
+          "question": "55 means 5 tens and ___ ones.",
+          "visual": "5️⃣5️⃣",
+          "answer": "5",
+          "options": ["5", "0", "10", "55"]
+        },
+        {
+          "question": "What number comes just after 99?",
+          "visual": "9️⃣9️⃣",
+          "answer": "100",
+          "options": ["100", "98", "90", "101"]
+        },
+        {
+          "question": "Arrange: Which is smallest? 34, 43, 24, 44",
+          "visual": "🔢",
+          "answer": "24",
+          "options": ["24", "34", "43", "44"]
+        },
+        {
+          "question": "What is 40 + 5?",
+          "visual": "➕",
+          "answer": "45",
+          "options": ["45", "40", "55", "50"]
+        },
+        {
+          "question": "30 + 0 = ?",
+          "visual": "➕",
+          "answer": "30",
+          "options": ["30", "3", "300", "31"]
+        },
+        {
+          "question": "How many tens in 90?",
+          "visual": "9️⃣0️⃣",
+          "answer": "9",
+          "options": ["9", "0", "90", "19"]
+        },
+        {
+          "question": "Which is even: 21, 22, 23, 25?",
+          "visual": "🔢",
+          "answer": "22",
+          "options": ["22", "21", "23", "25"]
+        }
+      ]
+    },
+    {
+      "id": "math_compare",
+      "title": "Greater, Smaller, Equal",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "5 ___ 3  (Use >, < or =)",
+          "visual": "5 ☐ 3",
+          "answer": ">",
+          "options": [">", "<", "=", "+"]
+        },
+        {
+          "question": "2 ___ 8  (Use >, < or =)",
+          "visual": "2 ☐ 8",
+          "answer": "<",
+          "options": ["<", ">", "=", "-"]
+        },
+        {
+          "question": "7 ___ 7  (Use >, < or =)",
+          "visual": "7 ☐ 7",
+          "answer": "=",
+          "options": ["=", ">", "<", "≠"]
+        },
+        {
+          "question": "10 ___ 9 (Use >, < or =)",
+          "visual": "10 ☐ 9",
+          "answer": ">",
+          "options": [">", "<", "=", "≈"]
+        },
+        {
+          "question": "4 ___ 6  (Use >, < or =)",
+          "visual": "4 ☐ 6",
+          "answer": "<",
+          "options": ["<", ">", "=", "+"]
+        },
+        {
+          "question": "15 ___ 15 (Use >, < or =)",
+          "visual": "15 ☐ 15",
+          "answer": "=",
+          "options": ["=", ">", "<", "≠"]
+        },
+        {
+          "question": "12 ___ 20 (Use >, < or =)",
+          "visual": "12 ☐ 20",
+          "answer": "<",
+          "options": ["<", ">", "=", "-"]
+        },
+        {
+          "question": "18 ___ 8 (Use >, < or =)",
+          "visual": "18 ☐ 8",
+          "answer": ">",
+          "options": [">", "<", "=", "×"]
+        },
+        {
+          "question": "Which is greater: 14 or 41?",
+          "visual": "🔢",
+          "answer": "41",
+          "options": ["41", "14", "Both equal", "Neither"]
+        },
+        {
+          "question": "Which is smaller: 9 or 6?",
+          "visual": "🔢",
+          "answer": "6",
+          "options": ["6", "9", "Both equal", "Cannot say"]
+        },
+        {
+          "question": "0 ___ 1  (Use >, < or =)",
+          "visual": "0 ☐ 1",
+          "answer": "<",
+          "options": ["<", ">", "=", "+"]
+        },
+        {
+          "question": "20 ___ 20 (Use >, < or =)",
+          "visual": "20 ☐ 20",
+          "answer": "=",
+          "options": ["=", ">", "<", "≠"]
+        },
+        {
+          "question": "Greatest number from: 7, 3, 9, 5",
+          "visual": "🔢",
+          "answer": "9",
+          "options": ["9", "7", "5", "3"]
+        },
+        {
+          "question": "Smallest number from: 8, 2, 6, 4",
+          "visual": "🔢",
+          "answer": "2",
+          "options": ["2", "4", "6", "8"]
+        },
+        {
+          "question": "Arrange 5, 2, 8, 1 from smallest. First is…",
+          "visual": "🔢",
+          "answer": "1",
+          "options": ["1", "2", "5", "8"]
+        }
+      ]
+    },
+    {
+      "id": "math_patterns",
+      "title": "Patterns",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Complete: 🔴🔵🔴🔵🔴 ___",
+          "visual": "🔴🔵🔴🔵🔴",
+          "answer": "🔵",
+          "options": ["🔵", "🔴", "🟡", "🟢"]
+        },
+        {
+          "question": "Complete: ⭐🌙⭐🌙⭐ ___",
+          "visual": "⭐🌙⭐🌙⭐",
+          "answer": "🌙",
+          "options": ["🌙", "⭐", "☀️", "🌟"]
+        },
+        {
+          "question": "Complete: 🐶🐱🐶🐱 ___",
+          "visual": "🐶🐱🐶🐱",
+          "answer": "🐶",
+          "options": ["🐶", "🐱", "🐦", "🐸"]
+        },
+        {
+          "question": "Complete: 1, 2, 3, 1, 2, ___",
+          "visual": "1 2 3 1 2",
+          "answer": "3",
+          "options": ["3", "1", "4", "2"]
+        },
+        {
+          "question": "Complete: 2, 4, 6, 8, ___",
+          "visual": "2 4 6 8",
+          "answer": "10",
+          "options": ["10", "9", "12", "11"]
+        },
+        {
+          "question": "Complete: 5, 10, 15, 20, ___",
+          "visual": "5 10 15 20",
+          "answer": "25",
+          "options": ["25", "22", "30", "21"]
+        },
+        {
+          "question": "Complete: 🟠🟠🔵🟠🟠 ___",
+          "visual": "🟠🟠🔵🟠🟠",
+          "answer": "🔵",
+          "options": ["🔵", "🟠", "🔴", "🟡"]
+        },
+        {
+          "question": "Complete: A B B A B ___",
+          "visual": "A B B A B",
+          "answer": "B",
+          "options": ["B", "A", "C", "D"]
+        },
+        {
+          "question": "Complete: ▲●▲●▲ ___",
+          "visual": "▲●▲●▲",
+          "answer": "●",
+          "options": ["●", "▲", "■", "★"]
+        },
+        {
+          "question": "Complete: 10, 20, 30, 40, ___",
+          "visual": "10 20 30 40",
+          "answer": "50",
+          "options": ["50", "45", "60", "41"]
+        },
+        {
+          "question": "Complete: 🍎🍊🍎🍊 ___",
+          "visual": "🍎🍊🍎🍊",
+          "answer": "🍎",
+          "options": ["🍎", "🍊", "🍋", "🍇"]
+        },
+        {
+          "question": "Complete: 1, 3, 5, 7, ___",
+          "visual": "1 3 5 7",
+          "answer": "9",
+          "options": ["9", "8", "11", "10"]
+        },
+        {
+          "question": "Which comes next: 🌸🌸🌺🌸🌸 ___",
+          "visual": "🌸🌸🌺🌸🌸",
+          "answer": "🌺",
+          "options": ["🌺", "🌸", "🌻", "🌹"]
+        },
+        {
+          "question": "Complete: 100, 90, 80, 70, ___",
+          "visual": "100 90 80 70",
+          "answer": "60",
+          "options": ["60", "65", "50", "55"]
+        },
+        {
+          "question": "Complete: ■▲■▲■ ___",
+          "visual": "■▲■▲■",
+          "answer": "▲",
+          "options": ["▲", "■", "●", "◆"]
+        }
+      ]
+    },
+    {
+      "id": "math_time",
+      "title": "Time and Calendar",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "How many days are in a week?",
+          "visual": "📅",
+          "answer": "7",
+          "options": ["7", "5", "6", "10"]
+        },
+        {
+          "question": "Which day comes after Monday?",
+          "visual": "📅",
+          "answer": "Tuesday",
+          "options": ["Tuesday", "Sunday", "Wednesday", "Thursday"]
+        },
+        {
+          "question": "Which day comes before Friday?",
+          "visual": "📅",
+          "answer": "Thursday",
+          "options": ["Thursday", "Saturday", "Monday", "Wednesday"]
+        },
+        {
+          "question": "How many months are in a year?",
+          "visual": "🗓️",
+          "answer": "12",
+          "options": ["12", "10", "7", "30"]
+        },
+        {
+          "question": "First month of the year is…",
+          "visual": "🗓️",
+          "answer": "January",
+          "options": ["January", "March", "April", "June"]
+        },
+        {
+          "question": "Last month of the year is…",
+          "visual": "🗓️",
+          "answer": "December",
+          "options": ["December", "November", "October", "August"]
+        },
+        {
+          "question": "We sleep at ___.",
+          "visual": "🌙",
+          "answer": "Night",
+          "options": ["Night", "Morning", "Noon", "Afternoon"]
+        },
+        {
+          "question": "We go to school in the ___.",
+          "visual": "🏫",
+          "answer": "Morning",
+          "options": ["Morning", "Night", "Evening", "Midnight"]
+        },
+        {
+          "question": "We eat lunch at ___.",
+          "visual": "🍱",
+          "answer": "Noon",
+          "options": ["Noon", "Night", "Dawn", "Evening"]
+        },
+        {
+          "question": "How many hours are in a day?",
+          "visual": "⏰",
+          "answer": "24",
+          "options": ["24", "12", "7", "60"]
+        },
+        {
+          "question": "How many minutes are in one hour?",
+          "visual": "⏱️",
+          "answer": "60",
+          "options": ["60", "30", "100", "24"]
+        },
+        {
+          "question": "Which day comes after Saturday?",
+          "visual": "📅",
+          "answer": "Sunday",
+          "options": ["Sunday", "Monday", "Friday", "Thursday"]
+        },
+        {
+          "question": "February is the ___ month.",
+          "visual": "🗓️",
+          "answer": "2nd",
+          "options": ["2nd", "1st", "3rd", "4th"]
+        },
+        {
+          "question": "The sun rises in the ___.",
+          "visual": "🌅",
+          "answer": "East",
+          "options": ["East", "West", "North", "South"]
+        },
+        {
+          "question": "Which month comes after March?",
+          "visual": "🗓️",
+          "answer": "April",
+          "options": ["April", "February", "May", "June"]
+        },
+        {
+          "question": "Week starts on ___.",
+          "visual": "📅",
+          "answer": "Monday",
+          "options": ["Monday", "Sunday", "Saturday", "Tuesday"]
+        },
+        {
+          "question": "Summer is the ___ season.",
+          "visual": "☀️",
+          "answer": "Hot",
+          "options": ["Hot", "Cold", "Rainy", "Windy"]
+        },
+        {
+          "question": "Winter is the ___ season.",
+          "visual": "❄️",
+          "answer": "Cold",
+          "options": ["Cold", "Hot", "Rainy", "Sunny"]
+        },
+        {
+          "question": "How many seconds in a minute?",
+          "visual": "⏱️",
+          "answer": "60",
+          "options": ["60", "30", "100", "120"]
+        },
+        {
+          "question": "School holidays are on ___.",
+          "visual": "🎉",
+          "answer": "Sunday",
+          "options": ["Sunday", "Monday", "Tuesday", "Wednesday"]
+        }
+      ]
+    },
+    {
+      "id": "math_measurement",
+      "title": "Measurement & Money",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "A giraffe is ___ than a cat.",
+          "visual": "🦒🐱",
+          "answer": "Taller",
+          "options": ["Taller", "Shorter", "Same", "Smaller"]
+        },
+        {
+          "question": "A feather is ___ than a stone.",
+          "visual": "🪶🪨",
+          "answer": "Lighter",
+          "options": ["Lighter", "Heavier", "Same", "Bigger"]
+        },
+        {
+          "question": "An elephant is ___ than a rabbit.",
+          "visual": "🐘🐰",
+          "answer": "Heavier",
+          "options": ["Heavier", "Lighter", "Same", "Faster"]
+        },
+        {
+          "question": "A pencil is ___ than a ruler.",
+          "visual": "✏️📏",
+          "answer": "Shorter",
+          "options": ["Shorter", "Longer", "Same", "Taller"]
+        },
+        {
+          "question": "A bucket holds ___ water than a cup.",
+          "visual": "🪣🥤",
+          "answer": "More",
+          "options": ["More", "Less", "Same", "No"]
+        },
+        {
+          "question": "A spoon holds ___ water than a pot.",
+          "visual": "🥄🍲",
+          "answer": "Less",
+          "options": ["Less", "More", "Same", "Enough"]
+        },
+        {
+          "question": "We measure length in ___.",
+          "visual": "📏",
+          "answer": "cm/m",
+          "options": ["cm/m", "kg/g", "litre", "hour"]
+        },
+        {
+          "question": "We measure weight in ___.",
+          "visual": "⚖️",
+          "answer": "kg or g",
+          "options": ["kg or g", "cm", "litre", "km"]
+        },
+        {
+          "question": "We measure liquid in ___.",
+          "visual": "🥛",
+          "answer": "Litres",
+          "options": ["Litres", "Kilos", "Metres", "Hours"]
+        },
+        {
+          "question": "A ₹10 note is ___ than a ₹5 coin.",
+          "visual": "💵",
+          "answer": "More",
+          "options": ["More", "Less", "Same", "Equal"]
+        },
+        {
+          "question": "How many ₹1 coins make ₹5?",
+          "visual": "🪙",
+          "answer": "5",
+          "options": ["5", "1", "10", "2"]
+        },
+        {
+          "question": "How many 50p coins make ₹1?",
+          "visual": "🪙",
+          "answer": "2",
+          "options": ["2", "5", "10", "1"]
+        },
+        {
+          "question": "Which is longest: pencil, pen, eraser?",
+          "visual": "✏️",
+          "answer": "Pencil",
+          "options": ["Pencil", "Pen", "Eraser", "All same"]
+        },
+        {
+          "question": "A tall building is ___ than a house.",
+          "visual": "🏢🏠",
+          "answer": "Taller",
+          "options": ["Taller", "Shorter", "Same", "Smaller"]
+        },
+        {
+          "question": "Price of apple is ₹10, banana ₹5. Which is cheaper?",
+          "visual": "🛒",
+          "answer": "Banana",
+          "options": ["Banana", "Apple", "Same price", "Cannot say"]
+        }
+      ]
+    },
+    {
+      "id": "math_ascending_descending",
+      "title": "Ascending & Descending Order",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Arrange in ascending order: 5, 2, 8, 3. First is:",
+          "visual": "↗️",
+          "answer": "2",
+          "options": ["2", "3", "5", "8"]
+        },
+        {
+          "question": "Arrange in ascending order: 9, 4, 6, 1. First is:",
+          "visual": "↗️",
+          "answer": "1",
+          "options": ["1", "4", "6", "9"]
+        },
+        {
+          "question": "Arrange in ascending order: 7, 3, 5, 9. Last is:",
+          "visual": "↗️",
+          "answer": "9",
+          "options": ["3", "5", "7", "9"]
+        },
+        {
+          "question": "Arrange in descending order: 4, 8, 2, 6. First is:",
+          "visual": "↘️",
+          "answer": "8",
+          "options": ["2", "4", "6", "8"]
+        },
+        {
+          "question": "Arrange in descending order: 1, 9, 5, 3. First is:",
+          "visual": "↘️",
+          "answer": "9",
+          "options": ["1", "3", "5", "9"]
+        },
+        {
+          "question": "Arrange in descending order: 7, 2, 5, 9. Last is:",
+          "visual": "↘️",
+          "answer": "2",
+          "options": ["2", "5", "7", "9"]
+        },
+        {
+          "question": "Smallest to largest: 10, 20, 5, 15. First is:",
+          "visual": "↗️",
+          "answer": "5",
+          "options": ["5", "10", "15", "20"]
+        },
+        {
+          "question": "Largest to smallest: 12, 8, 15, 3. First is:",
+          "visual": "↘️",
+          "answer": "15",
+          "options": ["3", "8", "12", "15"]
+        },
+        {
+          "question": "Arrange ascending: 14, 11, 18, 9. Second is:",
+          "visual": "↗️",
+          "answer": "11",
+          "options": ["9", "11", "14", "18"]
+        },
+        {
+          "question": "Arrange descending: 6, 10, 3, 8. Third is:",
+          "visual": "↘️",
+          "answer": "6",
+          "options": ["3", "6", "8", "10"]
+        },
+        {
+          "question": "Which order: 1, 2, 3, 4, 5?",
+          "visual": "🔢",
+          "answer": "Ascending",
+          "options": ["Ascending", "Descending", "Random", "Equal"]
+        },
+        {
+          "question": "Which order: 10, 8, 6, 4, 2?",
+          "visual": "🔢",
+          "answer": "Descending",
+          "options": ["Ascending", "Descending", "Random", "Equal"]
+        },
+        {
+          "question": "Next in ascending: 3, 6, 9, ___",
+          "visual": "↗️",
+          "answer": "12",
+          "options": ["10", "11", "12", "15"]
+        },
+        {
+          "question": "Next in descending: 20, 15, 10, ___",
+          "visual": "↘️",
+          "answer": "5",
+          "options": ["5", "8", "12", "25"]
+        },
+        {
+          "question": "Arrange 25, 30, 20 in ascending. Middle is:",
+          "visual": "↗️",
+          "answer": "25",
+          "options": ["20", "25", "30", "15"]
+        }
+      ]
+    },
+    {
+      "id": "math_word_problems",
+      "title": "Simple Word Problems",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "I have 3 apples. I get 2 more. How many do I have?",
+          "visual": "🍎🍎",
+          "answer": "5",
+          "options": ["5", "4", "3", "6"]
+        },
+        {
+          "question": "There are 7 birds. 2 fly away. How many are left?",
+          "visual": "🐦🐦",
+          "answer": "5",
+          "options": ["5", "9", "7", "2"]
+        },
+        {
+          "question": "I have 4 pencils. My friend gives me 3 more. Total?",
+          "visual": "✏️✏️",
+          "answer": "7",
+          "options": ["7", "1", "4", "3"]
+        },
+        {
+          "question": "5 balloons burst. I had 8. How many are left?",
+          "visual": "🎈🎈",
+          "answer": "3",
+          "options": ["3", "13", "5", "8"]
+        },
+        {
+          "question": "6 cats and 4 dogs. How many animals in total?",
+          "visual": "🐱🐶",
+          "answer": "10",
+          "options": ["10", "2", "6", "4"]
+        },
+        {
+          "question": "10 candies. I eat 3. How many left?",
+          "visual": "🍬🍬",
+          "answer": "7",
+          "options": ["7", "13", "10", "3"]
+        },
+        {
+          "question": "I have 2 toys. My sister has 5. Total?",
+          "visual": "🧸🧸",
+          "answer": "7",
+          "options": ["7", "3", "2", "5"]
+        },
+        {
+          "question": "8 flowers in vase. 3 wither. How many fresh?",
+          "visual": "🌸🌸",
+          "answer": "5",
+          "options": ["5", "11", "8", "3"]
+        },
+        {
+          "question": "5 books on table, 5 on shelf. Total?",
+          "visual": "📚📚",
+          "answer": "10",
+          "options": ["10", "0", "5", "15"]
+        },
+        {
+          "question": "9 stars. 4 hide. How many still shining?",
+          "visual": "⭐⭐",
+          "answer": "5",
+          "options": ["5", "13", "9", "4"]
+        },
+        {
+          "question": "I have 6 marbles. I lose 2. How many left?",
+          "visual": "⚪⚪",
+          "answer": "4",
+          "options": ["4", "8", "6", "2"]
+        },
+        {
+          "question": "3 red balls and 4 blue balls. Total?",
+          "visual": "🔴🔵",
+          "answer": "7",
+          "options": ["7", "1", "3", "4"]
+        },
+        {
+          "question": "12 cookies. I give 5 to friend. How many left?",
+          "visual": "🍪🍪",
+          "answer": "7",
+          "options": ["7", "17", "12", "5"]
+        },
+        {
+          "question": "7 crayons. I buy 3 more. Total?",
+          "visual": "🖍️🖍️",
+          "answer": "10",
+          "options": ["10", "4", "7", "3"]
+        },
+        {
+          "question": "15 children. 10 are boys. How many girls?",
+          "visual": "👧👦",
+          "answer": "5",
+          "options": ["5", "25", "15", "10"]
+        }
+      ]
+    },
+    {
+      "id": "math_even_odd",
+      "title": "Even & Odd Numbers",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Is 2 even or odd?",
+          "visual": "2️⃣",
+          "answer": "Even",
+          "options": ["Even", "Odd", "Neither", "Both"]
+        },
+        {
+          "question": "Is 5 even or odd?",
+          "visual": "5️⃣",
+          "answer": "Odd",
+          "options": ["Odd", "Even", "Neither", "Both"]
+        },
+        {
+          "question": "Is 8 even or odd?",
+          "visual": "8️⃣",
+          "answer": "Even",
+          "options": ["Even", "Odd", "Neither", "Both"]
+        },
+        {
+          "question": "Is 11 even or odd?",
+          "visual": "🔢",
+          "answer": "Odd",
+          "options": ["Odd", "Even", "Neither", "Both"]
+        },
+        {
+          "question": "Is 10 even or odd?",
+          "visual": "🔟",
+          "answer": "Even",
+          "options": ["Even", "Odd", "Neither", "Both"]
+        },
+        {
+          "question": "Which is an even number?",
+          "visual": "🔢",
+          "answer": "4",
+          "options": ["4", "3", "5", "7"]
+        },
+        {
+          "question": "Which is an odd number?",
+          "visual": "🔢",
+          "answer": "9",
+          "options": ["9", "6", "8", "10"]
+        },
+        {
+          "question": "Is 14 even or odd?",
+          "visual": "🔢",
+          "answer": "Even",
+          "options": ["Even", "Odd", "Neither", "Both"]
+        },
+        {
+          "question": "Is 17 even or odd?",
+          "visual": "🔢",
+          "answer": "Odd",
+          "options": ["Odd", "Even", "Neither", "Both"]
+        },
+        {
+          "question": "Is 20 even or odd?",
+          "visual": "2️⃣0️⃣",
+          "answer": "Even",
+          "options": ["Even", "Odd", "Neither", "Both"]
+        },
+        {
+          "question": "Which is even: 1, 2, 3, 5?",
+          "visual": "🔢",
+          "answer": "2",
+          "options": ["2", "1", "3", "5"]
+        },
+        {
+          "question": "Which is odd: 4, 6, 7, 8?",
+          "visual": "🔢",
+          "answer": "7",
+          "options": ["7", "4", "6", "8"]
+        },
+        {
+          "question": "Is 0 even or odd?",
+          "visual": "0️⃣",
+          "answer": "Even",
+          "options": ["Even", "Odd", "Neither", "Both"]
+        },
+        {
+          "question": "Is 13 even or odd?",
+          "visual": "🔢",
+          "answer": "Odd",
+          "options": ["Odd", "Even", "Neither", "Both"]
+        },
+        {
+          "question": "Is 16 even or odd?",
+          "visual": "🔢",
+          "answer": "Even",
+          "options": ["Even", "Odd", "Neither", "Both"]
+        }
+      ]
+    },
+    {
+      "id": "math_before_after_between",
+      "title": "Before, After & Between",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Which number comes before 5?",
+          "visual": "_️, 5",
+          "answer": "4",
+          "options": ["4", "6", "5", "3"]
+        },
+        {
+          "question": "Which number comes after 8?",
+          "visual": "8, _️",
+          "answer": "9",
+          "options": ["9", "7", "8", "10"]
+        },
+        {
+          "question": "Which number is between 3 and 5?",
+          "visual": "3, _, 5",
+          "answer": "4",
+          "options": ["4", "2", "6", "3"]
+        },
+        {
+          "question": "Which number comes before 10?",
+          "visual": "_️, 10",
+          "answer": "9",
+          "options": ["9", "11", "10", "8"]
+        },
+        {
+          "question": "Which number comes after 15?",
+          "visual": "15, _️",
+          "answer": "16",
+          "options": ["16", "14", "15", "17"]
+        },
+        {
+          "question": "Which number is between 7 and 9?",
+          "visual": "7, _, 9",
+          "answer": "8",
+          "options": ["8", "6", "10", "7"]
+        },
+        {
+          "question": "Which number comes before 1?",
+          "visual": "_️, 1",
+          "answer": "0",
+          "options": ["0", "2", "1", "-1"]
+        },
+        {
+          "question": "Which number comes after 19?",
+          "visual": "19, _️",
+          "answer": "20",
+          "options": ["20", "18", "19", "21"]
+        },
+        {
+          "question": "Which number is between 11 and 13?",
+          "visual": "11, _, 13",
+          "answer": "12",
+          "options": ["12", "10", "14", "11"]
+        },
+        {
+          "question": "Which number comes before 20?",
+          "visual": "_️, 20",
+          "answer": "19",
+          "options": ["19", "21", "20", "18"]
+        },
+        {
+          "question": "Which number comes after 12?",
+          "visual": "12, _️",
+          "answer": "13",
+          "options": ["13", "11", "12", "14"]
+        },
+        {
+          "question": "Which number is between 14 and 16?",
+          "visual": "14, _, 16",
+          "answer": "15",
+          "options": ["15", "13", "17", "14"]
+        },
+        {
+          "question": "Which number comes before 7?",
+          "visual": "_️, 7",
+          "answer": "6",
+          "options": ["6", "8", "7", "5"]
+        },
+        {
+          "question": "Which number comes after 9?",
+          "visual": "9, _️",
+          "answer": "10",
+          "options": ["10", "8", "9", "11"]
+        },
+        {
+          "question": "Which number is between 5 and 7?",
+          "visual": "5, _, 7",
+          "answer": "6",
+          "options": ["6", "4", "8", "5"]
+        }
+      ]
+    },
+    {
+      "id": "math_place_value",
+      "title": "Tens & Ones (Place Value)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "In 15, how many tens?",
+          "visual": "1️⃣5️⃣",
+          "answer": "1",
+          "options": ["1", "5", "15", "0"]
+        },
+        {
+          "question": "In 15, how many ones?",
+          "visual": "1️⃣5️⃣",
+          "answer": "5",
+          "options": ["5", "1", "15", "0"]
+        },
+        {
+          "question": "In 23, what is the tens digit?",
+          "visual": "2️⃣3️⃣",
+          "answer": "2",
+          "options": ["2", "3", "23", "5"]
+        },
+        {
+          "question": "In 47, what is the ones digit?",
+          "visual": "4️⃣7️⃣",
+          "answer": "7",
+          "options": ["7", "4", "47", "11"]
+        },
+        {
+          "question": "3 tens and 2 ones make…",
+          "visual": "🔢",
+          "answer": "32",
+          "options": ["32", "23", "5", "302"]
+        },
+        {
+          "question": "5 tens and 8 ones make…",
+          "visual": "🔢",
+          "answer": "58",
+          "options": ["58", "85", "13", "508"]
+        },
+        {
+          "question": "In 60, how many ones?",
+          "visual": "6️⃣0️⃣",
+          "answer": "0",
+          "options": ["0", "6", "60", "10"]
+        },
+        {
+          "question": "In 89, how many tens?",
+          "visual": "8️⃣9️⃣",
+          "answer": "8",
+          "options": ["8", "9", "89", "17"]
+        },
+        {
+          "question": "7 tens and 0 ones make…",
+          "visual": "🔢",
+          "answer": "70",
+          "options": ["70", "7", "0", "700"]
+        },
+        {
+          "question": "In 12, how many tens?",
+          "visual": "1️⃣2️⃣",
+          "answer": "1",
+          "options": ["1", "2", "12", "3"]
+        },
+        {
+          "question": "9 tens and 4 ones make…",
+          "visual": "🔢",
+          "answer": "94",
+          "options": ["94", "49", "13", "904"]
+        },
+        {
+          "question": "In 36, what is the tens digit?",
+          "visual": "3️⃣6️⃣",
+          "answer": "3",
+          "options": ["3", "6", "36", "9"]
+        },
+        {
+          "question": "In 51, what is the ones digit?",
+          "visual": "5️⃣1️⃣",
+          "answer": "1",
+          "options": ["1", "5", "51", "6"]
+        },
+        {
+          "question": "2 tens and 9 ones make…",
+          "visual": "🔢",
+          "answer": "29",
+          "options": ["29", "92", "11", "209"]
+        },
+        {
+          "question": "In 78, how many ones?",
+          "visual": "7️⃣8️⃣",
+          "answer": "8",
+          "options": ["8", "7", "78", "15"]
+        }
+      ]
+    },
+    {
+      "id": "math_number_names_50",
+      "title": "Number Names up to 50",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "What is the number name for 11?",
+          "visual": "1️⃣1️⃣",
+          "answer": "Eleven",
+          "options": ["Eleven", "Twelve", "Thirteen", "Ten"]
+        },
+        {
+          "question": "What is the number name for 12?",
+          "visual": "1️⃣2️⃣",
+          "answer": "Twelve",
+          "options": ["Twelve", "Eleven", "Twenty", "Thirteen"]
+        },
+        {
+          "question": "What is the number name for 13?",
+          "visual": "1️⃣3️⃣",
+          "answer": "Thirteen",
+          "options": ["Thirteen", "Thirty", "Fourteen", "Twelve"]
+        },
+        {
+          "question": "What is the number name for 14?",
+          "visual": "1️⃣4️⃣",
+          "answer": "Fourteen",
+          "options": ["Fourteen", "Forty", "Thirteen", "Fifteen"]
+        },
+        {
+          "question": "What is the number name for 15?",
+          "visual": "1️⃣5️⃣",
+          "answer": "Fifteen",
+          "options": ["Fifteen", "Fifty", "Fourteen", "Sixteen"]
+        },
+        {
+          "question": "What is the number name for 16?",
+          "visual": "1️⃣6️⃣",
+          "answer": "Sixteen",
+          "options": ["Sixteen", "Sixty", "Seventeen", "Fifteen"]
+        },
+        {
+          "question": "What is the number name for 17?",
+          "visual": "1️⃣7️⃣",
+          "answer": "Seventeen",
+          "options": ["Seventeen", "Seventy", "Sixteen", "Eighteen"]
+        },
+        {
+          "question": "What is the number name for 18?",
+          "visual": "1️⃣8️⃣",
+          "answer": "Eighteen",
+          "options": ["Eighteen", "Eighty", "Seventeen", "Nineteen"]
+        },
+        {
+          "question": "What is the number name for 19?",
+          "visual": "1️⃣9️⃣",
+          "answer": "Nineteen",
+          "options": ["Nineteen", "Ninety", "Eighteen", "Twenty"]
+        },
+        {
+          "question": "What is the number name for 20?",
+          "visual": "2️⃣0️⃣",
+          "answer": "Twenty",
+          "options": ["Twenty", "Twelve", "Two", "Nineteen"]
+        },
+        {
+          "question": "What is the number name for 21?",
+          "visual": "2️⃣1️⃣",
+          "answer": "Twenty-one",
+          "options": ["Twenty-one", "Twenty", "Eleven", "Thirty-one"]
+        },
+        {
+          "question": "What is the number name for 30?",
+          "visual": "3️⃣0️⃣",
+          "answer": "Thirty",
+          "options": ["Thirty", "Thirteen", "Three", "Twenty"]
+        },
+        {
+          "question": "What is the number name for 40?",
+          "visual": "4️⃣0️⃣",
+          "answer": "Forty",
+          "options": ["Forty", "Fourteen", "Four", "Thirty"]
+        },
+        {
+          "question": "What is the number name for 50?",
+          "visual": "5️⃣0️⃣",
+          "answer": "Fifty",
+          "options": ["Fifty", "Fifteen", "Five", "Forty"]
+        },
+        {
+          "question": "Which number is 'Thirteen'?",
+          "visual": "🔢",
+          "answer": "13",
+          "options": ["13", "30", "3", "31"]
+        },
+        {
+          "question": "Which number is 'Eighteen'?",
+          "visual": "🔢",
+          "answer": "18",
+          "options": ["18", "80", "8", "81"]
+        },
+        {
+          "question": "Which number is 'Forty'?",
+          "visual": "🔢",
+          "answer": "40",
+          "options": ["40", "14", "4", "44"]
+        },
+        {
+          "question": "What is the number name for 35?",
+          "visual": "3️⃣5️⃣",
+          "answer": "Thirty-five",
+          "options": ["Thirty-five", "Fifty-three", "Twenty-five", "Forty-five"]
+        },
+        {
+          "question": "What is the number name for 42?",
+          "visual": "4️⃣2️⃣",
+          "answer": "Forty-two",
+          "options": ["Forty-two", "Twenty-four", "Forty", "Thirty-two"]
+        },
+        {
+          "question": "Which number is 'Twenty-seven'?",
+          "visual": "🔢",
+          "answer": "27",
+          "options": ["27", "72", "17", "37"]
+        }
+      ]
+    },
+    {
+      "id": "math_counting_tens",
+      "title": "Counting in Tens",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "1 ten = ?",
+          "visual": "🔟",
+          "answer": "10",
+          "options": ["10", "1", "100", "11"]
+        },
+        {
+          "question": "2 tens = ?",
+          "visual": "🔟🔟",
+          "answer": "20",
+          "options": ["20", "2", "12", "22"]
+        },
+        {
+          "question": "3 tens = ?",
+          "visual": "🔟🔟🔟",
+          "answer": "30",
+          "options": ["30", "3", "13", "23"]
+        },
+        {
+          "question": "4 tens = ?",
+          "visual": "🔢",
+          "answer": "40",
+          "options": ["40", "4", "14", "44"]
+        },
+        {
+          "question": "5 tens = ?",
+          "visual": "🔢",
+          "answer": "50",
+          "options": ["50", "5", "15", "55"]
+        },
+        {
+          "question": "10 ones = ?",
+          "visual": "🔟",
+          "answer": "1 ten",
+          "options": ["1 ten", "10 tens", "100", "10 ones"]
+        },
+        {
+          "question": "20 ones = ?",
+          "visual": "🔢",
+          "answer": "2 tens",
+          "options": ["2 tens", "20 tens", "200", "12"]
+        },
+        {
+          "question": "How many tens are in 30?",
+          "visual": "3️⃣0️⃣",
+          "answer": "3",
+          "options": ["3", "30", "0", "13"]
+        },
+        {
+          "question": "Count by 10s: 10, 20, 30, 40, ___",
+          "visual": "🔢",
+          "answer": "50",
+          "options": ["50", "45", "60", "41"]
+        },
+        {
+          "question": "Count by 10s: 10, 20, ___, 40",
+          "visual": "🔢",
+          "answer": "30",
+          "options": ["30", "25", "35", "32"]
+        },
+        {
+          "question": "What comes next: 30, 40, ___?",
+          "visual": "🔢",
+          "answer": "50",
+          "options": ["50", "45", "55", "42"]
+        },
+        {
+          "question": "30 is the same as ___ tens.",
+          "visual": "3️⃣0️⃣",
+          "answer": "3",
+          "options": ["3", "30", "13", "0"]
+        },
+        {
+          "question": "How many ones are in 2 tens?",
+          "visual": "🔢",
+          "answer": "20",
+          "options": ["20", "2", "12", "22"]
+        },
+        {
+          "question": "Which group shows 4 tens?",
+          "visual": "🔢",
+          "answer": "40",
+          "options": ["40", "4", "14", "400"]
+        },
+        {
+          "question": "Count by 10s: ___, 20, 30, 40, 50. First is:",
+          "visual": "🔢",
+          "answer": "10",
+          "options": ["10", "5", "0", "15"]
+        }
+      ]
+    },
+    {
+      "id": "math_number_combinations",
+      "title": "Number Combinations (Make 5 & 10)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "0 + ___ = 5",
+          "visual": "⬛⬛⬛⬛⬛",
+          "answer": "5",
+          "options": ["5", "4", "3", "0"]
+        },
+        {
+          "question": "1 + ___ = 5",
+          "visual": "🟦⬛⬛⬛⬛",
+          "answer": "4",
+          "options": ["4", "5", "3", "6"]
+        },
+        {
+          "question": "2 + ___ = 5",
+          "visual": "🟦🟦⬛⬛⬛",
+          "answer": "3",
+          "options": ["3", "2", "4", "7"]
+        },
+        {
+          "question": "3 + ___ = 5",
+          "visual": "🟦🟦🟦⬛⬛",
+          "answer": "2",
+          "options": ["2", "3", "1", "5"]
+        },
+        {
+          "question": "4 + ___ = 5",
+          "visual": "🟦🟦🟦🟦⬛",
+          "answer": "1",
+          "options": ["1", "4", "2", "0"]
+        },
+        {
+          "question": "5 + ___ = 5",
+          "visual": "🟦🟦🟦🟦🟦",
+          "answer": "0",
+          "options": ["0", "5", "1", "10"]
+        },
+        {
+          "question": "0 + ___ = 10",
+          "visual": "🔢",
+          "answer": "10",
+          "options": ["10", "0", "5", "9"]
+        },
+        {
+          "question": "1 + ___ = 10",
+          "visual": "🔢",
+          "answer": "9",
+          "options": ["9", "1", "8", "10"]
+        },
+        {
+          "question": "2 + ___ = 10",
+          "visual": "🔢",
+          "answer": "8",
+          "options": ["8", "2", "7", "10"]
+        },
+        {
+          "question": "3 + ___ = 10",
+          "visual": "🔢",
+          "answer": "7",
+          "options": ["7", "3", "6", "10"]
+        },
+        {
+          "question": "4 + ___ = 10",
+          "visual": "🔢",
+          "answer": "6",
+          "options": ["6", "4", "5", "10"]
+        },
+        {
+          "question": "5 + ___ = 10",
+          "visual": "🔢",
+          "answer": "5",
+          "options": ["5", "4", "6", "10"]
+        },
+        {
+          "question": "6 + ___ = 10",
+          "visual": "🔢",
+          "answer": "4",
+          "options": ["4", "6", "3", "10"]
+        },
+        {
+          "question": "7 + ___ = 10",
+          "visual": "🔢",
+          "answer": "3",
+          "options": ["3", "7", "2", "10"]
+        },
+        {
+          "question": "8 + ___ = 10",
+          "visual": "🔢",
+          "answer": "2",
+          "options": ["2", "8", "1", "10"]
+        },
+        {
+          "question": "9 + ___ = 10",
+          "visual": "🔢",
+          "answer": "1",
+          "options": ["1", "9", "0", "10"]
+        },
+        {
+          "question": "Ayush made 7 riddles on animals. He made 3 on fish. Total riddles?",
+          "visual": "🔢",
+          "answer": "10",
+          "options": ["10", "7", "3", "4"]
+        },
+        {
+          "question": "Which pair makes 10? 4 + ___",
+          "visual": "🔢",
+          "answer": "6",
+          "options": ["6", "5", "4", "7"]
+        },
+        {
+          "question": "Which pair makes 5? 2 + ___",
+          "visual": "🔢",
+          "answer": "3",
+          "options": ["3", "2", "4", "5"]
+        },
+        {
+          "question": "How many combinations of 4 are there?",
+          "visual": "🔢",
+          "answer": "5",
+          "options": ["5", "4", "3", "6"]
+        }
+      ]
+    },
+    {
+      "id": "math_add_three_numbers",
+      "title": "Adding Three Numbers",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "1 + 2 + 5 = ?",
+          "visual": "➕",
+          "answer": "8",
+          "options": ["8", "7", "9", "6"]
+        },
+        {
+          "question": "4 + 1 + 2 = ?",
+          "visual": "➕",
+          "answer": "7",
+          "options": ["7", "6", "8", "5"]
+        },
+        {
+          "question": "3 + 2 + 4 = ?",
+          "visual": "➕",
+          "answer": "9",
+          "options": ["9", "8", "10", "7"]
+        },
+        {
+          "question": "2 + 5 + 3 = ?",
+          "visual": "➕",
+          "answer": "10",
+          "options": ["10", "9", "11", "7"]
+        },
+        {
+          "question": "1 + 3 + 5 = ?",
+          "visual": "➕",
+          "answer": "9",
+          "options": ["9", "8", "10", "7"]
+        },
+        {
+          "question": "2 + 2 + 6 = ?",
+          "visual": "➕",
+          "answer": "10",
+          "options": ["10", "8", "9", "6"]
+        },
+        {
+          "question": "3 + 3 + 3 = ?",
+          "visual": "➕",
+          "answer": "9",
+          "options": ["9", "6", "12", "8"]
+        },
+        {
+          "question": "4 + 4 + 1 = ?",
+          "visual": "➕",
+          "answer": "9",
+          "options": ["9", "8", "10", "7"]
+        },
+        {
+          "question": "5 + 3 + 2 = ?",
+          "visual": "➕",
+          "answer": "10",
+          "options": ["10", "9", "8", "11"]
+        },
+        {
+          "question": "1 + 4 + 4 = ?",
+          "visual": "➕",
+          "answer": "9",
+          "options": ["9", "8", "10", "6"]
+        },
+        {
+          "question": "2 + 3 + 4 = ?",
+          "visual": "➕",
+          "answer": "9",
+          "options": ["9", "7", "10", "8"]
+        },
+        {
+          "question": "3 + 4 + 2 = ?",
+          "visual": "➕",
+          "answer": "9",
+          "options": ["9", "8", "7", "10"]
+        },
+        {
+          "question": "4 red tops + 1 blue + 2 green = ? tops total",
+          "visual": "🎯",
+          "answer": "7",
+          "options": ["7", "5", "6", "8"]
+        },
+        {
+          "question": "You can add 3 numbers in ___ order and get the same answer.",
+          "visual": "🔢",
+          "answer": "any",
+          "options": ["any", "only one", "big to small", "no"]
+        },
+        {
+          "question": "1 + 2 + 3 = ?",
+          "visual": "➕",
+          "answer": "6",
+          "options": ["6", "5", "7", "4"]
+        }
+      ]
+    },
+    {
+      "id": "math_one_more_less",
+      "title": "One More & One Less",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "One more than 5 is ___.",
+          "visual": "5️⃣",
+          "answer": "6",
+          "options": ["6", "4", "5", "7"]
+        },
+        {
+          "question": "One less than 5 is ___.",
+          "visual": "5️⃣",
+          "answer": "4",
+          "options": ["4", "6", "5", "3"]
+        },
+        {
+          "question": "One more than 10 is ___.",
+          "visual": "🔟",
+          "answer": "11",
+          "options": ["11", "9", "10", "12"]
+        },
+        {
+          "question": "One less than 10 is ___.",
+          "visual": "🔟",
+          "answer": "9",
+          "options": ["9", "11", "10", "8"]
+        },
+        {
+          "question": "One more than 19 is ___.",
+          "visual": "1️⃣9️⃣",
+          "answer": "20",
+          "options": ["20", "18", "19", "21"]
+        },
+        {
+          "question": "One less than 20 is ___.",
+          "visual": "2️⃣0️⃣",
+          "answer": "19",
+          "options": ["19", "21", "20", "18"]
+        },
+        {
+          "question": "One more than 23 is ___.",
+          "visual": "🔢",
+          "answer": "24",
+          "options": ["24", "22", "23", "25"]
+        },
+        {
+          "question": "One less than 23 is ___.",
+          "visual": "🔢",
+          "answer": "22",
+          "options": ["22", "24", "23", "21"]
+        },
+        {
+          "question": "One more than 35 is ___.",
+          "visual": "🔢",
+          "answer": "36",
+          "options": ["36", "34", "35", "37"]
+        },
+        {
+          "question": "One less than 35 is ___.",
+          "visual": "🔢",
+          "answer": "34",
+          "options": ["34", "36", "35", "33"]
+        },
+        {
+          "question": "One more than 15 is ___.",
+          "visual": "1️⃣5️⃣",
+          "answer": "16",
+          "options": ["16", "14", "15", "17"]
+        },
+        {
+          "question": "One less than 16 is ___.",
+          "visual": "1️⃣6️⃣",
+          "answer": "15",
+          "options": ["15", "17", "16", "14"]
+        },
+        {
+          "question": "One more than 28 is ___.",
+          "visual": "🔢",
+          "answer": "29",
+          "options": ["29", "27", "28", "30"]
+        },
+        {
+          "question": "One less than 21 is ___.",
+          "visual": "🔢",
+          "answer": "20",
+          "options": ["20", "22", "21", "19"]
+        },
+        {
+          "question": "'One more' is the same as the number ___.",
+          "visual": "🔢",
+          "answer": "after",
+          "options": ["after", "before", "between", "equal"]
+        }
+      ]
+    },
+    {
+      "id": "math_count_forward_subtract",
+      "title": "Count Forward to Subtract",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "7 – 4 = ? (Count from 4 to 7)",
+          "visual": "🔢",
+          "answer": "3",
+          "options": ["3", "4", "2", "11"]
+        },
+        {
+          "question": "9 – 6 = ? (Count from 6 to 9)",
+          "visual": "🔢",
+          "answer": "3",
+          "options": ["3", "6", "2", "15"]
+        },
+        {
+          "question": "8 – 5 = ? (Count from 5 to 8)",
+          "visual": "🔢",
+          "answer": "3",
+          "options": ["3", "5", "4", "13"]
+        },
+        {
+          "question": "10 – 7 = ? (Count from 7 to 10)",
+          "visual": "🔢",
+          "answer": "3",
+          "options": ["3", "7", "4", "17"]
+        },
+        {
+          "question": "6 – 3 = ? (Count from 3 to 6)",
+          "visual": "🔢",
+          "answer": "3",
+          "options": ["3", "2", "4", "9"]
+        },
+        {
+          "question": "5 – 2 = ? (Count from 2 to 5)",
+          "visual": "🔢",
+          "answer": "3",
+          "options": ["3", "2", "5", "7"]
+        },
+        {
+          "question": "10 – 3 = ?",
+          "visual": "🔢",
+          "answer": "7",
+          "options": ["7", "3", "13", "6"]
+        },
+        {
+          "question": "10 – 2 = ?",
+          "visual": "🔢",
+          "answer": "8",
+          "options": ["8", "2", "12", "9"]
+        },
+        {
+          "question": "10 – 4 = ?",
+          "visual": "🔢",
+          "answer": "6",
+          "options": ["6", "4", "14", "5"]
+        },
+        {
+          "question": "10 – 1 = ?",
+          "visual": "🔢",
+          "answer": "9",
+          "options": ["9", "1", "11", "8"]
+        },
+        {
+          "question": "The baker made 10 pastries. He sold 3. How many left?",
+          "visual": "🍰",
+          "answer": "7",
+          "options": ["7", "3", "13", "10"]
+        },
+        {
+          "question": "9 boats in the lake. 4 more brought. How many in all?",
+          "visual": "⛵",
+          "answer": "13",
+          "options": ["13", "5", "9", "4"]
+        },
+        {
+          "question": "7 children in bus. 5 more join. How many in bus?",
+          "visual": "🚌",
+          "answer": "12",
+          "options": ["12", "2", "7", "5"]
+        },
+        {
+          "question": "9 dogs and 7 cats in playground. Total animals?",
+          "visual": "🐾",
+          "answer": "16",
+          "options": ["16", "2", "9", "7"]
+        },
+        {
+          "question": "8 clowns on stage. 3 more join. How many now?",
+          "visual": "🤡",
+          "answer": "11",
+          "options": ["11", "5", "8", "3"]
+        }
+      ]
+    }
+  ]
+}

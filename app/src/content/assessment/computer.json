@@ -1,0 +1,971 @@
+{
+  "id": "computer",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Computer का हिंदी नाम क्या है?",
+      "options": [
+        {
+          "text": "मशीन",
+          "correct": false
+        },
+        {
+          "text": "संगणक",
+          "correct": true
+        },
+        {
+          "text": "यंत्र",
+          "correct": false
+        },
+        {
+          "text": "डिवाइस",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Basics"
+    },
+    {
+      "id": 2,
+      "question": "Keyboard से हम क्या करते हैं?",
+      "options": [
+        {
+          "text": "देखते हैं",
+          "correct": false
+        },
+        {
+          "text": "टाइप करते हैं",
+          "correct": true
+        },
+        {
+          "text": "सुनते हैं",
+          "correct": false
+        },
+        {
+          "text": "खेलते हैं",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Basics"
+    },
+    {
+      "id": 3,
+      "question": "Mouse से हम क्या करते हैं?",
+      "options": [
+        {
+          "text": "लिखते हैं",
+          "correct": false
+        },
+        {
+          "text": "क्लिक करते हैं",
+          "correct": true
+        },
+        {
+          "text": "गाते हैं",
+          "correct": false
+        },
+        {
+          "text": "दौड़ते हैं",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Basics"
+    },
+    {
+      "id": 4,
+      "question": "Monitor क्या दिखाता है?",
+      "options": [
+        {
+          "text": "आवाज",
+          "correct": false
+        },
+        {
+          "text": "चित्र/टेक्स्ट",
+          "correct": true
+        },
+        {
+          "text": "हवा",
+          "correct": false
+        },
+        {
+          "text": "प्रकाश",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Basics"
+    },
+    {
+      "id": 5,
+      "question": "Computer के कितने मुख्य भाग हैं?",
+      "options": [
+        {
+          "text": "2",
+          "correct": false
+        },
+        {
+          "text": "3",
+          "correct": true
+        },
+        {
+          "text": "4",
+          "correct": false
+        },
+        {
+          "text": "5",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Basics"
+    },
+    {
+      "id": 6,
+      "question": "Computer के साथ कौन सी चीज़ हटा सकते हैं?",
+      "options": [
+        {
+          "text": "CPU",
+          "correct": false
+        },
+        {
+          "text": "Monitor",
+          "correct": false
+        },
+        {
+          "text": "Mouse",
+          "correct": true
+        },
+        {
+          "text": "Keyboard",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Parts"
+    },
+    {
+      "id": 7,
+      "question": "Cursor क्या है?",
+      "options": [
+        {
+          "text": "एक फाइल",
+          "correct": false
+        },
+        {
+          "text": "एक तीर का निशान",
+          "correct": true
+        },
+        {
+          "text": "एक प्रोग्राम",
+          "correct": false
+        },
+        {
+          "text": "एक खेल",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Skills"
+    },
+    {
+      "id": 8,
+      "question": "Desktop पर कौन सी चीज़ें होती हैं?",
+      "options": [
+        {
+          "text": "फाइलें",
+          "correct": false
+        },
+        {
+          "text": "फोल्डर",
+          "correct": false
+        },
+        {
+          "text": "आइकन",
+          "correct": false
+        },
+        {
+          "text": "सब कुछ",
+          "correct": true
+        }
+      ],
+      "topic": "Computer Skills"
+    },
+    {
+      "id": 9,
+      "question": "Double Click करने से क्या होता है?",
+      "options": [
+        {
+          "text": "काट जाता है",
+          "correct": false
+        },
+        {
+          "text": "खुल जाता है",
+          "correct": true
+        },
+        {
+          "text": "बंद हो जाता है",
+          "correct": false
+        },
+        {
+          "text": "कोई नहीं",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Skills"
+    },
+    {
+      "id": 10,
+      "question": "Right Click से क्या मिलता है?",
+      "options": [
+        {
+          "text": "File Open",
+          "correct": false
+        },
+        {
+          "text": "Menu",
+          "correct": true
+        },
+        {
+          "text": "Print",
+          "correct": false
+        },
+        {
+          "text": "Copy",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Skills"
+    },
+    {
+      "id": 11,
+      "question": "CPU का पूरा नाम?",
+      "options": [
+        {
+          "text": "Central Power Unit",
+          "correct": false
+        },
+        {
+          "text": "Central Process Unit",
+          "correct": true
+        },
+        {
+          "text": "Central Product Unit",
+          "correct": false
+        },
+        {
+          "text": "Central Person Unit",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Hardware"
+    },
+    {
+      "id": 12,
+      "question": "RAM का फुल फॉर्म?",
+      "options": [
+        {
+          "text": "Random Assess Memory",
+          "correct": false
+        },
+        {
+          "text": "Random Access Memory",
+          "correct": true
+        },
+        {
+          "text": "Read Assess Memory",
+          "correct": false
+        },
+        {
+          "text": "Random Area Memory",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Hardware"
+    },
+    {
+      "id": 13,
+      "question": "Computer को ON करने के लिए क्या दबाते हैं?",
+      "options": [
+        {
+          "text": "Mouse",
+          "correct": false
+        },
+        {
+          "text": "Power Button",
+          "correct": true
+        },
+        {
+          "text": "Keyboard",
+          "correct": false
+        },
+        {
+          "text": "Screen",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Skills"
+    },
+    {
+      "id": 14,
+      "question": "Folder क्या है?",
+      "options": [
+        {
+          "text": "एक खेल",
+          "correct": false
+        },
+        {
+          "text": "फाइलों को रखने की जगह",
+          "correct": true
+        },
+        {
+          "text": "एक बटन",
+          "correct": false
+        },
+        {
+          "text": "एक प्रोग्राम",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Files"
+    },
+    {
+      "id": 15,
+      "question": "File क्या है?",
+      "options": [
+        {
+          "text": "एक खेल",
+          "correct": false
+        },
+        {
+          "text": "जानकारी को सहेजने की चीज़",
+          "correct": true
+        },
+        {
+          "text": "एक फोल्डर",
+          "correct": false
+        },
+        {
+          "text": "एक आइकन",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Files"
+    },
+    {
+      "id": 16,
+      "question": "Internet क्या है?",
+      "options": [
+        {
+          "text": "एक खेल",
+          "correct": false
+        },
+        {
+          "text": "आपस में जुड़े कंप्यूटर",
+          "correct": true
+        },
+        {
+          "text": "एक प्रोग्राम",
+          "correct": false
+        },
+        {
+          "text": "एक गीत",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Networking"
+    },
+    {
+      "id": 17,
+      "question": "Email का उपयोग?",
+      "options": [
+        {
+          "text": "खेलने के लिए",
+          "correct": false
+        },
+        {
+          "text": "संदेश भेजने के लिए",
+          "correct": true
+        },
+        {
+          "text": "दौड़ने के लिए",
+          "correct": false
+        },
+        {
+          "text": "गाने के लिए",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Networking"
+    },
+    {
+      "id": 18,
+      "question": "Search Engine क्या है?",
+      "options": [
+        {
+          "text": "एक खेल",
+          "correct": false
+        },
+        {
+          "text": "जानकारी खोजने की चीज़",
+          "correct": true
+        },
+        {
+          "text": "एक बटन",
+          "correct": false
+        },
+        {
+          "text": "एक फाइल",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Internet"
+    },
+    {
+      "id": 19,
+      "question": "Printer से हम क्या करते हैं?",
+      "options": [
+        {
+          "text": "देखते हैं",
+          "correct": false
+        },
+        {
+          "text": "कागज पर प्रिंट करते हैं",
+          "correct": true
+        },
+        {
+          "text": "गाते हैं",
+          "correct": false
+        },
+        {
+          "text": "खेलते हैं",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Devices"
+    },
+    {
+      "id": 20,
+      "question": "Speaker से क्या निकलता है?",
+      "options": [
+        {
+          "text": "प्रकाश",
+          "correct": false
+        },
+        {
+          "text": "आवाज़",
+          "correct": true
+        },
+        {
+          "text": "पानी",
+          "correct": false
+        },
+        {
+          "text": "धुआं",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Devices"
+    },
+    {
+      "id": 21,
+      "question": "Microphone में क्या करते हैं?",
+      "options": [
+        {
+          "text": "टाइप करते हैं",
+          "correct": false
+        },
+        {
+          "text": "क्लिक करते हैं",
+          "correct": false
+        },
+        {
+          "text": "बोलते हैं",
+          "correct": true
+        },
+        {
+          "text": "लिखते हैं",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Devices"
+    },
+    {
+      "id": 22,
+      "question": "Webcam क्या देता है?",
+      "options": [
+        {
+          "text": "आवाज़",
+          "correct": false
+        },
+        {
+          "text": "वीडियो",
+          "correct": true
+        },
+        {
+          "text": "टेक्स्ट",
+          "correct": false
+        },
+        {
+          "text": "संगीत",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Devices"
+    },
+    {
+      "id": 23,
+      "question": "CD क्या है?",
+      "options": [
+        {
+          "text": "एक कलम",
+          "correct": false
+        },
+        {
+          "text": "डेटा स्टोर करने की डिस्क",
+          "correct": true
+        },
+        {
+          "text": "एक कुर्सी",
+          "correct": false
+        },
+        {
+          "text": "एक खेल",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Storage"
+    },
+    {
+      "id": 24,
+      "question": "Memory में क्या स्टोर होता है?",
+      "options": [
+        {
+          "text": "किताबें",
+          "correct": false
+        },
+        {
+          "text": "डेटा/जानकारी",
+          "correct": true
+        },
+        {
+          "text": "खिलौने",
+          "correct": false
+        },
+        {
+          "text": "कपड़े",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Storage"
+    },
+    {
+      "id": 25,
+      "question": "Screen पर क्या दिखता है?",
+      "options": [
+        {
+          "text": "आवाज़",
+          "correct": false
+        },
+        {
+          "text": "चित्र",
+          "correct": true
+        },
+        {
+          "text": "महक",
+          "correct": false
+        },
+        {
+          "text": "स्वाद",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Output"
+    },
+    {
+      "id": 26,
+      "question": "USB का उपयोग?",
+      "options": [
+        {
+          "text": "खेलने के लिए",
+          "correct": false
+        },
+        {
+          "text": "डेटा ट्रांसफर करने के लिए",
+          "correct": true
+        },
+        {
+          "text": "सोने के लिए",
+          "correct": false
+        },
+        {
+          "text": "गाने के लिए",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Connectivity"
+    },
+    {
+      "id": 27,
+      "question": "Password क्या है?",
+      "options": [
+        {
+          "text": "एक खेल",
+          "correct": false
+        },
+        {
+          "text": "कंप्यूटर की सुरक्षा के लिए कोड",
+          "correct": true
+        },
+        {
+          "text": "एक गीत",
+          "correct": false
+        },
+        {
+          "text": "एक पुस्तक",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Security"
+    },
+    {
+      "id": 28,
+      "question": "Virus क्या है?",
+      "options": [
+        {
+          "text": "एक खेल",
+          "correct": false
+        },
+        {
+          "text": "कंप्यूटर को नुकसान पहुंचाने वाला प्रोग्राम",
+          "correct": true
+        },
+        {
+          "text": "एक फल",
+          "correct": false
+        },
+        {
+          "text": "एक जानवर",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Security"
+    },
+    {
+      "id": 29,
+      "question": "Bluetooth क्या है?",
+      "options": [
+        {
+          "text": "एक रंग",
+          "correct": false
+        },
+        {
+          "text": "वायरलेस तकनीक",
+          "correct": true
+        },
+        {
+          "text": "एक खेल",
+          "correct": false
+        },
+        {
+          "text": "एक किताब",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Connectivity"
+    },
+    {
+      "id": 30,
+      "question": "WiFi क्या है?",
+      "options": [
+        {
+          "text": "एक जानवर",
+          "correct": false
+        },
+        {
+          "text": "इंटरनेट कनेक्शन",
+          "correct": true
+        },
+        {
+          "text": "एक खेल",
+          "correct": false
+        },
+        {
+          "text": "एक पक्षी",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Connectivity"
+    },
+    {
+      "id": 31,
+      "question": "Database क्या है?",
+      "options": [
+        {
+          "text": "एक खेल",
+          "correct": false
+        },
+        {
+          "text": "जानकारी को संग्रहित करने की जगह",
+          "correct": true
+        },
+        {
+          "text": "एक गीत",
+          "correct": false
+        },
+        {
+          "text": "एक कलम",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Data"
+    },
+    {
+      "id": 32,
+      "question": "Application क्या है?",
+      "options": [
+        {
+          "text": "एक खेल",
+          "correct": false
+        },
+        {
+          "text": "एक प्रोग्राम या सॉफ्टवेयर",
+          "correct": true
+        },
+        {
+          "text": "एक फल",
+          "correct": false
+        },
+        {
+          "text": "एक कपड़ा",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Software"
+    },
+    {
+      "id": 33,
+      "question": "Software क्या है?",
+      "options": [
+        {
+          "text": "कठोर चीजें",
+          "correct": false
+        },
+        {
+          "text": "कंप्यूटर प्रोग्राम",
+          "correct": true
+        },
+        {
+          "text": "कंप्यूटर भाग",
+          "correct": false
+        },
+        {
+          "text": "कंप्यूटर तार",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Software"
+    },
+    {
+      "id": 34,
+      "question": "Hardware क्या है?",
+      "options": [
+        {
+          "text": "कंप्यूटर प्रोग्राम",
+          "correct": false
+        },
+        {
+          "text": "कंप्यूटर के भौतिक भाग",
+          "correct": true
+        },
+        {
+          "text": "डेटा",
+          "correct": false
+        },
+        {
+          "text": "जानकारी",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Hardware"
+    },
+    {
+      "id": 35,
+      "question": "Update करने से क्या होता है?",
+      "options": [
+        {
+          "text": "कंप्यूटर खराब हो जाता है",
+          "correct": false
+        },
+        {
+          "text": "नई सुविधाएँ आती हैं",
+          "correct": true
+        },
+        {
+          "text": "कंप्यूटर धीमा हो जाता है",
+          "correct": false
+        },
+        {
+          "text": "कोई नहीं",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Maintenance"
+    },
+    {
+      "id": 36,
+      "question": "Backup क्या है?",
+      "options": [
+        {
+          "text": "आगे की ओर जाना",
+          "correct": false
+        },
+        {
+          "text": "डेटा की प्रति रखना",
+          "correct": true
+        },
+        {
+          "text": "कंप्यूटर शुरू करना",
+          "correct": false
+        },
+        {
+          "text": "कंप्यूटर बंद करना",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Data Protection"
+    },
+    {
+      "id": 37,
+      "question": "Restart का अर्थ?",
+      "options": [
+        {
+          "text": "बंद करना",
+          "correct": false
+        },
+        {
+          "text": "फिर से शुरू करना",
+          "correct": true
+        },
+        {
+          "text": "हटाना",
+          "correct": false
+        },
+        {
+          "text": "खराब करना",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Operations"
+    },
+    {
+      "id": 38,
+      "question": "Shutdown का अर्थ?",
+      "options": [
+        {
+          "text": "खोलना",
+          "correct": false
+        },
+        {
+          "text": "बंद करना",
+          "correct": true
+        },
+        {
+          "text": "फिर से शुरू करना",
+          "correct": false
+        },
+        {
+          "text": "हटाना",
+          "correct": false
+        }
+      ],
+      "topic": "Computer Operations"
+    },
+    {
+      "id": 39,
+      "question": "Save का अर्थ?",
+      "options": [
+        {
+          "text": "मिटाना",
+          "correct": false
+        },
+        {
+          "text": "सहेजना",
+          "correct": true
+        },
+        {
+          "text": "खोलना",
+          "correct": false
+        },
+        {
+          "text": "बंद करना",
+          "correct": false
+        }
+      ],
+      "topic": "Computer File Operations"
+    },
+    {
+      "id": 40,
+      "question": "Delete का अर्थ?",
+      "options": [
+        {
+          "text": "सहेजना",
+          "correct": false
+        },
+        {
+          "text": "मिटाना",
+          "correct": true
+        },
+        {
+          "text": "खोलना",
+          "correct": false
+        },
+        {
+          "text": "बंद करना",
+          "correct": false
+        }
+      ],
+      "topic": "Computer File Operations"
+    },
+    {
+      "id": 41,
+      "question": "Open का अर्थ?",
+      "options": [
+        {
+          "text": "मिटाना",
+          "correct": false
+        },
+        {
+          "text": "खोलना",
+          "correct": true
+        },
+        {
+          "text": "सहेजना",
+          "correct": false
+        },
+        {
+          "text": "बंद करना",
+          "correct": false
+        }
+      ],
+      "topic": "Computer File Operations"
+    },
+    {
+      "id": 42,
+      "question": "Close का अर्थ?",
+      "options": [
+        {
+          "text": "खोलना",
+          "correct": false
+        },
+        {
+          "text": "बंद करना",
+          "correct": true
+        },
+        {
+          "text": "मिटाना",
+          "correct": false
+        },
+        {
+          "text": "सहेजना",
+          "correct": false
+        }
+      ],
+      "topic": "Computer File Operations"
+    }
+  ]
+}
