@@ -1760,6 +1760,104 @@
           "options": ["11", "5", "8", "3"]
         }
       ]
+    },
+    {
+      "id": "math_time_days",
+      "title": "Time & Days of the Week",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "How many days are in a week?",
+          "visual": "📅",
+          "answer": "7",
+          "options": ["7", "5", "10", "12"]
+        },
+        {
+          "question": "Which day comes after Monday?",
+          "visual": "📅",
+          "answer": "Tuesday",
+          "options": ["Tuesday", "Sunday", "Friday", "Saturday"]
+        },
+        {
+          "question": "Which day comes before Sunday?",
+          "visual": "📅",
+          "answer": "Saturday",
+          "options": ["Saturday", "Monday", "Wednesday", "Tuesday"]
+        },
+        {
+          "question": "The sun rises in the ___.",
+          "visual": "🌅",
+          "answer": "Morning",
+          "options": ["Morning", "Night", "Evening", "Midnight"]
+        },
+        {
+          "question": "We sleep at ___.",
+          "visual": "🌙",
+          "answer": "Night",
+          "options": ["Night", "Morning", "Noon", "Breakfast"]
+        },
+        {
+          "question": "We eat lunch in the ___.",
+          "visual": "🍽️",
+          "answer": "Afternoon",
+          "options": ["Afternoon", "Midnight", "Early morning", "Late night"]
+        },
+        {
+          "question": "Which is the first day of the school week?",
+          "visual": "🏫",
+          "answer": "Monday",
+          "options": ["Monday", "Friday", "Sunday", "Saturday"]
+        },
+        {
+          "question": "How many hours are in a day?",
+          "visual": "🕐",
+          "answer": "24",
+          "options": ["24", "7", "12", "60"]
+        },
+        {
+          "question": "The short hand of a clock shows the ___.",
+          "visual": "🕐",
+          "answer": "Hour",
+          "options": ["Hour", "Minute", "Second", "Day"]
+        },
+        {
+          "question": "The long hand of a clock shows the ___.",
+          "visual": "🕐",
+          "answer": "Minutes",
+          "options": ["Minutes", "Hours", "Days", "Months"]
+        },
+        {
+          "question": "Which comes first: breakfast or dinner?",
+          "visual": "🥣",
+          "answer": "Breakfast",
+          "options": ["Breakfast", "Dinner", "Both together", "Neither"]
+        },
+        {
+          "question": "How many months are in a year?",
+          "visual": "🗓️",
+          "answer": "12",
+          "options": ["12", "7", "24", "10"]
+        },
+        {
+          "question": "Yesterday was Sunday. Today is ___.",
+          "visual": "📅",
+          "answer": "Monday",
+          "options": ["Monday", "Saturday", "Friday", "Wednesday"]
+        },
+        {
+          "question": "The moon comes out at ___.",
+          "visual": "🌙",
+          "answer": "Night",
+          "options": ["Night", "Noon", "Morning", "Lunch time"]
+        },
+        {
+          "question": "Which day do many schools have a holiday?",
+          "visual": "🎈",
+          "answer": "Sunday",
+          "options": ["Sunday", "Monday", "Tuesday", "Thursday"]
+        }
+      ]
     }
   ]
 }

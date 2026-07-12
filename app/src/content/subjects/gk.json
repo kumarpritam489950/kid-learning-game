@@ -395,6 +395,202 @@
           "options": ["Navratri", "Diwali", "Holi", "Eid"]
         }
       ]
+    },
+    {
+      "id": "gk_animal_homes",
+      "title": "Animals & Their Homes",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Where does a dog live?",
+          "visual": "🐶",
+          "answer": "Kennel",
+          "options": ["Kennel", "Nest", "Web", "Stable"]
+        },
+        {
+          "question": "Where does a bird live?",
+          "visual": "🐦",
+          "answer": "Nest",
+          "options": ["Nest", "Den", "Sty", "Burrow"]
+        },
+        {
+          "question": "Where does a lion live?",
+          "visual": "🦁",
+          "answer": "Den",
+          "options": ["Den", "Nest", "Coop", "Hive"]
+        },
+        {
+          "question": "Where does a horse live?",
+          "visual": "🐴",
+          "answer": "Stable",
+          "options": ["Stable", "Web", "Nest", "Pond"]
+        },
+        {
+          "question": "Where does a rabbit live?",
+          "visual": "🐰",
+          "answer": "Burrow",
+          "options": ["Burrow", "Stable", "Den", "Coop"]
+        },
+        {
+          "question": "Where do bees live?",
+          "visual": "🐝",
+          "answer": "Hive",
+          "options": ["Hive", "Kennel", "Nest", "Cave"]
+        },
+        {
+          "question": "Where does a spider live?",
+          "visual": "🕷️",
+          "answer": "Web",
+          "options": ["Web", "Hive", "Den", "Sty"]
+        },
+        {
+          "question": "Where does a hen live?",
+          "visual": "🐔",
+          "answer": "Coop",
+          "options": ["Coop", "Stable", "Burrow", "Web"]
+        },
+        {
+          "question": "Where does a cow live?",
+          "visual": "🐮",
+          "answer": "Shed",
+          "options": ["Shed", "Nest", "Web", "Hive"]
+        },
+        {
+          "question": "Where does a fish live?",
+          "visual": "🐟",
+          "answer": "Water",
+          "options": ["Water", "Tree", "Cave", "Nest"]
+        },
+        {
+          "question": "Where does a monkey live?",
+          "visual": "🐵",
+          "answer": "Tree",
+          "options": ["Tree", "Water", "Coop", "Kennel"]
+        },
+        {
+          "question": "Where does a pig live?",
+          "visual": "🐷",
+          "answer": "Sty",
+          "options": ["Sty", "Hive", "Nest", "Den"]
+        },
+        {
+          "question": "A baby kangaroo stays in its mother’s ___.",
+          "visual": "🦘",
+          "answer": "Pouch",
+          "options": ["Pouch", "Pocket", "Bag", "Box"]
+        },
+        {
+          "question": "Where does an ant live?",
+          "visual": "🐜",
+          "answer": "Anthill",
+          "options": ["Anthill", "Stable", "Coop", "Web"]
+        },
+        {
+          "question": "People live in a ___.",
+          "visual": "🏠",
+          "answer": "House",
+          "options": ["House", "Nest", "Burrow", "Hive"]
+        }
+      ]
+    },
+    {
+      "id": "gk_good_habits",
+      "title": "Good Habits & Manners",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "We brush our teeth ___ a day.",
+          "visual": "🪥",
+          "answer": "Two times",
+          "options": ["Two times", "Zero times", "Only Sunday", "Ten times"]
+        },
+        {
+          "question": "Before eating we must wash our ___.",
+          "visual": "🧼",
+          "answer": "Hands",
+          "options": ["Hands", "Shoes", "Bag", "Book"]
+        },
+        {
+          "question": "What do we say after someone helps us?",
+          "visual": "😊",
+          "answer": "Thank you",
+          "options": ["Thank you", "Go away", "Nothing", "Hurry up"]
+        },
+        {
+          "question": "What do we say when we ask for something?",
+          "visual": "🙏",
+          "answer": "Please",
+          "options": ["Please", "Now!", "Move", "Quiet"]
+        },
+        {
+          "question": "What do we say when we make a mistake?",
+          "visual": "😔",
+          "answer": "Sorry",
+          "options": ["Sorry", "Hooray", "Bye", "Hello"]
+        },
+        {
+          "question": "Where should we throw waste paper?",
+          "visual": "🗑️",
+          "answer": "Dustbin",
+          "options": ["Dustbin", "Road", "River", "Classroom floor"]
+        },
+        {
+          "question": "We should sleep ___ at night.",
+          "visual": "🛏️",
+          "answer": "Early",
+          "options": ["Early", "Never", "At noon", "In school"]
+        },
+        {
+          "question": "Before crossing the road, look ___.",
+          "visual": "🚦",
+          "answer": "Both sides",
+          "options": ["Both sides", "At the sky", "At shoes", "Nowhere"]
+        },
+        {
+          "question": "We should cover our mouth when we ___.",
+          "visual": "🤧",
+          "answer": "Sneeze",
+          "options": ["Sneeze", "Read", "Walk", "Draw"]
+        },
+        {
+          "question": "Cut your ___ every week to keep clean.",
+          "visual": "💅",
+          "answer": "Nails",
+          "options": ["Nails", "Books", "Toys", "Clothes"]
+        },
+        {
+          "question": "We should drink plenty of ___.",
+          "visual": "💧",
+          "answer": "Water",
+          "options": ["Water", "Cold drinks", "Oil", "Ink"]
+        },
+        {
+          "question": "Elders should be treated with ___.",
+          "visual": "🙏",
+          "answer": "Respect",
+          "options": ["Respect", "Anger", "Noise", "Jokes"]
+        },
+        {
+          "question": "We stand in a ___ to wait for our turn.",
+          "visual": "🚶",
+          "answer": "Line",
+          "options": ["Line", "Circle of mud", "Tree", "River"]
+        },
+        {
+          "question": "Eat more ___ to stay healthy.",
+          "visual": "🥗",
+          "answer": "Fruits and vegetables",
+          "options": ["Fruits and vegetables", "Chips only", "Candy only", "Ice cream only"]
+        },
+        {
+          "question": "Exercise every day makes the body ___.",
+          "visual": "💪",
+          "answer": "Strong",
+          "options": ["Strong", "Sleepy", "Slow", "Sticky"]
+        }
+      ]
     }
   ]
 }

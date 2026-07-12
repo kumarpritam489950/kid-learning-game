@@ -943,6 +943,236 @@
         }
       ],
       "topic": "Natural Resources"
+    },
+    {
+      "id": 42,
+      "question": "Which of these gives us light during the day?",
+      "topic": "Nature",
+      "options": [
+        {
+          "text": "Sun",
+          "correct": true
+        },
+        {
+          "text": "Moon",
+          "correct": false
+        },
+        {
+          "text": "Lamp",
+          "correct": false
+        },
+        {
+          "text": "Stars",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "question": "Plants make their food using ___.",
+      "topic": "Plants",
+      "options": [
+        {
+          "text": "Sunlight",
+          "correct": true
+        },
+        {
+          "text": "Moonlight",
+          "correct": false
+        },
+        {
+          "text": "Torch light",
+          "correct": false
+        },
+        {
+          "text": "Fire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "Which season is very cold?",
+      "topic": "Seasons",
+      "options": [
+        {
+          "text": "Winter",
+          "correct": true
+        },
+        {
+          "text": "Summer",
+          "correct": false
+        },
+        {
+          "text": "Rainy",
+          "correct": false
+        },
+        {
+          "text": "Spring",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "We should ___ trees.",
+      "topic": "Environment",
+      "options": [
+        {
+          "text": "Plant",
+          "correct": true
+        },
+        {
+          "text": "Cut",
+          "correct": false
+        },
+        {
+          "text": "Burn",
+          "correct": false
+        },
+        {
+          "text": "Break",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "Which of these is a water animal?",
+      "topic": "Animals",
+      "options": [
+        {
+          "text": "Fish",
+          "correct": true
+        },
+        {
+          "text": "Cat",
+          "correct": false
+        },
+        {
+          "text": "Hen",
+          "correct": false
+        },
+        {
+          "text": "Goat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "Rain comes from ___.",
+      "topic": "Nature",
+      "options": [
+        {
+          "text": "Clouds",
+          "correct": true
+        },
+        {
+          "text": "Trees",
+          "correct": false
+        },
+        {
+          "text": "Roads",
+          "correct": false
+        },
+        {
+          "text": "Mountains",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "Which vehicle flies in the sky?",
+      "topic": "Transport",
+      "options": [
+        {
+          "text": "Aeroplane",
+          "correct": true
+        },
+        {
+          "text": "Bus",
+          "correct": false
+        },
+        {
+          "text": "Train",
+          "correct": false
+        },
+        {
+          "text": "Ship",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "We get eggs from a ___.",
+      "topic": "Animals",
+      "options": [
+        {
+          "text": "Hen",
+          "correct": true
+        },
+        {
+          "text": "Cow",
+          "correct": false
+        },
+        {
+          "text": "Dog",
+          "correct": false
+        },
+        {
+          "text": "Sheep",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "Vegetables and fruits keep us ___.",
+      "topic": "Food & Health",
+      "options": [
+        {
+          "text": "Healthy",
+          "correct": true
+        },
+        {
+          "text": "Sick",
+          "correct": false
+        },
+        {
+          "text": "Angry",
+          "correct": false
+        },
+        {
+          "text": "Sleepy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "question": "Which festival is called the festival of lights?",
+      "topic": "Festivals",
+      "options": [
+        {
+          "text": "Diwali",
+          "correct": true
+        },
+        {
+          "text": "Holi",
+          "correct": false
+        },
+        {
+          "text": "Eid",
+          "correct": false
+        },
+        {
+          "text": "Christmas",
+          "correct": false
+        }
+      ]
     }
   ]
 }

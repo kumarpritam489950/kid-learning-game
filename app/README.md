@@ -1,32 +1,28 @@
-# React + TypeScript + Vite
+# PlayLearn Island v2 (app)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+React 19 + TypeScript + Vite rebuild of PlayLearn Island. See
+[CONTENT.md](CONTENT.md) for the content pipeline and
+[../README.md](../README.md) for the project overview.
 
-Currently, two official plugins are available:
+## Commands (run inside `app/`)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+| Command             | What                                       |
+| ------------------- | ------------------------------------------ |
+| `npm run dev`       | dev server                                 |
+| `npm test`          | unit/component tests (Vitest + RTL)        |
+| `npm run e2e`       | Playwright against the built preview       |
+| `npm run lint`      | oxlint (react-hooks, jsx-a11y, no-console) |
+| `npm run typecheck` | strict TypeScript                          |
+| `npm run format`    | Prettier                                   |
+| `npm run build`     | production build (GitHub Pages base path)  |
+| `npm run build:cap` | Capacitor build (relative base)            |
 
-## React Compiler
+## Licenses / attribution
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- Word illustrations in `public/images/words/` are
+  [OpenMoji](https://openmoji.org) — the open-source emoji and icon project.
+  License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+  Fetched by `scripts/fetch-openmoji.mjs`; drop a same-named file there (or
+  set an item's `image` field) to use your own illustration instead.
+- Font: [Baloo 2](https://fonts.google.com/specimen/Baloo+2) (OFL) via
+  @fontsource.

@@ -4,6 +4,8 @@ interface QuestionBase {
   prompt: string;
   /** Emoji/text shown in the question box; may contain \n for multi-line. */
   visual: string;
+  /** Illustration path (relative to BASE_URL) rendered instead of visual. */
+  image?: string;
   /** Shown next to the visual for arithmetic (e.g. "2 + 3 = ?"). */
   equation?: string;
   /** Pronunciation hint shown when phonetics are enabled. */

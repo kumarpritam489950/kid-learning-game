@@ -1725,6 +1725,213 @@
         }
       ],
       "topic": "Subtraction (Inverse of Addition)"
+    },
+    {
+      "id": 76,
+      "question": "10 + 5 = ?",
+      "topic": "Addition Practice",
+      "options": [
+        {
+          "text": "15",
+          "correct": true
+        },
+        {
+          "text": "5",
+          "correct": false
+        },
+        {
+          "text": "105",
+          "correct": false
+        },
+        {
+          "text": "50",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "question": "9 - 4 = ?",
+      "topic": "Subtraction Practice",
+      "options": [
+        {
+          "text": "5",
+          "correct": true
+        },
+        {
+          "text": "4",
+          "correct": false
+        },
+        {
+          "text": "13",
+          "correct": false
+        },
+        {
+          "text": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "question": "Which number comes between 6 and 8?",
+      "topic": "Number Order",
+      "options": [
+        {
+          "text": "7",
+          "correct": true
+        },
+        {
+          "text": "5",
+          "correct": false
+        },
+        {
+          "text": "9",
+          "correct": false
+        },
+        {
+          "text": "68",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "question": "Which is the smallest: 14, 41, 4?",
+      "topic": "Comparing Numbers",
+      "options": [
+        {
+          "text": "4",
+          "correct": true
+        },
+        {
+          "text": "14",
+          "correct": false
+        },
+        {
+          "text": "41",
+          "correct": false
+        },
+        {
+          "text": "All equal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "question": "How many sides does a triangle have?",
+      "topic": "Shapes",
+      "options": [
+        {
+          "text": "3",
+          "correct": true
+        },
+        {
+          "text": "4",
+          "correct": false
+        },
+        {
+          "text": "2",
+          "correct": false
+        },
+        {
+          "text": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "question": "One dozen means how many?",
+      "topic": "Numbers in Daily Life",
+      "options": [
+        {
+          "text": "12",
+          "correct": true
+        },
+        {
+          "text": "10",
+          "correct": false
+        },
+        {
+          "text": "6",
+          "correct": false
+        },
+        {
+          "text": "20",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "question": "7 + 0 = ?",
+      "topic": "Adding Zero",
+      "options": [
+        {
+          "text": "7",
+          "correct": true
+        },
+        {
+          "text": "0",
+          "correct": false
+        },
+        {
+          "text": "70",
+          "correct": false
+        },
+        {
+          "text": "8",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "question": "Count by 2s: 2, 4, 6, ___",
+      "topic": "Skip Counting",
+      "options": [
+        {
+          "text": "8",
+          "correct": true
+        },
+        {
+          "text": "7",
+          "correct": false
+        },
+        {
+          "text": "10",
+          "correct": false
+        },
+        {
+          "text": "62",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "question": "Which shape has no corners?",
+      "topic": "Shapes",
+      "options": [
+        {
+          "text": "Circle",
+          "correct": true
+        },
+        {
+          "text": "Square",
+          "correct": false
+        },
+        {
+          "text": "Triangle",
+          "correct": false
+        },
+        {
+          "text": "Rectangle",
+          "correct": false
+        }
+      ]
     }
   ]
 }

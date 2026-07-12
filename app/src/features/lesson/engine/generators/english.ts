@@ -46,6 +46,7 @@ export function generatePictureWordBank(module: PictureWordModule, rng: Rng): Qu
         kind: 'mcq',
         prompt,
         visual: item.picture,
+        ...(item.image ? { image: item.image } : {}),
         answer: item.word,
         options: shuffle(rng, [item.word, ...distractors]),
         speakText: item.word,

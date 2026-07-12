@@ -201,127 +201,152 @@
         {
           "picture": "🏠",
           "word": "ಮನೆ",
-          "phonetic": "mane"
+          "phonetic": "mane",
+          "image": "images/words/1F3E0.svg"
         },
         {
           "picture": "🌳",
           "word": "ಮರ",
-          "phonetic": "mara"
+          "phonetic": "mara",
+          "image": "images/words/1F333.svg"
         },
         {
           "picture": "🍎",
           "word": "ಸೇಬು",
-          "phonetic": "sebu"
+          "phonetic": "sebu",
+          "image": "images/words/1F34E.svg"
         },
         {
           "picture": "🐄",
           "word": "ಹಸು",
-          "phonetic": "hasu"
+          "phonetic": "hasu",
+          "image": "images/words/1F404.svg"
         },
         {
           "picture": "🌸",
           "word": "ಹೂವು",
-          "phonetic": "hoovu"
+          "phonetic": "hoovu",
+          "image": "images/words/1F338.svg"
         },
         {
           "picture": "📚",
           "word": "ಪುಸ್ತಕ",
-          "phonetic": "pustaka"
+          "phonetic": "pustaka",
+          "image": "images/words/1F4DA.svg"
         },
         {
           "picture": "🐟",
           "word": "ಮೀನು",
-          "phonetic": "meenu"
+          "phonetic": "meenu",
+          "image": "images/words/1F41F.svg"
         },
         {
           "picture": "🐦",
           "word": "ಹಕ್ಕಿ",
-          "phonetic": "hakki"
+          "phonetic": "hakki",
+          "image": "images/words/1F426.svg"
         },
         {
           "picture": "☀️",
           "word": "ಸೂರ್ಯ",
-          "phonetic": "soorya"
+          "phonetic": "soorya",
+          "image": "images/words/2600.svg"
         },
         {
           "picture": "🌙",
           "word": "ಚಂದ್ರ",
-          "phonetic": "chandra"
+          "phonetic": "chandra",
+          "image": "images/words/1F319.svg"
         },
         {
           "picture": "💧",
           "word": "ನೀರು",
-          "phonetic": "neeru"
+          "phonetic": "neeru",
+          "image": "images/words/1F4A7.svg"
         },
         {
           "picture": "🚗",
           "word": "ಕಾರು",
-          "phonetic": "kaaru"
+          "phonetic": "kaaru",
+          "image": "images/words/1F697.svg"
         },
         {
           "picture": "🐘",
           "word": "ಆನೆ",
-          "phonetic": "aane"
+          "phonetic": "aane",
+          "image": "images/words/1F418.svg"
         },
         {
           "picture": "🦁",
           "word": "ಸಿಂಹ",
-          "phonetic": "simha"
+          "phonetic": "simha",
+          "image": "images/words/1F981.svg"
         },
         {
           "picture": "🥭",
           "word": "ಮಾವು",
-          "phonetic": "maavu"
+          "phonetic": "maavu",
+          "image": "images/words/1F96D.svg"
         },
         {
           "picture": "🍌",
           "word": "ಬಾಳೆ",
-          "phonetic": "baale"
+          "phonetic": "baale",
+          "image": "images/words/1F34C.svg"
         },
         {
           "picture": "🐶",
           "word": "ನಾಯಿ",
-          "phonetic": "naayi"
+          "phonetic": "naayi",
+          "image": "images/words/1F436.svg"
         },
         {
           "picture": "🐱",
           "word": "ಬೆಕ್ಕು",
-          "phonetic": "bekku"
+          "phonetic": "bekku",
+          "image": "images/words/1F431.svg"
         },
         {
           "picture": "👁️",
           "word": "ಕಣ್ಣು",
-          "phonetic": "kannu"
+          "phonetic": "kannu",
+          "image": "images/words/1F441.svg"
         },
         {
           "picture": "🤚",
           "word": "ಕೈ",
-          "phonetic": "kai"
+          "phonetic": "kai",
+          "image": "images/words/1F91A.svg"
         },
         {
           "picture": "👃",
           "word": "ಮೂಗು",
-          "phonetic": "moogu"
+          "phonetic": "moogu",
+          "image": "images/words/1F443.svg"
         },
         {
           "picture": "👂",
           "word": "ಕಿವಿ",
-          "phonetic": "kivi"
+          "phonetic": "kivi",
+          "image": "images/words/1F442.svg"
         },
         {
           "picture": "🦶",
           "word": "ಕಾಲು",
-          "phonetic": "kaalu"
+          "phonetic": "kaalu",
+          "image": "images/words/1F9B6.svg"
         },
         {
           "picture": "🐓",
           "word": "ಕೋಳಿ",
-          "phonetic": "kooli"
+          "phonetic": "kooli",
+          "image": "images/words/1F413.svg"
         },
         {
           "picture": "🌾",
           "word": "ಭತ್ತ",
-          "phonetic": "bhatta"
+          "phonetic": "bhatta",
+          "image": "images/words/1F33E.svg"
         }
       ]
     },
@@ -1120,137 +1145,164 @@
         {
           "picture": "🦁",
           "word": "ಸಿಂಹ",
-          "phonetic": "simha"
+          "phonetic": "simha",
+          "image": "images/words/1F981.svg"
         },
         {
           "picture": "🐯",
           "word": "ಹುಲಿ",
-          "phonetic": "huli"
+          "phonetic": "huli",
+          "image": "images/words/1F42F.svg"
         },
         {
           "picture": "🐻",
           "word": "ಕರಡಿ",
-          "phonetic": "karadi"
+          "phonetic": "karadi",
+          "image": "images/words/1F43B.svg"
         },
         {
           "picture": "🐵",
           "word": "ಕೋತಿ",
-          "phonetic": "koti"
+          "phonetic": "koti",
+          "image": "images/words/1F435.svg"
         },
         {
           "picture": "🦊",
           "word": "ನರಿ",
-          "phonetic": "nari"
+          "phonetic": "nari",
+          "image": "images/words/1F98A.svg"
         },
         {
           "picture": "🐺",
           "word": "ತೋಳ",
-          "phonetic": "tola"
+          "phonetic": "tola",
+          "image": "images/words/1F43A.svg"
         },
         {
           "picture": "🐸",
           "word": "ಕಪ್ಪೆ",
-          "phonetic": "kappe"
+          "phonetic": "kappe",
+          "image": "images/words/1F438.svg"
         },
         {
           "picture": "🐢",
           "word": "ಆಮೆ",
-          "phonetic": "aame"
+          "phonetic": "aame",
+          "image": "images/words/1F422.svg"
         },
         {
           "picture": "🦎",
           "word": "ಹಲ್ಲಿ",
-          "phonetic": "halli"
+          "phonetic": "halli",
+          "image": "images/words/1F98E.svg"
         },
         {
           "picture": "🐍",
           "word": "ಹಾವು",
-          "phonetic": "haavu"
+          "phonetic": "haavu",
+          "image": "images/words/1F40D.svg"
         },
         {
           "picture": "🦋",
           "word": "ಚಿಟ್ಟೆ",
-          "phonetic": "chitte"
+          "phonetic": "chitte",
+          "image": "images/words/1F98B.svg"
         },
         {
           "picture": "🐝",
           "word": "ದುಂಬಿ",
-          "phonetic": "dumbi"
+          "phonetic": "dumbi",
+          "image": "images/words/1F41D.svg"
         },
         {
           "picture": "🍊",
           "word": "ಕಿತ್ತಳೆ",
-          "phonetic": "kittale"
+          "phonetic": "kittale",
+          "image": "images/words/1F34A.svg"
         },
         {
           "picture": "🍇",
           "word": "ದ್ರಾಕ್ಷಿ",
-          "phonetic": "draakshi"
+          "phonetic": "draakshi",
+          "image": "images/words/1F347.svg"
         },
         {
           "picture": "🍈",
           "word": "ಕರ್ಬೂಜ",
-          "phonetic": "karbooja"
+          "phonetic": "karbooja",
+          "image": "images/words/1F348.svg"
         },
         {
           "picture": "🥕",
           "word": "ಕ್ಯಾರೆಟ್",
-          "phonetic": "kyaaret"
+          "phonetic": "kyaaret",
+          "image": "images/words/1F955.svg"
         },
         {
           "picture": "🥔",
           "word": "ಆಲೂಗಡ್ಡೆ",
-          "phonetic": "aaloogadde"
+          "phonetic": "aaloogadde",
+          "image": "images/words/1F954.svg"
         },
         {
           "picture": "🌽",
           "word": "ಜೋಳ",
-          "phonetic": "jola"
+          "phonetic": "jola",
+          "image": "images/words/1F33D.svg"
         },
         {
           "picture": "🚂",
           "word": "ರೈಲು",
-          "phonetic": "railu"
+          "phonetic": "railu",
+          "image": "images/words/1F682.svg"
         },
         {
           "picture": "✈️",
           "word": "ವಿಮಾನ",
-          "phonetic": "vimaana"
+          "phonetic": "vimaana",
+          "image": "images/words/2708.svg"
         },
         {
           "picture": "🚢",
           "word": "ಹಡಗು",
-          "phonetic": "hadagu"
+          "phonetic": "hadagu",
+          "image": "images/words/1F6A2.svg"
         },
         {
           "picture": "👁️",
           "word": "ಕಣ್ಣು",
-          "phonetic": "kannu"
+          "phonetic": "kannu",
+          "image": "images/words/1F441.svg"
         },
         {
           "picture": "🤚",
           "word": "ಕೈ",
-          "phonetic": "kai"
+          "phonetic": "kai",
+          "image": "images/words/1F91A.svg"
         },
         {
           "picture": "🦵",
           "word": "ಕಾಲು",
-          "phonetic": "kaalu"
+          "phonetic": "kaalu",
+          "image": "images/words/1F9B5.svg"
         },
         {
           "picture": "⭐",
           "word": "ನಕ್ಷತ್ರ",
-          "phonetic": "nakshattra"
+          "phonetic": "nakshattra",
+          "image": "images/words/2B50.svg"
         },
         {
           "picture": "☁️",
           "word": "ಮೋಡ",
-          "phonetic": "moda"
+          "phonetic": "moda",
+          "image": "images/words/2601.svg"
         },
         {
           "picture": "🌈",
           "word": "ಕಾಮನಬಿಲ್ಲು",
-          "phonetic": "kaamanabillu"
+          "phonetic": "kaamanabillu",
+          "image": "images/words/1F308.svg"
         }
       ]
     },
@@ -1313,7 +1365,8 @@
         {
           "picture": "🔟",
           "word": "ಹತ್ತು",
-          "phonetic": "hattu"
+          "phonetic": "hattu",
+          "image": "images/words/1F51F.svg"
         },
         {
           "picture": "1️⃣1️⃣",
@@ -1434,62 +1487,74 @@
         {
           "picture": "👁️",
           "word": "ಕಣ್ಣು",
-          "phonetic": "kannu"
+          "phonetic": "kannu",
+          "image": "images/words/1F441.svg"
         },
         {
           "picture": "👃",
           "word": "ಮೂಗು",
-          "phonetic": "moogu"
+          "phonetic": "moogu",
+          "image": "images/words/1F443.svg"
         },
         {
           "picture": "👂",
           "word": "ಕಿವಿ",
-          "phonetic": "kivi"
+          "phonetic": "kivi",
+          "image": "images/words/1F442.svg"
         },
         {
           "picture": "👄",
           "word": "ಬಾಯಿ",
-          "phonetic": "baayi"
+          "phonetic": "baayi",
+          "image": "images/words/1F444.svg"
         },
         {
           "picture": "👅",
           "word": "ನಾಲಗೆ",
-          "phonetic": "naalage"
+          "phonetic": "naalage",
+          "image": "images/words/1F445.svg"
         },
         {
           "picture": "🦷",
           "word": "ಹಲ್ಲು",
-          "phonetic": "hallu"
+          "phonetic": "hallu",
+          "image": "images/words/1F9B7.svg"
         },
         {
           "picture": "🤚",
           "word": "ಕೈ",
-          "phonetic": "kai"
+          "phonetic": "kai",
+          "image": "images/words/1F91A.svg"
         },
         {
           "picture": "🦶",
           "word": "ಪಾದ",
-          "phonetic": "paada"
+          "phonetic": "paada",
+          "image": "images/words/1F9B6.svg"
         },
         {
           "picture": "💪",
           "word": "ತೋಳು",
-          "phonetic": "toolu"
+          "phonetic": "toolu",
+          "image": "images/words/1F4AA.svg"
         },
         {
           "picture": "🦵",
           "word": "ಕಾಲು",
-          "phonetic": "kaalu"
+          "phonetic": "kaalu",
+          "image": "images/words/1F9B5.svg"
         },
         {
           "picture": "🧠",
           "word": "ಮೆದುಳು",
-          "phonetic": "medulu"
+          "phonetic": "medulu",
+          "image": "images/words/1F9E0.svg"
         },
         {
           "picture": "❤️",
           "word": "ಹೃದಯ",
-          "phonetic": "hrudaya"
+          "phonetic": "hrudaya",
+          "image": "images/words/2764.svg"
         },
         {
           "picture": "👂👂",
@@ -1504,7 +1569,8 @@
         {
           "picture": "🤲",
           "word": "ಕೈಗಳು",
-          "phonetic": "kaigalu"
+          "phonetic": "kaigalu",
+          "image": "images/words/1F932.svg"
         }
       ]
     },
@@ -1517,77 +1583,92 @@
         {
           "picture": "🦒",
           "word": "ಜಿರಾಫೆ",
-          "phonetic": "jiraafe"
+          "phonetic": "jiraafe",
+          "image": "images/words/1F992.svg"
         },
         {
           "picture": "🦓",
           "word": "ಜೀಬ್ರಾ",
-          "phonetic": "jeebra"
+          "phonetic": "jeebra",
+          "image": "images/words/1F993.svg"
         },
         {
           "picture": "🐪",
           "word": "ಒಂಟೆ",
-          "phonetic": "onte"
+          "phonetic": "onte",
+          "image": "images/words/1F42A.svg"
         },
         {
           "picture": "🐼",
           "word": "ಪಾಂಡಾ",
-          "phonetic": "paanda"
+          "phonetic": "paanda",
+          "image": "images/words/1F43C.svg"
         },
         {
           "picture": "🐨",
           "word": "ಕೋಲಾ",
-          "phonetic": "kola"
+          "phonetic": "kola",
+          "image": "images/words/1F428.svg"
         },
         {
           "picture": "🦘",
           "word": "ಕ್ಯಾಂಗರೂ",
-          "phonetic": "kyaangaroo"
+          "phonetic": "kyaangaroo",
+          "image": "images/words/1F998.svg"
         },
         {
           "picture": "🦏",
           "word": "ಖಡ್ಗಮೃಗ",
-          "phonetic": "khadgamruga"
+          "phonetic": "khadgamruga",
+          "image": "images/words/1F98F.svg"
         },
         {
           "picture": "🦛",
           "word": "ಹಿಪ್ಪೋ",
-          "phonetic": "hippo"
+          "phonetic": "hippo",
+          "image": "images/words/1F99B.svg"
         },
         {
           "picture": "🐅",
           "word": "ಹುಲಿ",
-          "phonetic": "huli"
+          "phonetic": "huli",
+          "image": "images/words/1F405.svg"
         },
         {
           "picture": "🐆",
           "word": "ಚಿರತೆ",
-          "phonetic": "chirate"
+          "phonetic": "chirate",
+          "image": "images/words/1F406.svg"
         },
         {
           "picture": "🦅",
           "word": "ಹದ್ದು",
-          "phonetic": "haddu"
+          "phonetic": "haddu",
+          "image": "images/words/1F985.svg"
         },
         {
           "picture": "🦉",
           "word": "ಗೂಬೆ",
-          "phonetic": "goobe"
+          "phonetic": "goobe",
+          "image": "images/words/1F989.svg"
         },
         {
           "picture": "🦜",
           "word": "ಗಿಣಿ",
-          "phonetic": "gini"
+          "phonetic": "gini",
+          "image": "images/words/1F99C.svg"
         },
         {
           "picture": "🦚",
           "word": "ನವಿಲು",
-          "phonetic": "navilu"
+          "phonetic": "navilu",
+          "image": "images/words/1F99A.svg"
         },
         {
           "picture": "🦢",
           "word": "ಹಂಸ",
-          "phonetic": "hamsa"
+          "phonetic": "hamsa",
+          "image": "images/words/1F9A2.svg"
         }
       ]
     },
@@ -1686,6 +1767,86 @@
           "picture": "🥔",
           "letters": ["ಆ", "ಲೂ", "ಗ", "ಡ್ಡೆ"],
           "answerText": "ಆಲೂಗಡ್ಡೆ"
+        }
+      ]
+    },
+    {
+      "id": "kan_prani_padagalu",
+      "title": "ಪ್ರಾಣಿ ಪದಗಳು (Animal Words)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "\"ಆನೆ\" ಎಂದರೆ ಯಾವ ಪ್ರಾಣಿ?",
+          "visual": "🐘",
+          "answer": "Elephant",
+          "options": ["Elephant", "Lion", "Dog", "Cat"]
+        },
+        {
+          "question": "\"ಹುಲಿ\" ಎಂದರೆ ಯಾವ ಪ್ರಾಣಿ?",
+          "visual": "🐯",
+          "answer": "Tiger",
+          "options": ["Tiger", "Bear", "Fox", "Deer"]
+        },
+        {
+          "question": "\"ನಾಯಿ\" ಎಂದರೆ ಯಾವ ಪ್ರಾಣಿ?",
+          "visual": "🐶",
+          "answer": "Dog",
+          "options": ["Dog", "Cat", "Cow", "Goat"]
+        },
+        {
+          "question": "\"ಬೆಕ್ಕು\" ಎಂದರೆ ಯಾವ ಪ್ರಾಣಿ?",
+          "visual": "🐱",
+          "answer": "Cat",
+          "options": ["Cat", "Dog", "Rat", "Hen"]
+        },
+        {
+          "question": "\"ಹಸು\" ಎಂದರೆ ಯಾವ ಪ್ರಾಣಿ?",
+          "visual": "🐮",
+          "answer": "Cow",
+          "options": ["Cow", "Buffalo", "Horse", "Sheep"]
+        },
+        {
+          "question": "\"ಸಿಂಹ\" ಎಂದರೆ ಯಾವ ಪ್ರಾಣಿ?",
+          "visual": "🦁",
+          "answer": "Lion",
+          "options": ["Lion", "Tiger", "Monkey", "Elephant"]
+        },
+        {
+          "question": "\"ಕೋತಿ\" ಎಂದರೆ ಯಾವ ಪ್ರಾಣಿ?",
+          "visual": "🐵",
+          "answer": "Monkey",
+          "options": ["Monkey", "Donkey", "Rabbit", "Pig"]
+        },
+        {
+          "question": "\"ಮೊಲ\" ಎಂದರೆ ಯಾವ ಪ್ರಾಣಿ?",
+          "visual": "🐰",
+          "answer": "Rabbit",
+          "options": ["Rabbit", "Rat", "Deer", "Squirrel"]
+        },
+        {
+          "question": "\"ಕುದುರೆ\" ಎಂದರೆ ಯಾವ ಪ್ರಾಣಿ?",
+          "visual": "🐴",
+          "answer": "Horse",
+          "options": ["Horse", "Camel", "Zebra", "Cow"]
+        },
+        {
+          "question": "\"ಮೀನು\" ಎಂದರೆ ಏನು?",
+          "visual": "🐟",
+          "answer": "Fish",
+          "options": ["Fish", "Frog", "Snake", "Crab"]
+        },
+        {
+          "question": "\"ಹಕ್ಕಿ\" ಎಂದರೆ ಏನು?",
+          "visual": "🐦",
+          "answer": "Bird",
+          "options": ["Bird", "Bee", "Bat", "Fly"]
+        },
+        {
+          "question": "\"ಕರಡಿ\" ಎಂದರೆ ಯಾವ ಪ್ರಾಣಿ?",
+          "visual": "🐻",
+          "answer": "Bear",
+          "options": ["Bear", "Boar", "Wolf", "Lion"]
         }
       ]
     }

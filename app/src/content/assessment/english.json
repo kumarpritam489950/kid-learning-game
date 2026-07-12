@@ -1426,6 +1426,236 @@
         }
       ],
       "topic": "Opposites"
+    },
+    {
+      "id": 63,
+      "question": "Which word rhymes with CAT?",
+      "topic": "Rhyming Words",
+      "options": [
+        {
+          "text": "HAT",
+          "correct": true
+        },
+        {
+          "text": "DOG",
+          "correct": false
+        },
+        {
+          "text": "CAR",
+          "correct": false
+        },
+        {
+          "text": "CUP",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "question": "The plural of BOOK is ___.",
+      "topic": "Plurals",
+      "options": [
+        {
+          "text": "BOOKS",
+          "correct": true
+        },
+        {
+          "text": "BOOKES",
+          "correct": false
+        },
+        {
+          "text": "BOOK",
+          "correct": false
+        },
+        {
+          "text": "BOOKIES",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "question": "Which letter comes after F?",
+      "topic": "Alphabet Order",
+      "options": [
+        {
+          "text": "G",
+          "correct": true
+        },
+        {
+          "text": "E",
+          "correct": false
+        },
+        {
+          "text": "H",
+          "correct": false
+        },
+        {
+          "text": "D",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "question": "A ___ says \"moo\".",
+      "topic": "Animal Sounds",
+      "options": [
+        {
+          "text": "Cow",
+          "correct": true
+        },
+        {
+          "text": "Dog",
+          "correct": false
+        },
+        {
+          "text": "Cat",
+          "correct": false
+        },
+        {
+          "text": "Hen",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "question": "Which is a vowel?",
+      "topic": "Vowels",
+      "options": [
+        {
+          "text": "E",
+          "correct": true
+        },
+        {
+          "text": "B",
+          "correct": false
+        },
+        {
+          "text": "T",
+          "correct": false
+        },
+        {
+          "text": "R",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "question": "I ___ a student.",
+      "topic": "Simple Sentences",
+      "options": [
+        {
+          "text": "am",
+          "correct": true
+        },
+        {
+          "text": "is",
+          "correct": false
+        },
+        {
+          "text": "are",
+          "correct": false
+        },
+        {
+          "text": "be",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "question": "Opposite of COME is ___.",
+      "topic": "Opposites",
+      "options": [
+        {
+          "text": "GO",
+          "correct": true
+        },
+        {
+          "text": "RUN",
+          "correct": false
+        },
+        {
+          "text": "SIT",
+          "correct": false
+        },
+        {
+          "text": "STAY",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "question": "C-A-K-E spells ___.",
+      "topic": "Spelling",
+      "options": [
+        {
+          "text": "CAKE",
+          "correct": true
+        },
+        {
+          "text": "CAK",
+          "correct": false
+        },
+        {
+          "text": "KAKE",
+          "correct": false
+        },
+        {
+          "text": "SAKE",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "question": "Which word starts with the same sound as SUN?",
+      "topic": "Beginning Sounds",
+      "options": [
+        {
+          "text": "SOCK",
+          "correct": true
+        },
+        {
+          "text": "MOON",
+          "correct": false
+        },
+        {
+          "text": "FAN",
+          "correct": false
+        },
+        {
+          "text": "TAP",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "question": "A baby dog is called a ___.",
+      "topic": "Young Ones",
+      "options": [
+        {
+          "text": "Puppy",
+          "correct": true
+        },
+        {
+          "text": "Kitten",
+          "correct": false
+        },
+        {
+          "text": "Calf",
+          "correct": false
+        },
+        {
+          "text": "Chick",
+          "correct": false
+        }
+      ]
     }
   ]
 }

@@ -1081,6 +1081,104 @@
           "options": ["20", "19", "21", "18"]
         }
       ]
+    },
+    {
+      "id": "mm_number_names",
+      "title": "Number Names",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Which number is \"five\"?",
+          "visual": "🖐️",
+          "answer": "5",
+          "options": ["5", "4", "9", "15"]
+        },
+        {
+          "question": "Which number is \"ten\"?",
+          "visual": "🔟",
+          "answer": "10",
+          "options": ["10", "1", "100", "11"]
+        },
+        {
+          "question": "\"Seven\" is written as ___.",
+          "visual": "7️⃣",
+          "answer": "7",
+          "options": ["7", "17", "2", "11"]
+        },
+        {
+          "question": "Which number is \"twelve\"?",
+          "visual": "🔢",
+          "answer": "12",
+          "options": ["12", "2", "21", "20"]
+        },
+        {
+          "question": "\"Fifteen\" is written as ___.",
+          "visual": "🔢",
+          "answer": "15",
+          "options": ["15", "5", "50", "51"]
+        },
+        {
+          "question": "Which number is \"twenty\"?",
+          "visual": "🔢",
+          "answer": "20",
+          "options": ["20", "2", "12", "22"]
+        },
+        {
+          "question": "3 in words is ___.",
+          "visual": "3️⃣",
+          "answer": "Three",
+          "options": ["Three", "Thirteen", "Thirty", "Two"]
+        },
+        {
+          "question": "8 in words is ___.",
+          "visual": "8️⃣",
+          "answer": "Eight",
+          "options": ["Eight", "Eighteen", "Eighty", "Nine"]
+        },
+        {
+          "question": "11 in words is ___.",
+          "visual": "🔢",
+          "answer": "Eleven",
+          "options": ["Eleven", "One-one", "Twelve", "Twenty"]
+        },
+        {
+          "question": "16 in words is ___.",
+          "visual": "🔢",
+          "answer": "Sixteen",
+          "options": ["Sixteen", "Sixty", "Six", "Seventeen"]
+        },
+        {
+          "question": "Which number is \"nine\"?",
+          "visual": "9️⃣",
+          "answer": "9",
+          "options": ["9", "6", "19", "90"]
+        },
+        {
+          "question": "14 in words is ___.",
+          "visual": "🔢",
+          "answer": "Fourteen",
+          "options": ["Fourteen", "Forty", "Four", "Fifteen"]
+        },
+        {
+          "question": "Which number is \"zero\"?",
+          "visual": "0️⃣",
+          "answer": "0",
+          "options": ["0", "10", "8", "1"]
+        },
+        {
+          "question": "18 in words is ___.",
+          "visual": "🔢",
+          "answer": "Eighteen",
+          "options": ["Eighteen", "Eighty", "Eight", "Nineteen"]
+        },
+        {
+          "question": "Which number is \"thirteen\"?",
+          "visual": "🔢",
+          "answer": "13",
+          "options": ["13", "30", "3", "31"]
+        }
+      ]
     }
   ]
 }

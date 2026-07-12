@@ -25,12 +25,16 @@ const letterEntry = z.strictObject({
 const pictureWordItem = z.strictObject({
   picture: z.string().min(1),
   word: z.string().min(1),
+  /** Optional illustration path (relative to BASE_URL); wins over emoji. */
+  image: z.string().optional(),
 });
 
 const pictureWordItemWithPhonetic = z.strictObject({
   picture: z.string().min(1),
   word: z.string().min(1),
   phonetic: z.string().nullable(),
+  /** Optional illustration path (relative to BASE_URL); wins over emoji. */
+  image: z.string().optional(),
 });
 
 const rhymeItem = z.strictObject({

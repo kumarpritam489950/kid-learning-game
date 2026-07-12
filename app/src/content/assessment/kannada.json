@@ -713,6 +713,236 @@
         }
       ],
       "topic": "Kannada - General Knowledge"
+    },
+    {
+      "id": 32,
+      "question": "\"ಅ\" ಇಂದ ಏನು ಬರುತ್ತದೆ?",
+      "topic": "Kannada Letters",
+      "options": [
+        {
+          "text": "ಅರಸ",
+          "correct": true
+        },
+        {
+          "text": "ಆನೆ",
+          "correct": false
+        },
+        {
+          "text": "ಇಲಿ",
+          "correct": false
+        },
+        {
+          "text": "ಈಶ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "\"ಆ\" ಇಂದ ಏನು ಬರುತ್ತದೆ?",
+      "topic": "Kannada Letters",
+      "options": [
+        {
+          "text": "ಆನೆ",
+          "correct": true
+        },
+        {
+          "text": "ಅರಸ",
+          "correct": false
+        },
+        {
+          "text": "ಉಡ",
+          "correct": false
+        },
+        {
+          "text": "ಎಲೆ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "ಕನ್ನಡದಲ್ಲಿ \"ನೀರು\" ಎಂದರೆ ಏನು?",
+      "topic": "Kannada Words",
+      "options": [
+        {
+          "text": "Water",
+          "correct": true
+        },
+        {
+          "text": "Fire",
+          "correct": false
+        },
+        {
+          "text": "Air",
+          "correct": false
+        },
+        {
+          "text": "Land",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "\"ಅಮ್ಮ\" ಎಂದರೆ ಯಾರು?",
+      "topic": "Kannada Words",
+      "options": [
+        {
+          "text": "Mother",
+          "correct": true
+        },
+        {
+          "text": "Father",
+          "correct": false
+        },
+        {
+          "text": "Uncle",
+          "correct": false
+        },
+        {
+          "text": "Brother",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "question": "\"ಮನೆ\" ಎಂದರೆ ಏನು?",
+      "topic": "Kannada Words",
+      "options": [
+        {
+          "text": "House",
+          "correct": true
+        },
+        {
+          "text": "School",
+          "correct": false
+        },
+        {
+          "text": "Shop",
+          "correct": false
+        },
+        {
+          "text": "Garden",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "\"ಹೂವು\" ಎಂದರೆ ಏನು?",
+      "topic": "Kannada Words",
+      "options": [
+        {
+          "text": "Flower",
+          "correct": true
+        },
+        {
+          "text": "Fruit",
+          "correct": false
+        },
+        {
+          "text": "Leaf",
+          "correct": false
+        },
+        {
+          "text": "Root",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "question": "\"ಹಾಲು\" ಯಾರು ಕೊಡುತ್ತದೆ?",
+      "topic": "General Kannada",
+      "options": [
+        {
+          "text": "ಹಸು",
+          "correct": true
+        },
+        {
+          "text": "ಹುಲಿ",
+          "correct": false
+        },
+        {
+          "text": "ಮೀನು",
+          "correct": false
+        },
+        {
+          "text": "ಹಾವು",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "question": "\"ಶಾಲೆ\" ಎಂದರೆ ಏನು?",
+      "topic": "Kannada Words",
+      "options": [
+        {
+          "text": "School",
+          "correct": true
+        },
+        {
+          "text": "Home",
+          "correct": false
+        },
+        {
+          "text": "Park",
+          "correct": false
+        },
+        {
+          "text": "Hospital",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "question": "\"ಸೂರ್ಯ\" ಎಂದರೆ ಏನು?",
+      "topic": "Kannada Words",
+      "options": [
+        {
+          "text": "Sun",
+          "correct": true
+        },
+        {
+          "text": "Moon",
+          "correct": false
+        },
+        {
+          "text": "Star",
+          "correct": false
+        },
+        {
+          "text": "Cloud",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "question": "\"ಪುಸ್ತಕ\" ಎಂದರೆ ಏನು?",
+      "topic": "Kannada Words",
+      "options": [
+        {
+          "text": "Book",
+          "correct": true
+        },
+        {
+          "text": "Bag",
+          "correct": false
+        },
+        {
+          "text": "Pen",
+          "correct": false
+        },
+        {
+          "text": "Slate",
+          "correct": false
+        }
+      ]
     }
   ]
 }

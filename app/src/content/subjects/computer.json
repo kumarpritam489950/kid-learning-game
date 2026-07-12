@@ -297,6 +297,104 @@
           "options": ["Educational websites", "Games only", "TV only", "Sleep"]
         }
       ]
+    },
+    {
+      "id": "comp_keyboard_mouse",
+      "title": "Keyboard & Mouse Skills",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "Which part has letters A to Z?",
+          "visual": "⌨️",
+          "answer": "Keyboard",
+          "options": ["Keyboard", "Mouse", "Screen", "Speaker"]
+        },
+        {
+          "question": "Which part do we click with?",
+          "visual": "🖱️",
+          "answer": "Mouse",
+          "options": ["Mouse", "Keyboard", "Monitor", "Printer"]
+        },
+        {
+          "question": "The longest key on the keyboard is the ___.",
+          "visual": "⌨️",
+          "answer": "Space bar",
+          "options": ["Space bar", "Enter key", "A key", "Shift key"]
+        },
+        {
+          "question": "Pressing a mouse button once is called a ___.",
+          "visual": "🖱️",
+          "answer": "Click",
+          "options": ["Click", "Clap", "Kick", "Knock"]
+        },
+        {
+          "question": "Clicking two times fast is called ___.",
+          "visual": "🖱️",
+          "answer": "Double click",
+          "options": ["Double click", "Double jump", "Two taps", "Big click"]
+        },
+        {
+          "question": "The arrow that moves with the mouse is the ___.",
+          "visual": "🖥️",
+          "answer": "Cursor",
+          "options": ["Cursor", "Crayon", "Curtain", "Carrot"]
+        },
+        {
+          "question": "To type your name you use the ___.",
+          "visual": "⌨️",
+          "answer": "Keyboard",
+          "options": ["Keyboard", "Mouse", "Speaker", "Camera"]
+        },
+        {
+          "question": "Number keys show ___.",
+          "visual": "🔢",
+          "answer": "Numbers",
+          "options": ["Numbers", "Animals", "Colours", "Fruits"]
+        },
+        {
+          "question": "The Enter key helps to go to a ___ line.",
+          "visual": "↩️",
+          "answer": "New",
+          "options": ["New", "Old", "Red", "Slow"]
+        },
+        {
+          "question": "We hold the mouse with our ___.",
+          "visual": "✋",
+          "answer": "Hand",
+          "options": ["Hand", "Foot", "Nose", "Ear"]
+        },
+        {
+          "question": "Arrow keys help us move ___.",
+          "visual": "⬆️",
+          "answer": "Up and down",
+          "options": ["Up and down", "To school", "To sleep", "To eat"]
+        },
+        {
+          "question": "Which key erases letters?",
+          "visual": "⌨️",
+          "answer": "Backspace",
+          "options": ["Backspace", "Space bar", "Enter", "Zero"]
+        },
+        {
+          "question": "The mouse usually has ___ main buttons.",
+          "visual": "🖱️",
+          "answer": "2",
+          "options": ["2", "9", "7", "5"]
+        },
+        {
+          "question": "Keyboard and mouse are ___ devices.",
+          "visual": "🔌",
+          "answer": "Input",
+          "options": ["Input", "Output", "Eating", "Flying"]
+        },
+        {
+          "question": "We move the mouse on a mouse ___.",
+          "visual": "🖱️",
+          "answer": "Pad",
+          "options": ["Pad", "Pan", "Pot", "Pin"]
+        }
+      ]
     }
   ]
 }

@@ -220,143 +220,178 @@
       "items": [
         {
           "picture": "🐶",
-          "word": "DOG"
+          "word": "DOG",
+          "image": "images/words/1F436.svg"
         },
         {
           "picture": "🐱",
-          "word": "CAT"
+          "word": "CAT",
+          "image": "images/words/1F431.svg"
         },
         {
           "picture": "☀️",
-          "word": "SUN"
+          "word": "SUN",
+          "image": "images/words/2600.svg"
         },
         {
           "picture": "🍎",
-          "word": "APPLE"
+          "word": "APPLE",
+          "image": "images/words/1F34E.svg"
         },
         {
           "picture": "🚌",
-          "word": "BUS"
+          "word": "BUS",
+          "image": "images/words/1F68C.svg"
         },
         {
           "picture": "🌳",
-          "word": "TREE"
+          "word": "TREE",
+          "image": "images/words/1F333.svg"
         },
         {
           "picture": "🐟",
-          "word": "FISH"
+          "word": "FISH",
+          "image": "images/words/1F41F.svg"
         },
         {
           "picture": "🏠",
-          "word": "HOUSE"
+          "word": "HOUSE",
+          "image": "images/words/1F3E0.svg"
         },
         {
           "picture": "🦁",
-          "word": "LION"
+          "word": "LION",
+          "image": "images/words/1F981.svg"
         },
         {
           "picture": "🐘",
-          "word": "ELEPHANT"
+          "word": "ELEPHANT",
+          "image": "images/words/1F418.svg"
         },
         {
           "picture": "🍌",
-          "word": "BANANA"
+          "word": "BANANA",
+          "image": "images/words/1F34C.svg"
         },
         {
           "picture": "🚗",
-          "word": "CAR"
+          "word": "CAR",
+          "image": "images/words/1F697.svg"
         },
         {
           "picture": "🌸",
-          "word": "FLOWER"
+          "word": "FLOWER",
+          "image": "images/words/1F338.svg"
         },
         {
           "picture": "🐦",
-          "word": "BIRD"
+          "word": "BIRD",
+          "image": "images/words/1F426.svg"
         },
         {
           "picture": "🐸",
-          "word": "FROG"
+          "word": "FROG",
+          "image": "images/words/1F438.svg"
         },
         {
           "picture": "🦋",
-          "word": "BUTTERFLY"
+          "word": "BUTTERFLY",
+          "image": "images/words/1F98B.svg"
         },
         {
           "picture": "🌙",
-          "word": "MOON"
+          "word": "MOON",
+          "image": "images/words/1F319.svg"
         },
         {
           "picture": "⭐",
-          "word": "STAR"
+          "word": "STAR",
+          "image": "images/words/2B50.svg"
         },
         {
           "picture": "🍊",
-          "word": "ORANGE"
+          "word": "ORANGE",
+          "image": "images/words/1F34A.svg"
         },
         {
           "picture": "🍁",
-          "word": "LEAF"
+          "word": "LEAF",
+          "image": "images/words/1F341.svg"
         },
         {
           "picture": "🚂",
-          "word": "TRAIN"
+          "word": "TRAIN",
+          "image": "images/words/1F682.svg"
         },
         {
           "picture": "✈️",
-          "word": "PLANE"
+          "word": "PLANE",
+          "image": "images/words/2708.svg"
         },
         {
           "picture": "📖",
-          "word": "BOOK"
+          "word": "BOOK",
+          "image": "images/words/1F4D6.svg"
         },
         {
           "picture": "🖊️",
-          "word": "PEN"
+          "word": "PEN",
+          "image": "images/words/1F58A.svg"
         },
         {
           "picture": "🎒",
-          "word": "BAG"
+          "word": "BAG",
+          "image": "images/words/1F392.svg"
         },
         {
           "picture": "🥛",
-          "word": "MILK"
+          "word": "MILK",
+          "image": "images/words/1F95B.svg"
         },
         {
           "picture": "🐮",
-          "word": "COW"
+          "word": "COW",
+          "image": "images/words/1F42E.svg"
         },
         {
           "picture": "🐔",
-          "word": "HEN"
+          "word": "HEN",
+          "image": "images/words/1F414.svg"
         },
         {
           "picture": "🐷",
-          "word": "PIG"
+          "word": "PIG",
+          "image": "images/words/1F437.svg"
         },
         {
           "picture": "🦆",
-          "word": "DUCK"
+          "word": "DUCK",
+          "image": "images/words/1F986.svg"
         },
         {
           "picture": "🐰",
-          "word": "RABBIT"
+          "word": "RABBIT",
+          "image": "images/words/1F430.svg"
         },
         {
           "picture": "🍇",
-          "word": "GRAPES"
+          "word": "GRAPES",
+          "image": "images/words/1F347.svg"
         },
         {
           "picture": "🌊",
-          "word": "WAVE"
+          "word": "WAVE",
+          "image": "images/words/1F30A.svg"
         },
         {
           "picture": "🐍",
-          "word": "SNAKE"
+          "word": "SNAKE",
+          "image": "images/words/1F40D.svg"
         },
         {
           "picture": "🦊",
-          "word": "FOX"
+          "word": "FOX",
+          "image": "images/words/1F98A.svg"
         }
       ]
     },
@@ -946,83 +981,103 @@
       "items": [
         {
           "picture": "🐅",
-          "word": "TIGER"
+          "word": "TIGER",
+          "image": "images/words/1F405.svg"
         },
         {
           "picture": "🐻",
-          "word": "BEAR"
+          "word": "BEAR",
+          "image": "images/words/1F43B.svg"
         },
         {
           "picture": "🐒",
-          "word": "MONKEY"
+          "word": "MONKEY",
+          "image": "images/words/1F412.svg"
         },
         {
           "picture": "🦒",
-          "word": "GIRAFFE"
+          "word": "GIRAFFE",
+          "image": "images/words/1F992.svg"
         },
         {
           "picture": "🦓",
-          "word": "ZEBRA"
+          "word": "ZEBRA",
+          "image": "images/words/1F993.svg"
         },
         {
           "picture": "🦏",
-          "word": "RHINO"
+          "word": "RHINO",
+          "image": "images/words/1F98F.svg"
         },
         {
           "picture": "🦛",
-          "word": "HIPPO"
+          "word": "HIPPO",
+          "image": "images/words/1F99B.svg"
         },
         {
           "picture": "🦘",
-          "word": "KANGAROO"
+          "word": "KANGAROO",
+          "image": "images/words/1F998.svg"
         },
         {
           "picture": "🐼",
-          "word": "PANDA"
+          "word": "PANDA",
+          "image": "images/words/1F43C.svg"
         },
         {
           "picture": "🐨",
-          "word": "KOALA"
+          "word": "KOALA",
+          "image": "images/words/1F428.svg"
         },
         {
           "picture": "🦁",
-          "word": "LION"
+          "word": "LION",
+          "image": "images/words/1F981.svg"
         },
         {
           "picture": "🐯",
-          "word": "TIGER CUB"
+          "word": "TIGER CUB",
+          "image": "images/words/1F42F.svg"
         },
         {
           "picture": "🐮",
-          "word": "COW"
+          "word": "COW",
+          "image": "images/words/1F42E.svg"
         },
         {
           "picture": "🐄",
-          "word": "COW"
+          "word": "COW",
+          "image": "images/words/1F404.svg"
         },
         {
           "picture": "🐷",
-          "word": "PIG"
+          "word": "PIG",
+          "image": "images/words/1F437.svg"
         },
         {
           "picture": "🐖",
-          "word": "PIGLET"
+          "word": "PIGLET",
+          "image": "images/words/1F416.svg"
         },
         {
           "picture": "🐗",
-          "word": "BOAR"
+          "word": "BOAR",
+          "image": "images/words/1F417.svg"
         },
         {
           "picture": "🐪",
-          "word": "CAMEL"
+          "word": "CAMEL",
+          "image": "images/words/1F42A.svg"
         },
         {
           "picture": "🐫",
-          "word": "CAMEL"
+          "word": "CAMEL",
+          "image": "images/words/1F42B.svg"
         },
         {
           "picture": "🦙",
-          "word": "LLAMA"
+          "word": "LLAMA",
+          "image": "images/words/1F999.svg"
         }
       ]
     },
@@ -1034,63 +1089,78 @@
       "items": [
         {
           "picture": "🦅",
-          "word": "EAGLE"
+          "word": "EAGLE",
+          "image": "images/words/1F985.svg"
         },
         {
           "picture": "🦉",
-          "word": "OWL"
+          "word": "OWL",
+          "image": "images/words/1F989.svg"
         },
         {
           "picture": "🦜",
-          "word": "PARROT"
+          "word": "PARROT",
+          "image": "images/words/1F99C.svg"
         },
         {
           "picture": "🦚",
-          "word": "PEACOCK"
+          "word": "PEACOCK",
+          "image": "images/words/1F99A.svg"
         },
         {
           "picture": "🦢",
-          "word": "SWAN"
+          "word": "SWAN",
+          "image": "images/words/1F9A2.svg"
         },
         {
           "picture": "🦩",
-          "word": "FLAMINGO"
+          "word": "FLAMINGO",
+          "image": "images/words/1F9A9.svg"
         },
         {
           "picture": "🐧",
-          "word": "PENGUIN"
+          "word": "PENGUIN",
+          "image": "images/words/1F427.svg"
         },
         {
           "picture": "🦃",
-          "word": "TURKEY"
+          "word": "TURKEY",
+          "image": "images/words/1F983.svg"
         },
         {
           "picture": "🐓",
-          "word": "ROOSTER"
+          "word": "ROOSTER",
+          "image": "images/words/1F413.svg"
         },
         {
           "picture": "🐔",
-          "word": "HEN"
+          "word": "HEN",
+          "image": "images/words/1F414.svg"
         },
         {
           "picture": "🐤",
-          "word": "CHICK"
+          "word": "CHICK",
+          "image": "images/words/1F424.svg"
         },
         {
           "picture": "🐥",
-          "word": "BABY CHICK"
+          "word": "BABY CHICK",
+          "image": "images/words/1F425.svg"
         },
         {
           "picture": "🦆",
-          "word": "DUCK"
+          "word": "DUCK",
+          "image": "images/words/1F986.svg"
         },
         {
           "picture": "🕊️",
-          "word": "DOVE"
+          "word": "DOVE",
+          "image": "images/words/1F54A.svg"
         },
         {
           "picture": "🦤",
-          "word": "DODO"
+          "word": "DODO",
+          "image": "images/words/1F9A4.svg"
         }
       ]
     },
@@ -1102,75 +1172,93 @@
       "items": [
         {
           "picture": "🍏",
-          "word": "GREEN APPLE"
+          "word": "GREEN APPLE",
+          "image": "images/words/1F34F.svg"
         },
         {
           "picture": "🍎",
-          "word": "RED APPLE"
+          "word": "RED APPLE",
+          "image": "images/words/1F34E.svg"
         },
         {
           "picture": "🍐",
-          "word": "PEAR"
+          "word": "PEAR",
+          "image": "images/words/1F350.svg"
         },
         {
           "picture": "🍊",
-          "word": "ORANGE"
+          "word": "ORANGE",
+          "image": "images/words/1F34A.svg"
         },
         {
           "picture": "🍋",
-          "word": "LEMON"
+          "word": "LEMON",
+          "image": "images/words/1F34B.svg"
         },
         {
           "picture": "🍌",
-          "word": "BANANA"
+          "word": "BANANA",
+          "image": "images/words/1F34C.svg"
         },
         {
           "picture": "🍉",
-          "word": "WATERMELON"
+          "word": "WATERMELON",
+          "image": "images/words/1F349.svg"
         },
         {
           "picture": "🍇",
-          "word": "GRAPES"
+          "word": "GRAPES",
+          "image": "images/words/1F347.svg"
         },
         {
           "picture": "🍓",
-          "word": "STRAWBERRY"
+          "word": "STRAWBERRY",
+          "image": "images/words/1F353.svg"
         },
         {
           "picture": "🫐",
-          "word": "BLUEBERRY"
+          "word": "BLUEBERRY",
+          "image": "images/words/1FAD0.svg"
         },
         {
           "picture": "🍈",
-          "word": "MELON"
+          "word": "MELON",
+          "image": "images/words/1F348.svg"
         },
         {
           "picture": "🍒",
-          "word": "CHERRY"
+          "word": "CHERRY",
+          "image": "images/words/1F352.svg"
         },
         {
           "picture": "🍑",
-          "word": "PEACH"
+          "word": "PEACH",
+          "image": "images/words/1F351.svg"
         },
         {
           "picture": "🥭",
-          "word": "MANGO"
+          "word": "MANGO",
+          "image": "images/words/1F96D.svg"
         },
         {
           "picture": "🍍",
-          "word": "PINEAPPLE"
+          "word": "PINEAPPLE",
+          "image": "images/words/1F34D.svg"
         },
         {
           "picture": "🥥",
-          "word": "COCONUT"
+          "word": "COCONUT",
+          "image": "images/words/1F965.svg"
         },
         {
           "picture": "🥝",
-          "word": "KIWI"
+          "word": "KIWI",
+          "image": "images/words/1F95D.svg"
         },
         {
           "picture": "🍅",
-          "word": "TOMATO"
+          "word": "TOMATO",
+          "image": "images/words/1F345.svg"
         }
       ]
     },
@@ -1182,63 +1270,78 @@
       "items": [
         {
           "picture": "🥕",
-          "word": "CARROT"
+          "word": "CARROT",
+          "image": "images/words/1F955.svg"
         },
         {
           "picture": "🥔",
-          "word": "POTATO"
+          "word": "POTATO",
+          "image": "images/words/1F954.svg"
         },
         {
           "picture": "🧅",
-          "word": "ONION"
+          "word": "ONION",
+          "image": "images/words/1F9C5.svg"
         },
         {
           "picture": "🌽",
-          "word": "CORN"
+          "word": "CORN",
+          "image": "images/words/1F33D.svg"
         },
         {
           "picture": "🥒",
-          "word": "CUCUMBER"
+          "word": "CUCUMBER",
+          "image": "images/words/1F952.svg"
         },
         {
           "picture": "🥬",
-          "word": "CABBAGE"
+          "word": "CABBAGE",
+          "image": "images/words/1F96C.svg"
         },
         {
           "picture": "🥦",
-          "word": "BROCCOLI"
+          "word": "BROCCOLI",
+          "image": "images/words/1F966.svg"
         },
         {
           "picture": "🫑",
-          "word": "PEPPER"
+          "word": "PEPPER",
+          "image": "images/words/1FAD1.svg"
         },
         {
           "picture": "🌶️",
-          "word": "CHILI"
+          "word": "CHILI",
+          "image": "images/words/1F336.svg"
         },
         {
           "picture": "🍆",
-          "word": "EGGPLANT"
+          "word": "EGGPLANT",
+          "image": "images/words/1F346.svg"
         },
         {
           "picture": "🍄",
-          "word": "MUSHROOM"
+          "word": "MUSHROOM",
+          "image": "images/words/1F344.svg"
         },
         {
           "picture": "🥜",
-          "word": "PEANUT"
+          "word": "PEANUT",
+          "image": "images/words/1F95C.svg"
         },
         {
           "picture": "🫘",
-          "word": "BEANS"
+          "word": "BEANS",
+          "image": "images/words/1FAD8.svg"
         },
         {
           "picture": "🫛",
-          "word": "PEA POD"
+          "word": "PEA POD",
+          "image": "images/words/1FADB.svg"
         },
         {
           "picture": "🌾",
-          "word": "RICE"
+          "word": "RICE",
+          "image": "images/words/1F33E.svg"
         }
       ]
     },
@@ -1318,63 +1421,78 @@
       "items": [
         {
           "picture": "👁️",
-          "word": "EYE"
+          "word": "EYE",
+          "image": "images/words/1F441.svg"
         },
         {
           "picture": "👃",
-          "word": "NOSE"
+          "word": "NOSE",
+          "image": "images/words/1F443.svg"
         },
         {
           "picture": "👂",
-          "word": "EAR"
+          "word": "EAR",
+          "image": "images/words/1F442.svg"
         },
         {
           "picture": "👄",
-          "word": "MOUTH"
+          "word": "MOUTH",
+          "image": "images/words/1F444.svg"
         },
         {
           "picture": "👅",
-          "word": "TONGUE"
+          "word": "TONGUE",
+          "image": "images/words/1F445.svg"
         },
         {
           "picture": "🦷",
-          "word": "TOOTH"
+          "word": "TOOTH",
+          "image": "images/words/1F9B7.svg"
         },
         {
           "picture": "🤚",
-          "word": "HAND"
+          "word": "HAND",
+          "image": "images/words/1F91A.svg"
         },
         {
           "picture": "🦶",
-          "word": "FOOT"
+          "word": "FOOT",
+          "image": "images/words/1F9B6.svg"
         },
         {
           "picture": "💪",
-          "word": "ARM"
+          "word": "ARM",
+          "image": "images/words/1F4AA.svg"
         },
         {
           "picture": "🦵",
-          "word": "LEG"
+          "word": "LEG",
+          "image": "images/words/1F9B5.svg"
         },
         {
           "picture": "🧠",
-          "word": "BRAIN"
+          "word": "BRAIN",
+          "image": "images/words/1F9E0.svg"
         },
         {
           "picture": "❤️",
-          "word": "HEART"
+          "word": "HEART",
+          "image": "images/words/2764.svg"
         },
         {
           "picture": "🫁",
-          "word": "LUNGS"
+          "word": "LUNGS",
+          "image": "images/words/1FAC1.svg"
         },
         {
           "picture": "🦴",
-          "word": "BONE"
+          "word": "BONE",
+          "image": "images/words/1F9B4.svg"
         },
         {
           "picture": "💅",
-          "word": "NAIL"
+          "word": "NAIL",
+          "image": "images/words/1F485.svg"
         },
         {
           "picture": "👁️👁️",
@@ -1386,7 +1504,8 @@
         },
         {
           "picture": "🤲",
-          "word": "HANDS"
+          "word": "HANDS",
+          "image": "images/words/1F932.svg"
         }
       ]
     },
@@ -1466,75 +1585,93 @@
       "items": [
         {
           "picture": "🚗",
-          "word": "CAR"
+          "word": "CAR",
+          "image": "images/words/1F697.svg"
         },
         {
           "picture": "🚌",
-          "word": "BUS"
+          "word": "BUS",
+          "image": "images/words/1F68C.svg"
         },
         {
           "picture": "🚂",
-          "word": "TRAIN"
+          "word": "TRAIN",
+          "image": "images/words/1F682.svg"
         },
         {
           "picture": "✈️",
-          "word": "PLANE"
+          "word": "PLANE",
+          "image": "images/words/2708.svg"
         },
         {
           "picture": "🚁",
-          "word": "HELICOPTER"
+          "word": "HELICOPTER",
+          "image": "images/words/1F681.svg"
         },
         {
           "picture": "🚢",
-          "word": "SHIP"
+          "word": "SHIP",
+          "image": "images/words/1F6A2.svg"
         },
         {
           "picture": "⛵",
-          "word": "BOAT"
+          "word": "BOAT",
+          "image": "images/words/26F5.svg"
         },
         {
           "picture": "🚲",
-          "word": "BICYCLE"
+          "word": "BICYCLE",
+          "image": "images/words/1F6B2.svg"
         },
         {
           "picture": "🏍️",
-          "word": "MOTORCYCLE"
+          "word": "MOTORCYCLE",
+          "image": "images/words/1F3CD.svg"
         },
         {
           "picture": "🚜",
-          "word": "TRACTOR"
+          "word": "TRACTOR",
+          "image": "images/words/1F69C.svg"
         },
         {
           "picture": "🚑",
-          "word": "AMBULANCE"
+          "word": "AMBULANCE",
+          "image": "images/words/1F691.svg"
         },
         {
           "picture": "🚒",
-          "word": "FIRE TRUCK"
+          "word": "FIRE TRUCK",
+          "image": "images/words/1F692.svg"
         },
         {
           "picture": "🚓",
-          "word": "POLICE CAR"
+          "word": "POLICE CAR",
+          "image": "images/words/1F693.svg"
         },
         {
           "picture": "🚕",
-          "word": "TAXI"
+          "word": "TAXI",
+          "image": "images/words/1F695.svg"
         },
         {
           "picture": "🚙",
-          "word": "VAN"
+          "word": "VAN",
+          "image": "images/words/1F699.svg"
         },
         {
           "picture": "🛵",
-          "word": "SCOOTER"
+          "word": "SCOOTER",
+          "image": "images/words/1F6F5.svg"
         },
         {
           "picture": "🚠",
-          "word": "CABLE CAR"
+          "word": "CABLE CAR",
+          "image": "images/words/1F6A0.svg"
         },
         {
           "picture": "🚟",
-          "word": "METRO"
+          "word": "METRO",
+          "image": "images/words/1F69F.svg"
         }
       ]
     },
@@ -1742,75 +1879,93 @@
       "items": [
         {
           "picture": "🪑",
-          "word": "CHAIR"
+          "word": "CHAIR",
+          "image": "images/words/1FA91.svg"
         },
         {
           "picture": "🛏️",
-          "word": "BED"
+          "word": "BED",
+          "image": "images/words/1F6CF.svg"
         },
         {
           "picture": "🚪",
-          "word": "DOOR"
+          "word": "DOOR",
+          "image": "images/words/1F6AA.svg"
         },
         {
           "picture": "🪟",
-          "word": "WINDOW"
+          "word": "WINDOW",
+          "image": "images/words/1FA9F.svg"
         },
         {
           "picture": "📺",
-          "word": "TV"
+          "word": "TV",
+          "image": "images/words/1F4FA.svg"
         },
         {
           "picture": "💡",
-          "word": "BULB"
+          "word": "BULB",
+          "image": "images/words/1F4A1.svg"
         },
         {
           "picture": "🪞",
-          "word": "MIRROR"
+          "word": "MIRROR",
+          "image": "images/words/1FA9E.svg"
         },
         {
           "picture": "🛋️",
-          "word": "SOFA"
+          "word": "SOFA",
+          "image": "images/words/1F6CB.svg"
         },
         {
           "picture": "🪴",
-          "word": "PLANT"
+          "word": "PLANT",
+          "image": "images/words/1FAB4.svg"
         },
         {
           "picture": "⏰",
-          "word": "CLOCK"
+          "word": "CLOCK",
+          "image": "images/words/23F0.svg"
         },
         {
           "picture": "📷",
-          "word": "CAMERA"
+          "word": "CAMERA",
+          "image": "images/words/1F4F7.svg"
         },
         {
           "picture": "📞",
-          "word": "PHONE"
+          "word": "PHONE",
+          "image": "images/words/1F4DE.svg"
         },
         {
           "picture": "🧹",
-          "word": "BROOM"
+          "word": "BROOM",
+          "image": "images/words/1F9F9.svg"
         },
         {
           "picture": "🪥",
-          "word": "BRUSH"
+          "word": "BRUSH",
+          "image": "images/words/1FAA5.svg"
         },
         {
           "picture": "🧴",
-          "word": "SOAP"
+          "word": "SOAP",
+          "image": "images/words/1F9F4.svg"
         },
         {
           "picture": "🛁",
-          "word": "BATHTUB"
+          "word": "BATHTUB",
+          "image": "images/words/1F6C1.svg"
         },
         {
           "picture": "🚰",
-          "word": "TAP"
+          "word": "TAP",
+          "image": "images/words/1F6B0.svg"
         },
         {
           "picture": "🧺",
-          "word": "BASKET"
+          "word": "BASKET",
+          "image": "images/words/1F9FA.svg"
         }
       ]
     }

@@ -966,6 +966,236 @@
         }
       ],
       "topic": "Computer File Operations"
+    },
+    {
+      "id": 43,
+      "question": "Which is the brain of the computer?",
+      "topic": "Computer Parts",
+      "options": [
+        {
+          "text": "CPU",
+          "correct": true
+        },
+        {
+          "text": "Mouse",
+          "correct": false
+        },
+        {
+          "text": "Screen",
+          "correct": false
+        },
+        {
+          "text": "Speaker",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "Which part shows pictures and videos?",
+      "topic": "Computer Parts",
+      "options": [
+        {
+          "text": "Monitor",
+          "correct": true
+        },
+        {
+          "text": "Keyboard",
+          "correct": false
+        },
+        {
+          "text": "Mouse",
+          "correct": false
+        },
+        {
+          "text": "CPU",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "A computer mouse usually has how many main buttons?",
+      "topic": "Computer Parts",
+      "options": [
+        {
+          "text": "2",
+          "correct": true
+        },
+        {
+          "text": "5",
+          "correct": false
+        },
+        {
+          "text": "8",
+          "correct": false
+        },
+        {
+          "text": "1",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "Which device prints on paper?",
+      "topic": "Computer Devices",
+      "options": [
+        {
+          "text": "Printer",
+          "correct": true
+        },
+        {
+          "text": "Speaker",
+          "correct": false
+        },
+        {
+          "text": "Camera",
+          "correct": false
+        },
+        {
+          "text": "Mouse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "Which key makes a space between words?",
+      "topic": "Keyboard Skills",
+      "options": [
+        {
+          "text": "Space bar",
+          "correct": true
+        },
+        {
+          "text": "Enter",
+          "correct": false
+        },
+        {
+          "text": "Shift",
+          "correct": false
+        },
+        {
+          "text": "A key",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "Computer games should be played ___.",
+      "topic": "Computer Habits",
+      "options": [
+        {
+          "text": "For a short time",
+          "correct": true
+        },
+        {
+          "text": "All day",
+          "correct": false
+        },
+        {
+          "text": "All night",
+          "correct": false
+        },
+        {
+          "text": "During meals",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "Which one is NOT a computer part?",
+      "topic": "Computer Parts",
+      "options": [
+        {
+          "text": "Spoon",
+          "correct": true
+        },
+        {
+          "text": "Monitor",
+          "correct": false
+        },
+        {
+          "text": "Keyboard",
+          "correct": false
+        },
+        {
+          "text": "Mouse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "The pictures on the desktop are called ___.",
+      "topic": "Computer Skills",
+      "options": [
+        {
+          "text": "Icons",
+          "correct": true
+        },
+        {
+          "text": "Eggs",
+          "correct": false
+        },
+        {
+          "text": "Books",
+          "correct": false
+        },
+        {
+          "text": "Toys",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "question": "Which device helps us hear sound?",
+      "topic": "Computer Devices",
+      "options": [
+        {
+          "text": "Speaker",
+          "correct": true
+        },
+        {
+          "text": "Printer",
+          "correct": false
+        },
+        {
+          "text": "Mouse",
+          "correct": false
+        },
+        {
+          "text": "Keyboard",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "question": "We should use a computer with ___ hands.",
+      "topic": "Computer Habits",
+      "options": [
+        {
+          "text": "Clean",
+          "correct": true
+        },
+        {
+          "text": "Wet",
+          "correct": false
+        },
+        {
+          "text": "Dirty",
+          "correct": false
+        },
+        {
+          "text": "Oily",
+          "correct": false
+        }
+      ]
     }
   ]
 }

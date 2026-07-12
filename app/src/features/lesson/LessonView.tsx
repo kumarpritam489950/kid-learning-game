@@ -18,12 +18,23 @@ function QuestionVisual({ question }: { question: Question }) {
 
   return (
     <div className={`${styles.questionVisual} ${question.isRhyme ? styles.rhymeVisual : ''}`}>
-      {lines.map((line, i) => (
-        <Fragment key={i}>
-          {i > 0 && <br />}
-          {line}
-        </Fragment>
-      ))}
+      {question.image ? (
+        // Illustration replaces the emoji visual. Decorative on purpose:
+        // naming it would give the answer away.
+        <img
+          className={styles.wordImage}
+          src={`${import.meta.env.BASE_URL}${question.image}`}
+          alt=""
+          aria-hidden="true"
+        />
+      ) : (
+        lines.map((line, i) => (
+          <Fragment key={i}>
+            {i > 0 && <br />}
+            {line}
+          </Fragment>
+        ))
+      )}
       {phoneticsEnabled && question.phonetic && (
         <div className={styles.phoneticContainer}>
           <span className={styles.phoneticText}>({question.phonetic})</span>

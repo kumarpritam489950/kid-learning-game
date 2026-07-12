@@ -7,29 +7,30 @@ import { assessmentSubjectSchema } from './schema';
 const ASSESSMENT_SUBJECTS = await loadAssessmentBank();
 
 /**
- * Frozen counts from the v1 sources, captured when scripts/convert-legacy.mjs
- * ran against data/gameData.js + assessment_expanded.js (tag v1-legacy).
- * If content is edited on purpose, update these numbers deliberately.
+ * Current expected counts — the source of truth for how much content the
+ * app ships TODAY. Update these numbers deliberately with every authoring
+ * batch. The committed conversion manifest stays the frozen v1 BASELINE:
+ * live content may grow beyond it but must never drop below it.
  */
 const EXPECTED_MODULES: Record<string, number> = {
   english: 21,
-  math: 20,
-  kannada: 12,
-  hindi: 18,
-  science: 12,
-  computer: 3,
+  math: 21,
+  kannada: 13,
+  hindi: 19,
+  science: 13,
+  computer: 4,
   rhymes: 2,
-  gk: 4,
-  mental_math: 11,
+  gk: 6,
+  mental_math: 12,
 };
 
 const EXPECTED_ASSESSMENT: Record<string, number> = {
-  mathematics: 75,
-  english: 62,
-  hindi: 32,
-  computer: 42,
-  kannada: 31,
-  evs: 41,
+  mathematics: 84,
+  english: 72,
+  hindi: 42,
+  computer: 52,
+  kannada: 41,
+  evs: 51,
 };
 
 describe('content schemas', () => {
@@ -54,7 +55,7 @@ describe('count parity with v1 sources', () => {
     expect(STORIES.stories).toHaveLength(4);
   });
 
-  it('has the full 283-question assessment bank', () => {
+  it('has the full 342-question assessment bank (283 v1 + 59 batch 2026-07)', () => {
     expect(ASSESSMENT_SUBJECTS.map((s) => s.id).sort()).toEqual(
       Object.keys(EXPECTED_ASSESSMENT).sort(),
     );
@@ -63,21 +64,21 @@ describe('count parity with v1 sources', () => {
       expect(subject.questions, subject.id).toHaveLength(EXPECTED_ASSESSMENT[subject.id]!);
       total += subject.questions.length;
     }
-    expect(total).toBe(283);
+    expect(total).toBe(342);
   });
 
-  it('matches the committed conversion manifest', () => {
+  it('never drops below the frozen v1 baseline (conversion manifest)', () => {
     for (const subject of LESSON_SUBJECTS) {
-      expect(manifest.subjects[subject.id as keyof typeof manifest.subjects].modules).toBe(
-        subject.modules.length,
+      expect(subject.modules.length, subject.id).toBeGreaterThanOrEqual(
+        manifest.subjects[subject.id as keyof typeof manifest.subjects].modules,
       );
     }
     for (const subject of ASSESSMENT_SUBJECTS) {
-      expect(manifest.assessment[subject.id as keyof typeof manifest.assessment]).toBe(
-        subject.questions.length,
+      expect(subject.questions.length, subject.id).toBeGreaterThanOrEqual(
+        manifest.assessment[subject.id as keyof typeof manifest.assessment],
       );
     }
-    expect(manifest.stories.count).toBe(STORIES.stories.length);
+    expect(STORIES.stories.length).toBeGreaterThanOrEqual(manifest.stories.count);
   });
 });
 

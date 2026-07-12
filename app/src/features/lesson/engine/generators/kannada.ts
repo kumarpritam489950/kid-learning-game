@@ -55,6 +55,7 @@ export function generateKannadaPictureWordBank(
         kind: 'mcq',
         prompt,
         visual: item.picture,
+        ...(item.image ? { image: item.image } : {}),
         phonetic: item.phonetic,
         answer: item.word,
         options: shuffle(rng, [item.word, ...distractors]),

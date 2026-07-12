@@ -1299,6 +1299,104 @@
           "options": ["Doctor advice", "Friends", "Alone", "Never"]
         }
       ]
+    },
+    {
+      "id": "sci_my_body",
+      "title": "My Body & Senses",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "We see with our ___.",
+          "visual": "👀",
+          "answer": "Eyes",
+          "options": ["Eyes", "Ears", "Nose", "Hands"]
+        },
+        {
+          "question": "We hear with our ___.",
+          "visual": "👂",
+          "answer": "Ears",
+          "options": ["Ears", "Eyes", "Teeth", "Feet"]
+        },
+        {
+          "question": "We smell with our ___.",
+          "visual": "👃",
+          "answer": "Nose",
+          "options": ["Nose", "Ears", "Hair", "Elbow"]
+        },
+        {
+          "question": "We taste with our ___.",
+          "visual": "👅",
+          "answer": "Tongue",
+          "options": ["Tongue", "Nose", "Fingers", "Knees"]
+        },
+        {
+          "question": "We touch and feel with our ___.",
+          "visual": "✋",
+          "answer": "Skin",
+          "options": ["Skin", "Teeth", "Eyes", "Hair"]
+        },
+        {
+          "question": "How many sense organs do we have?",
+          "visual": "🖐️",
+          "answer": "5",
+          "options": ["5", "2", "9", "1"]
+        },
+        {
+          "question": "How many eyes do we have?",
+          "visual": "👀",
+          "answer": "2",
+          "options": ["2", "1", "4", "3"]
+        },
+        {
+          "question": "How many fingers are on one hand?",
+          "visual": "✋",
+          "answer": "5",
+          "options": ["5", "4", "6", "10"]
+        },
+        {
+          "question": "We walk with our ___.",
+          "visual": "🦵",
+          "answer": "Legs",
+          "options": ["Legs", "Ears", "Eyes", "Hair"]
+        },
+        {
+          "question": "We chew food with our ___.",
+          "visual": "🦷",
+          "answer": "Teeth",
+          "options": ["Teeth", "Nose", "Ears", "Fingers"]
+        },
+        {
+          "question": "The ___ pumps blood in our body.",
+          "visual": "❤️",
+          "answer": "Heart",
+          "options": ["Heart", "Nose", "Knee", "Ear"]
+        },
+        {
+          "question": "We think with our ___.",
+          "visual": "🧠",
+          "answer": "Brain",
+          "options": ["Brain", "Foot", "Tooth", "Nail"]
+        },
+        {
+          "question": "Which part helps us smell a flower?",
+          "visual": "🌸",
+          "answer": "Nose",
+          "options": ["Nose", "Ear", "Knee", "Elbow"]
+        },
+        {
+          "question": "We clap with our ___.",
+          "visual": "👏",
+          "answer": "Hands",
+          "options": ["Hands", "Ears", "Eyes", "Teeth"]
+        },
+        {
+          "question": "Hair grows on our ___.",
+          "visual": "💇",
+          "answer": "Head",
+          "options": ["Head", "Teeth", "Nails", "Tongue"]
+        }
+      ]
     }
   ]
 }

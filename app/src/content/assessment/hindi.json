@@ -736,6 +736,236 @@
         }
       ],
       "topic": "Hindi - Body Parts"
+    },
+    {
+      "id": 33,
+      "question": "\"अ\" से क्या बनता है?",
+      "topic": "Hindi Letters",
+      "options": [
+        {
+          "text": "अनार",
+          "correct": true
+        },
+        {
+          "text": "आम",
+          "correct": false
+        },
+        {
+          "text": "इमली",
+          "correct": false
+        },
+        {
+          "text": "ऊन",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "\"आ\" से क्या बनता है?",
+      "topic": "Hindi Letters",
+      "options": [
+        {
+          "text": "आम",
+          "correct": true
+        },
+        {
+          "text": "अनार",
+          "correct": false
+        },
+        {
+          "text": "ईख",
+          "correct": false
+        },
+        {
+          "text": "उल्लू",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "हिन्दी में कितने स्वर होते हैं?",
+      "topic": "Hindi Vowels",
+      "options": [
+        {
+          "text": "11",
+          "correct": true
+        },
+        {
+          "text": "5",
+          "correct": false
+        },
+        {
+          "text": "26",
+          "correct": false
+        },
+        {
+          "text": "33",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "question": "\"क\" से क्या बनता है?",
+      "topic": "Hindi Letters",
+      "options": [
+        {
+          "text": "कमल",
+          "correct": true
+        },
+        {
+          "text": "गमला",
+          "correct": false
+        },
+        {
+          "text": "चम्मच",
+          "correct": false
+        },
+        {
+          "text": "तरबूज",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "पानी को और क्या कहते हैं?",
+      "topic": "Hindi Words",
+      "options": [
+        {
+          "text": "जल",
+          "correct": true
+        },
+        {
+          "text": "थल",
+          "correct": false
+        },
+        {
+          "text": "फल",
+          "correct": false
+        },
+        {
+          "text": "बल",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "question": "\"माता\" का अर्थ क्या है?",
+      "topic": "Hindi Words",
+      "options": [
+        {
+          "text": "Mother",
+          "correct": true
+        },
+        {
+          "text": "Father",
+          "correct": false
+        },
+        {
+          "text": "Brother",
+          "correct": false
+        },
+        {
+          "text": "Sister",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "question": "सूरज किस दिशा में उगता है?",
+      "topic": "General Hindi",
+      "options": [
+        {
+          "text": "पूर्व",
+          "correct": true
+        },
+        {
+          "text": "पश्चिम",
+          "correct": false
+        },
+        {
+          "text": "उत्तर",
+          "correct": false
+        },
+        {
+          "text": "दक्षिण",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "question": "\"पुस्तक\" का अर्थ क्या है?",
+      "topic": "Hindi Words",
+      "options": [
+        {
+          "text": "Book",
+          "correct": true
+        },
+        {
+          "text": "Pen",
+          "correct": false
+        },
+        {
+          "text": "Bag",
+          "correct": false
+        },
+        {
+          "text": "Chair",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "question": "रात में क्या चमकता है?",
+      "topic": "General Hindi",
+      "options": [
+        {
+          "text": "चाँद",
+          "correct": true
+        },
+        {
+          "text": "सूरज",
+          "correct": false
+        },
+        {
+          "text": "बादल",
+          "correct": false
+        },
+        {
+          "text": "पेड़",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "question": "\"गाय\" हमें क्या देती है?",
+      "topic": "General Hindi",
+      "options": [
+        {
+          "text": "दूध",
+          "correct": true
+        },
+        {
+          "text": "अंडा",
+          "correct": false
+        },
+        {
+          "text": "ऊन",
+          "correct": false
+        },
+        {
+          "text": "शहद",
+          "correct": false
+        }
+      ]
     }
   ]
 }

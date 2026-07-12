@@ -57,6 +57,11 @@
   display: block;
 }
 
+.wordImage {
+  width: clamp(96px, 30vw, 170px);
+  height: auto;
+}
+
 .speakBtn {
   position: absolute;
   top: 8px;

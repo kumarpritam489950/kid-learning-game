@@ -205,152 +205,182 @@
         {
           "picture": "🏠",
           "word": "घर",
-          "phonetic": "ghar"
+          "phonetic": "ghar",
+          "image": "images/words/1F3E0.svg"
         },
         {
           "picture": "🌳",
           "word": "पेड़",
-          "phonetic": "ped"
+          "phonetic": "ped",
+          "image": "images/words/1F333.svg"
         },
         {
           "picture": "🍎",
           "word": "सेब",
-          "phonetic": "seb"
+          "phonetic": "seb",
+          "image": "images/words/1F34E.svg"
         },
         {
           "picture": "🐄",
           "word": "गाय",
-          "phonetic": "gaay"
+          "phonetic": "gaay",
+          "image": "images/words/1F404.svg"
         },
         {
           "picture": "🌸",
           "word": "फूल",
-          "phonetic": "phool"
+          "phonetic": "phool",
+          "image": "images/words/1F338.svg"
         },
         {
           "picture": "📚",
           "word": "किताब",
-          "phonetic": "kitaab"
+          "phonetic": "kitaab",
+          "image": "images/words/1F4DA.svg"
         },
         {
           "picture": "🐟",
           "word": "मछली",
-          "phonetic": "machhli"
+          "phonetic": "machhli",
+          "image": "images/words/1F41F.svg"
         },
         {
           "picture": "🐦",
           "word": "चिड़िया",
-          "phonetic": "chidiya"
+          "phonetic": "chidiya",
+          "image": "images/words/1F426.svg"
         },
         {
           "picture": "☀️",
           "word": "सूरज",
-          "phonetic": "sooraj"
+          "phonetic": "sooraj",
+          "image": "images/words/2600.svg"
         },
         {
           "picture": "🌙",
           "word": "चाँद",
-          "phonetic": "chaand"
+          "phonetic": "chaand",
+          "image": "images/words/1F319.svg"
         },
         {
           "picture": "💧",
           "word": "पानी",
-          "phonetic": "paani"
+          "phonetic": "paani",
+          "image": "images/words/1F4A7.svg"
         },
         {
           "picture": "🚗",
           "word": "गाड़ी",
-          "phonetic": "gaadi"
+          "phonetic": "gaadi",
+          "image": "images/words/1F697.svg"
         },
         {
           "picture": "🐘",
           "word": "हाथी",
-          "phonetic": "haathi"
+          "phonetic": "haathi",
+          "image": "images/words/1F418.svg"
         },
         {
           "picture": "🦁",
           "word": "शेर",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F981.svg"
         },
         {
           "picture": "🥭",
           "word": "आम",
-          "phonetic": "aam"
+          "phonetic": "aam",
+          "image": "images/words/1F96D.svg"
         },
         {
           "picture": "🍌",
           "word": "केला",
-          "phonetic": "kela"
+          "phonetic": "kela",
+          "image": "images/words/1F34C.svg"
         },
         {
           "picture": "🐶",
           "word": "कुत्ता",
-          "phonetic": "kutta"
+          "phonetic": "kutta",
+          "image": "images/words/1F436.svg"
         },
         {
           "picture": "🐱",
           "word": "बिल्ली",
-          "phonetic": "billi"
+          "phonetic": "billi",
+          "image": "images/words/1F431.svg"
         },
         {
           "picture": "👁️",
           "word": "आँख",
-          "phonetic": "aankh"
+          "phonetic": "aankh",
+          "image": "images/words/1F441.svg"
         },
         {
           "picture": "🤚",
           "word": "हाथ",
-          "phonetic": "haath"
+          "phonetic": "haath",
+          "image": "images/words/1F91A.svg"
         },
         {
           "picture": "👃",
           "word": "नाक",
-          "phonetic": "naak"
+          "phonetic": "naak",
+          "image": "images/words/1F443.svg"
         },
         {
           "picture": "👂",
           "word": "कान",
-          "phonetic": "kaan"
+          "phonetic": "kaan",
+          "image": "images/words/1F442.svg"
         },
         {
           "picture": "🦶",
           "word": "पैर",
-          "phonetic": "pair"
+          "phonetic": "pair",
+          "image": "images/words/1F9B6.svg"
         },
         {
           "picture": "🐓",
           "word": "मुर्गा",
-          "phonetic": "murga"
+          "phonetic": "murga",
+          "image": "images/words/1F413.svg"
         },
         {
           "picture": "🌾",
           "word": "धान",
-          "phonetic": "dhaan"
+          "phonetic": "dhaan",
+          "image": "images/words/1F33E.svg"
         },
         {
           "picture": "🐸",
           "word": "मेंढक",
-          "phonetic": "mendhak"
+          "phonetic": "mendhak",
+          "image": "images/words/1F438.svg"
         },
         {
           "picture": "🐍",
           "word": "साँप",
-          "phonetic": "saanp"
+          "phonetic": "saanp",
+          "image": "images/words/1F40D.svg"
         },
         {
           "picture": "🦋",
           "word": "तितली",
-          "phonetic": "titli"
+          "phonetic": "titli",
+          "image": "images/words/1F98B.svg"
         },
         {
           "picture": "🐢",
           "word": "कछुआ",
-          "phonetic": "kachhua"
+          "phonetic": "kachhua",
+          "image": "images/words/1F422.svg"
         },
         {
           "picture": "🚂",
           "word": "रेलगाड़ी",
-          "phonetic": "relgaadi"
+          "phonetic": "relgaadi",
+          "image": "images/words/1F682.svg"
         }
       ]
     },
@@ -1002,152 +1032,182 @@
         {
           "picture": "🦁",
           "word": "शेर",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F981.svg"
         },
         {
           "picture": "🐯",
           "word": "बाघ",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F42F.svg"
         },
         {
           "picture": "🐻",
           "word": "भालू",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F43B.svg"
         },
         {
           "picture": "🐵",
           "word": "बंदर",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F435.svg"
         },
         {
           "picture": "🦊",
           "word": "लोमड़ी",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F98A.svg"
         },
         {
           "picture": "🐺",
           "word": "भेड़िया",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F43A.svg"
         },
         {
           "picture": "🐸",
           "word": "मेंढक",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F438.svg"
         },
         {
           "picture": "🐢",
           "word": "कछुआ",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F422.svg"
         },
         {
           "picture": "🦎",
           "word": "छिपकली",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F98E.svg"
         },
         {
           "picture": "🐍",
           "word": "साँप",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F40D.svg"
         },
         {
           "picture": "🦋",
           "word": "तितली",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F98B.svg"
         },
         {
           "picture": "🐝",
           "word": "मधुमक्खी",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F41D.svg"
         },
         {
           "picture": "🍊",
           "word": "संतरा",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F34A.svg"
         },
         {
           "picture": "🍇",
           "word": "अंगूर",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F347.svg"
         },
         {
           "picture": "🍉",
           "word": "तरबूज़",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F349.svg"
         },
         {
           "picture": "🥕",
           "word": "गाजर",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F955.svg"
         },
         {
           "picture": "🥔",
           "word": "आलू",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F954.svg"
         },
         {
           "picture": "🌽",
           "word": "मक्का",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F33D.svg"
         },
         {
           "picture": "🚂",
           "word": "रेलगाड़ी",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F682.svg"
         },
         {
           "picture": "✈️",
           "word": "हवाईजहाज़",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/2708.svg"
         },
         {
           "picture": "🚢",
           "word": "जहाज़",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F6A2.svg"
         },
         {
           "picture": "⭐",
           "word": "तारा",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/2B50.svg"
         },
         {
           "picture": "☁️",
           "word": "बादल",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/2601.svg"
         },
         {
           "picture": "🌈",
           "word": "इंद्रधनुष",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F308.svg"
         },
         {
           "picture": "🏠",
           "word": "घर",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F3E0.svg"
         },
         {
           "picture": "🏫",
           "word": "स्कूल",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F3EB.svg"
         },
         {
           "picture": "🏥",
           "word": "अस्पताल",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F3E5.svg"
         },
         {
           "picture": "🌳",
           "word": "पेड़",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F333.svg"
         },
         {
           "picture": "🌺",
           "word": "फूल",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F33A.svg"
         },
         {
           "picture": "🌾",
           "word": "फसल",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F33E.svg"
         }
       ]
     },
@@ -1210,7 +1270,8 @@
         {
           "picture": "🔟",
           "word": "दस",
-          "phonetic": "das"
+          "phonetic": "das",
+          "image": "images/words/1F51F.svg"
         },
         {
           "picture": "1️⃣1️⃣",
@@ -1331,62 +1392,74 @@
         {
           "picture": "👁️",
           "word": "आँख",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F441.svg"
         },
         {
           "picture": "👃",
           "word": "नाक",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F443.svg"
         },
         {
           "picture": "👂",
           "word": "कान",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F442.svg"
         },
         {
           "picture": "👄",
           "word": "मुँह",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F444.svg"
         },
         {
           "picture": "👅",
           "word": "जीभ",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F445.svg"
         },
         {
           "picture": "🦷",
           "word": "दाँत",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F9B7.svg"
         },
         {
           "picture": "🤚",
           "word": "हाथ",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F91A.svg"
         },
         {
           "picture": "🦶",
           "word": "पैर",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F9B6.svg"
         },
         {
           "picture": "💪",
           "word": "बाँह",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F4AA.svg"
         },
         {
           "picture": "🦵",
           "word": "टाँग",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F9B5.svg"
         },
         {
           "picture": "🧠",
           "word": "दिमाग़",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F9E0.svg"
         },
         {
           "picture": "❤️",
           "word": "दिल",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/2764.svg"
         },
         {
           "picture": "👁️👁️",
@@ -1401,7 +1474,8 @@
         {
           "picture": "🤲",
           "word": "हाथ",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F932.svg"
         }
       ]
     },
@@ -1414,52 +1488,62 @@
         {
           "picture": "👨",
           "word": "पिता",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F468.svg"
         },
         {
           "picture": "👩",
           "word": "माता",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F469.svg"
         },
         {
           "picture": "👴",
           "word": "दादा",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F474.svg"
         },
         {
           "picture": "👵",
           "word": "दादी",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F475.svg"
         },
         {
           "picture": "👦",
           "word": "भाई",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F466.svg"
         },
         {
           "picture": "👧",
           "word": "बहन",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F467.svg"
         },
         {
           "picture": "👨‍👦",
           "word": "पुत्र",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F468-200D-1F466.svg"
         },
         {
           "picture": "👩‍👧",
           "word": "पुत्री",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F469-200D-1F467.svg"
         },
         {
           "picture": "👨‍🦳",
           "word": "चाचा",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F468-200D-1F9B3.svg"
         },
         {
           "picture": "👩‍🦰",
           "word": "चाची",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F469-200D-1F9B0.svg"
         }
       ]
     },
@@ -2463,77 +2547,172 @@
         {
           "picture": "🚗",
           "word": "कार",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F697.svg"
         },
         {
           "picture": "🚌",
           "word": "बस",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F68C.svg"
         },
         {
           "picture": "🚂",
           "word": "रेलगाड़ी",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F682.svg"
         },
         {
           "picture": "✈️",
           "word": "हवाईजहाज़",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/2708.svg"
         },
         {
           "picture": "🚁",
           "word": "हेलीकॉप्टर",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F681.svg"
         },
         {
           "picture": "🚢",
           "word": "जहाज़",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F6A2.svg"
         },
         {
           "picture": "⛵",
           "word": "नाव",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/26F5.svg"
         },
         {
           "picture": "🚲",
           "word": "साइकिल",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F6B2.svg"
         },
         {
           "picture": "🏍️",
           "word": "मोटरसाइकिल",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F3CD.svg"
         },
         {
           "picture": "🚜",
           "word": "ट्रैक्टर",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F69C.svg"
         },
         {
           "picture": "🚑",
           "word": "एंबुलेंस",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F691.svg"
         },
         {
           "picture": "🚒",
           "word": "दमकल",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F692.svg"
         },
         {
           "picture": "🚓",
           "word": "पुलिस कार",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F693.svg"
         },
         {
           "picture": "🚕",
           "word": "टैक्सी",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F695.svg"
         },
         {
           "picture": "🚙",
           "word": "जीप",
-          "phonetic": null
+          "phonetic": null,
+          "image": "images/words/1F699.svg"
+        }
+      ]
+    },
+    {
+      "id": "hin_ginti",
+      "title": "हिन्दी गिनती (Hindi Counting)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "\"एक\" कितना होता है?",
+          "visual": "1️⃣",
+          "answer": "1",
+          "options": ["1", "2", "11", "10"]
+        },
+        {
+          "question": "\"दो\" कितना होता है?",
+          "visual": "2️⃣",
+          "answer": "2",
+          "options": ["2", "12", "4", "20"]
+        },
+        {
+          "question": "\"तीन\" कितना होता है?",
+          "visual": "3️⃣",
+          "answer": "3",
+          "options": ["3", "13", "30", "6"]
+        },
+        {
+          "question": "\"चार\" कितना होता है?",
+          "visual": "4️⃣",
+          "answer": "4",
+          "options": ["4", "14", "40", "8"]
+        },
+        {
+          "question": "\"पाँच\" कितना होता है?",
+          "visual": "5️⃣",
+          "answer": "5",
+          "options": ["5", "15", "50", "2"]
+        },
+        {
+          "question": "\"छह\" कितना होता है?",
+          "visual": "6️⃣",
+          "answer": "6",
+          "options": ["6", "16", "60", "9"]
+        },
+        {
+          "question": "\"सात\" कितना होता है?",
+          "visual": "7️⃣",
+          "answer": "7",
+          "options": ["7", "17", "70", "4"]
+        },
+        {
+          "question": "\"आठ\" कितना होता है?",
+          "visual": "8️⃣",
+          "answer": "8",
+          "options": ["8", "18", "80", "3"]
+        },
+        {
+          "question": "\"नौ\" कितना होता है?",
+          "visual": "9️⃣",
+          "answer": "9",
+          "options": ["9", "19", "90", "6"]
+        },
+        {
+          "question": "\"दस\" कितना होता है?",
+          "visual": "🔟",
+          "answer": "10",
+          "options": ["10", "1", "100", "5"]
+        },
+        {
+          "question": "5 को हिन्दी में क्या कहते हैं?",
+          "visual": "🖐️",
+          "answer": "पाँच",
+          "options": ["पाँच", "चार", "सात", "नौ"]
+        },
+        {
+          "question": "7 को हिन्दी में क्या कहते हैं?",
+          "visual": "🔢",
+          "answer": "सात",
+          "options": ["सात", "साठ", "तीन", "आठ"]
         }
       ]
     }
