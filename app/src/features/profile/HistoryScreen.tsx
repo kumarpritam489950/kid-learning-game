@@ -1,5 +1,6 @@
 import { Navigate, useNavigate } from 'react-router';
 import { LESSON_SUBJECTS } from '../../content';
+import { assessmentTitle } from '../assessment/subjectMeta';
 import type { LessonHistoryEntry } from '../../stores/userStore';
 import { useCurrentProfile } from '../../stores/userStore';
 import styles from './HistoryScreen.module.css';
@@ -14,8 +15,11 @@ export function HistoryScreen() {
     return <Navigate to="/profiles" replace />;
   }
 
+  const lessons = profile.history.filter((e) => e.kind === 'lesson');
+  const assessments = profile.history.filter((e) => e.kind === 'assessment');
+
   const bySubject = new Map<string, LessonHistoryEntry[]>();
-  for (const entry of profile.history) {
+  for (const entry of lessons) {
     const list = bySubject.get(entry.subjectId) ?? [];
     list.push(entry);
     bySubject.set(entry.subjectId, list);
@@ -86,6 +90,28 @@ export function HistoryScreen() {
             </div>
           );
         })
+      )}
+
+      {assessments.length > 0 && (
+        <div className={styles.section}>
+          <h3>📋 Assessments</h3>
+          {assessments
+            .slice(-RECENT_PER_SUBJECT)
+            .reverse()
+            .map((entry) => {
+              const percentage =
+                entry.total > 0 ? Math.round((entry.score / entry.total) * 100) : 0;
+              return (
+                <div key={entry.id} className={styles.item}>
+                  <span>{assessmentTitle(entry.subjectId)}</span>
+                  <span className={styles.itemScore}>
+                    {entry.score}/{entry.total}{' '}
+                    <span className={styles.muted}>({percentage}%)</span>
+                  </span>
+                </div>
+              );
+            })}
+        </div>
       )}
     </section>
   );

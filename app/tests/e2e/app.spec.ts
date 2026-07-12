@@ -94,6 +94,28 @@ test('fun games: menu lists 11 games; snake mounts and leaves cleanly', async ({
   await expect(page.locator('.game-menu-card')).toHaveCount(11);
 });
 
+test('assessment: run 20 questions and get a topic report', async ({ page }) => {
+  await page.goto('./');
+  await page.getByLabel(/New player/).fill('Scholar');
+  await page.getByRole('button', { name: /Let's Go/ }).click();
+
+  await page.getByRole('link', { name: 'Assessment' }).click();
+  await page.getByRole('button', { name: /Mathematics/ }).click();
+  await expect(page.getByText('Question 1 of 20')).toBeVisible();
+
+  for (let i = 0; i < 20; i += 1) {
+    await page.locator('[aria-label="Answer choices"] button').first().click();
+  }
+
+  await expect(page.getByText('Topic report')).toBeVisible();
+  await expect(page.getByText(/\/ 20 \(\d+%\)/)).toBeVisible();
+
+  // The attempt lands in history.
+  await page.getByRole('button', { name: '🏝️ Home' }).click();
+  await page.getByRole('button', { name: /History/ }).click();
+  await expect(page.getByText('📋 Assessments')).toBeVisible();
+});
+
 test('story time turns pages and shows the moral', async ({ page }) => {
   await page.goto('./');
   await page.getByLabel(/New player/).fill('Reader');

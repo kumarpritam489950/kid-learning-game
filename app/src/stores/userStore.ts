@@ -3,13 +3,15 @@ import { persist } from 'zustand/middleware';
 
 export interface LessonHistoryEntry {
   id: string;
-  kind: 'lesson';
+  kind: 'lesson' | 'assessment';
   subjectId: string;
   moduleId: string;
   /** Correct answers in the session (v1 stored correctCount here). */
   score: number;
   total: number;
   timestampMs: number;
+  /** Assessment attempts only: correct/total per topic. */
+  topicBreakdown?: Record<string, { correct: number; total: number }>;
 }
 
 export interface Profile {
@@ -36,6 +38,12 @@ interface UserState {
   selectProfile: (id: string) => void;
   logout: () => void;
   recordLesson: (subjectId: string, moduleId: string, score: number, total: number) => void;
+  recordAssessment: (
+    subjectId: string,
+    score: number,
+    total: number,
+    topicBreakdown: Record<string, { correct: number; total: number }>,
+  ) => void;
   /** Seed profiles from the legacy import; skips names that already exist. */
   seedProfiles: (profiles: Profile[], currentName?: string | null) => void;
 }
@@ -87,6 +95,28 @@ export const useUserStore = create<UserState>()(
           score,
           total,
           timestampMs: Date.now(),
+        };
+        set((s) => ({
+          profiles: s.profiles.map((p) =>
+            p.id === currentProfileId
+              ? { ...p, totalScore: p.totalScore + score, history: [...p.history, entry] }
+              : p,
+          ),
+        }));
+      },
+
+      recordAssessment: (subjectId, score, total, topicBreakdown) => {
+        const { currentProfileId } = get();
+        if (!currentProfileId) return;
+        const entry: LessonHistoryEntry = {
+          id: crypto.randomUUID(),
+          kind: 'assessment',
+          subjectId,
+          moduleId: 'assessment',
+          score,
+          total,
+          timestampMs: Date.now(),
+          topicBreakdown,
         };
         set((s) => ({
           profiles: s.profiles.map((p) =>

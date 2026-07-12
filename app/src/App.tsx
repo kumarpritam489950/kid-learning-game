@@ -1,7 +1,8 @@
 import { useState, type ReactNode } from 'react';
 import { Navigate, Route, Routes, useNavigate } from 'react-router';
 import { legacyImportResult } from './boot.ts';
-import { ComingSoon } from './components/ComingSoon';
+import { AssessmentHome } from './features/assessment/AssessmentHome';
+import { AssessmentRun } from './features/assessment/AssessmentRun';
 import { FunGamesMenu } from './features/funGames/FunGamesMenu';
 import { GameView } from './features/funGames/GameView';
 import { HomeIslands } from './features/home/HomeIslands';
@@ -151,7 +152,15 @@ export default function App() {
             path="/assessment"
             element={
               <RequireProfile>
-                <ComingSoon />
+                <AssessmentHome />
+              </RequireProfile>
+            }
+          />
+          <Route
+            path="/assessment/:subjectId"
+            element={
+              <RequireProfile>
+                <AssessmentRun />
               </RequireProfile>
             }
           />
