@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+coverage/
+.vite/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Android build artifacts (Capacitor)
+app/android/.gradle/
+app/android/build/
+app/android/app/build/
+app/android/local.properties
+*.keystore
+key.properties
+
+# Test artifacts
+playwright-report/
+test-results/
+
+# Local documents (not for the public repo)
+Parent PortalGrade 1.pdf
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*

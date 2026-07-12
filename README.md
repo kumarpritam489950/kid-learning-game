@@ -2,9 +2,10 @@
 
 An offline educational app for Class 1 learners following CBSE syllabus.
 
+> **🚧 v2 rebuild in progress** — the app is being rewritten in React + TypeScript under `app/` (tests, CI/CD, Firebase sync, Android via Capacitor). The current site at the repo root remains live and unchanged until the v2 cutover. Pre-rebuild state is tagged `v1-legacy`.
+
 ## 🎉 New Features
 
-- **📱 Mobile App Ready**: Can be converted to Android & iOS apps! See [MOBILE_APP_ROADMAP.md](MOBILE_APP_ROADMAP.md)
 - **👤 User Profiles**: Login system with score tracking and history
 - **📊 Progress Dashboard**: View complete learning history by subject
 - **🔊 Phonetic Audio**: Toggle-able Hindi & Kannada pronunciation
