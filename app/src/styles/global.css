@@ -1,0 +1,144 @@
+/* Design tokens — ported from the v1 styles.css palette and extended. */
+:root {
+  /* v1 palette */
+  --bg-sky-top: #9ee7ff;
+  --bg-sky-bottom: #f3ffb6;
+  --ink: #1f2a44;
+  --panel-bg: #ffffff;
+  --good: #1ca66b;
+  --try: #cc3d3d;
+  --btn-main: #ffb703;
+  --btn-main-shadow: #d89200;
+
+  /* spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+
+  /* shape + elevation */
+  --radius-island: 26px;
+  --radius-panel: 24px;
+  --radius-control: 16px;
+  --shadow-panel: 0 12px 30px #3550702b;
+  --shadow-tile: 0 10px 0 #00000022;
+  --shadow-tile-raised: 0 14px 0 #00000020;
+
+  --font-display: 'Baloo 2', 'Comic Sans MS', cursive;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-display);
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 15% 20%, #ffffff85 0 10%, transparent 11%),
+    radial-gradient(circle at 88% 12%, #ffffff70 0 8%, transparent 9%),
+    linear-gradient(180deg, var(--bg-sky-top), var(--bg-sky-bottom));
+  overflow-x: hidden;
+}
+
+.app-shell {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: var(--space-5) var(--space-4) 40px;
+}
+
+.top-bar {
+  text-align: center;
+  margin-bottom: 18px;
+  animation: pop-in 0.5s ease-out;
+}
+
+.top-bar h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3rem);
+  letter-spacing: 1px;
+}
+
+.top-bar p {
+  margin: 6px 0 0;
+  font-size: clamp(1rem, 2.8vw, 1.25rem);
+}
+
+.panel {
+  background: var(--panel-bg);
+  border-radius: var(--radius-panel);
+  padding: 18px;
+  box-shadow: var(--shadow-panel);
+  animation: slide-in 0.25s ease-out;
+}
+
+.btn-main {
+  display: inline-block;
+  background: var(--btn-main);
+  color: var(--ink);
+  border: none;
+  border-radius: var(--radius-control);
+  padding: 10px 22px;
+  font-family: inherit;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 0 var(--btn-main-shadow);
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease;
+}
+
+.btn-main:hover,
+.btn-main:focus-visible {
+  transform: translateY(-2px);
+}
+
+.btn-main:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 0 var(--btn-main-shadow);
+}
+
+:focus-visible {
+  outline: 3px dashed var(--ink);
+  outline-offset: 3px;
+}
+
+@keyframes pop-in {
+  from {
+    transform: scale(0.92);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
