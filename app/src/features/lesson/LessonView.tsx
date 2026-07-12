@@ -3,6 +3,7 @@ import { useLocation, useNavigate, useParams } from 'react-router';
 import { cancelSpeech, speak, speakQuestion } from '../../services/tts';
 import { useSessionStore, sessionStars } from '../../stores/sessionStore';
 import { useSettingsStore } from '../../stores/settingsStore';
+import { useUserStore } from '../../stores/userStore';
 import { DragBoard } from './DragBoard';
 import { getStarsText } from './engine/scoring';
 import type { Question } from './engine/types';
@@ -87,6 +88,13 @@ export function LessonView() {
 
   const handleNext = () => {
     if (nextQuestion() === 'finished') {
+      // v1 finishModule saved (correctCount, totalQuestions) to the user.
+      const s = useSessionStore.getState();
+      if (s.subjectId && s.module) {
+        useUserStore
+          .getState()
+          .recordLesson(s.subjectId, s.module.id, s.correctCount, s.questions.length);
+      }
       navigate('/result');
     }
   };

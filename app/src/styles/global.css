@@ -139,6 +139,52 @@ body {
   outline-offset: 3px;
 }
 
+.profile-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  background: #ffffffb8;
+  border-radius: var(--radius-control);
+  padding: 8px 14px;
+  margin-bottom: var(--space-4);
+  box-shadow: 0 4px 12px #35507018;
+}
+
+.profile-bar-greeting {
+  font-size: 1.05rem;
+}
+
+.profile-bar-actions {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.migration-banner {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  background: #e8ffe9;
+  border: 2px solid var(--good);
+  color: #0b5c39;
+  font-weight: 700;
+  border-radius: var(--radius-control);
+  padding: 10px 14px;
+  margin-bottom: var(--space-3);
+}
+
+.migration-banner button {
+  border: none;
+  background: transparent;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: inherit;
+}
+
 @keyframes pop-in {
   from {
     transform: scale(0.92);

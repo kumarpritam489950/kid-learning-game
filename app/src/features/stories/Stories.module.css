@@ -1,0 +1,123 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.description {
+  font-size: clamp(1.05rem, 2.6vw, 1.3rem);
+  margin: 12px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-3);
+}
+
+.card {
+  border: none;
+  border-radius: var(--radius-control);
+  background: linear-gradient(160deg, #fff3d6, #ffe0a3);
+  box-shadow: 0 8px 0 #0000001f;
+  color: #533e00;
+  cursor: pointer;
+  padding: var(--space-4);
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  text-align: center;
+}
+
+.card:hover,
+.card:focus-visible {
+  transform: translateY(-2px);
+}
+
+.cardEmoji {
+  font-size: 2.4rem;
+}
+
+.cardTitle {
+  font-weight: 800;
+  font-size: 1.15rem;
+}
+
+.cardMoral {
+  font-weight: 600;
+  font-size: 0.92rem;
+  opacity: 0.85;
+}
+
+.page {
+  background: #fffdf5;
+  border: 3px dashed #ffc94d;
+  border-radius: 18px;
+  padding: var(--space-5);
+  text-align: center;
+  animation: slide-in 0.25s ease-out;
+}
+
+.pageVisual {
+  font-size: clamp(3rem, 10vw, 5rem);
+  margin-bottom: var(--space-3);
+}
+
+.pageText {
+  font-size: clamp(1.15rem, 3vw, 1.5rem);
+  line-height: 1.55;
+  margin: 0 0 var(--space-3);
+}
+
+.readBtn {
+  border: none;
+  border-radius: 999px;
+  background: var(--btn-main);
+  box-shadow: 0 4px 0 var(--btn-main-shadow);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.moral {
+  text-align: center;
+  font-weight: 800;
+  font-size: clamp(1.05rem, 2.8vw, 1.3rem);
+  color: #a06a00;
+  margin: var(--space-3) 0 0;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: var(--space-4) 0;
+}
+
+.dot,
+.dotActive {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #d8e2f5;
+}
+
+.dotActive {
+  background: var(--btn-main);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-3);
+}
