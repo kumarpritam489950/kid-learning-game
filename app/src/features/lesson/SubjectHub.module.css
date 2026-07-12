@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+}
+
+.description {
+  font-size: clamp(1.1rem, 2.8vw, 1.4rem);
+  margin: 14px 0;
+}
+
+.moduleGrid {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+@media (max-width: 480px) {
+  .moduleGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.moduleCard {
+  border: none;
+  border-radius: var(--radius-control);
+  background: linear-gradient(160deg, #fff7cf, #ffe58f);
+  box-shadow: 0 8px 0 #0000001f;
+  color: #533e00;
+  cursor: pointer;
+  padding: 14px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-family: inherit;
+}
+
+.moduleCard:hover,
+.moduleCard:focus-visible {
+  transform: translateY(-2px);
+}
+
+.moduleCount {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.moduleTitle {
+  font-weight: 800;
+  font-size: clamp(1rem, 2.8vw, 1.24rem);
+}
+
+.moduleStars {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #a06a00;
+}

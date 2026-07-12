@@ -1,25 +1,12 @@
-import type {
-  AppMeta,
-  AssessmentSubject,
-  FunGamesSubject,
-  LessonSubject,
-  StoriesSubject,
-} from './schema';
+import type { AppMeta, FunGamesSubject, LessonSubject, StoriesSubject } from './schema';
 import {
   appMetaSchema,
-  assessmentSubjectSchema,
   funGamesSubjectSchema,
   lessonSubjectSchema,
   storiesSubjectSchema,
 } from './schema';
 
 import appMetaJson from './app-meta.json';
-import assessmentComputerJson from './assessment/computer.json';
-import assessmentEnglishJson from './assessment/english.json';
-import assessmentEvsJson from './assessment/evs.json';
-import assessmentHindiJson from './assessment/hindi.json';
-import assessmentKannadaJson from './assessment/kannada.json';
-import assessmentMathematicsJson from './assessment/mathematics.json';
 import storiesJson from './stories.json';
 import computerJson from './subjects/computer.json';
 import englishJson from './subjects/english.json';
@@ -55,34 +42,20 @@ export const STORIES: StoriesSubject = storiesJson as unknown as StoriesSubject;
 
 export const APP_META: AppMeta = appMetaJson as unknown as AppMeta;
 
-/** Assessment banks keyed by assessment subject id. */
-export const ASSESSMENT_SUBJECTS: readonly AssessmentSubject[] = [
-  assessmentMathematicsJson,
-  assessmentEnglishJson,
-  assessmentHindiJson,
-  assessmentComputerJson,
-  assessmentKannadaJson,
-  assessmentEvsJson,
-] as unknown as AssessmentSubject[];
-
 export function getLessonSubject(subjectId: string): LessonSubject | undefined {
   return LESSON_SUBJECTS.find((subject) => subject.id === subjectId);
 }
 
-export function getAssessmentSubject(subjectId: string): AssessmentSubject | undefined {
-  return ASSESSMENT_SUBJECTS.find((subject) => subject.id === subjectId);
-}
-
 /**
- * Parse every content file against its schema. Throws on the first mismatch.
- * Runs in tests always, and once at startup in dev.
+ * Parse the eagerly-loaded content against its schemas. Throws on the first
+ * mismatch. Runs in tests always, and once at startup in dev. The assessment
+ * bank is validated separately in content/assessment.ts when loaded.
  */
 export function validateAllContent(): void {
   for (const subject of LESSON_SUBJECTS) lessonSubjectSchema.parse(subject);
   funGamesSubjectSchema.parse(FUN_GAMES);
   storiesSubjectSchema.parse(STORIES);
   appMetaSchema.parse(APP_META);
-  for (const subject of ASSESSMENT_SUBJECTS) assessmentSubjectSchema.parse(subject);
 }
 
 if (import.meta.env.DEV) {

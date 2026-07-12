@@ -106,6 +106,34 @@ body {
   box-shadow: 0 2px 0 var(--btn-main-shadow);
 }
 
+/* Pill buttons ported from v1 .btn variants. */
+.btn {
+  border: none;
+  border-radius: 999px;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 10px 16px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.btn-secondary {
+  background: #54d08f;
+  color: #063b26;
+}
+
+.btn-ghost {
+  background: #dfe9ff;
+  color: #13316d;
+}
+
 :focus-visible {
   outline: 3px dashed var(--ink);
   outline-offset: 3px;

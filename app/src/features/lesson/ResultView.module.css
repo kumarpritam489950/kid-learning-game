@@ -1,0 +1,26 @@
+.title {
+  text-align: center;
+  margin: 0 0 10px;
+  font-size: clamp(1.5rem, 4vw, 2.2rem);
+}
+
+.summary {
+  text-align: center;
+  font-size: clamp(1.1rem, 2.8vw, 1.4rem);
+  margin: 0 0 10px;
+}
+
+.stars {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #e6a100;
+  letter-spacing: 2px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

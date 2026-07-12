@@ -1,13 +1,10 @@
 import { describe, expect, it } from 'vitest';
+import { loadAssessmentBank } from './assessment';
 import manifest from './conversion-manifest.json';
-import {
-  APP_META,
-  ASSESSMENT_SUBJECTS,
-  FUN_GAMES,
-  LESSON_SUBJECTS,
-  STORIES,
-  validateAllContent,
-} from './index';
+import { APP_META, FUN_GAMES, LESSON_SUBJECTS, STORIES, validateAllContent } from './index';
+import { assessmentSubjectSchema } from './schema';
+
+const ASSESSMENT_SUBJECTS = await loadAssessmentBank();
 
 /**
  * Frozen counts from the v1 sources, captured when scripts/convert-legacy.mjs
@@ -38,6 +35,9 @@ const EXPECTED_ASSESSMENT: Record<string, number> = {
 describe('content schemas', () => {
   it('every content file parses against its schema', () => {
     expect(() => validateAllContent()).not.toThrow();
+    for (const subject of ASSESSMENT_SUBJECTS) {
+      expect(() => assessmentSubjectSchema.parse(subject)).not.toThrow();
+    }
   });
 });
 

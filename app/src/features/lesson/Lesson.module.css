@@ -1,0 +1,218 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+}
+
+.bankNote {
+  font-size: 0.75em;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.stats {
+  display: flex;
+  gap: var(--space-3);
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  font-weight: 700;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.questionBox {
+  background: #f8fbff;
+  border: 3px dashed #8db8ff;
+  border-radius: 18px;
+  padding: var(--space-4);
+  position: relative;
+}
+
+.prompt {
+  font-size: clamp(1.1rem, 2.8vw, 1.4rem);
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+.questionVisual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  font-size: clamp(1.4rem, 4.4vw, 2rem);
+  min-height: 48px;
+  text-align: center;
+}
+
+.rhymeVisual {
+  font-size: clamp(1.15rem, 3.2vw, 1.5rem);
+  line-height: 1.5;
+  display: block;
+}
+
+.speakBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: var(--btn-main);
+  border: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 3px 0 var(--btn-main-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.12s;
+}
+
+.speakBtn:hover {
+  transform: scale(1.15);
+}
+
+.phoneticContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  margin-top: 0.5rem;
+  flex-basis: 100%;
+}
+
+.phoneticText {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}
+
+.phoneticSpeaker {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.phoneticSpeaker:hover {
+  background: rgba(0, 0, 0, 0.05);
+  transform: scale(1.1);
+}
+
+.options {
+  margin-top: var(--space-4);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.optionBtn {
+  font-family: inherit;
+  font-size: clamp(1.3rem, 4vw, 2rem);
+  padding: 10px;
+  border: none;
+  border-radius: 14px;
+  background: var(--btn-main);
+  box-shadow: 0 5px 0 var(--btn-main-shadow);
+  color: #3b2b00;
+  cursor: pointer;
+}
+
+.optionBtn:hover:not(:disabled),
+.optionBtn:focus-visible {
+  transform: translateY(-2px);
+}
+
+.optionBtn:disabled {
+  cursor: not-allowed;
+  opacity: 0.75;
+}
+
+.dragZone {
+  margin-top: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.dropSlots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.dropSlot {
+  min-width: 64px;
+  min-height: 58px;
+  border: 3px dashed #79a6ff;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  font-size: 1.55rem;
+  font-weight: 700;
+  font-family: inherit;
+  background: #f2f7ff;
+  cursor: pointer;
+}
+
+.letterBank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.letterTile {
+  border: none;
+  border-radius: 10px;
+  background: #ffd978;
+  box-shadow: 0 4px 0 #d7a72f;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: 1.45rem;
+  cursor: pointer;
+}
+
+.letterTile:disabled,
+.dropSlot:disabled {
+  cursor: not-allowed;
+  opacity: 0.75;
+}
+
+.checkRow {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback {
+  min-height: 34px;
+  font-size: clamp(1.2rem, 3vw, 1.5rem);
+  font-weight: 700;
+  text-align: center;
+  margin: 14px 0 8px;
+}
+
+.feedbackGood {
+  color: var(--good);
+}
+
+.feedbackTry {
+  color: var(--try);
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
