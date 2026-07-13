@@ -1196,6 +1196,351 @@
           "correct": false
         }
       ]
+    },
+    {
+      "id": 53,
+      "question": "Which part of the computer is like a TV screen?",
+      "topic": "Computer Parts",
+      "options": [
+        {
+          "text": "Monitor",
+          "correct": true
+        },
+        {
+          "text": "Mouse",
+          "correct": false
+        },
+        {
+          "text": "CPU",
+          "correct": false
+        },
+        {
+          "text": "Printer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "question": "Which device do we use to type letters and numbers?",
+      "topic": "Computer Parts",
+      "options": [
+        {
+          "text": "Keyboard",
+          "correct": true
+        },
+        {
+          "text": "Speaker",
+          "correct": false
+        },
+        {
+          "text": "Monitor",
+          "correct": false
+        },
+        {
+          "text": "Printer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "question": "Which key erases letters?",
+      "topic": "Keyboard Skills",
+      "options": [
+        {
+          "text": "Backspace",
+          "correct": true
+        },
+        {
+          "text": "Enter",
+          "correct": false
+        },
+        {
+          "text": "Space bar",
+          "correct": false
+        },
+        {
+          "text": "Shift",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "question": "Which key do we press to go to a new line?",
+      "topic": "Keyboard Skills",
+      "options": [
+        {
+          "text": "Enter",
+          "correct": true
+        },
+        {
+          "text": "Space bar",
+          "correct": false
+        },
+        {
+          "text": "Backspace",
+          "correct": false
+        },
+        {
+          "text": "Shift",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "question": "A laptop is a computer we can ___.",
+      "topic": "Computer Devices",
+      "options": [
+        {
+          "text": "Carry",
+          "correct": true
+        },
+        {
+          "text": "Eat",
+          "correct": false
+        },
+        {
+          "text": "Drink",
+          "correct": false
+        },
+        {
+          "text": "Wear",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "question": "Which one is a computer?",
+      "topic": "Computer Devices",
+      "options": [
+        {
+          "text": "Laptop",
+          "correct": true
+        },
+        {
+          "text": "Table",
+          "correct": false
+        },
+        {
+          "text": "Chair",
+          "correct": false
+        },
+        {
+          "text": "Cup",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "question": "Which one has a touch screen?",
+      "topic": "Computer Devices",
+      "options": [
+        {
+          "text": "Tablet",
+          "correct": true
+        },
+        {
+          "text": "Keyboard",
+          "correct": false
+        },
+        {
+          "text": "Mouse",
+          "correct": false
+        },
+        {
+          "text": "CPU",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "question": "Which device takes our photo on a computer?",
+      "topic": "Computer Devices",
+      "options": [
+        {
+          "text": "Webcam",
+          "correct": true
+        },
+        {
+          "text": "Printer",
+          "correct": false
+        },
+        {
+          "text": "Speaker",
+          "correct": false
+        },
+        {
+          "text": "Mouse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "question": "We keep our files inside a ___ on the computer.",
+      "topic": "Computer Files",
+      "options": [
+        {
+          "text": "Folder",
+          "correct": true
+        },
+        {
+          "text": "Basket",
+          "correct": false
+        },
+        {
+          "text": "Pocket",
+          "correct": false
+        },
+        {
+          "text": "Shoe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "question": "The Paint program is used for ___.",
+      "topic": "Computer Skills",
+      "options": [
+        {
+          "text": "Drawing",
+          "correct": true
+        },
+        {
+          "text": "Sleeping",
+          "correct": false
+        },
+        {
+          "text": "Cooking",
+          "correct": false
+        },
+        {
+          "text": "Washing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "question": "We should sit ___ while using a computer.",
+      "topic": "Computer Habits",
+      "options": [
+        {
+          "text": "Straight",
+          "correct": true
+        },
+        {
+          "text": "Upside down",
+          "correct": false
+        },
+        {
+          "text": "Lying down",
+          "correct": false
+        },
+        {
+          "text": "Jumping",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "question": "After using the computer we should ___ it.",
+      "topic": "Computer Habits",
+      "options": [
+        {
+          "text": "Shut down",
+          "correct": true
+        },
+        {
+          "text": "Break",
+          "correct": false
+        },
+        {
+          "text": "Throw",
+          "correct": false
+        },
+        {
+          "text": "Hide",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "question": "We should not ___ near the computer.",
+      "topic": "Computer Habits",
+      "options": [
+        {
+          "text": "Eat food",
+          "correct": true
+        },
+        {
+          "text": "Sit",
+          "correct": false
+        },
+        {
+          "text": "Type",
+          "correct": false
+        },
+        {
+          "text": "Look",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "question": "A computer needs ___ to work.",
+      "topic": "Computer Basics",
+      "options": [
+        {
+          "text": "Electricity",
+          "correct": true
+        },
+        {
+          "text": "Water",
+          "correct": false
+        },
+        {
+          "text": "Milk",
+          "correct": false
+        },
+        {
+          "text": "Air",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "question": "Who fixes computers when they stop working?",
+      "topic": "Computer Basics",
+      "options": [
+        {
+          "text": "Engineer",
+          "correct": true
+        },
+        {
+          "text": "Doctor",
+          "correct": false
+        },
+        {
+          "text": "Farmer",
+          "correct": false
+        },
+        {
+          "text": "Cook",
+          "correct": false
+        }
+      ]
     }
   ]
 }

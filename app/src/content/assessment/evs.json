@@ -532,7 +532,7 @@
     },
     {
       "id": 24,
-      "question": "Sun and Weather Safety",
+      "question": "What is a good habit on a very sunny day?",
       "options": [
         {
           "text": "Play in rain",
@@ -1170,6 +1170,351 @@
         },
         {
           "text": "Christmas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "question": "How many sense organs do we have?",
+      "topic": "Body Awareness",
+      "options": [
+        {
+          "text": "5",
+          "correct": true
+        },
+        {
+          "text": "2",
+          "correct": false
+        },
+        {
+          "text": "4",
+          "correct": false
+        },
+        {
+          "text": "10",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "question": "We see with our ___.",
+      "topic": "Body Awareness",
+      "options": [
+        {
+          "text": "Eyes",
+          "correct": true
+        },
+        {
+          "text": "Ears",
+          "correct": false
+        },
+        {
+          "text": "Nose",
+          "correct": false
+        },
+        {
+          "text": "Hands",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "question": "We smell with our ___.",
+      "topic": "Body Awareness",
+      "options": [
+        {
+          "text": "Nose",
+          "correct": true
+        },
+        {
+          "text": "Eyes",
+          "correct": false
+        },
+        {
+          "text": "Ears",
+          "correct": false
+        },
+        {
+          "text": "Feet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "question": "Which part of the plant is under the soil?",
+      "topic": "Plants",
+      "options": [
+        {
+          "text": "Root",
+          "correct": true
+        },
+        {
+          "text": "Leaf",
+          "correct": false
+        },
+        {
+          "text": "Flower",
+          "correct": false
+        },
+        {
+          "text": "Fruit",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "question": "Leaves are usually ___ in color.",
+      "topic": "Plants",
+      "options": [
+        {
+          "text": "Green",
+          "correct": true
+        },
+        {
+          "text": "Blue",
+          "correct": false
+        },
+        {
+          "text": "Black",
+          "correct": false
+        },
+        {
+          "text": "Purple",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "question": "Which of these grows on a tree?",
+      "topic": "Plants",
+      "options": [
+        {
+          "text": "Mango",
+          "correct": true
+        },
+        {
+          "text": "Potato",
+          "correct": false
+        },
+        {
+          "text": "Carrot",
+          "correct": false
+        },
+        {
+          "text": "Onion",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "question": "We get milk from a ___.",
+      "topic": "Animals",
+      "options": [
+        {
+          "text": "Cow",
+          "correct": true
+        },
+        {
+          "text": "Hen",
+          "correct": false
+        },
+        {
+          "text": "Fish",
+          "correct": false
+        },
+        {
+          "text": "Crow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "question": "Which animal has a long trunk?",
+      "topic": "Animals",
+      "options": [
+        {
+          "text": "Elephant",
+          "correct": true
+        },
+        {
+          "text": "Dog",
+          "correct": false
+        },
+        {
+          "text": "Cat",
+          "correct": false
+        },
+        {
+          "text": "Goat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "question": "Which animal is called the ship of the desert?",
+      "topic": "Animals",
+      "options": [
+        {
+          "text": "Camel",
+          "correct": true
+        },
+        {
+          "text": "Horse",
+          "correct": false
+        },
+        {
+          "text": "Lion",
+          "correct": false
+        },
+        {
+          "text": "Cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "question": "A doctor helps us when we are ___.",
+      "topic": "People Who Help Us",
+      "options": [
+        {
+          "text": "Sick",
+          "correct": true
+        },
+        {
+          "text": "Happy",
+          "correct": false
+        },
+        {
+          "text": "Playing",
+          "correct": false
+        },
+        {
+          "text": "Sleeping",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "question": "Who teaches us in school?",
+      "topic": "People Who Help Us",
+      "options": [
+        {
+          "text": "Teacher",
+          "correct": true
+        },
+        {
+          "text": "Doctor",
+          "correct": false
+        },
+        {
+          "text": "Farmer",
+          "correct": false
+        },
+        {
+          "text": "Pilot",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "question": "Who grows food for us?",
+      "topic": "People Who Help Us",
+      "options": [
+        {
+          "text": "Farmer",
+          "correct": true
+        },
+        {
+          "text": "Teacher",
+          "correct": false
+        },
+        {
+          "text": "Doctor",
+          "correct": false
+        },
+        {
+          "text": "Barber",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "question": "Which of these runs on rails?",
+      "topic": "Transport",
+      "options": [
+        {
+          "text": "Train",
+          "correct": true
+        },
+        {
+          "text": "Bus",
+          "correct": false
+        },
+        {
+          "text": "Car",
+          "correct": false
+        },
+        {
+          "text": "Ship",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "question": "Before crossing the road, we should look ___.",
+      "topic": "Safety",
+      "options": [
+        {
+          "text": "Both ways",
+          "correct": true
+        },
+        {
+          "text": "Only up",
+          "correct": false
+        },
+        {
+          "text": "Only down",
+          "correct": false
+        },
+        {
+          "text": "Nowhere",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "question": "We throw garbage in the ___.",
+      "topic": "Cleanliness",
+      "options": [
+        {
+          "text": "Dustbin",
+          "correct": true
+        },
+        {
+          "text": "River",
+          "correct": false
+        },
+        {
+          "text": "Road",
+          "correct": false
+        },
+        {
+          "text": "Garden",
           "correct": false
         }
       ]

@@ -84,20 +84,41 @@ export function AssessmentRun() {
     const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
     const breakdown = buildTopicBreakdown(questions, answers);
     const trophy = pct >= 80 ? '🏆' : pct >= 60 ? '⭐' : '💪';
+    const cheer =
+      pct >= 80
+        ? 'Amazing work, superstar!'
+        : pct >= 60
+          ? 'Great job, keep going!'
+          : 'Good try — practice makes perfect!';
 
     return (
       <section className="panel" aria-label="Assessment result">
-        <h2 className={styles.resultTitle}>
-          {trophy} {assessmentTitle(subjectId)} — {correct} / {total} ({pct}%)
-        </h2>
+        <div className={styles.resultHero}>
+          <span className={styles.resultTrophy} aria-hidden="true">
+            {trophy}
+          </span>
+          <h2 className={styles.resultTitle}>
+            {assessmentTitle(subjectId)} — {correct} / {total} ({pct}%)
+          </h2>
+          <p className={styles.resultCheer}>{cheer}</p>
+        </div>
         <h3 className={styles.breakdownTitle}>Topic report</h3>
         <ul className={styles.breakdownList}>
           {Object.entries(breakdown).map(([topic, s]) => (
             <li key={topic} className={styles.breakdownItem}>
-              <span>{topic}</span>
-              <span className={s.correct === s.total ? styles.topicPerfect : undefined}>
-                {s.correct}/{s.total}
-              </span>
+              <div className={styles.breakdownRow}>
+                <span>{topic}</span>
+                <span className={s.correct === s.total ? styles.topicPerfect : undefined}>
+                  {s.correct === s.total ? '⭐ ' : ''}
+                  {s.correct}/{s.total}
+                </span>
+              </div>
+              <div className={styles.topicBar} aria-hidden="true">
+                <div
+                  className={styles.topicBarFill}
+                  style={{ width: `${s.total > 0 ? (s.correct / s.total) * 100 : 0}%` }}
+                />
+              </div>
             </li>
           ))}
         </ul>
@@ -144,21 +165,23 @@ export function AssessmentRun() {
         Question {index + 1} of {questions.length}
       </p>
 
-      <div className={styles.questionBox}>
-        <p className={styles.question}>{question.question}</p>
-      </div>
+      <div key={index} className={styles.questionArea}>
+        <div className={styles.questionBox}>
+          <p className={styles.question}>{question.question}</p>
+        </div>
 
-      <div className={styles.options} aria-label="Answer choices">
-        {question.options.map((option) => (
-          <button
-            key={option}
-            type="button"
-            className={styles.optionBtn}
-            onClick={() => choose(option)}
-          >
-            {option}
-          </button>
-        ))}
+        <div className={styles.options} aria-label="Answer choices">
+          {question.options.map((option) => (
+            <button
+              key={option}
+              type="button"
+              className={styles.optionBtn}
+              onClick={() => choose(option)}
+            >
+              {option}
+            </button>
+          ))}
+        </div>
       </div>
     </section>
   );

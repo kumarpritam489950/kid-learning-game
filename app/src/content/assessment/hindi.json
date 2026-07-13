@@ -966,6 +966,351 @@
           "correct": false
         }
       ]
+    },
+    {
+      "id": 43,
+      "question": "\"इ\" से क्या बनता है?",
+      "topic": "Hindi Letters",
+      "options": [
+        {
+          "text": "इमली",
+          "correct": true
+        },
+        {
+          "text": "आम",
+          "correct": false
+        },
+        {
+          "text": "कमल",
+          "correct": false
+        },
+        {
+          "text": "ऊन",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "\"ई\" से क्या बनता है?",
+      "topic": "Hindi Letters",
+      "options": [
+        {
+          "text": "ईख",
+          "correct": true
+        },
+        {
+          "text": "आम",
+          "correct": false
+        },
+        {
+          "text": "उल्लू",
+          "correct": false
+        },
+        {
+          "text": "अनार",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "\"उ\" से क्या बनता है?",
+      "topic": "Hindi Letters",
+      "options": [
+        {
+          "text": "उल्लू",
+          "correct": true
+        },
+        {
+          "text": "अनार",
+          "correct": false
+        },
+        {
+          "text": "इमली",
+          "correct": false
+        },
+        {
+          "text": "गमला",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "\"ग\" से क्या बनता है?",
+      "topic": "Hindi Letters",
+      "options": [
+        {
+          "text": "गमला",
+          "correct": true
+        },
+        {
+          "text": "कमल",
+          "correct": false
+        },
+        {
+          "text": "आम",
+          "correct": false
+        },
+        {
+          "text": "नल",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "\"पिता\" का अर्थ क्या है?",
+      "topic": "Hindi Words",
+      "options": [
+        {
+          "text": "Father",
+          "correct": true
+        },
+        {
+          "text": "Mother",
+          "correct": false
+        },
+        {
+          "text": "Sister",
+          "correct": false
+        },
+        {
+          "text": "Uncle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "सेब किस रंग का होता है?",
+      "topic": "Hindi - Colors",
+      "options": [
+        {
+          "text": "लाल",
+          "correct": true
+        },
+        {
+          "text": "नीला",
+          "correct": false
+        },
+        {
+          "text": "काला",
+          "correct": false
+        },
+        {
+          "text": "बैंगनी",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "आसमान का रंग कैसा होता है?",
+      "topic": "Hindi - Colors",
+      "options": [
+        {
+          "text": "नीला",
+          "correct": true
+        },
+        {
+          "text": "हरा",
+          "correct": false
+        },
+        {
+          "text": "पीला",
+          "correct": false
+        },
+        {
+          "text": "लाल",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "दो + दो = ?",
+      "topic": "Hindi - Arithmetic",
+      "options": [
+        {
+          "text": "चार",
+          "correct": true
+        },
+        {
+          "text": "तीन",
+          "correct": false
+        },
+        {
+          "text": "पाँच",
+          "correct": false
+        },
+        {
+          "text": "छह",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "question": "\"पाँच\" के बाद क्या आता है?",
+      "topic": "Hindi - Numbers",
+      "options": [
+        {
+          "text": "छह",
+          "correct": true
+        },
+        {
+          "text": "चार",
+          "correct": false
+        },
+        {
+          "text": "आठ",
+          "correct": false
+        },
+        {
+          "text": "तीन",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "question": "मुर्गी हमें क्या देती है?",
+      "topic": "Hindi - General Knowledge",
+      "options": [
+        {
+          "text": "अंडा",
+          "correct": true
+        },
+        {
+          "text": "दूध",
+          "correct": false
+        },
+        {
+          "text": "ऊन",
+          "correct": false
+        },
+        {
+          "text": "शहद",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "question": "\"बड़ा\" का विलोम क्या है?",
+      "topic": "Hindi - Opposites",
+      "options": [
+        {
+          "text": "छोटा",
+          "correct": true
+        },
+        {
+          "text": "लंबा",
+          "correct": false
+        },
+        {
+          "text": "मोटा",
+          "correct": false
+        },
+        {
+          "text": "ऊँचा",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "question": "\"ठंडा\" का विलोम क्या है?",
+      "topic": "Hindi - Opposites",
+      "options": [
+        {
+          "text": "गरम",
+          "correct": true
+        },
+        {
+          "text": "नरम",
+          "correct": false
+        },
+        {
+          "text": "गीला",
+          "correct": false
+        },
+        {
+          "text": "सूखा",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "question": "चिड़िया कहाँ रहती है?",
+      "topic": "Hindi - General Knowledge",
+      "options": [
+        {
+          "text": "घोंसले में",
+          "correct": true
+        },
+        {
+          "text": "पानी में",
+          "correct": false
+        },
+        {
+          "text": "बिल में",
+          "correct": false
+        },
+        {
+          "text": "गुफा में",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "question": "इंद्रधनुष में कितने रंग होते हैं?",
+      "topic": "Hindi - General Knowledge",
+      "options": [
+        {
+          "text": "सात",
+          "correct": true
+        },
+        {
+          "text": "पाँच",
+          "correct": false
+        },
+        {
+          "text": "तीन",
+          "correct": false
+        },
+        {
+          "text": "दस",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "question": "हाथी कैसा जानवर है?",
+      "topic": "Hindi - Animals",
+      "options": [
+        {
+          "text": "बड़ा",
+          "correct": true
+        },
+        {
+          "text": "छोटा",
+          "correct": false
+        },
+        {
+          "text": "पतला",
+          "correct": false
+        },
+        {
+          "text": "हल्का",
+          "correct": false
+        }
+      ]
     }
   ]
 }

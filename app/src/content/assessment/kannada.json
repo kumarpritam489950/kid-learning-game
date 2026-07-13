@@ -943,6 +943,351 @@
           "correct": false
         }
       ]
+    },
+    {
+      "id": 42,
+      "question": "\"ಇ\" ಇಂದ ಏನು ಬರುತ್ತದೆ?",
+      "topic": "Kannada - Alphabet",
+      "options": [
+        {
+          "text": "ಇಲಿ",
+          "correct": true
+        },
+        {
+          "text": "ಆನೆ",
+          "correct": false
+        },
+        {
+          "text": "ಅಳಿಲು",
+          "correct": false
+        },
+        {
+          "text": "ಮನೆ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "question": "\"ಈ\" ಇಂದ ಏನು ಬರುತ್ತದೆ?",
+      "topic": "Kannada - Alphabet",
+      "options": [
+        {
+          "text": "ಈರುಳ್ಳಿ",
+          "correct": true
+        },
+        {
+          "text": "ಇಲಿ",
+          "correct": false
+        },
+        {
+          "text": "ಆಮೆ",
+          "correct": false
+        },
+        {
+          "text": "ಉಡ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "\"ಉ\" ಇಂದ ಏನು ಬರುತ್ತದೆ?",
+      "topic": "Kannada - Alphabet",
+      "options": [
+        {
+          "text": "ಉಂಗುರ",
+          "correct": true
+        },
+        {
+          "text": "ಎಲೆ",
+          "correct": false
+        },
+        {
+          "text": "ಒಂಟೆ",
+          "correct": false
+        },
+        {
+          "text": "ಆನೆ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "\"ಅಪ್ಪ\" ಎಂದರೆ ಯಾರು?",
+      "topic": "Kannada - Family",
+      "options": [
+        {
+          "text": "ತಂದೆ",
+          "correct": true
+        },
+        {
+          "text": "ತಾಯಿ",
+          "correct": false
+        },
+        {
+          "text": "ಅಣ್ಣ",
+          "correct": false
+        },
+        {
+          "text": "ಅಕ್ಕ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "ಬೆಕ್ಕು ಯಾವ ಶಬ್ದ ಮಾಡುತ್ತದೆ?",
+      "topic": "Kannada - Animal Sounds",
+      "options": [
+        {
+          "text": "ಮಿಯಾಂವ್",
+          "correct": true
+        },
+        {
+          "text": "ಬೌ ಬೌ",
+          "correct": false
+        },
+        {
+          "text": "ಅಂಬಾ",
+          "correct": false
+        },
+        {
+          "text": "ಕಾ ಕಾ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "ಹಸು ಯಾವ ಶಬ್ದ ಮಾಡುತ್ತದೆ?",
+      "topic": "Kannada - Animal Sounds",
+      "options": [
+        {
+          "text": "ಅಂಬಾ",
+          "correct": true
+        },
+        {
+          "text": "ಮಿಯಾಂವ್",
+          "correct": false
+        },
+        {
+          "text": "ಬೌ ಬೌ",
+          "correct": false
+        },
+        {
+          "text": "ಕಾ ಕಾ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "\"ಒಂದು\" ನಂತರ ಯಾವ ಸಂಖ್ಯೆ ಬರುತ್ತದೆ?",
+      "topic": "Kannada - Numbers",
+      "options": [
+        {
+          "text": "ಎರಡು",
+          "correct": true
+        },
+        {
+          "text": "ಮೂರು",
+          "correct": false
+        },
+        {
+          "text": "ನಾಲ್ಕು",
+          "correct": false
+        },
+        {
+          "text": "ಐದು",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "ಎರಡು + ಎರಡು = ?",
+      "topic": "Kannada - Numbers",
+      "options": [
+        {
+          "text": "ನಾಲ್ಕು",
+          "correct": true
+        },
+        {
+          "text": "ಮೂರು",
+          "correct": false
+        },
+        {
+          "text": "ಐದು",
+          "correct": false
+        },
+        {
+          "text": "ಆರು",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "ಸೇಬಿನ ಬಣ್ಣ ಯಾವುದು?",
+      "topic": "Kannada - Colors",
+      "options": [
+        {
+          "text": "ಕೆಂಪು",
+          "correct": true
+        },
+        {
+          "text": "ನೀಲಿ",
+          "correct": false
+        },
+        {
+          "text": "ಕಪ್ಪು",
+          "correct": false
+        },
+        {
+          "text": "ಹಸಿರು",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "question": "ಎಲೆಯ ಬಣ್ಣ ಯಾವುದು?",
+      "topic": "Kannada - Colors",
+      "options": [
+        {
+          "text": "ಹಸಿರು",
+          "correct": true
+        },
+        {
+          "text": "ಕೆಂಪು",
+          "correct": false
+        },
+        {
+          "text": "ಹಳದಿ",
+          "correct": false
+        },
+        {
+          "text": "ಬಿಳಿ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "question": "\"ದೊಡ್ಡ\" ವಿರುದ್ಧ ಪದ ಯಾವುದು?",
+      "topic": "Kannada - Opposites",
+      "options": [
+        {
+          "text": "ಚಿಕ್ಕ",
+          "correct": true
+        },
+        {
+          "text": "ಉದ್ದ",
+          "correct": false
+        },
+        {
+          "text": "ಎತ್ತರ",
+          "correct": false
+        },
+        {
+          "text": "ಗಟ್ಟಿ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "question": "\"ಹಗಲು\" ವಿರುದ್ಧ ಪದ ಯಾವುದು?",
+      "topic": "Kannada - Opposites",
+      "options": [
+        {
+          "text": "ರಾತ್ರಿ",
+          "correct": true
+        },
+        {
+          "text": "ಬೆಳಗ್ಗೆ",
+          "correct": false
+        },
+        {
+          "text": "ಮಧ್ಯಾಹ್ನ",
+          "correct": false
+        },
+        {
+          "text": "ಸಂಜೆ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "question": "ಮೀನು ಹೇಗೆ ಚಲಿಸುತ್ತದೆ?",
+      "topic": "Kannada - General Knowledge",
+      "options": [
+        {
+          "text": "ಈಜುತ್ತದೆ",
+          "correct": true
+        },
+        {
+          "text": "ಹಾರುತ್ತದೆ",
+          "correct": false
+        },
+        {
+          "text": "ಓಡುತ್ತದೆ",
+          "correct": false
+        },
+        {
+          "text": "ನೆಗೆಯುತ್ತದೆ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "question": "ಹಕ್ಕಿ ಎಲ್ಲಿ ವಾಸಿಸುತ್ತದೆ?",
+      "topic": "Kannada - General Knowledge",
+      "options": [
+        {
+          "text": "ಗೂಡಿನಲ್ಲಿ",
+          "correct": true
+        },
+        {
+          "text": "ನೀರಿನಲ್ಲಿ",
+          "correct": false
+        },
+        {
+          "text": "ಬಿಲದಲ್ಲಿ",
+          "correct": false
+        },
+        {
+          "text": "ಗುಹೆಯಲ್ಲಿ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "question": "\"ತಿನ್ನು\" ಎಂಬುದು ಯಾವ ಪದ?",
+      "topic": "Kannada - Verbs",
+      "options": [
+        {
+          "text": "ಕ್ರಿಯಾ ಪದ",
+          "correct": true
+        },
+        {
+          "text": "ನಾಮ ಪದ",
+          "correct": false
+        },
+        {
+          "text": "ವಿಶೇಷಣ",
+          "correct": false
+        },
+        {
+          "text": "ಸಂಖ್ಯೆ",
+          "correct": false
+        }
+      ]
     }
   ]
 }

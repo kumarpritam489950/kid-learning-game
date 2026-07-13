@@ -25,12 +25,12 @@ const EXPECTED_MODULES: Record<string, number> = {
 };
 
 const EXPECTED_ASSESSMENT: Record<string, number> = {
-  mathematics: 84,
-  english: 72,
-  hindi: 42,
-  computer: 52,
-  kannada: 41,
-  evs: 51,
+  mathematics: 99,
+  english: 87,
+  hindi: 57,
+  computer: 67,
+  kannada: 56,
+  evs: 66,
 };
 
 describe('content schemas', () => {
@@ -55,7 +55,7 @@ describe('count parity with v1 sources', () => {
     expect(STORIES.stories).toHaveLength(4);
   });
 
-  it('has the full 342-question assessment bank (283 v1 + 59 batch 2026-07)', () => {
+  it('has the full 432-question assessment bank (283 v1 + 59 batch 2026-07 + 90 batch 2026-07b)', () => {
     expect(ASSESSMENT_SUBJECTS.map((s) => s.id).sort()).toEqual(
       Object.keys(EXPECTED_ASSESSMENT).sort(),
     );
@@ -64,7 +64,7 @@ describe('count parity with v1 sources', () => {
       expect(subject.questions, subject.id).toHaveLength(EXPECTED_ASSESSMENT[subject.id]!);
       total += subject.questions.length;
     }
-    expect(total).toBe(342);
+    expect(total).toBe(432);
   });
 
   it('never drops below the frozen v1 baseline (conversion manifest)', () => {

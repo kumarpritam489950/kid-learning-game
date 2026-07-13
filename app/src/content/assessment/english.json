@@ -1656,6 +1656,351 @@
           "correct": false
         }
       ]
+    },
+    {
+      "id": 73,
+      "question": "Which word rhymes with SUN?",
+      "topic": "Rhyming Words",
+      "options": [
+        {
+          "text": "FUN",
+          "correct": true
+        },
+        {
+          "text": "SIT",
+          "correct": false
+        },
+        {
+          "text": "CAP",
+          "correct": false
+        },
+        {
+          "text": "DOG",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "question": "The plural of CAT is ___.",
+      "topic": "Plurals",
+      "options": [
+        {
+          "text": "CATS",
+          "correct": true
+        },
+        {
+          "text": "CATES",
+          "correct": false
+        },
+        {
+          "text": "CAT",
+          "correct": false
+        },
+        {
+          "text": "CATIES",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "question": "Which letter comes before B?",
+      "topic": "Alphabet Order",
+      "options": [
+        {
+          "text": "A",
+          "correct": true
+        },
+        {
+          "text": "C",
+          "correct": false
+        },
+        {
+          "text": "D",
+          "correct": false
+        },
+        {
+          "text": "Z",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "question": "Which letter comes between P and R?",
+      "topic": "Alphabet Order",
+      "options": [
+        {
+          "text": "Q",
+          "correct": true
+        },
+        {
+          "text": "S",
+          "correct": false
+        },
+        {
+          "text": "O",
+          "correct": false
+        },
+        {
+          "text": "T",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "question": "A baby cat is called a ___.",
+      "topic": "Young Ones",
+      "options": [
+        {
+          "text": "Kitten",
+          "correct": true
+        },
+        {
+          "text": "Puppy",
+          "correct": false
+        },
+        {
+          "text": "Calf",
+          "correct": false
+        },
+        {
+          "text": "Cub",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "question": "A baby cow is called a ___.",
+      "topic": "Young Ones",
+      "options": [
+        {
+          "text": "Calf",
+          "correct": true
+        },
+        {
+          "text": "Puppy",
+          "correct": false
+        },
+        {
+          "text": "Kitten",
+          "correct": false
+        },
+        {
+          "text": "Chick",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "question": "A hen says ___.",
+      "topic": "Animal Sounds",
+      "options": [
+        {
+          "text": "Cluck",
+          "correct": true
+        },
+        {
+          "text": "Moo",
+          "correct": false
+        },
+        {
+          "text": "Roar",
+          "correct": false
+        },
+        {
+          "text": "Bark",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "question": "How many vowels are there in English?",
+      "topic": "Vowels",
+      "options": [
+        {
+          "text": "5",
+          "correct": true
+        },
+        {
+          "text": "2",
+          "correct": false
+        },
+        {
+          "text": "21",
+          "correct": false
+        },
+        {
+          "text": "26",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "question": "They ___ happy.",
+      "topic": "Simple Sentences",
+      "options": [
+        {
+          "text": "are",
+          "correct": true
+        },
+        {
+          "text": "is",
+          "correct": false
+        },
+        {
+          "text": "am",
+          "correct": false
+        },
+        {
+          "text": "be",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "question": "Opposite of UP is ___.",
+      "topic": "Opposites",
+      "options": [
+        {
+          "text": "DOWN",
+          "correct": true
+        },
+        {
+          "text": "TOP",
+          "correct": false
+        },
+        {
+          "text": "HIGH",
+          "correct": false
+        },
+        {
+          "text": "SIDE",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "question": "B-A-L-L spells ___.",
+      "topic": "Spelling",
+      "options": [
+        {
+          "text": "BALL",
+          "correct": true
+        },
+        {
+          "text": "BELL",
+          "correct": false
+        },
+        {
+          "text": "BOLL",
+          "correct": false
+        },
+        {
+          "text": "BALE",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "question": "Which word starts with the same sound as MOON?",
+      "topic": "Beginning Sounds",
+      "options": [
+        {
+          "text": "MANGO",
+          "correct": true
+        },
+        {
+          "text": "SUN",
+          "correct": false
+        },
+        {
+          "text": "TAP",
+          "correct": false
+        },
+        {
+          "text": "FAN",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "question": "Choose the describing word: The ___ elephant.",
+      "topic": "Grammar: Adjectives",
+      "options": [
+        {
+          "text": "big",
+          "correct": true
+        },
+        {
+          "text": "run",
+          "correct": false
+        },
+        {
+          "text": "eat",
+          "correct": false
+        },
+        {
+          "text": "sing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "question": "Find the action word: The boy runs fast.",
+      "topic": "Grammar: Verbs",
+      "options": [
+        {
+          "text": "runs",
+          "correct": true
+        },
+        {
+          "text": "boy",
+          "correct": false
+        },
+        {
+          "text": "fast",
+          "correct": false
+        },
+        {
+          "text": "the",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "question": "What color is a ripe banana?",
+      "topic": "Colors",
+      "options": [
+        {
+          "text": "Yellow",
+          "correct": true
+        },
+        {
+          "text": "Blue",
+          "correct": false
+        },
+        {
+          "text": "Purple",
+          "correct": false
+        },
+        {
+          "text": "Black",
+          "correct": false
+        }
+      ]
     }
   ]
 }

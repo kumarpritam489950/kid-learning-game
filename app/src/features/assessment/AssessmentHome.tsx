@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router';
 import { loadAssessmentBank } from '../../content/assessment';
 import type { AssessmentSubject } from '../../content/schema';
 import styles from './Assessment.module.css';
-import { assessmentTitle } from './subjectMeta';
+import { assessmentMeta } from './subjectMeta';
 import { DEFAULT_RUN_LENGTH } from './runLogic';
 
 export function AssessmentHome() {
@@ -36,17 +36,27 @@ export function AssessmentHome() {
         <p className={styles.loading}>Loading questions…</p>
       ) : (
         <div className={styles.grid}>
-          {subjects.map((subject) => (
-            <button
-              key={subject.id}
-              type="button"
-              className={styles.card}
-              onClick={() => navigate(`/assessment/${subject.id}`)}
-            >
-              <span className={styles.cardTitle}>{assessmentTitle(subject.id)}</span>
-              <span className={styles.cardCount}>{subject.questions.length} questions</span>
-            </button>
-          ))}
+          {subjects.map((subject) => {
+            const meta = assessmentMeta(subject.id);
+            return (
+              <button
+                key={subject.id}
+                type="button"
+                className={styles.card}
+                style={{
+                  background: `linear-gradient(160deg, ${meta.bg1}, ${meta.bg2})`,
+                  color: meta.ink,
+                }}
+                onClick={() => navigate(`/assessment/${subject.id}`)}
+              >
+                <span className={styles.cardEmoji} aria-hidden="true">
+                  {meta.emoji}
+                </span>
+                <span className={styles.cardTitle}>{meta.title}</span>
+                <span className={styles.cardCount}>{subject.questions.length} questions</span>
+              </button>
+            );
+          })}
         </div>
       )}
     </section>

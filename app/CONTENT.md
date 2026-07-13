@@ -10,13 +10,16 @@ in [src/content/schema.ts](src/content/schema.ts).
 | `subjects/<id>.json`       | 9 lesson subjects (english, math, kannada, hindi, science, computer, rhymes, gk, mental_math), 111 modules total |
 | `funGames.json`            | 9 arcade game configs                                                                                            |
 | `stories.json`             | 4 Story Time stories with per-page text + TTS lines                                                              |
-| `assessment/<id>.json`     | 342-question assessment bank (mathematics 84, english 72, hindi 42, computer 52, kannada 41, evs 51)             |
+| `assessment/<id>.json`     | 432-question assessment bank (mathematics 99, english 87, hindi 57, computer 67, kannada 56, evs 66)             |
 | `app-meta.json`            | praise/try messages, class level                                                                                 |
 | `conversion-manifest.json` | frozen v1 counts — the floor the live content may never drop below                                               |
 
 Batches so far: v1 conversion (103 modules / 283 assessment) + 2026-07
 authoring batch (`scripts/add-content-2026-07.mjs`: +8 modules / +59
-assessment questions). Picture-word items carry `image` illustrations
+assessment questions) + 2026-07b authoring batch
+(`scripts/add-assessment-2026-07b.mjs`: +90 assessment questions, 15 per
+subject; also repaired evs #24, whose v1 text was its topic name).
+Picture-word items carry `image` illustrations
 (OpenMoji, CC BY-SA 4.0) fetched by `scripts/fetch-openmoji.mjs` — 335
 items covered; composite visuals (e.g. "🍎 A", keycap numbers) keep text
 rendering on purpose.
