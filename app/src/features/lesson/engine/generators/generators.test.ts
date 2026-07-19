@@ -9,8 +9,8 @@ const ALL_MODULES = LESSON_SUBJECTS.flatMap((subject) =>
 );
 
 describe('createQuestionBank across all real content', () => {
-  it('covers all 111 modules (103 v1 + 8 batch 2026-07)', () => {
-    expect(ALL_MODULES).toHaveLength(111);
+  it('covers all 114 modules (103 v1 + 8 batch 2026-07 + 3 mental maths 2026-07d)', () => {
+    expect(ALL_MODULES).toHaveLength(114);
   });
 
   it.each(ALL_MODULES.map((m) => [`${m.subjectId}/${m.module.id}`, m.module] as const))(

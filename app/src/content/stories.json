@@ -150,6 +150,234 @@
           "speakText": "Then he pushed out of the cocoon and he was a beautiful butterfly! Eating healthy food helps you grow big and beautiful!"
         }
       ]
+    },
+    {
+      "id": "ravi_red_kite",
+      "title": "Ravi and the Red Kite",
+      "emoji": "🧒🪁",
+      "moral": "Friends help each other.",
+      "pages": [
+        {
+          "visual": "🧒🪁",
+          "text": "This is Ravi. He has a red kite.",
+          "speakText": "This is Ravi. He has a red kite."
+        },
+        {
+          "visual": "🌬️🪁",
+          "text": "The wind blows. The kite goes up, up, up!",
+          "speakText": "The wind blows. The kite goes up, up, up!"
+        },
+        {
+          "visual": "🌳🪁",
+          "text": "Oh no! The kite is stuck in a tall tree.",
+          "speakText": "Oh no! The kite is stuck in a tall tree."
+        },
+        {
+          "visual": "🧒😢",
+          "text": "Ravi is sad. He cannot reach his kite.",
+          "speakText": "Ravi is sad. He cannot reach his kite."
+        },
+        {
+          "visual": "👧🪜",
+          "text": "His friend Mira brings a ladder. They get the kite down together.",
+          "speakText": "His friend Mira brings a ladder. They get the kite down together."
+        },
+        {
+          "visual": "🧒👧🪁",
+          "text": "Ravi and Mira fly the kite together. Flying with a friend is more fun!",
+          "speakText": "Ravi and Mira fly the kite together. Flying with a friend is more fun!"
+        }
+      ]
+    },
+    {
+      "id": "little_seed",
+      "title": "The Little Seed",
+      "emoji": "🌱☀️",
+      "moral": "Good things take time to grow.",
+      "pages": [
+        {
+          "visual": "🌰",
+          "text": "A little seed sleeps in the soil.",
+          "speakText": "A little seed sleeps in the soil."
+        },
+        {
+          "visual": "🌧️",
+          "text": "The rain falls. Drip, drop, drip!",
+          "speakText": "The rain falls. Drip, drop, drip!"
+        },
+        {
+          "visual": "☀️",
+          "text": "The sun shines. The soil gets warm.",
+          "speakText": "The sun shines. The soil gets warm."
+        },
+        {
+          "visual": "🌱",
+          "text": "The seed wakes up. A tiny green shoot comes out.",
+          "speakText": "The seed wakes up. A tiny green shoot comes out."
+        },
+        {
+          "visual": "🌿🌸",
+          "text": "The shoot grows and grows. Little flowers open up.",
+          "speakText": "The shoot grows and grows. Little flowers open up."
+        },
+        {
+          "visual": "🌳🐦",
+          "text": "Now it is a big plant! Birds and bees come to say hello.",
+          "speakText": "Now it is a big plant! Birds and bees come to say hello."
+        }
+      ]
+    },
+    {
+      "id": "meena_market",
+      "title": "Meena Goes to the Market",
+      "emoji": "👧🧺",
+      "moral": "Sharing makes everyone happy.",
+      "pages": [
+        {
+          "visual": "👧🧺",
+          "text": "Meena goes to the market with her mother.",
+          "speakText": "Meena goes to the market with her mother."
+        },
+        {
+          "visual": "🍎🍎",
+          "text": "She buys two red apples.",
+          "speakText": "She buys two red apples."
+        },
+        {
+          "visual": "🍌🍌🍌",
+          "text": "She buys three yellow bananas.",
+          "speakText": "She buys three yellow bananas."
+        },
+        {
+          "visual": "🥕🥕🥕🥕",
+          "text": "She buys four orange carrots.",
+          "speakText": "She buys four orange carrots."
+        },
+        {
+          "visual": "👵🍎",
+          "text": "At home, Meena gives one apple to her grandmother.",
+          "speakText": "At home, Meena gives one apple to her grandmother."
+        },
+        {
+          "visual": "👵😊",
+          "text": "Grandmother smiles a big smile. Meena feels very happy.",
+          "speakText": "Grandmother smiles a big smile. Meena feels very happy."
+        }
+      ]
+    },
+    {
+      "id": "rainy_day_cat",
+      "title": "The Rainy Day",
+      "emoji": "☔🐱",
+      "moral": "Be kind to animals.",
+      "pages": [
+        {
+          "visual": "🌧️🌧️",
+          "text": "It rains and rains all day.",
+          "speakText": "It rains and rains all day."
+        },
+        {
+          "visual": "🐱💧",
+          "text": "A little cat sits in the rain. It is wet and cold.",
+          "speakText": "A little cat sits in the rain. It is wet and cold."
+        },
+        {
+          "visual": "👦🪟",
+          "text": "Arjun sees the cat from his window.",
+          "speakText": "Arjun sees the cat from his window."
+        },
+        {
+          "visual": "👦☔",
+          "text": "He runs out with his big umbrella.",
+          "speakText": "He runs out with his big umbrella."
+        },
+        {
+          "visual": "🏠🐱",
+          "text": "He brings the cat home and dries it with a soft towel.",
+          "speakText": "He brings the cat home and dries it with a soft towel."
+        },
+        {
+          "visual": "🐱💤",
+          "text": "The cat purrs and falls asleep. Arjun feels good inside.",
+          "speakText": "The cat purrs and falls asleep. Arjun feels good inside."
+        }
+      ]
+    },
+    {
+      "id": "little_red_hen",
+      "title": "The Little Red Hen",
+      "emoji": "🐔🌾",
+      "moral": "Work hard and you will enjoy the reward.",
+      "pages": [
+        {
+          "visual": "🐔🌾",
+          "text": "A little red hen finds some grains of wheat.",
+          "speakText": "A little red hen finds some grains of wheat."
+        },
+        {
+          "visual": "🐔❓",
+          "text": "\"Who will help me plant the wheat?\" she asks.",
+          "speakText": "\"Who will help me plant the wheat?\" she asks."
+        },
+        {
+          "visual": "🐱🐶",
+          "text": "\"Not I,\" says the cat. \"Not I,\" says the dog.",
+          "speakText": "\"Not I,\" says the cat. \"Not I,\" says the dog."
+        },
+        {
+          "visual": "🐔🌱",
+          "text": "So the hen plants the wheat all by herself. It grows tall and golden.",
+          "speakText": "So the hen plants the wheat all by herself. It grows tall and golden."
+        },
+        {
+          "visual": "🍞",
+          "text": "She makes soft, warm bread from the wheat. What a lovely smell!",
+          "speakText": "She makes soft, warm bread from the wheat. What a lovely smell!"
+        },
+        {
+          "visual": "🐔🐥",
+          "text": "She shares the bread with her little chicks. Yum, yum, yum!",
+          "speakText": "She shares the bread with her little chicks. Yum, yum, yum!"
+        }
+      ]
+    },
+    {
+      "id": "tara_moon",
+      "title": "Tara and the Moon",
+      "emoji": "👧🌙",
+      "moral": "Ask questions — that is how we learn.",
+      "pages": [
+        {
+          "visual": "👧🌙",
+          "text": "At night, Tara looks up at the sky.",
+          "speakText": "At night, Tara looks up at the sky."
+        },
+        {
+          "visual": "🌕✨",
+          "text": "The moon is big and round. The stars twinkle, twinkle.",
+          "speakText": "The moon is big and round. The stars twinkle, twinkle."
+        },
+        {
+          "visual": "👧❓",
+          "text": "\"Mummy, why does the moon change its shape?\" asks Tara.",
+          "speakText": "\"Mummy, why does the moon change its shape?\" asks Tara."
+        },
+        {
+          "visual": "👩🌒",
+          "text": "Mother says, \"The moon shows us a new shape every night.\"",
+          "speakText": "Mother says, \"The moon shows us a new shape every night.\""
+        },
+        {
+          "visual": "🌒🌓🌕",
+          "text": "Some nights it is thin like a banana. Some nights it is round like a roti.",
+          "speakText": "Some nights it is thin like a banana. Some nights it is round like a roti."
+        },
+        {
+          "visual": "👧💤",
+          "text": "Tara waves good night to the moon and goes to sleep.",
+          "speakText": "Tara waves good night to the moon and goes to sleep."
+        }
+      ]
     }
   ]
 }

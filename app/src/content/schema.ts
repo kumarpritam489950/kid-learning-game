@@ -165,6 +165,8 @@ export const lessonModuleSchema = z.discriminatedUnion('type', [
         z.strictObject({
           question: z.string().min(1),
           visual: z.string(),
+          /** Optional illustration path (relative to BASE_URL); wins over emoji. */
+          image: z.string().optional(),
           answer: z.string().min(1),
           options: z.array(z.string().min(1)).min(2),
           // Authored TTS hints on some items; the v1 engine ignored these,

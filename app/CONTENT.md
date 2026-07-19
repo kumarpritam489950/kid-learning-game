@@ -7,9 +7,9 @@ in [src/content/schema.ts](src/content/schema.ts).
 
 | Path                       | What                                                                                                             |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| `subjects/<id>.json`       | 9 lesson subjects (english, math, kannada, hindi, science, computer, rhymes, gk, mental_math), 111 modules total |
-| `funGames.json`            | 9 arcade game configs                                                                                            |
-| `stories.json`             | 4 Story Time stories with per-page text + TTS lines                                                              |
+| `subjects/<id>.json`       | 9 lesson subjects (english, math, kannada, hindi, science, computer, rhymes, gk, mental_math), 114 modules total |
+| `funGames.json`            | 9 arcade game configs (8 more games are code-defined in `features/funGames/registry.ts`: 2 v1 + 6 subject games) |
+| `stories.json`             | 10 Story Time stories with per-page text + TTS lines (4 v1 + 6 Class 1 reading-book batch 2026-07c)              |
 | `assessment/<id>.json`     | 432-question assessment bank (mathematics 99, english 87, hindi 57, computer 67, kannada 56, evs 66)             |
 | `app-meta.json`            | praise/try messages, class level                                                                                 |
 | `conversion-manifest.json` | frozen v1 counts — the floor the live content may never drop below                                               |

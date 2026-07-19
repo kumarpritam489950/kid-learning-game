@@ -39,9 +39,9 @@ afterEach(() => {
 describe('fun game leak safety', () => {
   const games = getAllGames();
 
-  it('has all 11 games registered', () => {
-    expect(games).toHaveLength(11);
-    expect(new Set(games.map((g) => g.id)).size).toBe(11);
+  it('has all 17 games registered', () => {
+    expect(games).toHaveLength(17);
+    expect(new Set(games.map((g) => g.id)).size).toBe(17);
   });
 
   it.each(games.map((g) => [g.id, g] as const))(

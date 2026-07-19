@@ -12,93 +12,183 @@
       "items": [
         {
           "question": "3 + 4 = ?",
-          "visual": "⚡",
+          "visual": "🍎",
           "answer": "7",
-          "options": ["7", "6", "8", "5"]
+          "options": [
+            "7",
+            "6",
+            "8",
+            "5"
+          ],
+          "image": "images/words/1F34E.svg"
         },
         {
           "question": "5 + 2 = ?",
-          "visual": "⚡",
+          "visual": "🎈",
           "answer": "7",
-          "options": ["7", "8", "6", "9"]
+          "options": [
+            "7",
+            "8",
+            "6",
+            "9"
+          ],
+          "image": "images/words/1F388.svg"
         },
         {
           "question": "6 + 3 = ?",
-          "visual": "⚡",
+          "visual": "⭐",
           "answer": "9",
-          "options": ["9", "8", "10", "7"]
+          "options": [
+            "9",
+            "8",
+            "10",
+            "7"
+          ],
+          "image": "images/words/2B50.svg"
         },
         {
           "question": "4 + 5 = ?",
-          "visual": "⚡",
+          "visual": "🍬",
           "answer": "9",
-          "options": ["9", "8", "10", "7"]
+          "options": [
+            "9",
+            "8",
+            "10",
+            "7"
+          ],
+          "image": "images/words/1F36C.svg"
         },
         {
           "question": "7 + 2 = ?",
-          "visual": "⚡",
+          "visual": "🐠",
           "answer": "9",
-          "options": ["9", "8", "10", "6"]
+          "options": [
+            "9",
+            "8",
+            "10",
+            "6"
+          ],
+          "image": "images/words/1F420.svg"
         },
         {
           "question": "8 + 1 = ?",
-          "visual": "⚡",
+          "visual": "🍎",
           "answer": "9",
-          "options": ["9", "7", "10", "8"]
+          "options": [
+            "9",
+            "7",
+            "10",
+            "8"
+          ],
+          "image": "images/words/1F34E.svg"
         },
         {
           "question": "2 + 6 = ?",
-          "visual": "⚡",
+          "visual": "🎈",
           "answer": "8",
-          "options": ["8", "7", "9", "6"]
+          "options": [
+            "8",
+            "7",
+            "9",
+            "6"
+          ],
+          "image": "images/words/1F388.svg"
         },
         {
           "question": "3 + 3 = ?",
-          "visual": "⚡",
+          "visual": "⭐",
           "answer": "6",
-          "options": ["6", "5", "7", "9"]
+          "options": [
+            "6",
+            "5",
+            "7",
+            "9"
+          ],
+          "image": "images/words/2B50.svg"
         },
         {
           "question": "4 + 4 = ?",
-          "visual": "⚡",
+          "visual": "🍬",
           "answer": "8",
-          "options": ["8", "7", "9", "6"]
+          "options": [
+            "8",
+            "7",
+            "9",
+            "6"
+          ],
+          "image": "images/words/1F36C.svg"
         },
         {
           "question": "5 + 5 = ?",
-          "visual": "⚡",
+          "visual": "🐠",
           "answer": "10",
-          "options": ["10", "9", "11", "8"]
+          "options": [
+            "10",
+            "9",
+            "11",
+            "8"
+          ],
+          "image": "images/words/1F420.svg"
         },
         {
           "question": "1 + 9 = ?",
-          "visual": "⚡",
+          "visual": "🍎",
           "answer": "10",
-          "options": ["10", "9", "11", "8"]
+          "options": [
+            "10",
+            "9",
+            "11",
+            "8"
+          ],
+          "image": "images/words/1F34E.svg"
         },
         {
           "question": "6 + 4 = ?",
-          "visual": "⚡",
+          "visual": "🎈",
           "answer": "10",
-          "options": ["10", "9", "11", "8"]
+          "options": [
+            "10",
+            "9",
+            "11",
+            "8"
+          ],
+          "image": "images/words/1F388.svg"
         },
         {
           "question": "7 + 3 = ?",
-          "visual": "⚡",
+          "visual": "⭐",
           "answer": "10",
-          "options": ["10", "9", "11", "8"]
+          "options": [
+            "10",
+            "9",
+            "11",
+            "8"
+          ],
+          "image": "images/words/2B50.svg"
         },
         {
           "question": "8 + 2 = ?",
-          "visual": "⚡",
+          "visual": "🍬",
           "answer": "10",
-          "options": ["10", "9", "11", "12"]
+          "options": [
+            "10",
+            "9",
+            "11",
+            "12"
+          ],
+          "image": "images/words/1F36C.svg"
         },
         {
           "question": "2 + 2 = ?",
-          "visual": "⚡",
+          "visual": "🐠",
           "answer": "4",
-          "options": ["4", "3", "5", "6"]
+          "options": [
+            "4",
+            "3",
+            "5",
+            "6"
+          ],
+          "image": "images/words/1F420.svg"
         }
       ]
     },
@@ -110,93 +200,183 @@
       "items": [
         {
           "question": "9 - 3 = ?",
-          "visual": "⚡",
+          "visual": "🎈",
           "answer": "6",
-          "options": ["6", "7", "5", "8"]
+          "options": [
+            "6",
+            "7",
+            "5",
+            "8"
+          ],
+          "image": "images/words/1F388.svg"
         },
         {
           "question": "8 - 2 = ?",
-          "visual": "⚡",
+          "visual": "🍪",
           "answer": "6",
-          "options": ["6", "5", "7", "4"]
+          "options": [
+            "6",
+            "5",
+            "7",
+            "4"
+          ],
+          "image": "images/words/1F36A.svg"
         },
         {
           "question": "7 - 4 = ?",
-          "visual": "⚡",
+          "visual": "🐦",
           "answer": "3",
-          "options": ["3", "4", "2", "5"]
+          "options": [
+            "3",
+            "4",
+            "2",
+            "5"
+          ],
+          "image": "images/words/1F426.svg"
         },
         {
           "question": "10 - 5 = ?",
-          "visual": "⚡",
+          "visual": "🧁",
           "answer": "5",
-          "options": ["5", "4", "6", "3"]
+          "options": [
+            "5",
+            "4",
+            "6",
+            "3"
+          ],
+          "image": "images/words/1F9C1.svg"
         },
         {
           "question": "6 - 2 = ?",
-          "visual": "⚡",
+          "visual": "🍭",
           "answer": "4",
-          "options": ["4", "3", "5", "2"]
+          "options": [
+            "4",
+            "3",
+            "5",
+            "2"
+          ],
+          "image": "images/words/1F36D.svg"
         },
         {
           "question": "9 - 5 = ?",
-          "visual": "⚡",
+          "visual": "🎈",
           "answer": "4",
-          "options": ["4", "5", "3", "6"]
+          "options": [
+            "4",
+            "5",
+            "3",
+            "6"
+          ],
+          "image": "images/words/1F388.svg"
         },
         {
           "question": "8 - 3 = ?",
-          "visual": "⚡",
+          "visual": "🍪",
           "answer": "5",
-          "options": ["5", "4", "6", "3"]
+          "options": [
+            "5",
+            "4",
+            "6",
+            "3"
+          ],
+          "image": "images/words/1F36A.svg"
         },
         {
           "question": "10 - 3 = ?",
-          "visual": "⚡",
+          "visual": "🐦",
           "answer": "7",
-          "options": ["7", "6", "8", "5"]
+          "options": [
+            "7",
+            "6",
+            "8",
+            "5"
+          ],
+          "image": "images/words/1F426.svg"
         },
         {
           "question": "7 - 2 = ?",
-          "visual": "⚡",
+          "visual": "🧁",
           "answer": "5",
-          "options": ["5", "4", "6", "3"]
+          "options": [
+            "5",
+            "4",
+            "6",
+            "3"
+          ],
+          "image": "images/words/1F9C1.svg"
         },
         {
           "question": "10 - 7 = ?",
-          "visual": "⚡",
+          "visual": "🍭",
           "answer": "3",
-          "options": ["3", "4", "2", "5"]
+          "options": [
+            "3",
+            "4",
+            "2",
+            "5"
+          ],
+          "image": "images/words/1F36D.svg"
         },
         {
           "question": "9 - 4 = ?",
-          "visual": "⚡",
+          "visual": "🎈",
           "answer": "5",
-          "options": ["5", "4", "6", "3"]
+          "options": [
+            "5",
+            "4",
+            "6",
+            "3"
+          ],
+          "image": "images/words/1F388.svg"
         },
         {
           "question": "6 - 3 = ?",
-          "visual": "⚡",
+          "visual": "🍪",
           "answer": "3",
-          "options": ["3", "4", "2", "5"]
+          "options": [
+            "3",
+            "4",
+            "2",
+            "5"
+          ],
+          "image": "images/words/1F36A.svg"
         },
         {
           "question": "8 - 5 = ?",
-          "visual": "⚡",
+          "visual": "🐦",
           "answer": "3",
-          "options": ["3", "4", "2", "5"]
+          "options": [
+            "3",
+            "4",
+            "2",
+            "5"
+          ],
+          "image": "images/words/1F426.svg"
         },
         {
           "question": "10 - 4 = ?",
-          "visual": "⚡",
+          "visual": "🧁",
           "answer": "6",
-          "options": ["6", "5", "7", "4"]
+          "options": [
+            "6",
+            "5",
+            "7",
+            "4"
+          ],
+          "image": "images/words/1F9C1.svg"
         },
         {
           "question": "5 - 2 = ?",
-          "visual": "⚡",
+          "visual": "🍭",
           "answer": "3",
-          "options": ["3", "2", "4", "5"]
+          "options": [
+            "3",
+            "2",
+            "4",
+            "5"
+          ],
+          "image": "images/words/1F36D.svg"
         }
       ]
     },
@@ -208,93 +388,183 @@
       "items": [
         {
           "question": "7 + ___ = 10",
-          "visual": "🔗",
+          "visual": "🔟",
           "answer": "3",
-          "options": ["3", "2", "4", "5"]
+          "options": [
+            "3",
+            "2",
+            "4",
+            "5"
+          ],
+          "image": "images/words/1F51F.svg"
         },
         {
           "question": "4 + ___ = 10",
-          "visual": "🔗",
+          "visual": "🖐",
           "answer": "6",
-          "options": ["6", "5", "7", "4"]
+          "options": [
+            "6",
+            "5",
+            "7",
+            "4"
+          ],
+          "image": "images/words/1F590.svg"
         },
         {
           "question": "8 + ___ = 10",
-          "visual": "🔗",
+          "visual": "🧩",
           "answer": "2",
-          "options": ["2", "3", "1", "4"]
+          "options": [
+            "2",
+            "3",
+            "1",
+            "4"
+          ],
+          "image": "images/words/1F9E9.svg"
         },
         {
           "question": "5 + ___ = 10",
           "visual": "🔗",
           "answer": "5",
-          "options": ["5", "4", "6", "3"]
+          "options": [
+            "5",
+            "4",
+            "6",
+            "3"
+          ],
+          "image": "images/words/1F517.svg"
         },
         {
           "question": "9 + ___ = 10",
-          "visual": "🔗",
+          "visual": "🔟",
           "answer": "1",
-          "options": ["1", "2", "0", "3"]
+          "options": [
+            "1",
+            "2",
+            "0",
+            "3"
+          ],
+          "image": "images/words/1F51F.svg"
         },
         {
           "question": "6 + ___ = 10",
-          "visual": "🔗",
+          "visual": "🖐",
           "answer": "4",
-          "options": ["4", "3", "5", "6"]
+          "options": [
+            "4",
+            "3",
+            "5",
+            "6"
+          ],
+          "image": "images/words/1F590.svg"
         },
         {
           "question": "3 + ___ = 10",
-          "visual": "🔗",
+          "visual": "🧩",
           "answer": "7",
-          "options": ["7", "6", "8", "5"]
+          "options": [
+            "7",
+            "6",
+            "8",
+            "5"
+          ],
+          "image": "images/words/1F9E9.svg"
         },
         {
           "question": "2 + ___ = 10",
           "visual": "🔗",
           "answer": "8",
-          "options": ["8", "7", "9", "6"]
+          "options": [
+            "8",
+            "7",
+            "9",
+            "6"
+          ],
+          "image": "images/words/1F517.svg"
         },
         {
           "question": "1 + ___ = 10",
-          "visual": "🔗",
+          "visual": "🔟",
           "answer": "9",
-          "options": ["9", "8", "10", "7"]
+          "options": [
+            "9",
+            "8",
+            "10",
+            "7"
+          ],
+          "image": "images/words/1F51F.svg"
         },
         {
           "question": "10 + ___ = 10",
-          "visual": "🔗",
+          "visual": "🖐",
           "answer": "0",
-          "options": ["0", "1", "10", "5"]
+          "options": [
+            "0",
+            "1",
+            "10",
+            "5"
+          ],
+          "image": "images/words/1F590.svg"
         },
         {
           "question": "What makes 10? 6 and ___",
-          "visual": "🔗",
+          "visual": "🧩",
           "answer": "4",
-          "options": ["4", "3", "5", "2"]
+          "options": [
+            "4",
+            "3",
+            "5",
+            "2"
+          ],
+          "image": "images/words/1F9E9.svg"
         },
         {
           "question": "What makes 10? 7 and ___",
           "visual": "🔗",
           "answer": "3",
-          "options": ["3", "4", "2", "5"]
+          "options": [
+            "3",
+            "4",
+            "2",
+            "5"
+          ],
+          "image": "images/words/1F517.svg"
         },
         {
           "question": "What makes 10? 8 and ___",
-          "visual": "🔗",
+          "visual": "🔟",
           "answer": "2",
-          "options": ["2", "3", "1", "4"]
+          "options": [
+            "2",
+            "3",
+            "1",
+            "4"
+          ],
+          "image": "images/words/1F51F.svg"
         },
         {
           "question": "What makes 10? 5 and ___",
-          "visual": "🔗",
+          "visual": "🖐",
           "answer": "5",
-          "options": ["5", "4", "6", "3"]
+          "options": [
+            "5",
+            "4",
+            "6",
+            "3"
+          ],
+          "image": "images/words/1F590.svg"
         },
         {
           "question": "What makes 10? 9 and ___",
-          "visual": "🔗",
+          "visual": "🧩",
           "answer": "1",
-          "options": ["1", "2", "0", "3"]
+          "options": [
+            "1",
+            "2",
+            "0",
+            "3"
+          ],
+          "image": "images/words/1F9E9.svg"
         }
       ]
     },
@@ -306,93 +576,183 @@
       "items": [
         {
           "question": "Double of 1 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "🎲",
           "answer": "2",
-          "options": ["2", "1", "3", "4"]
+          "options": [
+            "2",
+            "1",
+            "3",
+            "4"
+          ],
+          "image": "images/words/1F3B2.svg"
         },
         {
           "question": "Double of 2 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "🦋",
           "answer": "4",
-          "options": ["4", "3", "5", "2"]
+          "options": [
+            "4",
+            "3",
+            "5",
+            "2"
+          ],
+          "image": "images/words/1F98B.svg"
         },
         {
           "question": "Double of 3 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "👐",
           "answer": "6",
-          "options": ["6", "5", "7", "4"]
+          "options": [
+            "6",
+            "5",
+            "7",
+            "4"
+          ],
+          "image": "images/words/1F450.svg"
         },
         {
           "question": "Double of 4 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "🐞",
           "answer": "8",
-          "options": ["8", "7", "9", "6"]
+          "options": [
+            "8",
+            "7",
+            "9",
+            "6"
+          ],
+          "image": "images/words/1F41E.svg"
         },
         {
           "question": "Double of 5 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "🎲",
           "answer": "10",
-          "options": ["10", "9", "11", "8"]
+          "options": [
+            "10",
+            "9",
+            "11",
+            "8"
+          ],
+          "image": "images/words/1F3B2.svg"
         },
         {
           "question": "Double of 6 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "🦋",
           "answer": "12",
-          "options": ["12", "11", "13", "10"]
+          "options": [
+            "12",
+            "11",
+            "13",
+            "10"
+          ],
+          "image": "images/words/1F98B.svg"
         },
         {
           "question": "Double of 7 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "👐",
           "answer": "14",
-          "options": ["14", "13", "15", "12"]
+          "options": [
+            "14",
+            "13",
+            "15",
+            "12"
+          ],
+          "image": "images/words/1F450.svg"
         },
         {
           "question": "Double of 8 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "🐞",
           "answer": "16",
-          "options": ["16", "15", "17", "14"]
+          "options": [
+            "16",
+            "15",
+            "17",
+            "14"
+          ],
+          "image": "images/words/1F41E.svg"
         },
         {
           "question": "Double of 9 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "🎲",
           "answer": "18",
-          "options": ["18", "17", "19", "16"]
+          "options": [
+            "18",
+            "17",
+            "19",
+            "16"
+          ],
+          "image": "images/words/1F3B2.svg"
         },
         {
           "question": "Double of 10 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "🦋",
           "answer": "20",
-          "options": ["20", "19", "21", "18"]
+          "options": [
+            "20",
+            "19",
+            "21",
+            "18"
+          ],
+          "image": "images/words/1F98B.svg"
         },
         {
           "question": "2 + 2 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "👐",
           "answer": "4",
-          "options": ["4", "3", "5", "2"]
+          "options": [
+            "4",
+            "3",
+            "5",
+            "2"
+          ],
+          "image": "images/words/1F450.svg"
         },
         {
           "question": "3 + 3 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "🐞",
           "answer": "6",
-          "options": ["6", "5", "7", "4"]
+          "options": [
+            "6",
+            "5",
+            "7",
+            "4"
+          ],
+          "image": "images/words/1F41E.svg"
         },
         {
           "question": "4 + 4 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "🎲",
           "answer": "8",
-          "options": ["8", "7", "9", "6"]
+          "options": [
+            "8",
+            "7",
+            "9",
+            "6"
+          ],
+          "image": "images/words/1F3B2.svg"
         },
         {
           "question": "5 + 5 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "🦋",
           "answer": "10",
-          "options": ["10", "9", "11", "8"]
+          "options": [
+            "10",
+            "9",
+            "11",
+            "8"
+          ],
+          "image": "images/words/1F98B.svg"
         },
         {
           "question": "6 + 6 = ?",
-          "visual": "✖️2️⃣",
+          "visual": "👐",
           "answer": "12",
-          "options": ["12", "11", "13", "10"]
+          "options": [
+            "12",
+            "11",
+            "13",
+            "10"
+          ],
+          "image": "images/words/1F450.svg"
         }
       ]
     },
@@ -404,93 +764,183 @@
       "items": [
         {
           "question": "One more than 5 = ?",
-          "visual": "➕1️⃣",
+          "visual": "🎠",
           "answer": "6",
-          "options": ["6", "5", "7", "4"]
+          "options": [
+            "6",
+            "5",
+            "7",
+            "4"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "One more than 9 = ?",
-          "visual": "➕1️⃣",
+          "visual": "🎠",
           "answer": "10",
-          "options": ["10", "9", "11", "8"]
+          "options": [
+            "10",
+            "9",
+            "11",
+            "8"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "One more than 12 = ?",
-          "visual": "➕1️⃣",
+          "visual": "🎠",
           "answer": "13",
-          "options": ["13", "12", "14", "11"]
+          "options": [
+            "13",
+            "12",
+            "14",
+            "11"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "One more than 19 = ?",
-          "visual": "➕1️⃣",
+          "visual": "🎠",
           "answer": "20",
-          "options": ["20", "19", "21", "18"]
+          "options": [
+            "20",
+            "19",
+            "21",
+            "18"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "One more than 7 = ?",
-          "visual": "➕1️⃣",
+          "visual": "🎠",
           "answer": "8",
-          "options": ["8", "7", "9", "6"]
+          "options": [
+            "8",
+            "7",
+            "9",
+            "6"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "One less than 10 = ?",
-          "visual": "➖1️⃣",
+          "visual": "🎠",
           "answer": "9",
-          "options": ["9", "10", "8", "11"]
+          "options": [
+            "9",
+            "10",
+            "8",
+            "11"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "One less than 6 = ?",
-          "visual": "➖1️⃣",
+          "visual": "🎠",
           "answer": "5",
-          "options": ["5", "6", "4", "7"]
+          "options": [
+            "5",
+            "6",
+            "4",
+            "7"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "One less than 15 = ?",
-          "visual": "➖1️⃣",
+          "visual": "🎠",
           "answer": "14",
-          "options": ["14", "15", "13", "16"]
+          "options": [
+            "14",
+            "15",
+            "13",
+            "16"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "One less than 20 = ?",
-          "visual": "➖1️⃣",
+          "visual": "🎠",
           "answer": "19",
-          "options": ["19", "20", "18", "21"]
+          "options": [
+            "19",
+            "20",
+            "18",
+            "21"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "One less than 8 = ?",
-          "visual": "➖1️⃣",
+          "visual": "🎠",
           "answer": "7",
-          "options": ["7", "8", "6", "9"]
+          "options": [
+            "7",
+            "8",
+            "6",
+            "9"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "What comes after 11?",
-          "visual": "➕1️⃣",
+          "visual": "🎠",
           "answer": "12",
-          "options": ["12", "10", "13", "11"]
+          "options": [
+            "12",
+            "10",
+            "13",
+            "11"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "What comes before 16?",
-          "visual": "➖1️⃣",
+          "visual": "🎠",
           "answer": "15",
-          "options": ["15", "17", "14", "16"]
+          "options": [
+            "15",
+            "17",
+            "14",
+            "16"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "What comes after 14?",
-          "visual": "➕1️⃣",
+          "visual": "🎠",
           "answer": "15",
-          "options": ["15", "13", "16", "14"]
+          "options": [
+            "15",
+            "13",
+            "16",
+            "14"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "What comes before 9?",
-          "visual": "➖1️⃣",
+          "visual": "🎠",
           "answer": "8",
-          "options": ["8", "10", "7", "9"]
+          "options": [
+            "8",
+            "10",
+            "7",
+            "9"
+          ],
+          "image": "images/words/1F3A0.svg"
         },
         {
           "question": "What comes after 18?",
-          "visual": "➕1️⃣",
+          "visual": "🎠",
           "answer": "19",
-          "options": ["19", "17", "20", "18"]
+          "options": [
+            "19",
+            "17",
+            "20",
+            "18"
+          ],
+          "image": "images/words/1F3A0.svg"
         }
       ]
     },
@@ -504,91 +954,181 @@
           "question": "How many seasons are there in a year?",
           "visual": "🌍",
           "answer": "4",
-          "options": ["4", "3", "5", "12"]
+          "options": [
+            "4",
+            "3",
+            "5",
+            "12"
+          ],
+          "image": "images/words/1F30D.svg"
         },
         {
           "question": "In which season is it very hot?",
           "visual": "☀️",
           "answer": "Summer",
-          "options": ["Summer", "Winter", "Rainy", "Spring"]
+          "options": [
+            "Summer",
+            "Winter",
+            "Rainy",
+            "Spring"
+          ],
+          "image": "images/words/2600.svg"
         },
         {
           "question": "In which season do we wear warm clothes?",
           "visual": "🧥",
           "answer": "Winter",
-          "options": ["Winter", "Summer", "Rainy", "Autumn"]
+          "options": [
+            "Winter",
+            "Summer",
+            "Rainy",
+            "Autumn"
+          ],
+          "image": "images/words/1F9E5.svg"
         },
         {
           "question": "In which season does it rain a lot?",
           "visual": "🌧️",
           "answer": "Rainy",
-          "options": ["Rainy", "Summer", "Winter", "Spring"]
+          "options": [
+            "Rainy",
+            "Summer",
+            "Winter",
+            "Spring"
+          ],
+          "image": "images/words/1F327.svg"
         },
         {
           "question": "Which season comes after winter?",
           "visual": "🌸",
           "answer": "Spring",
-          "options": ["Spring", "Summer", "Rainy", "Autumn"]
+          "options": [
+            "Spring",
+            "Summer",
+            "Rainy",
+            "Autumn"
+          ],
+          "image": "images/words/1F338.svg"
         },
         {
           "question": "Clouds bring…",
           "visual": "☁️",
           "answer": "Rain",
-          "options": ["Rain", "Sun", "Stars", "Moon"]
+          "options": [
+            "Rain",
+            "Sun",
+            "Stars",
+            "Moon"
+          ],
+          "image": "images/words/2601.svg"
         },
         {
           "question": "We see lightning in the sky during…",
           "visual": "⚡",
           "answer": "Storm",
-          "options": ["Storm", "Sunny day", "Night", "Winter"]
+          "options": [
+            "Storm",
+            "Sunny day",
+            "Night",
+            "Winter"
+          ],
+          "image": "images/words/26A1.svg"
         },
         {
           "question": "Rainbow appears after…",
           "visual": "🌈",
           "answer": "Rain",
-          "options": ["Rain", "Night", "Winter", "Moon"]
+          "options": [
+            "Rain",
+            "Night",
+            "Winter",
+            "Moon"
+          ],
+          "image": "images/words/1F308.svg"
         },
         {
           "question": "When it is very cold, we see…",
           "visual": "❄️",
           "answer": "Snow",
-          "options": ["Snow", "Rain", "Rainbow", "Sun"]
+          "options": [
+            "Snow",
+            "Rain",
+            "Rainbow",
+            "Sun"
+          ],
+          "image": "images/words/2744.svg"
         },
         {
           "question": "The sun is hottest during…",
           "visual": "☀️",
           "answer": "Summer",
-          "options": ["Summer", "Winter", "Night", "Rainy"]
+          "options": [
+            "Summer",
+            "Winter",
+            "Night",
+            "Rainy"
+          ],
+          "image": "images/words/2600.svg"
         },
         {
           "question": "What do we use to protect from rain?",
           "visual": "☂️",
           "answer": "Umbrella",
-          "options": ["Umbrella", "Blanket", "Hat", "Shoes"]
+          "options": [
+            "Umbrella",
+            "Blanket",
+            "Hat",
+            "Shoes"
+          ],
+          "image": "images/words/2602.svg"
         },
         {
           "question": "Which season do flowers bloom most?",
           "visual": "🌺",
           "answer": "Spring",
-          "options": ["Spring", "Winter", "Night", "Rainy"]
+          "options": [
+            "Spring",
+            "Winter",
+            "Night",
+            "Rainy"
+          ],
+          "image": "images/words/1F33A.svg"
         },
         {
           "question": "When do we see stars and moon?",
           "visual": "🌙",
           "answer": "Night",
-          "options": ["Night", "Day", "Noon", "Morning"]
+          "options": [
+            "Night",
+            "Day",
+            "Noon",
+            "Morning"
+          ],
+          "image": "images/words/1F319.svg"
         },
         {
           "question": "Wind is moving…",
           "visual": "💨",
           "answer": "Air",
-          "options": ["Air", "Water", "Fire", "Earth"]
+          "options": [
+            "Air",
+            "Water",
+            "Fire",
+            "Earth"
+          ],
+          "image": "images/words/1F4A8.svg"
         },
         {
           "question": "Which is coldest?",
           "visual": "🌡️",
           "answer": "Winter",
-          "options": ["Winter", "Summer", "Spring", "Rainy"]
+          "options": [
+            "Winter",
+            "Summer",
+            "Spring",
+            "Rainy"
+          ],
+          "image": "images/words/1F321.svg"
         }
       ]
     },
@@ -602,91 +1142,180 @@
           "question": "How many senses do we have?",
           "visual": "👁️👂👃👅🤚",
           "answer": "5",
-          "options": ["5", "3", "4", "6"]
+          "options": [
+            "5",
+            "3",
+            "4",
+            "6"
+          ]
         },
         {
           "question": "We see with our…",
           "visual": "👁️",
           "answer": "Eyes",
-          "options": ["Eyes", "Ears", "Nose", "Tongue"]
+          "options": [
+            "Eyes",
+            "Ears",
+            "Nose",
+            "Tongue"
+          ],
+          "image": "images/words/1F441.svg"
         },
         {
           "question": "We hear with our…",
           "visual": "👂",
           "answer": "Ears",
-          "options": ["Ears", "Eyes", "Nose", "Mouth"]
+          "options": [
+            "Ears",
+            "Eyes",
+            "Nose",
+            "Mouth"
+          ],
+          "image": "images/words/1F442.svg"
         },
         {
           "question": "We smell with our…",
           "visual": "👃",
           "answer": "Nose",
-          "options": ["Nose", "Eyes", "Ears", "Hands"]
+          "options": [
+            "Nose",
+            "Eyes",
+            "Ears",
+            "Hands"
+          ],
+          "image": "images/words/1F443.svg"
         },
         {
           "question": "We taste with our…",
           "visual": "👅",
           "answer": "Tongue",
-          "options": ["Tongue", "Nose", "Ears", "Eyes"]
+          "options": [
+            "Tongue",
+            "Nose",
+            "Ears",
+            "Eyes"
+          ],
+          "image": "images/words/1F445.svg"
         },
         {
           "question": "We touch with our…",
           "visual": "🤚",
           "answer": "Skin",
-          "options": ["Skin", "Eyes", "Nose", "Ears"]
+          "options": [
+            "Skin",
+            "Eyes",
+            "Nose",
+            "Ears"
+          ],
+          "image": "images/words/1F91A.svg"
         },
         {
           "question": "Which sense helps us enjoy music?",
           "visual": "🎵",
           "answer": "Hearing",
-          "options": ["Hearing", "Seeing", "Tasting", "Smelling"]
+          "options": [
+            "Hearing",
+            "Seeing",
+            "Tasting",
+            "Smelling"
+          ],
+          "image": "images/words/1F3B5.svg"
         },
         {
           "question": "Which sense tells us food is hot?",
           "visual": "🔥",
           "answer": "Touch",
-          "options": ["Touch", "Taste", "Smell", "Sight"]
+          "options": [
+            "Touch",
+            "Taste",
+            "Smell",
+            "Sight"
+          ],
+          "image": "images/words/1F525.svg"
         },
         {
           "question": "Which sense helps us read books?",
           "visual": "📖",
           "answer": "Sight",
-          "options": ["Sight", "Touch", "Smell", "Taste"]
+          "options": [
+            "Sight",
+            "Touch",
+            "Smell",
+            "Taste"
+          ],
+          "image": "images/words/1F4D6.svg"
         },
         {
           "question": "Which sense helps us know flowers smell nice?",
           "visual": "🌸",
           "answer": "Smell",
-          "options": ["Smell", "Sight", "Touch", "Hearing"]
+          "options": [
+            "Smell",
+            "Sight",
+            "Touch",
+            "Hearing"
+          ],
+          "image": "images/words/1F338.svg"
         },
         {
           "question": "Which sense tells if ice cream is sweet?",
           "visual": "🍦",
           "answer": "Taste",
-          "options": ["Taste", "Touch", "Sight", "Smell"]
+          "options": [
+            "Taste",
+            "Touch",
+            "Sight",
+            "Smell"
+          ],
+          "image": "images/words/1F366.svg"
         },
         {
           "question": "Which sense helps blind people read?",
           "visual": "📚",
           "answer": "Touch",
-          "options": ["Touch", "Smell", "Taste", "Hearing"]
+          "options": [
+            "Touch",
+            "Smell",
+            "Taste",
+            "Hearing"
+          ],
+          "image": "images/words/1F4DA.svg"
         },
         {
           "question": "Which sense helps us see colors?",
           "visual": "🎨",
           "answer": "Sight",
-          "options": ["Sight", "Touch", "Smell", "Hearing"]
+          "options": [
+            "Sight",
+            "Touch",
+            "Smell",
+            "Hearing"
+          ],
+          "image": "images/words/1F3A8.svg"
         },
         {
           "question": "Which sense helps us hear our name called?",
           "visual": "🗣️",
           "answer": "Hearing",
-          "options": ["Hearing", "Sight", "Touch", "Smell"]
+          "options": [
+            "Hearing",
+            "Sight",
+            "Touch",
+            "Smell"
+          ],
+          "image": "images/words/1F5E3.svg"
         },
         {
           "question": "Which sense tells us if something is soft or hard?",
           "visual": "🧸",
           "answer": "Touch",
-          "options": ["Touch", "Sight", "Taste", "Smell"]
+          "options": [
+            "Touch",
+            "Sight",
+            "Taste",
+            "Smell"
+          ],
+          "image": "images/words/1F9F8.svg"
         }
       ]
     },
@@ -700,91 +1329,181 @@
           "question": "We should brush our teeth…",
           "visual": "🪥",
           "answer": "Twice a day",
-          "options": ["Twice a day", "Once a week", "Never", "Once a month"]
+          "options": [
+            "Twice a day",
+            "Once a week",
+            "Never",
+            "Once a month"
+          ],
+          "image": "images/words/1FAA5.svg"
         },
         {
           "question": "Before eating, we should…",
           "visual": "🧼",
           "answer": "Wash hands",
-          "options": ["Wash hands", "Play", "Sleep", "Run"]
+          "options": [
+            "Wash hands",
+            "Play",
+            "Sleep",
+            "Run"
+          ],
+          "image": "images/words/1F9FC.svg"
         },
         {
           "question": "We should drink ___ glasses of water daily.",
           "visual": "💧",
           "answer": "6-8",
-          "options": ["6-8", "1", "0", "20"]
+          "options": [
+            "6-8",
+            "1",
+            "0",
+            "20"
+          ],
+          "image": "images/words/1F4A7.svg"
         },
         {
           "question": "We should sleep for ___ hours.",
           "visual": "😴",
           "answer": "8-10",
-          "options": ["8-10", "2", "1", "20"]
+          "options": [
+            "8-10",
+            "2",
+            "1",
+            "20"
+          ],
+          "image": "images/words/1F634.svg"
         },
         {
           "question": "While crossing the road, we should…",
           "visual": "🚦",
           "answer": "Look both ways",
-          "options": ["Look both ways", "Run", "Close eyes", "Jump"]
+          "options": [
+            "Look both ways",
+            "Run",
+            "Close eyes",
+            "Jump"
+          ],
+          "image": "images/words/1F6A6.svg"
         },
         {
           "question": "We should not play with…",
           "visual": "🔥",
           "answer": "Fire",
-          "options": ["Fire", "Toys", "Books", "Friends"]
+          "options": [
+            "Fire",
+            "Toys",
+            "Books",
+            "Friends"
+          ],
+          "image": "images/words/1F525.svg"
         },
         {
           "question": "After using the toilet, we should…",
           "visual": "🚽",
           "answer": "Wash hands",
-          "options": ["Wash hands", "Run", "Sleep", "Eat"]
+          "options": [
+            "Wash hands",
+            "Run",
+            "Sleep",
+            "Eat"
+          ],
+          "image": "images/words/1F6BD.svg"
         },
         {
           "question": "We should eat ___ meals a day.",
           "visual": "🍽️",
           "answer": "3",
-          "options": ["3", "1", "10", "0"]
+          "options": [
+            "3",
+            "1",
+            "10",
+            "0"
+          ],
+          "image": "images/words/1F37D.svg"
         },
         {
           "question": "We should always wear ___ on a bicycle.",
           "visual": "🚲",
           "answer": "Helmet",
-          "options": ["Helmet", "Hat", "Crown", "Cap"]
+          "options": [
+            "Helmet",
+            "Hat",
+            "Crown",
+            "Cap"
+          ],
+          "image": "images/words/1F6B2.svg"
         },
         {
           "question": "We should keep our room…",
           "visual": "🧹",
           "answer": "Clean",
-          "options": ["Clean", "Dirty", "Messy", "Wet"]
+          "options": [
+            "Clean",
+            "Dirty",
+            "Messy",
+            "Wet"
+          ],
+          "image": "images/words/1F9F9.svg"
         },
         {
           "question": "We should exercise to stay…",
           "visual": "🤸",
           "answer": "Fit",
-          "options": ["Fit", "Sick", "Lazy", "Sleepy"]
+          "options": [
+            "Fit",
+            "Sick",
+            "Lazy",
+            "Sleepy"
+          ],
+          "image": "images/words/1F938.svg"
         },
         {
           "question": "We should not talk to…",
           "visual": "👤",
           "answer": "Strangers",
-          "options": ["Strangers", "Parents", "Teachers", "Friends"]
+          "options": [
+            "Strangers",
+            "Parents",
+            "Teachers",
+            "Friends"
+          ],
+          "image": "images/words/1F464.svg"
         },
         {
           "question": "We should cut nails when they are…",
           "visual": "💅",
           "answer": "Long",
-          "options": ["Long", "Short", "Clean", "Never"]
+          "options": [
+            "Long",
+            "Short",
+            "Clean",
+            "Never"
+          ],
+          "image": "images/words/1F485.svg"
         },
         {
           "question": "We should cover our mouth when we…",
           "visual": "🤧",
           "answer": "Sneeze",
-          "options": ["Sneeze", "Eat", "Sleep", "Read"]
+          "options": [
+            "Sneeze",
+            "Eat",
+            "Sleep",
+            "Read"
+          ],
+          "image": "images/words/1F927.svg"
         },
         {
           "question": "We should say ___ when someone helps us.",
           "visual": "🙏",
           "answer": "Thank you",
-          "options": ["Thank you", "Go away", "Nothing", "Bad words"]
+          "options": [
+            "Thank you",
+            "Go away",
+            "Nothing",
+            "Bad words"
+          ],
+          "image": "images/words/1F64F.svg"
         }
       ]
     },
@@ -796,93 +1515,183 @@
       "items": [
         {
           "question": "Count by 2: 2, 4, 6, ___",
-          "visual": "2️⃣➡️",
+          "visual": "🐸",
           "answer": "8",
-          "options": ["8", "7", "9", "6"]
+          "options": [
+            "8",
+            "7",
+            "9",
+            "6"
+          ],
+          "image": "images/words/1F438.svg"
         },
         {
           "question": "Count by 2: 10, 12, 14, ___",
-          "visual": "2️⃣➡️",
+          "visual": "🦘",
           "answer": "16",
-          "options": ["16", "15", "17", "13"]
+          "options": [
+            "16",
+            "15",
+            "17",
+            "13"
+          ],
+          "image": "images/words/1F998.svg"
         },
         {
           "question": "Count by 5: 5, 10, 15, ___",
-          "visual": "5️⃣➡️",
+          "visual": "🐰",
           "answer": "20",
-          "options": ["20", "18", "25", "16"]
+          "options": [
+            "20",
+            "18",
+            "25",
+            "16"
+          ],
+          "image": "images/words/1F430.svg"
         },
         {
           "question": "Count by 5: 20, 25, 30, ___",
-          "visual": "5️⃣➡️",
+          "visual": "🐸",
           "answer": "35",
-          "options": ["35", "32", "40", "33"]
+          "options": [
+            "35",
+            "32",
+            "40",
+            "33"
+          ],
+          "image": "images/words/1F438.svg"
         },
         {
           "question": "Count by 10: 10, 20, 30, ___",
-          "visual": "🔟➡️",
+          "visual": "🦘",
           "answer": "40",
-          "options": ["40", "35", "50", "31"]
+          "options": [
+            "40",
+            "35",
+            "50",
+            "31"
+          ],
+          "image": "images/words/1F998.svg"
         },
         {
           "question": "Count by 10: 40, 50, 60, ___",
-          "visual": "🔟➡️",
+          "visual": "🐰",
           "answer": "70",
-          "options": ["70", "65", "80", "61"]
+          "options": [
+            "70",
+            "65",
+            "80",
+            "61"
+          ],
+          "image": "images/words/1F430.svg"
         },
         {
           "question": "Count by 2: 8, 10, 12, ___",
-          "visual": "2️⃣➡️",
+          "visual": "🐸",
           "answer": "14",
-          "options": ["14", "13", "15", "11"]
+          "options": [
+            "14",
+            "13",
+            "15",
+            "11"
+          ],
+          "image": "images/words/1F438.svg"
         },
         {
           "question": "Count by 5: 10, 15, 20, ___",
-          "visual": "5️⃣➡️",
+          "visual": "🦘",
           "answer": "25",
-          "options": ["25", "22", "30", "21"]
+          "options": [
+            "25",
+            "22",
+            "30",
+            "21"
+          ],
+          "image": "images/words/1F998.svg"
         },
         {
           "question": "Count by 10: 20, 30, 40, ___",
-          "visual": "🔟➡️",
+          "visual": "🐰",
           "answer": "50",
-          "options": ["50", "45", "60", "41"]
+          "options": [
+            "50",
+            "45",
+            "60",
+            "41"
+          ],
+          "image": "images/words/1F430.svg"
         },
         {
           "question": "Count by 2: 14, 16, 18, ___",
-          "visual": "2️⃣➡️",
+          "visual": "🐸",
           "answer": "20",
-          "options": ["20", "19", "21", "17"]
+          "options": [
+            "20",
+            "19",
+            "21",
+            "17"
+          ],
+          "image": "images/words/1F438.svg"
         },
         {
           "question": "Count by 5: 35, 40, 45, ___",
-          "visual": "5️⃣➡️",
+          "visual": "🦘",
           "answer": "50",
-          "options": ["50", "48", "55", "46"]
+          "options": [
+            "50",
+            "48",
+            "55",
+            "46"
+          ],
+          "image": "images/words/1F998.svg"
         },
         {
           "question": "Count by 2: 4, 6, 8, ___",
-          "visual": "2️⃣➡️",
+          "visual": "🐰",
           "answer": "10",
-          "options": ["10", "9", "11", "7"]
+          "options": [
+            "10",
+            "9",
+            "11",
+            "7"
+          ],
+          "image": "images/words/1F430.svg"
         },
         {
           "question": "Count by 10: 50, 60, 70, ___",
-          "visual": "🔟➡️",
+          "visual": "🐸",
           "answer": "80",
-          "options": ["80", "75", "90", "71"]
+          "options": [
+            "80",
+            "75",
+            "90",
+            "71"
+          ],
+          "image": "images/words/1F438.svg"
         },
         {
           "question": "Count by 5: 15, 20, 25, ___",
-          "visual": "5️⃣➡️",
+          "visual": "🦘",
           "answer": "30",
-          "options": ["30", "28", "35", "26"]
+          "options": [
+            "30",
+            "28",
+            "35",
+            "26"
+          ],
+          "image": "images/words/1F998.svg"
         },
         {
           "question": "Count by 2: 6, 8, 10, ___",
-          "visual": "2️⃣➡️",
+          "visual": "🐰",
           "answer": "12",
-          "options": ["12", "11", "13", "9"]
+          "options": [
+            "12",
+            "11",
+            "13",
+            "9"
+          ],
+          "image": "images/words/1F430.svg"
         }
       ]
     },
@@ -894,93 +1703,183 @@
       "items": [
         {
           "question": "Which is bigger: 5 or 8?",
-          "visual": "⚖️",
+          "visual": "⚖",
           "answer": "8",
-          "options": ["8", "5", "Same", "Both"]
+          "options": [
+            "8",
+            "5",
+            "Same",
+            "Both"
+          ],
+          "image": "images/words/2696.svg"
         },
         {
           "question": "Which is smaller: 3 or 7?",
-          "visual": "⚖️",
+          "visual": "🥭",
           "answer": "3",
-          "options": ["3", "7", "Same", "Both"]
+          "options": [
+            "3",
+            "7",
+            "Same",
+            "Both"
+          ],
+          "image": "images/words/1F96D.svg"
         },
         {
           "question": "Which is bigger: 12 or 9?",
-          "visual": "⚖️",
+          "visual": "🐘",
           "answer": "12",
-          "options": ["12", "9", "Same", "Both"]
+          "options": [
+            "12",
+            "9",
+            "Same",
+            "Both"
+          ],
+          "image": "images/words/1F418.svg"
         },
         {
           "question": "Which is smaller: 15 or 10?",
-          "visual": "⚖️",
+          "visual": "⚖",
           "answer": "10",
-          "options": ["10", "15", "Same", "Both"]
+          "options": [
+            "10",
+            "15",
+            "Same",
+            "Both"
+          ],
+          "image": "images/words/2696.svg"
         },
         {
           "question": "Which is bigger: 20 or 18?",
-          "visual": "⚖️",
+          "visual": "🥭",
           "answer": "20",
-          "options": ["20", "18", "Same", "Both"]
+          "options": [
+            "20",
+            "18",
+            "Same",
+            "Both"
+          ],
+          "image": "images/words/1F96D.svg"
         },
         {
           "question": "Which is smaller: 6 or 4?",
-          "visual": "⚖️",
+          "visual": "🐘",
           "answer": "4",
-          "options": ["4", "6", "Same", "Both"]
+          "options": [
+            "4",
+            "6",
+            "Same",
+            "Both"
+          ],
+          "image": "images/words/1F418.svg"
         },
         {
           "question": "Which is bigger: 11 or 14?",
-          "visual": "⚖️",
+          "visual": "⚖",
           "answer": "14",
-          "options": ["14", "11", "Same", "Both"]
+          "options": [
+            "14",
+            "11",
+            "Same",
+            "Both"
+          ],
+          "image": "images/words/2696.svg"
         },
         {
           "question": "Which is smaller: 19 or 16?",
-          "visual": "⚖️",
+          "visual": "🥭",
           "answer": "16",
-          "options": ["16", "19", "Same", "Both"]
+          "options": [
+            "16",
+            "19",
+            "Same",
+            "Both"
+          ],
+          "image": "images/words/1F96D.svg"
         },
         {
           "question": "Which is bigger: 7 or 13?",
-          "visual": "⚖️",
+          "visual": "🐘",
           "answer": "13",
-          "options": ["13", "7", "Same", "Both"]
+          "options": [
+            "13",
+            "7",
+            "Same",
+            "Both"
+          ],
+          "image": "images/words/1F418.svg"
         },
         {
           "question": "Which is smaller: 17 or 12?",
-          "visual": "⚖️",
+          "visual": "⚖",
           "answer": "12",
-          "options": ["12", "17", "Same", "Both"]
+          "options": [
+            "12",
+            "17",
+            "Same",
+            "Both"
+          ],
+          "image": "images/words/2696.svg"
         },
         {
           "question": "5 is ___ than 9",
-          "visual": "⚖️",
+          "visual": "🥭",
           "answer": "Smaller",
-          "options": ["Smaller", "Bigger", "Equal", "Same"]
+          "options": [
+            "Smaller",
+            "Bigger",
+            "Equal",
+            "Same"
+          ],
+          "image": "images/words/1F96D.svg"
         },
         {
           "question": "15 is ___ than 10",
-          "visual": "⚖️",
+          "visual": "🐘",
           "answer": "Bigger",
-          "options": ["Bigger", "Smaller", "Equal", "Same"]
+          "options": [
+            "Bigger",
+            "Smaller",
+            "Equal",
+            "Same"
+          ],
+          "image": "images/words/1F418.svg"
         },
         {
           "question": "8 is ___ than 12",
-          "visual": "⚖️",
+          "visual": "⚖",
           "answer": "Smaller",
-          "options": ["Smaller", "Bigger", "Equal", "Same"]
+          "options": [
+            "Smaller",
+            "Bigger",
+            "Equal",
+            "Same"
+          ],
+          "image": "images/words/2696.svg"
         },
         {
           "question": "20 is ___ than 16",
-          "visual": "⚖️",
+          "visual": "🥭",
           "answer": "Bigger",
-          "options": ["Bigger", "Smaller", "Equal", "Same"]
+          "options": [
+            "Bigger",
+            "Smaller",
+            "Equal",
+            "Same"
+          ],
+          "image": "images/words/1F96D.svg"
         },
         {
           "question": "10 is ___ to 10",
-          "visual": "⚖️",
+          "visual": "🐘",
           "answer": "Equal",
-          "options": ["Equal", "Bigger", "Smaller", "Different"]
+          "options": [
+            "Equal",
+            "Bigger",
+            "Smaller",
+            "Different"
+          ],
+          "image": "images/words/1F418.svg"
         }
       ]
     },
@@ -992,93 +1891,183 @@
       "items": [
         {
           "question": "1, 2, 3, ___, 5",
-          "visual": "🔢",
+          "visual": "🚂",
           "answer": "4",
-          "options": ["4", "3", "5", "6"]
+          "options": [
+            "4",
+            "3",
+            "5",
+            "6"
+          ],
+          "image": "images/words/1F682.svg"
         },
         {
           "question": "5, 6, ___, 8, 9",
-          "visual": "🔢",
+          "visual": "🚃",
           "answer": "7",
-          "options": ["7", "6", "8", "5"]
+          "options": [
+            "7",
+            "6",
+            "8",
+            "5"
+          ],
+          "image": "images/words/1F683.svg"
         },
         {
           "question": "10, 11, 12, ___, 14",
-          "visual": "🔢",
+          "visual": "🚂",
           "answer": "13",
-          "options": ["13", "12", "14", "11"]
+          "options": [
+            "13",
+            "12",
+            "14",
+            "11"
+          ],
+          "image": "images/words/1F682.svg"
         },
         {
           "question": "15, 16, ___, 18, 19",
-          "visual": "🔢",
+          "visual": "🚃",
           "answer": "17",
-          "options": ["17", "16", "18", "15"]
+          "options": [
+            "17",
+            "16",
+            "18",
+            "15"
+          ],
+          "image": "images/words/1F683.svg"
         },
         {
           "question": "3, 4, 5, ___, 7",
-          "visual": "🔢",
+          "visual": "🚂",
           "answer": "6",
-          "options": ["6", "5", "7", "4"]
+          "options": [
+            "6",
+            "5",
+            "7",
+            "4"
+          ],
+          "image": "images/words/1F682.svg"
         },
         {
           "question": "7, 8, ___, 10, 11",
-          "visual": "🔢",
+          "visual": "🚃",
           "answer": "9",
-          "options": ["9", "8", "10", "7"]
+          "options": [
+            "9",
+            "8",
+            "10",
+            "7"
+          ],
+          "image": "images/words/1F683.svg"
         },
         {
           "question": "12, 13, 14, ___, 16",
-          "visual": "🔢",
+          "visual": "🚂",
           "answer": "15",
-          "options": ["15", "14", "16", "13"]
+          "options": [
+            "15",
+            "14",
+            "16",
+            "13"
+          ],
+          "image": "images/words/1F682.svg"
         },
         {
           "question": "17, 18, ___, 20",
-          "visual": "🔢",
+          "visual": "🚃",
           "answer": "19",
-          "options": ["19", "18", "20", "17"]
+          "options": [
+            "19",
+            "18",
+            "20",
+            "17"
+          ],
+          "image": "images/words/1F683.svg"
         },
         {
           "question": "8, 9, 10, ___",
-          "visual": "🔢",
+          "visual": "🚂",
           "answer": "11",
-          "options": ["11", "10", "12", "9"]
+          "options": [
+            "11",
+            "10",
+            "12",
+            "9"
+          ],
+          "image": "images/words/1F682.svg"
         },
         {
           "question": "___, 5, 6, 7",
-          "visual": "🔢",
+          "visual": "🚃",
           "answer": "4",
-          "options": ["4", "5", "3", "6"]
+          "options": [
+            "4",
+            "5",
+            "3",
+            "6"
+          ],
+          "image": "images/words/1F683.svg"
         },
         {
           "question": "___, 10, 11, 12",
-          "visual": "🔢",
+          "visual": "🚂",
           "answer": "9",
-          "options": ["9", "10", "8", "11"]
+          "options": [
+            "9",
+            "10",
+            "8",
+            "11"
+          ],
+          "image": "images/words/1F682.svg"
         },
         {
           "question": "14, ___, 16, 17",
-          "visual": "🔢",
+          "visual": "🚃",
           "answer": "15",
-          "options": ["15", "14", "16", "13"]
+          "options": [
+            "15",
+            "14",
+            "16",
+            "13"
+          ],
+          "image": "images/words/1F683.svg"
         },
         {
           "question": "2, 3, ___, 5, 6",
-          "visual": "🔢",
+          "visual": "🚂",
           "answer": "4",
-          "options": ["4", "3", "5", "2"]
+          "options": [
+            "4",
+            "3",
+            "5",
+            "2"
+          ],
+          "image": "images/words/1F682.svg"
         },
         {
           "question": "11, 12, ___, 14, 15",
-          "visual": "🔢",
+          "visual": "🚃",
           "answer": "13",
-          "options": ["13", "12", "14", "11"]
+          "options": [
+            "13",
+            "12",
+            "14",
+            "11"
+          ],
+          "image": "images/words/1F683.svg"
         },
         {
           "question": "18, 19, ___, 21",
-          "visual": "🔢",
+          "visual": "🚂",
           "answer": "20",
-          "options": ["20", "19", "21", "18"]
+          "options": [
+            "20",
+            "19",
+            "21",
+            "18"
+          ],
+          "image": "images/words/1F682.svg"
         }
       ]
     },
@@ -1090,93 +2079,747 @@
       "items": [
         {
           "question": "Which number is \"five\"?",
-          "visual": "🖐️",
+          "visual": "🔢",
           "answer": "5",
-          "options": ["5", "4", "9", "15"]
+          "options": [
+            "5",
+            "4",
+            "9",
+            "15"
+          ],
+          "image": "images/words/1F522.svg"
         },
         {
           "question": "Which number is \"ten\"?",
-          "visual": "🔟",
+          "visual": "✏",
           "answer": "10",
-          "options": ["10", "1", "100", "11"]
+          "options": [
+            "10",
+            "1",
+            "100",
+            "11"
+          ],
+          "image": "images/words/270F.svg"
         },
         {
           "question": "\"Seven\" is written as ___.",
-          "visual": "7️⃣",
+          "visual": "🔢",
           "answer": "7",
-          "options": ["7", "17", "2", "11"]
+          "options": [
+            "7",
+            "17",
+            "2",
+            "11"
+          ],
+          "image": "images/words/1F522.svg"
         },
         {
           "question": "Which number is \"twelve\"?",
-          "visual": "🔢",
+          "visual": "✏",
           "answer": "12",
-          "options": ["12", "2", "21", "20"]
+          "options": [
+            "12",
+            "2",
+            "21",
+            "20"
+          ],
+          "image": "images/words/270F.svg"
         },
         {
           "question": "\"Fifteen\" is written as ___.",
           "visual": "🔢",
           "answer": "15",
-          "options": ["15", "5", "50", "51"]
+          "options": [
+            "15",
+            "5",
+            "50",
+            "51"
+          ],
+          "image": "images/words/1F522.svg"
         },
         {
           "question": "Which number is \"twenty\"?",
-          "visual": "🔢",
+          "visual": "✏",
           "answer": "20",
-          "options": ["20", "2", "12", "22"]
+          "options": [
+            "20",
+            "2",
+            "12",
+            "22"
+          ],
+          "image": "images/words/270F.svg"
         },
         {
           "question": "3 in words is ___.",
-          "visual": "3️⃣",
+          "visual": "🔢",
           "answer": "Three",
-          "options": ["Three", "Thirteen", "Thirty", "Two"]
+          "options": [
+            "Three",
+            "Thirteen",
+            "Thirty",
+            "Two"
+          ],
+          "image": "images/words/1F522.svg"
         },
         {
           "question": "8 in words is ___.",
-          "visual": "8️⃣",
+          "visual": "✏",
           "answer": "Eight",
-          "options": ["Eight", "Eighteen", "Eighty", "Nine"]
+          "options": [
+            "Eight",
+            "Eighteen",
+            "Eighty",
+            "Nine"
+          ],
+          "image": "images/words/270F.svg"
         },
         {
           "question": "11 in words is ___.",
           "visual": "🔢",
           "answer": "Eleven",
-          "options": ["Eleven", "One-one", "Twelve", "Twenty"]
+          "options": [
+            "Eleven",
+            "One-one",
+            "Twelve",
+            "Twenty"
+          ],
+          "image": "images/words/1F522.svg"
         },
         {
           "question": "16 in words is ___.",
-          "visual": "🔢",
+          "visual": "✏",
           "answer": "Sixteen",
-          "options": ["Sixteen", "Sixty", "Six", "Seventeen"]
+          "options": [
+            "Sixteen",
+            "Sixty",
+            "Six",
+            "Seventeen"
+          ],
+          "image": "images/words/270F.svg"
         },
         {
           "question": "Which number is \"nine\"?",
-          "visual": "9️⃣",
+          "visual": "🔢",
           "answer": "9",
-          "options": ["9", "6", "19", "90"]
+          "options": [
+            "9",
+            "6",
+            "19",
+            "90"
+          ],
+          "image": "images/words/1F522.svg"
         },
         {
           "question": "14 in words is ___.",
-          "visual": "🔢",
+          "visual": "✏",
           "answer": "Fourteen",
-          "options": ["Fourteen", "Forty", "Four", "Fifteen"]
+          "options": [
+            "Fourteen",
+            "Forty",
+            "Four",
+            "Fifteen"
+          ],
+          "image": "images/words/270F.svg"
         },
         {
           "question": "Which number is \"zero\"?",
-          "visual": "0️⃣",
+          "visual": "🔢",
           "answer": "0",
-          "options": ["0", "10", "8", "1"]
+          "options": [
+            "0",
+            "10",
+            "8",
+            "1"
+          ],
+          "image": "images/words/1F522.svg"
         },
         {
           "question": "18 in words is ___.",
-          "visual": "🔢",
+          "visual": "✏",
           "answer": "Eighteen",
-          "options": ["Eighteen", "Eighty", "Eight", "Nineteen"]
+          "options": [
+            "Eighteen",
+            "Eighty",
+            "Eight",
+            "Nineteen"
+          ],
+          "image": "images/words/270F.svg"
         },
         {
           "question": "Which number is \"thirteen\"?",
           "visual": "🔢",
           "answer": "13",
-          "options": ["13", "30", "3", "31"]
+          "options": [
+            "13",
+            "30",
+            "3",
+            "31"
+          ],
+          "image": "images/words/1F522.svg"
+        }
+      ]
+    },
+    {
+      "id": "mm_before_after_between",
+      "title": "Before, After and Between (up to 50)",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "What number comes after 24?",
+          "visual": "🎠",
+          "answer": "25",
+          "options": [
+            "25",
+            "23",
+            "26",
+            "34"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "What number comes after 39?",
+          "visual": "🎠",
+          "answer": "40",
+          "options": [
+            "40",
+            "38",
+            "41",
+            "49"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "What number comes after 46?",
+          "visual": "🎠",
+          "answer": "47",
+          "options": [
+            "47",
+            "45",
+            "48",
+            "44"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "What number comes before 30?",
+          "visual": "🎠",
+          "answer": "29",
+          "options": [
+            "29",
+            "31",
+            "28",
+            "20"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "What number comes before 41?",
+          "visual": "🎠",
+          "answer": "40",
+          "options": [
+            "40",
+            "42",
+            "39",
+            "31"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "What number comes before 18?",
+          "visual": "🎠",
+          "answer": "17",
+          "options": [
+            "17",
+            "19",
+            "16",
+            "8"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "Which number comes between 25 and 27?",
+          "visual": "🎠",
+          "answer": "26",
+          "options": [
+            "26",
+            "24",
+            "28",
+            "25"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "Which number comes between 33 and 35?",
+          "visual": "🎠",
+          "answer": "34",
+          "options": [
+            "34",
+            "32",
+            "36",
+            "33"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "Which number comes between 48 and 50?",
+          "visual": "🎠",
+          "answer": "49",
+          "options": [
+            "49",
+            "47",
+            "50",
+            "48"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "What number comes after 35?",
+          "visual": "🎠",
+          "answer": "36",
+          "options": [
+            "36",
+            "34",
+            "37",
+            "45"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "What number comes before 22?",
+          "visual": "🎠",
+          "answer": "21",
+          "options": [
+            "21",
+            "23",
+            "20",
+            "12"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "Which number comes between 19 and 21?",
+          "visual": "🎠",
+          "answer": "20",
+          "options": [
+            "20",
+            "18",
+            "22",
+            "19"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "What number comes after 42?",
+          "visual": "🎠",
+          "answer": "43",
+          "options": [
+            "43",
+            "41",
+            "44",
+            "52"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "What number comes before 37?",
+          "visual": "🎠",
+          "answer": "36",
+          "options": [
+            "36",
+            "38",
+            "35",
+            "27"
+          ],
+          "image": "images/words/1F3A0.svg"
+        },
+        {
+          "question": "Which number comes between 44 and 46?",
+          "visual": "🎠",
+          "answer": "45",
+          "options": [
+            "45",
+            "43",
+            "47",
+            "44"
+          ],
+          "image": "images/words/1F3A0.svg"
+        }
+      ]
+    },
+    {
+      "id": "mm_tens_ones",
+      "title": "Tens and Ones",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "1 ten and 3 ones make ___",
+          "visual": "🐔",
+          "answer": "13",
+          "options": [
+            "13",
+            "31",
+            "4",
+            "10"
+          ],
+          "image": "images/words/1F414.svg"
+        },
+        {
+          "question": "How many tens are in 15?",
+          "visual": "🥚",
+          "answer": "1",
+          "options": [
+            "1",
+            "5",
+            "15",
+            "10"
+          ],
+          "image": "images/words/1F95A.svg"
+        },
+        {
+          "question": "How many ones are in 17?",
+          "visual": "🧺",
+          "answer": "7",
+          "options": [
+            "7",
+            "1",
+            "17",
+            "10"
+          ],
+          "image": "images/words/1F9FA.svg"
+        },
+        {
+          "question": "10 + 4 = ?",
+          "visual": "🐔",
+          "answer": "14",
+          "options": [
+            "14",
+            "40",
+            "13",
+            "15"
+          ],
+          "image": "images/words/1F414.svg"
+        },
+        {
+          "question": "1 ten and 8 ones make ___",
+          "visual": "🥚",
+          "answer": "18",
+          "options": [
+            "18",
+            "81",
+            "9",
+            "10"
+          ],
+          "image": "images/words/1F95A.svg"
+        },
+        {
+          "question": "How many ones are in 12?",
+          "visual": "🧺",
+          "answer": "2",
+          "options": [
+            "2",
+            "1",
+            "12",
+            "10"
+          ],
+          "image": "images/words/1F9FA.svg"
+        },
+        {
+          "question": "2 tens make ___",
+          "visual": "🐔",
+          "answer": "20",
+          "options": [
+            "20",
+            "2",
+            "12",
+            "22"
+          ],
+          "image": "images/words/1F414.svg"
+        },
+        {
+          "question": "10 + 9 = ?",
+          "visual": "🥚",
+          "answer": "19",
+          "options": [
+            "19",
+            "91",
+            "18",
+            "20"
+          ],
+          "image": "images/words/1F95A.svg"
+        },
+        {
+          "question": "1 ten and 6 ones make ___",
+          "visual": "🧺",
+          "answer": "16",
+          "options": [
+            "16",
+            "61",
+            "7",
+            "10"
+          ],
+          "image": "images/words/1F9FA.svg"
+        },
+        {
+          "question": "How many tens are in 20?",
+          "visual": "🐔",
+          "answer": "2",
+          "options": [
+            "2",
+            "0",
+            "20",
+            "10"
+          ],
+          "image": "images/words/1F414.svg"
+        },
+        {
+          "question": "10 + 1 = ?",
+          "visual": "🥚",
+          "answer": "11",
+          "options": [
+            "11",
+            "10",
+            "12",
+            "101"
+          ],
+          "image": "images/words/1F95A.svg"
+        },
+        {
+          "question": "How many ones are in 19?",
+          "visual": "🧺",
+          "answer": "9",
+          "options": [
+            "9",
+            "1",
+            "19",
+            "10"
+          ],
+          "image": "images/words/1F9FA.svg"
+        },
+        {
+          "question": "1 ten and 0 ones make ___",
+          "visual": "🐔",
+          "answer": "10",
+          "options": [
+            "10",
+            "1",
+            "100",
+            "11"
+          ],
+          "image": "images/words/1F414.svg"
+        },
+        {
+          "question": "10 + 7 = ?",
+          "visual": "🥚",
+          "answer": "17",
+          "options": [
+            "17",
+            "70",
+            "16",
+            "18"
+          ],
+          "image": "images/words/1F95A.svg"
+        },
+        {
+          "question": "How many ones are in 15?",
+          "visual": "🧺",
+          "answer": "5",
+          "options": [
+            "5",
+            "1",
+            "15",
+            "10"
+          ],
+          "image": "images/words/1F9FA.svg"
+        }
+      ]
+    },
+    {
+      "id": "mm_add_2digit",
+      "title": "Add 2-Digit Numbers",
+      "type": "scienceMcq",
+      "questions": 10,
+      "items": [
+        {
+          "question": "23 + 10 = ?",
+          "visual": "🧮",
+          "answer": "33",
+          "options": [
+            "33",
+            "32",
+            "34",
+            "43"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "34 + 20 = ?",
+          "visual": "🧮",
+          "answer": "54",
+          "options": [
+            "54",
+            "53",
+            "55",
+            "45"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "42 + 30 = ?",
+          "visual": "🧮",
+          "answer": "72",
+          "options": [
+            "72",
+            "71",
+            "73",
+            "62"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "15 + 40 = ?",
+          "visual": "🧮",
+          "answer": "55",
+          "options": [
+            "55",
+            "54",
+            "56",
+            "45"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "23 + 14 = ?",
+          "visual": "🧮",
+          "answer": "37",
+          "options": [
+            "37",
+            "36",
+            "38",
+            "27"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "32 + 25 = ?",
+          "visual": "🧮",
+          "answer": "57",
+          "options": [
+            "57",
+            "56",
+            "58",
+            "47"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "40 + 30 = ?",
+          "visual": "🧮",
+          "answer": "70",
+          "options": [
+            "70",
+            "60",
+            "80",
+            "71"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "61 + 22 = ?",
+          "visual": "🧮",
+          "answer": "83",
+          "options": [
+            "83",
+            "82",
+            "84",
+            "73"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "24 + 50 = ?",
+          "visual": "🧮",
+          "answer": "74",
+          "options": [
+            "74",
+            "73",
+            "75",
+            "64"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "33 + 33 = ?",
+          "visual": "🧮",
+          "answer": "66",
+          "options": [
+            "66",
+            "63",
+            "69",
+            "56"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "12 + 43 = ?",
+          "visual": "🧮",
+          "answer": "55",
+          "options": [
+            "55",
+            "54",
+            "56",
+            "45"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "45 + 20 = ?",
+          "visual": "🧮",
+          "answer": "65",
+          "options": [
+            "65",
+            "64",
+            "66",
+            "55"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "36 + 41 = ?",
+          "visual": "🧮",
+          "answer": "77",
+          "options": [
+            "77",
+            "76",
+            "78",
+            "67"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "22 + 22 = ?",
+          "visual": "🧮",
+          "answer": "44",
+          "options": [
+            "44",
+            "42",
+            "46",
+            "24"
+          ],
+          "image": "images/words/1F9EE.svg"
+        },
+        {
+          "question": "53 + 14 = ?",
+          "visual": "🧮",
+          "answer": "67",
+          "options": [
+            "67",
+            "66",
+            "68",
+            "57"
+          ],
+          "image": "images/words/1F9EE.svg"
         }
       ]
     }

@@ -21,7 +21,7 @@ const EXPECTED_MODULES: Record<string, number> = {
   computer: 4,
   rhymes: 2,
   gk: 6,
-  mental_math: 12,
+  mental_math: 15,
 };
 
 const EXPECTED_ASSESSMENT: Record<string, number> = {
@@ -50,9 +50,9 @@ describe('count parity with v1 sources', () => {
     }
   });
 
-  it('has 9 arcade game modules and 4 stories', () => {
+  it('has 9 arcade game modules and 10 stories (4 v1 + 6 batch 2026-07c)', () => {
     expect(FUN_GAMES.modules).toHaveLength(9);
-    expect(STORIES.stories).toHaveLength(4);
+    expect(STORIES.stories).toHaveLength(10);
   });
 
   it('has the full 432-question assessment bank (283 v1 + 59 batch 2026-07 + 90 batch 2026-07b)', () => {

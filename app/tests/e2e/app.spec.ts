@@ -77,13 +77,13 @@ test('v1 localStorage users are imported with stars intact', async ({ page }) =>
   expect(legacyIntact).toBe(true);
 });
 
-test('fun games: menu lists 11 games; snake mounts and leaves cleanly', async ({ page }) => {
+test('fun games: menu lists 17 games; snake mounts and leaves cleanly', async ({ page }) => {
   await page.goto('./');
   await page.getByLabel(/New player/).fill('Gamer');
   await page.getByRole('button', { name: /Let's Go/ }).click();
 
   await page.getByRole('link', { name: 'Fun Games' }).click();
-  await expect(page.locator('.game-menu-card')).toHaveCount(11);
+  await expect(page.locator('.game-menu-card')).toHaveCount(17);
 
   await page.getByRole('button', { name: /Snake Game/ }).click();
   await expect(page.locator('canvas.game-canvas')).toBeVisible();
@@ -91,7 +91,7 @@ test('fun games: menu lists 11 games; snake mounts and leaves cleanly', async ({
 
   // Leaving mid-game must not error (leak-free destroy).
   await page.getByRole('button', { name: 'Back to Games' }).click();
-  await expect(page.locator('.game-menu-card')).toHaveCount(11);
+  await expect(page.locator('.game-menu-card')).toHaveCount(17);
 });
 
 test('assessment: run 20 questions and get a topic report', async ({ page }) => {

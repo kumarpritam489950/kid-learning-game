@@ -15,6 +15,7 @@ export function generateScienceMcqBank(module: ScienceMcqModule, rng: Rng): Ques
     kind: 'mcq' as const,
     prompt: item.question,
     visual: item.visual,
+    ...(item.image ? { image: item.image } : {}),
     answer: item.answer,
     options: shuffle(rng, [...item.options]),
     // The question text is the real content here; keying on the (often
