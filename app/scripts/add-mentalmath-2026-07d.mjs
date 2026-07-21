@@ -174,10 +174,15 @@ for (const mod of subject.modules) {
 }
 
 await writeFile(subjectFile, `${JSON.stringify(subject, null, 2)}\n`, 'utf8');
-console.log(
-  `Modules: ${subject.modules.length}. Images — downloaded: ${summary.downloaded}, ` +
-    `cached: ${summary.cached}, items illustrated: ${summary.patched}`,
+process.stdout.write(
+  [
+    `Modules: ${subject.modules.length}. Images — downloaded: ${summary.downloaded}, ` +
+      `cached: ${summary.cached}, items illustrated: ${summary.patched}`,
+    summary.missing.length
+      ? `No OpenMoji for (kept emoji):\n  ${summary.missing.join('\n  ')}`
+      : '',
+    '',
+  ]
+    .filter(Boolean)
+    .join('\n'),
 );
-if (summary.missing.length) {
-  console.log(`No OpenMoji for (kept emoji):\n  ${summary.missing.join('\n  ')}`);
-}
